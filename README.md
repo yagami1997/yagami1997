@@ -33,11 +33,11 @@ const yagami = {
 
 <div align="center">
 
-| Project | Description | Stats | Status |
-|:-------:|:------------|:-----:|:------:|
-| [**TradeMind**](https://github.com/yagami1997/TradeMind) | Trading intelligence platform for market analysis | ![](https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0) ![](https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4) | `Production` \| `Python` |
-| [**TradeMind DEV**](https://github.com/yagami1997/TradeMind/tree/dev) | Simple trading indicator insight tool for individual traders | ![](https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0) | `Development` \| `Python, TS` |
-| [**RealCarrier**](https://github.com/yagami1997/RealCarrier) | US phone number verification tool for digital nomads | ![](https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB) ![](https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE) | `Stable` \| `Python` |
+| Project | Description | Stats | Activity | Status |
+|:-------:|:------------|:-----:|:--------:|:------:|
+| [**TradeMind**](https://github.com/yagami1997/TradeMind) | Trading intelligence<br>platform for<br>market analysis | ![](https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0) ![](https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4) | ![](https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?style=flat&color=5F9EA0) | `Production`<br>`Python` |
+| [**TradeMind DEV**](https://github.com/yagami1997/TradeMind/tree/dev) | Simple trading indicator<br>insight tool for<br>individual traders | ![](https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0) | ![](https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?style=flat&color=5F9EA0) | `Development`<br>`Python` |
+| [**RealCarrier**](https://github.com/yagami1997/RealCarrier) | US phone number<br>verification tool for<br>digital nomads | ![](https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB) ![](https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE) | ![](https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?style=flat&color=9370DB) | `Stable`<br>`Python` |
 
 </div>
 
