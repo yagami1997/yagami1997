@@ -31,15 +31,36 @@ const yagami = {
 
 ## 🚀 Featured Projects
 
-<div align="center">
-
-| Project | Description | Stats | Activity | Status |
-|:-------:|:------------|:-----:|:--------:|:------:|
-| [**TradeMind**](https://github.com/yagami1997/TradeMind) | Trading intelligence<br>platform for<br>market analysis | ![](https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0) ![](https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4) | ![](https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?style=flat&color=5F9EA0) | `Production`<br>`Python` |
-| [**TradeMind DEV**](https://github.com/yagami1997/TradeMind/tree/dev) | Simple trading indicator<br>insight tool for<br>individual traders | ![](https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0) | ![](https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?style=flat&color=5F9EA0) | `Development`<br>`Python` |
-| [**RealCarrier**](https://github.com/yagami1997/RealCarrier) | US phone number<br>verification tool for<br>digital nomads | ![](https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB) ![](https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE) | ![](https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?style=flat&color=9370DB) | `Stable`<br>`Python` |
-
-</div>
+<table width="100%" align="center">
+  <tr>
+    <th width="18%" align="center">Project</th>
+    <th width="32%" align="center">Description</th>
+    <th width="18%" align="center">Stats</th>
+    <th width="16%" align="center">Activity</th>
+    <th width="16%" align="center">Status</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
+    <td>Trading intelligence platform for market analysis</td>
+    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/> <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4"/></td>
+    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?style=flat&color=5F9EA0"/></td>
+    <td align="center"><code>Production</code><br><code>Python</code></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
+    <td>Simple trading indicator insight tool for individual traders, providing accurate backtesting results and strategy recommendations</td>
+    <td align="center"><img src="https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0"/></td>
+    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?style=flat&color=5F9EA0"/></td>
+    <td align="center"><code>Development</code><br><code>Python</code></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
+    <td>US phone number verification tool for digital nomads, based on the US LNP network, providing real-time status checks</td>
+    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB"/> <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE"/></td>
+    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?style=flat&color=9370DB"/></td>
+    <td align="center"><code>Stable</code><br><code>Python</code></td>
+  </tr>
+</table>
 
 ## 📈 GitHub Statistics
 
