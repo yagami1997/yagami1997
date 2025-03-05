@@ -1,9 +1,11 @@
 # Hello, I'm Yagami 👋
 
 <div align="center">
-  <a href="#digital-nomad"><img src="https://img.shields.io/badge/⟬_Digital_Nomad_⟭-4682B4?style=for-the-badge&logoColor=white" alt="Digital Nomad" /></a>
-  <a href="#open-source"><img src="https://img.shields.io/badge/⟬_Open_Source_Enthusiast_⟭-5F9EA0?style=for-the-badge&logoColor=white" alt="Open Source" /></a>
-  <a href="#ai-innovation"><img src="https://img.shields.io/badge/⟬_AI_Innovator_⟭-9370DB?style=for-the-badge&logoColor=white" alt="AI Innovator" /></a>
+  <h3>
+    <code>⦾ Digital Nomad ⦾</code> &nbsp;|&nbsp; 
+    <code>⦾ Open Source Enthusiast ⦾</code> &nbsp;|&nbsp; 
+    <code>⦾ AI Innovator ⦾</code>
+  </h3>
 </div>
 
 ## 🌊 About Me
