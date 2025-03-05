@@ -1,9 +1,7 @@
 # Hello, I'm Yagami 👋
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Identity-Digital_Nomad-blue?style=for-the-badge" alt="Digital Nomad Badge"/>
-  <img src="https://img.shields.io/badge/Passion-Open_Source-6495ED?style=for-the-badge" alt="Open Source Badge"/>
-  <img src="https://img.shields.io/badge/Domain-AI_Innovation-9370DB?style=for-the-badge" alt="AI Innovation Badge"/>
+  <i>Digital Nomad • Open Source Enthusiast • AI Innovator</i>
 </div>
 
 ## 🌊 About Me
