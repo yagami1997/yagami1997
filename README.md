@@ -33,11 +33,11 @@ const yagami = {
 
 <div align="center">
 
-| Project | Description | Status | Technologies |
-|:-------:|:------------|:------:|:------------:|
-| [**TradeMind**](https://github.com/yagami1997/TradeMind) | Trading intelligence platform for market analysis | `Production` | Python |
-| [**TradeMind DEV**](https://github.com/yagami1997/TradeMind/tree/dev) | Simple trading indicator insight tool for individual traders | `Active Development` | Python, TypeScript |
-| [**RealCarrier**](https://github.com/yagami1997/RealCarrier) | US phone number verification tool for digital nomads | `Stable` | Python |
+| Project | Description | Stats | Status |
+|:-------:|:------------|:-----:|:------:|
+| [**TradeMind**](https://github.com/yagami1997/TradeMind) | Trading intelligence platform for market analysis | ![](https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0) ![](https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4) | `Production` \| `Python` |
+| [**TradeMind DEV**](https://github.com/yagami1997/TradeMind/tree/dev) | Simple trading indicator insight tool for individual traders | ![](https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0) | `Development` \| `Python, TS` |
+| [**RealCarrier**](https://github.com/yagami1997/RealCarrier) | US phone number verification tool for digital nomads | ![](https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB) ![](https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE) | `Stable` \| `Python` |
 
 </div>
 
