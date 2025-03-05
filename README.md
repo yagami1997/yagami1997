@@ -1,11 +1,11 @@
 # Hello, I'm Yagami 👋
 
 <div align="center">
-  <h3>
+  <h4>
     <code>⦾ Digital Nomad ⦾</code> &nbsp;|&nbsp; 
     <code>⦾ Open Source Enthusiast ⦾</code> &nbsp;|&nbsp; 
     <code>⦾ AI Innovator ⦾</code>
-  </h3>
+  </h4>
 </div>
 
 ## 🌊 About Me
