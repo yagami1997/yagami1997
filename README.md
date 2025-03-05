@@ -1,9 +1,9 @@
 # Hello, I'm Yagami 👋
 
 <div align="center">
-  <h3>
-    <b>⟬</b> Digital Nomad <b>⟭</b>&nbsp;&nbsp;<b>⟬</b> Open Source Enthusiast <b>⟭</b>&nbsp;&nbsp;<b>⟬</b> AI Innovator <b>⟭</b>
-  </h3>
+  <a href="#digital-nomad"><img src="https://img.shields.io/badge/⟬_Digital_Nomad_⟭-4682B4?style=for-the-badge&logoColor=white" alt="Digital Nomad" /></a>
+  <a href="#open-source"><img src="https://img.shields.io/badge/⟬_Open_Source_Enthusiast_⟭-5F9EA0?style=for-the-badge&logoColor=white" alt="Open Source" /></a>
+  <a href="#ai-innovation"><img src="https://img.shields.io/badge/⟬_AI_Innovator_⟭-9370DB?style=for-the-badge&logoColor=white" alt="AI Innovator" /></a>
 </div>
 
 ## 🌊 About Me
@@ -104,9 +104,9 @@ RealCarrier is a US phone number verification tool designed for global digital n
 ## 💡 Open Source Philosophy
 
 <div align="center">
-  <h3>
-    <b>⟬</b> Open Source Liberation <b>⟭</b>&nbsp;&nbsp;<b>⟬</b> Technological Equality <b>⟭</b>&nbsp;&nbsp;<b>⟬</b> Fifth Industrial Revolution <b>⟭</b>
-  </h3>
+  <img src="https://img.shields.io/badge/⟬_Open_Source_Liberation_⟭-5F9EA0?style=for-the-badge&logoColor=white" alt="Open Source Liberation" />
+  <img src="https://img.shields.io/badge/⟬_Technological_Equality_⟭-4682B4?style=for-the-badge&logoColor=white" alt="Technological Equality" />
+  <img src="https://img.shields.io/badge/⟬_Fifth_Industrial_Revolution_⟭-9370DB?style=for-the-badge&logoColor=white" alt="Fifth Industrial Revolution" />
 </div>
 
 I believe the open-source large language model ecosystem will drive the fifth industrial revolution, creating infinite possibilities. Through open source and technology sharing, we can build a more equitable and innovative technological future, achieving true technological equality.
