@@ -85,12 +85,28 @@ The TradeMind DEV branch is my key project for this year, aiming to build a simp
 
 RealCarrier is a US phone number verification tool designed for global digital nomads, based on the US LNP network, providing real-time, accurate status checks for phone numbers.
 
-## 📈 GitHub Stats
+## 📈 GitHub Statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true" alt="Yagami's GitHub Stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&layout=compact&theme=tokyonight&hide_border=true" alt="Yagami's Top Languages" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yagami's GitHub Stats" />
 </div>
+
+### 🔥 Contribution Streak
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yagami1997&theme=tokyonight&hide_border=true" alt="Yagami's Contribution Streak" />
+</div>
+
+### 📊 Contribution Graph
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yagami1997&theme=tokyonight" alt="Yagami's Contribution Graph" />
+</div>
+
+### 👨‍💻 Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ## 🔧 Tech Stack
 
