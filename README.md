@@ -88,25 +88,19 @@ RealCarrier is a US phone number verification tool designed for global digital n
 ## 📈 GitHub Statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yagami's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yagami's GitHub Stats" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=yagami1997&theme=tokyonight&hide_border=true" alt="Yagami's Contribution Streak" width="49%" />
 </div>
-
-### 🔥 Contribution Streak
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yagami1997&theme=tokyonight&hide_border=true" alt="Yagami's Contribution Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yagami1997&theme=tokyonight" alt="Yagami's Contribution Graph" width="70%" />
 </div>
-
-### 📊 Contribution Graph
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yagami1997&theme=tokyonight" alt="Yagami's Contribution Graph" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yagami1997&theme=tokyonight" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yagami1997&theme=tokyonight" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yagami1997&theme=tokyonight" width="32%" />
 </div>
-
-### 👨‍💻 Recent Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
 
 ## 🔧 Tech Stack
 
