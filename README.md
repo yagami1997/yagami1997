@@ -82,24 +82,19 @@ RealCarrier is a US phone number verification tool designed for global digital n
 
 <div align="center">
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
-
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
 
 </div>
 
 ## 💡 Open Source Philosophy
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Open_Source-Liberating_Humanity-5F9EA0?style=for-the-badge&logo=opensource" alt="Open Source Badge"/>
-  <img src="https://img.shields.io/badge/AI-Fifth_Industrial_Revolution-6495ED?style=for-the-badge&logo=ai" alt="AI Revolution Badge"/>
-  <img src="https://img.shields.io/badge/Vision-Tech_Equality-9370DB?style=for-the-badge&logo=idea" alt="Tech Equality Badge"/>
+  <i>
+    <b>Open Source Liberation</b> • <b>Technological Equality</b> • <b>Fifth Industrial Revolution</b>
+  </i>
 </div>
 
 I believe the open-source large language model ecosystem will drive the fifth industrial revolution, creating infinite possibilities. Through open source and technology sharing, we can build a more equitable and innovative technological future, achieving true technological equality.
