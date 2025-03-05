@@ -102,7 +102,7 @@ RealCarrier is a US phone number verification tool designed for global digital n
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yagami1997&theme=tokyonight" width="100%" height="200" />
       </td>
       <td width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yagami1997&theme=tokyonight&utcOffset=8" width="100%" height="200" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yagami1997&theme=tokyonight&utcOffset=-8" width="100%" height="200" />
       </td>
     </tr>
   </table>
@@ -128,6 +128,12 @@ RealCarrier is a US phone number verification tool designed for global digital n
 </div>
 
 I believe the open-source large language model ecosystem will drive the fifth industrial revolution, creating infinite possibilities. Through open source and technology sharing, we can build a more equitable and innovative technological future, achieving true technological equality.
+
+## 🏆 Achievements
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=yagami1997&theme=nord&column=4&margin-w=15&margin-h=15&no-frame=true&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies" />
+</div>
 
 ## 💬 Connect With Me
 
