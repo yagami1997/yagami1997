@@ -132,7 +132,7 @@ I believe the open-source large language model ecosystem will drive the fifth in
 ## 🏆 Achievements
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yagami1997&theme=nord&column=6&margin-w=15&margin-h=15&no-frame=true&rank=SECRET,SSS,SS,S,AAA,AA" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=yagami1997&theme=nord&column=8&margin-w=10&margin-h=10&no-frame=true&rank=SECRET,SSS,SS,S,AAA,AA,A,B&no-bg=true&title_color=5F9EA0" width="780" alt="GitHub Trophies" />
 </div>
 
 ## 💬 Connect With Me
