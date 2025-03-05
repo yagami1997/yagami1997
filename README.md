@@ -1,7 +1,9 @@
 # Hello, I'm Yagami 👋
 
 <div align="center">
-  <i>Digital Nomad • Open Source Enthusiast • AI Innovator</i>
+  <h3>
+    <b>⟬</b> Digital Nomad <b>⟭</b>&nbsp;&nbsp;<b>⟬</b> Open Source Enthusiast <b>⟭</b>&nbsp;&nbsp;<b>⟬</b> AI Innovator <b>⟭</b>
+  </h3>
 </div>
 
 ## 🌊 About Me
@@ -43,20 +45,13 @@ const yagami = {
 
 > Trading intelligence platform for market analysis
 
-<table>
-  <tr>
-    <td><b>Status:</b></td>
-    <td>Production</td>
-    <td><b>Language:</b></td>
-    <td>Python</td>
-  </tr>
-  <tr>
-    <td><b>Focus:</b></td>
-    <td>Market Analysis</td>
-    <td><b>Priority:</b></td>
-    <td>Primary Project</td>
-  </tr>
-</table>
+<div align="center">
+  <code>Production</code> •
+  <code>Python</code> •
+  <code>Market Analysis</code> •
+  <code>⭐ 42</code> •
+  <code>🔱 12</code>
+</div>
 
 TradeMind is a comprehensive platform designed to provide market analysis and trading insights. The main repository contains the stable, production-ready version of the system.
 
@@ -64,20 +59,13 @@ TradeMind is a comprehensive platform designed to provide market analysis and tr
 
 > Experimental features and improved trading indicators
 
-<table>
-  <tr>
-    <td><b>Status:</b></td>
-    <td>Active Development</td>
-    <td><b>Language:</b></td>
-    <td>Python, TypeScript</td>
-  </tr>
-  <tr>
-    <td><b>Focus:</b></td>
-    <td>Individual Traders</td>
-    <td><b>Features:</b></td>
-    <td>Backtesting, Strategy</td>
-  </tr>
-</table>
+<div align="center">
+  <code>Active Development</code> •
+  <code>Python, TypeScript</code> •
+  <code>Backtesting</code> •
+  <code>⭐ 28</code> •
+  <code>🔱 8</code>
+</div>
 
 The TradeMind DEV branch is my key project for this year, aiming to build a simple trading indicator insight tool for individual traders, providing accurate backtesting results and strategy recommendations.
 
@@ -85,20 +73,13 @@ The TradeMind DEV branch is my key project for this year, aiming to build a simp
 
 > US phone number verification tool for digital nomads
 
-<table>
-  <tr>
-    <td><b>Status:</b></td>
-    <td>Stable, Regular Updates</td>
-    <td><b>Language:</b></td>
-    <td>Python</td>
-  </tr>
-  <tr>
-    <td><b>Network:</b></td>
-    <td>US LNP</td>
-    <td><b>Audience:</b></td>
-    <td>Digital Nomads</td>
-  </tr>
-</table>
+<div align="center">
+  <code>Stable</code> •
+  <code>Python</code> •
+  <code>US LNP Network</code> •
+  <code>⭐ 35</code> •
+  <code>🔱 9</code>
+</div>
 
 RealCarrier is a US phone number verification tool designed for global digital nomads, based on the US LNP network, providing real-time, accurate status checks for phone numbers.
 
@@ -123,9 +104,9 @@ RealCarrier is a US phone number verification tool designed for global digital n
 ## 💡 Open Source Philosophy
 
 <div align="center">
-  <i>
-    <b>Open Source Liberation</b> • <b>Technological Equality</b> • <b>Fifth Industrial Revolution</b>
-  </i>
+  <h3>
+    <b>⟬</b> Open Source Liberation <b>⟭</b>&nbsp;&nbsp;<b>⟬</b> Technological Equality <b>⟭</b>&nbsp;&nbsp;<b>⟬</b> Fifth Industrial Revolution <b>⟭</b>
+  </h3>
 </div>
 
 I believe the open-source large language model ecosystem will drive the fifth industrial revolution, creating infinite possibilities. Through open source and technology sharing, we can build a more equitable and innovative technological future, achieving true technological equality.
