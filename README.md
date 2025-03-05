@@ -88,18 +88,13 @@ RealCarrier is a US phone number verification tool designed for global digital n
 ## 📈 GitHub Statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yagami's GitHub Stats" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&layout=compact&theme=tokyonight&hide_border=true" alt="Yagami's Top Languages" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yagami's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&layout=compact&theme=tokyonight&hide_border=true" alt="Yagami's Top Languages" width="48%" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yagami1997&theme=tokyonight" alt="Yagami's Contribution Graph" width="70%" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yagami1997&theme=tokyonight" width="32%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yagami1997&theme=tokyonight" width="32%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yagami1997&theme=tokyonight" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yagami1997&theme=tokyonight" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yagami1997&theme=tokyonight" width="48%" />
 </div>
 
 ## 🔧 Tech Stack
