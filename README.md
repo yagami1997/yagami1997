@@ -32,58 +32,14 @@ const yagami = {
 ## 🚀 Featured Projects
 
 <div align="center">
-  <a href="https://github.com/yagami1997/TradeMind">
-    <img src="https://img.shields.io/badge/TradeMind-Main_Project-4682B4?style=for-the-badge&logo=github" alt="TradeMind Badge"/>
-  </a>
-  <a href="https://github.com/yagami1997/TradeMind/tree/dev">
-    <img src="https://img.shields.io/badge/TradeMind_DEV-Featured_Branch-5F9EA0?style=for-the-badge&logo=github" alt="TradeMind DEV Badge"/>
-  </a>
-  <a href="https://github.com/yagami1997/RealCarrier">
-    <img src="https://img.shields.io/badge/RealCarrier-Secondary_Project-9370DB?style=for-the-badge&logo=github" alt="RealCarrier Badge"/>
-  </a>
+
+| Project | Description | Status | Technologies |
+|:-------:|:------------|:------:|:------------:|
+| [**TradeMind**](https://github.com/yagami1997/TradeMind) | Trading intelligence platform for market analysis | `Production` | Python |
+| [**TradeMind DEV**](https://github.com/yagami1997/TradeMind/tree/dev) | Simple trading indicator insight tool for individual traders | `Active Development` | Python, TypeScript |
+| [**RealCarrier**](https://github.com/yagami1997/RealCarrier) | US phone number verification tool for digital nomads | `Stable` | Python |
+
 </div>
-
-### <img src="https://img.shields.io/badge/📊-4682B4" alt="Chart Icon" height="20"/> [TradeMind](https://github.com/yagami1997/TradeMind)
-
-> Trading intelligence platform for market analysis
-
-<div align="center">
-  <code>Production</code> •
-  <code>Python</code> •
-  <code>Market Analysis</code> •
-  <code>⭐ 42</code> •
-  <code>🔱 12</code>
-</div>
-
-TradeMind is a comprehensive platform designed to provide market analysis and trading insights. The main repository contains the stable, production-ready version of the system.
-
-### <img src="https://img.shields.io/badge/🔬-5F9EA0" alt="Lab Icon" height="20"/> [TradeMind (DEV Branch)](https://github.com/yagami1997/TradeMind/tree/dev)
-
-> Experimental features and improved trading indicators
-
-<div align="center">
-  <code>Active Development</code> •
-  <code>Python, TypeScript</code> •
-  <code>Backtesting</code> •
-  <code>⭐ 28</code> •
-  <code>🔱 8</code>
-</div>
-
-The TradeMind DEV branch is my key project for this year, aiming to build a simple trading indicator insight tool for individual traders, providing accurate backtesting results and strategy recommendations.
-
-### <img src="https://img.shields.io/badge/🌐-9370DB" alt="Globe Icon" height="20"/> [RealCarrier](https://github.com/yagami1997/RealCarrier)
-
-> US phone number verification tool for digital nomads
-
-<div align="center">
-  <code>Stable</code> •
-  <code>Python</code> •
-  <code>US LNP Network</code> •
-  <code>⭐ 35</code> •
-  <code>🔱 9</code>
-</div>
-
-RealCarrier is a US phone number verification tool designed for global digital nomads, based on the US LNP network, providing real-time, accurate status checks for phone numbers.
 
 ## 📈 GitHub Statistics
 
