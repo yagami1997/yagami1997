@@ -89,7 +89,7 @@ RealCarrier is a US phone number verification tool designed for global digital n
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Yagami's GitHub Stats" width="49%" />
-  <img src="https://streak-stats.demolab.com/?user=yagami1997&theme=tokyonight&hide_border=true" alt="Yagami's Contribution Streak" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&layout=compact&theme=tokyonight&hide_border=true" alt="Yagami's Top Languages" width="49%" />
 </div>
 
 <div align="center">
