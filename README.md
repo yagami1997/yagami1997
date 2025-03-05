@@ -43,9 +43,20 @@ const yagami = {
 
 > Trading intelligence platform for market analysis
 
-<img src="https://img.shields.io/badge/Status-Production-4682B4" alt="Production Badge"/>
-<img src="https://img.shields.io/badge/Technology-AI/ML-4682B4" alt="AI/ML Badge"/>
-<img src="https://img.shields.io/badge/Priority-Primary_Project-4682B4" alt="Primary Badge"/>
+<table>
+  <tr>
+    <td><b>Status:</b></td>
+    <td>Production</td>
+    <td><b>Language:</b></td>
+    <td>Python</td>
+  </tr>
+  <tr>
+    <td><b>Focus:</b></td>
+    <td>Market Analysis</td>
+    <td><b>Priority:</b></td>
+    <td>Primary Project</td>
+  </tr>
+</table>
 
 TradeMind is a comprehensive platform designed to provide market analysis and trading insights. The main repository contains the stable, production-ready version of the system.
 
@@ -53,9 +64,20 @@ TradeMind is a comprehensive platform designed to provide market analysis and tr
 
 > Experimental features and improved trading indicators
 
-<img src="https://img.shields.io/badge/Status-Active_Development-5F9EA0" alt="Active Development Badge"/>
-<img src="https://img.shields.io/badge/Technology-Enhanced_Algorithms-5F9EA0" alt="Enhanced Algorithms Badge"/>
-<img src="https://img.shields.io/badge/Focus-Individual_Traders-5F9EA0" alt="Individual Traders Badge"/>
+<table>
+  <tr>
+    <td><b>Status:</b></td>
+    <td>Active Development</td>
+    <td><b>Language:</b></td>
+    <td>Python, TypeScript</td>
+  </tr>
+  <tr>
+    <td><b>Focus:</b></td>
+    <td>Individual Traders</td>
+    <td><b>Features:</b></td>
+    <td>Backtesting, Strategy</td>
+  </tr>
+</table>
 
 The TradeMind DEV branch is my key project for this year, aiming to build a simple trading indicator insight tool for individual traders, providing accurate backtesting results and strategy recommendations.
 
@@ -63,9 +85,20 @@ The TradeMind DEV branch is my key project for this year, aiming to build a simp
 
 > US phone number verification tool for digital nomads
 
-<img src="https://img.shields.io/badge/Status-Stable_Updates-9370DB" alt="Stable Updates Badge"/>
-<img src="https://img.shields.io/badge/For-Digital_Nomads-9370DB" alt="Digital Nomads Badge"/>
-<img src="https://img.shields.io/badge/Network-US_LNP-9370DB" alt="US LNP Badge"/>
+<table>
+  <tr>
+    <td><b>Status:</b></td>
+    <td>Stable, Regular Updates</td>
+    <td><b>Language:</b></td>
+    <td>Python</td>
+  </tr>
+  <tr>
+    <td><b>Network:</b></td>
+    <td>US LNP</td>
+    <td><b>Audience:</b></td>
+    <td>Digital Nomads</td>
+  </tr>
+</table>
 
 RealCarrier is a US phone number verification tool designed for global digital nomads, based on the US LNP network, providing real-time, accurate status checks for phone numbers.
 
