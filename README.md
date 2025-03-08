@@ -77,7 +77,7 @@ const yagami = {
 ## 📈 GitHub Statistics
 
 <div align="center">
-  <table>
+  <table width="100%" align="center">
     <tr>
       <td width="50%">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yagami1997&theme=tokyonight" width="100%" height="200" />
