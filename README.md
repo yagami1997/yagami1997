@@ -10,7 +10,7 @@
 
 ## 🌊 About Me
 
-A digital nomad based in Del Mar, San Diego, California, currently engaged in creative work and digital marketing powered by artificial intelligence. In my free time, I enjoy exploring mobile imaging technologies.
+A digital nomad based in Del Mar, California, currently engaged in creative work and digital marketing powered by artificial intelligence. In my free time, I enjoy exploring mobile imaging technologies.
 
 Humanity has entered the fifth industrial revolution, led by artificial intelligence technology, with large language models and their inference capabilities at the forefront. Amid this wave, I believe only the open-source AI ecosystem can truly liberate humanity, creating new employment opportunities and pathways for survival.
 
