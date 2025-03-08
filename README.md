@@ -60,6 +60,13 @@ const yagami = {
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?style=flat&color=9370DB"/></td>
     <td align="center"><code>Stable</code><br><code>Python</code></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
+    <td>Project management framework designed specifically for Cursor developers, enhancing efficiency through structured workflows and optimized behavior guidelines</td>
+    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=20B2AA"/> <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=48D1CC"/></td>
+    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/CursorMind?style=flat&color=20B2AA"/></td>
+    <td align="center"><code>Beta</code><br><code>Bash/Python</code></td>
+  </tr>
 </table>
 
 ## 📈 GitHub Statistics
@@ -93,6 +100,7 @@ const yagami = {
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
+![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 </div>
 
