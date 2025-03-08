@@ -87,10 +87,10 @@ const yagami = {
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=yagami1997&repo=TradeMind&theme=tokyonight&hide_border=true" width="100%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=yagami1997&theme=tokyonight&hide_border=true" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=yagami1997&repo=RealCarrier&theme=tokyonight&hide_border=true" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yagami1997&theme=tokyonight&utcOffset=8" width="100%" />
     </td>
   </tr>
 </table>
