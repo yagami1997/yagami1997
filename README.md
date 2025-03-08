@@ -76,20 +76,24 @@ const yagami = {
 
 ## 📈 GitHub Stats
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <div style="width: 49%; min-width: 300px; margin-bottom: 10px;">
-    <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&card_width=100%&rank_icon=github&include_all_commits=true&count_private=true&line_height=28" width="100%" />
-  </div>
-  <div style="width: 49%; min-width: 300px; margin-bottom: 10px;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&card_width=100%&langs_count=8" width="100%" />
-  </div>
-  <div style="width: 49%; min-width: 300px; margin-bottom: 10px;">
-    <img src="https://streak-stats.demolab.com?user=yagami1997&theme=tokyonight&hide_border=true&mode=weekly" width="100%" />
-  </div>
-  <div style="width: 49%; min-width: 300px; margin-bottom: 10px;">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yagami1997&theme=tokyonight" width="100%" />
-  </div>
-</div>
+<table width="100%" align="center">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&card_width=350&rank_icon=github&include_all_commits=true&count_private=true&line_height=28" width="100%" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&card_width=350&langs_count=8" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://streak-stats.demolab.com?user=yagami1997&theme=tokyonight&hide_border=true&card_width=350&mode=weekly" width="100%" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yagami1997&theme=tokyonight" width="100%" />
+    </td>
+  </tr>
+</table>
 
 ## 🔧 Tech Stack
 
