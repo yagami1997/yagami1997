@@ -79,18 +79,18 @@ const yagami = {
 <table width="100%" align="center">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&card_width=320&rank_icon=github&include_all_commits=true&count_private=true&line_height=28" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&card_width=450&rank_icon=github&include_all_commits=true&count_private=true&line_height=28" height="170" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&card_width=320&langs_count=8" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&card_width=445&langs_count=8" height="170" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=yagami1997&theme=tokyonight&hide_border=true" width="100%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=yagami1997&theme=tokyonight&hide_border=true&card_width=445" height="170" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yagami1997&theme=tokyonight&utcOffset=8" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yagami1997&theme=tokyonight&utcOffset=8" height="170" />
     </td>
   </tr>
 </table>
