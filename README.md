@@ -74,23 +74,23 @@ const yagami = {
   </tr>
 </table>
 
-## 📈 GitHub Statistics
+## 📈 Yagami's GitHub Stats
 
 <table width="100%" align="center">
   <tr>
-    <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yagami1997&theme=tokyonight" width="100%" />
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&card_width=350&rank_icon=github&include_all_commits=true&count_private=true&line_height=28" width="100%" />
     </td>
-    <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yagami1997&theme=tokyonight" width="100%" />
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&card_width=350&langs_count=8" width="100%" />
     </td>
   </tr>
   <tr>
-    <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yagami1997&theme=tokyonight" width="100%" />
+    <td width="50%" align="center">
+      <img src="https://streak-stats.demolab.com?user=yagami1997&theme=tokyonight&hide_border=true&card_width=350&mode=weekly" width="100%" />
     </td>
-    <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yagami1997&theme=tokyonight&utcOffset=-8" width="100%" />
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yagami1997&theme=tokyonight" width="100%" />
     </td>
   </tr>
 </table>
