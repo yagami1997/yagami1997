@@ -34,64 +34,43 @@ const yagami = {
 <table width="100%" align="center">
   <tr>
     <th width="15%" align="center">Project</th>
-    <th width="45%" align="center">Description</th>
-    <th width="40%" align="center" colspan="4">Details</th>
+    <th width="34%" align="center">Description</th>
+    <th width="13%" align="center">Stats</th>
+    <th width="13%" align="center">Activity</th>
+    <th width="12%" align="center">Status</th>
+    <th width="13%" align="center">License</th>
   </tr>
   <tr>
-    <td align="center" rowspan="2"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
-    <td rowspan="2">Trading intelligence platform for market analysis</td>
-    <td align="center" width="10%"><b>Stats</b></td>
-    <td align="center" width="10%"><b>Activity</b></td>
-    <td align="center" width="10%"><b>Status</b></td>
-    <td align="center" width="10%"><b>License</b></td>
-  </tr>
-  <tr>
+    <td align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
+    <td>Trading intelligence platform for market analysis</td>
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/> <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4"/></td>
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?style=flat&color=5F9EA0"/></td>
     <td align="center"><code>Production</code><br><code>Python</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/GPL-v3-green?style=flat-square&logo=gnu" alt="GPL v3"/></td>
+    <td align="center"><code>GPL v3</code></td>
   </tr>
   <tr>
-    <td align="center" rowspan="2"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
-    <td rowspan="2">Simple trading indicator insight tool for individual traders, providing accurate backtesting results and strategy recommendations</td>
-    <td align="center"><b>Stats</b></td>
-    <td align="center"><b>Activity</b></td>
-    <td align="center"><b>Status</b></td>
-    <td align="center"><b>License</b></td>
-  </tr>
-  <tr>
+    <td align="center"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
+    <td>Simple trading indicator insight tool for individual traders, providing accurate backtesting results and strategy recommendations</td>
     <td align="center"><img src="https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0"/></td>
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?style=flat&color=5F9EA0"/></td>
     <td align="center"><code>Development</code><br><code>Python</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/GPL-v3-green?style=flat-square&logo=gnu" alt="GPL v3"/></td>
+    <td align="center"><code>GPL v3</code></td>
   </tr>
   <tr>
-    <td align="center" rowspan="2"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
-    <td rowspan="2">US phone number verification tool for digital nomads, based on the US LNP network, providing real-time status checks</td>
-    <td align="center"><b>Stats</b></td>
-    <td align="center"><b>Activity</b></td>
-    <td align="center"><b>Status</b></td>
-    <td align="center"><b>License</b></td>
-  </tr>
-  <tr>
+    <td align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
+    <td>US phone number verification tool for digital nomads, based on the US LNP network, providing real-time status checks</td>
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB"/> <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE"/></td>
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?style=flat&color=9370DB"/></td>
     <td align="center"><code>Stable</code><br><code>Python</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/GPL-v3-green?style=flat-square&logo=gnu" alt="GPL v3"/></td>
+    <td align="center"><code>GPL v3</code></td>
   </tr>
   <tr>
-    <td align="center" rowspan="2"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
-    <td rowspan="2">Project management framework designed specifically for Cursor developers, enhancing efficiency through structured workflows and optimized behavior guidelines</td>
-    <td align="center"><b>Stats</b></td>
-    <td align="center"><b>Activity</b></td>
-    <td align="center"><b>Status</b></td>
-    <td align="center"><b>License</b></td>
-  </tr>
-  <tr>
+    <td align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
+    <td>Project management framework designed specifically for Cursor developers, enhancing efficiency through structured workflows and optimized behavior guidelines</td>
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=20B2AA"/> <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=48D1CC"/></td>
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/CursorMind?style=flat&color=20B2AA"/></td>
     <td align="center"><code>Beta</code><br><code>Bash/Python</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/MIT-blue?style=flat-square&logo=opensourceinitiative" alt="MIT"/></td>
+    <td align="center"><code>MIT</code></td>
   </tr>
 </table>
 
