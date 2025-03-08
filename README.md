@@ -76,26 +76,24 @@ const yagami = {
 
 ## 📈 GitHub Statistics
 
-<div align="center">
-  <table width="100%" align="center">
-    <tr>
-      <td width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yagami1997&theme=tokyonight" width="100%" height="200" />
-      </td>
-      <td width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yagami1997&theme=tokyonight" width="100%" height="200" />
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yagami1997&theme=tokyonight" width="100%" height="200" />
-      </td>
-      <td width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yagami1997&theme=tokyonight&utcOffset=-8" width="100%" height="200" />
-      </td>
-    </tr>
-  </table>
-</div>
+<table width="100%" align="center">
+  <tr>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yagami1997&theme=tokyonight" width="100%" height="200" />
+    </td>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yagami1997&theme=tokyonight" width="100%" height="200" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yagami1997&theme=tokyonight" width="100%" height="200" />
+    </td>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yagami1997&theme=tokyonight&utcOffset=-8" width="100%" height="200" />
+    </td>
+  </tr>
+</table>
 
 ## 🔧 Tech Stack
 
