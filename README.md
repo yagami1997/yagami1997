@@ -44,7 +44,7 @@ const yagami = {
     <td align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
     <td>Trading intelligence platform for market analysis</td>
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/> <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4"/></td>
-    <td align="center"><img src="https://img.shields.io/badge/🔥_20/week-5F9EA0?style=for-the-badge&labelColor=282c34" alt="20 commits per week"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/20%20commits-per%20week-5F9EA0?style=flat" alt="20 commits per week"/></td>
     <td align="center"><code>Production</code><br><code>Python</code></td>
     <td align="center"><img src="https://img.shields.io/badge/GPL-v3-4CAF50.svg?style=flat" alt="GPL v3"/></td>
   </tr>
@@ -52,7 +52,7 @@ const yagami = {
     <td align="center"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
     <td>Simple trading indicator insight tool for individual traders, providing accurate backtesting results and strategy recommendations</td>
     <td align="center"><img src="https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0"/></td>
-    <td align="center"><img src="https://img.shields.io/badge/🔥_15/week-5F9EA0?style=for-the-badge&labelColor=282c34" alt="15 commits per week"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/15%20commits-per%20week-5F9EA0?style=flat" alt="15 commits per week"/></td>
     <td align="center"><code>Development</code><br><code>Python</code></td>
     <td align="center"><img src="https://img.shields.io/badge/GPL-v3-4CAF50.svg?style=flat" alt="GPL v3"/></td>
   </tr>
@@ -60,7 +60,7 @@ const yagami = {
     <td align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
     <td>US phone number verification tool for digital nomads, based on the US LNP network, providing real-time status checks</td>
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB"/> <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE"/></td>
-    <td align="center"><img src="https://img.shields.io/badge/⚡_8/week-9370DB?style=for-the-badge&labelColor=282c34" alt="8 commits per week"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/8%20commits-per%20week-9370DB?style=flat" alt="8 commits per week"/></td>
     <td align="center"><code>Stable</code><br><code>Python</code></td>
     <td align="center"><img src="https://img.shields.io/badge/GPL-v3-4CAF50.svg?style=flat" alt="GPL v3"/></td>
   </tr>
@@ -68,7 +68,7 @@ const yagami = {
     <td align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
     <td>Project management framework designed specifically for Cursor developers, enhancing efficiency through structured workflows and optimized behavior guidelines</td>
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=20B2AA"/> <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=48D1CC"/></td>
-    <td align="center"><img src="https://img.shields.io/badge/⚡_12/week-20B2AA?style=for-the-badge&labelColor=282c34" alt="12 commits per week"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/12%20commits-per%20week-20B2AA?style=flat" alt="12 commits per week"/></td>
     <td align="center"><code>Beta</code><br><code>Bash/Python</code></td>
     <td align="center"><img src="https://img.shields.io/badge/MIT-1E90FF.svg?style=flat" alt="MIT"/></td>
   </tr>
