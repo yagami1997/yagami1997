@@ -46,7 +46,7 @@ const yagami = {
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/> <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4"/></td>
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?style=flat&color=5F9EA0"/></td>
     <td align="center"><code>Production</code><br><code>Python</code></td>
-    <td align="center">GPL v3</td>
+    <td align="center"><img src="https://img.shields.io/badge/GPL-v3-green?style=flat-square&logo=gnu" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
@@ -54,7 +54,7 @@ const yagami = {
     <td align="center"><img src="https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0"/></td>
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?style=flat&color=5F9EA0"/></td>
     <td align="center"><code>Development</code><br><code>Python</code></td>
-    <td align="center">GPL v3</td>
+    <td align="center"><img src="https://img.shields.io/badge/GPL-v3-green?style=flat-square&logo=gnu" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
@@ -62,7 +62,7 @@ const yagami = {
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB"/> <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE"/></td>
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?style=flat&color=9370DB"/></td>
     <td align="center"><code>Stable</code><br><code>Python</code></td>
-    <td align="center">GPL v3</td>
+    <td align="center"><img src="https://img.shields.io/badge/GPL-v3-green?style=flat-square&logo=gnu" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
@@ -70,7 +70,7 @@ const yagami = {
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=20B2AA"/> <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=48D1CC"/></td>
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/CursorMind?style=flat&color=20B2AA"/></td>
     <td align="center"><code>Beta</code><br><code>Bash/Python</code></td>
-    <td align="center">MIT</td>
+    <td align="center"><img src="https://img.shields.io/badge/MIT-blue?style=flat-square&logo=opensourceinitiative" alt="MIT"/></td>
   </tr>
 </table>
 
