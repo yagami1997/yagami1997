@@ -79,18 +79,18 @@ const yagami = {
 <table width="100%" align="center">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&card_width=350&rank_icon=github&include_all_commits=true&count_private=true&line_height=28" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&card_width=450&rank_icon=github&include_all_commits=true&count_private=true&line_height=28" width="420" height="200" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&card_width=350&langs_count=8" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&card_width=450&langs_count=8" width="420" height="200" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://streak-stats.demolab.com?user=yagami1997&theme=tokyonight&hide_border=true&card_width=350&mode=weekly" width="100%" />
+      <img src="https://streak-stats.demolab.com?user=yagami1997&theme=tokyonight&hide_border=true&card_width=450&mode=weekly" width="420" height="200" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yagami1997&theme=tokyonight" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yagami1997&theme=tokyonight" width="420" height="200" />
     </td>
   </tr>
 </table>
