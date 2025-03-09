@@ -3,7 +3,6 @@ name: Auto Reply to Email Requests
 on:
   issues:
     types: [opened]
-  workflow_dispatch: # 添加手动触发选项
 
 permissions:
   issues: write
@@ -12,51 +11,34 @@ permissions:
 jobs:
   auto-reply:
     runs-on: ubuntu-latest
-    # 修改条件判断，使它更可能匹配或添加skip条件方便调试
-    if: "contains(github.event.issue.title, 'Email') || contains(github.event.issue.title, 'email') || github.event_name == 'workflow_dispatch'"
+    if: contains(github.event.issue.title, 'Email Request')
     steps:
       - name: Auto Reply to Email Request
         uses: actions/github-script@v6
         with:
           script: |
-            // 如果是手动触发而非issue触发，则跳过评论部分
-            if (context.eventName === 'workflow_dispatch') {
-              console.log('Workflow manually triggered - test mode');
-              return;
-            }
-            
             const issueNumber = context.issue.number;
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issueNumber,
-              body: `### 🔐 Secure Communication Channel 🔐
-
-Thank you for reaching out! To be honest, it takes some effort to get my GPG email information. Let's Rock!
-
-#### 📧 Email Address:
-\`\`\`
-[removed]
-\`\`\`
-
-#### 🔑 GPG Key Instructions:
-\`\`\`bash
-# Import my public key from keyserver
-gpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033
-
-# Verify fingerprint before sending sensitive data
-gpg --fingerprint D22BC844F1646033
-\`\`\`
-
-*This is an automated response. I'll close this issue shortly to keep things tidy.*
-
-![End-to-End Encrypted](https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white)`
+              body: `Thank you for your interest in contacting me securely!
+              
+              Here's my email address: \`[removed]\`
+              
+              Please remember to encrypt your message using my GPG key:
+              \`\`\`bash
+              # Import my public key from keyserver
+              gpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033
+              
+              # Verify fingerprint before sending sensitive data
+              gpg --fingerprint D22BC844F1646033
+              \`\`\`
+              
+              This is an automated response. I'll close this issue shortly to keep things tidy.`
             });
             
-            // 添加延迟，确保用户有时间看到消息
-            await new Promise(resolve => setTimeout(resolve, 5000));
-            
-            // 关闭issue
+            // Close the issue
             await github.rest.issues.update({
               owner: context.repo.owner,
               repo: context.repo.repo,
