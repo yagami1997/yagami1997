@@ -12,7 +12,8 @@
 
 I am a digital nomad from the sun-kissed shores of Del Mar, California—a digital content designer navigating the ever-evolving landscape of AGI. With AI coding tools as my brush, I craft and engineer digital systems, shaping ideas into existence.  
 
-I cherish the golden California sun, the rhythm of the waves, and the serenity of the mountains and forests. Here, life flows with an effortless grace, blending creativity with tranquility.  
+I cherish the golden California sun, the rhythm of the waves, and the serenity of the mountains and forests. Here, life flows with an effortless grace, blending creativity with tranquility. 
+
 Captivated by the artistry of digital creation in the age of human ingenuity, I have embarked on developing a series of intriguing open-source AI coding projects. I invite you to explore, contribute, and refine them together—let’s build something remarkable.
 
 From my observations and reflections over the past few years, humanity has entered the Fifth Industrial Revolution, led by artificial intelligence technology, with large language models and their inference capabilities at the forefront. Amid this wave, I believe only the open-source AI ecosystem can truly liberate humanity, creating new employment opportunities and pathways for survival.
