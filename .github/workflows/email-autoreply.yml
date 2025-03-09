@@ -22,27 +22,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issueNumber,
-              body: `## 🔐 Secure Communication Channel
-
-Thank you for reaching out! To be honest, it takes some effort to get my GPG email information. Let's Rock!
-
-### 📧 Email Address:
-\`\`\`
-isaac787.mo@gmail.com
-\`\`\`
-
-### 🔑 GPG Key Instructions:
-\`\`\`bash
-# Import my public key from keyserver
-gpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033
-
-# Verify fingerprint before sending sensitive data
-gpg --fingerprint D22BC844F1646033
-\`\`\`
-
-![End-to-End Encrypted](https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white)
-
-_This is an automated response. I'll close this issue shortly to keep things tidy._`
+              body: "Thank you for reaching out! To be honest, it takes some effort to get my GPG email information. Let's Rock!\n\nEmail Address: isaac787.mo@gmail.com\n\nGPG Key Instructions:\n```\n# Import my public key from keyserver\ngpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033\n\n# Verify fingerprint before sending sensitive data\ngpg --fingerprint D22BC844F1646033\n```\n\nThis is an automated response. I'll close this issue shortly to keep things tidy. Note that the issue will remain in the repository history but won't appear in the active issues list."
             });
             
             // Close the issue
