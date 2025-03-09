@@ -129,11 +129,15 @@ I believe the open-source large language model ecosystem will drive the fifth in
 
 I only accept **GPG-encrypted communications**. If you don't know how to use GPG encryption or cannot send encrypted emails, feel free to interact through GitHub Issues instead.
 
-<div align="center">
-  <a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=Please%20send%20me%20your%20email%20address%20for%20GPG%20encrypted%20communication.">
-    <img src="https://img.shields.io/badge/🔐_Request_Secure_Contact-5F9EA0?style=for-the-badge&logo=keybase&logoColor=white" alt="Request Secure Contact" />
-  </a>
-</div>
+<details>
+  <summary><div align="center"><img src="https://img.shields.io/badge/🔐_Secure_Contact-5F9EA0?style=flat-square&logoColor=white" alt="Secure Contact" /></div></summary>
+  <br>
+  <div align="center">
+    <a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=Please%20send%20me%20your%20email%20address%20for%20GPG%20encrypted%20communication.">
+      <img src="https://img.shields.io/badge/Request_Secure_Channel-4682B4?style=flat-square&logo=minutemailer&logoColor=white" alt="Request Email" />
+    </a>
+  </div>
+</details>
 
 ## 💬 Connect With Me
 
