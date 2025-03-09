@@ -127,18 +127,21 @@ I believe the open-source large language model ecosystem will drive the fifth in
   <img src="https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white" alt="End-to-End Encrypted" />
 </div>
 
-```
-[removed]
-```
+I only accept **GPG-encrypted emails**. If you don't know how to use GPG encryption or cannot send encrypted emails, feel free to interact through GitHub Issues instead. Looking forward to connecting with you!
 
-I only accept **GPG-encrypted emails**. Please use my public key below.  
-If you don't know how to use GPG encryption or cannot send encrypted emails, feel free to interact through GitHub Issues instead. Looking forward to connecting with you!
-
-🔐 **GPG Public Key:**  
-📜 Retrieve via keyserver:
-```bash
-gpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033
-```
+<details>
+  <summary>🔒 <i>Click to reveal contact information</i></summary>
+  
+  ```
+  [removed]
+  ```
+  
+  🔐 **GPG Public Key:**  
+  📜 Retrieve via keyserver:
+  ```bash
+  gpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033
+  ```
+</details>
 
 ## 💬 Connect With Me
 
