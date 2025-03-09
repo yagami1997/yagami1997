@@ -133,11 +133,12 @@ I only accept **GPG-encrypted communications**. If you don't know how to use GPG
   <summary>🔒 <code>Click to reveal contact information</code></summary>
   <br>
   
-  <!-- Email with note to copy -->
+  <!-- Email obfuscated -->
   <div align="center">
-    <code id="email">isaac787.mo@gmail.com</code>
-    <br><br>
-    <i>(Please copy the email address above)</i>
+    <a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=Please%20send%20me%20your%20email%20address%20for%20GPG%20encrypted%20communication.">
+      <img src="https://img.shields.io/badge/Request-Email_Address-5F9EA0?style=flat-square&logo=minutemailer&logoColor=white" alt="Request Email" />
+    </a>
+    <p><i>Create an issue to request email address (helps avoid email scrapers)</i></p>
   </div>
   <br>
   
