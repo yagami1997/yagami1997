@@ -1,1 +1,36 @@
+name: Auto Reply to Email Requests
 
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  auto-reply:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.title, 'Email Request')
+    steps:
+      - name: Auto Reply to Email Request
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Thank you for your interest in contacting me securely!
+            
+            Here's my email address: `isaac787.mo@gmail.com`
+            
+            Please remember to encrypt your message using my GPG key:
+            ```bash
+            # Import my public key from keyserver
+            gpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033
+            
+            # Verify fingerprint before sending sensitive data
+            gpg --fingerprint D22BC844F1646033
+            ```
+            
+            This is an automated response. I'll close this issue shortly to keep things tidy.
+            
+      - name: Close Issue
+        uses: peter-evans/close-issue@v2
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: Automatically closing this issue. Your request has been addressed.
