@@ -22,20 +22,27 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issueNumber,
-              body: `Thank you for your interest in contacting me securely!
-              
-              Here's my email address: \`isaac787.mo@gmail.com\`
-              
-              Please remember to encrypt your message using my GPG key:
-              \`\`\`bash
-              # Import my public key from keyserver
-              gpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033
-              
-              # Verify fingerprint before sending sensitive data
-              gpg --fingerprint D22BC844F1646033
-              \`\`\`
-              
-              This is an automated response. I'll close this issue shortly to keep things tidy.`
+              body: `## 🔐 Secure Communication Channel
+
+Thank you for reaching out! To be honest, it takes some effort to get my GPG email information. Let's Rock!
+
+### 📧 Email Address:
+\`\`\`
+isaac787.mo@gmail.com
+\`\`\`
+
+### 🔑 GPG Key Instructions:
+\`\`\`bash
+# Import my public key from keyserver
+gpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033
+
+# Verify fingerprint before sending sensitive data
+gpg --fingerprint D22BC844F1646033
+\`\`\`
+
+![End-to-End Encrypted](https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white)
+
+_This is an automated response. I'll close this issue shortly to keep things tidy._`
             });
             
             // Close the issue
