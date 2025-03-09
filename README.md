@@ -24,7 +24,7 @@ I am an absolute supporter of the open-source software movement and hope to see 
 
 ```javascript
 const yagami = {
-  location: "Del Mar, San Diego, California",
+  location: "Del Mar, California",
   occupation: "Digital Nomad & AI Creative",
   interests: ["AI Technology", "Digital Marketing", "Mobile Imaging Tech"],
   passion: "Open Source Movement",
