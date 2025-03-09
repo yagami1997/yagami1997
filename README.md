@@ -121,26 +121,48 @@ I believe the open-source large language model ecosystem will drive the fifth in
   </a>
 </p>
 
-## 📧 Secure Contact
+## ⚡ Encrypted Comms ⚡
 
 <div align="center">
+  <img src="https://img.shields.io/badge/✧-SECURE_CHANNEL-6A0DAD?style=for-the-badge&logoColor=white" alt="Secure Channel" />
+  <br>
   <img src="https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white" alt="End-to-End Encrypted" />
+  <img src="https://img.shields.io/badge/Signal_Protocol-Compatible-3A76F0?style=flat-square&logoColor=white" alt="Signal Protocol" />
 </div>
 
-I only accept **GPG-encrypted emails**. If you don't know how to use GPG encryption or cannot send encrypted emails, feel free to interact through GitHub Issues instead. Looking forward to connecting with you!
+<table>
+  <tr>
+    <td align="center">
+      <code>[ Communication requires encryption | No cleartext accepted ]</code>
+    </td>
+  </tr>
+</table>
+
+I only accept **GPG-encrypted communications**. If you don't know how to use GPG encryption or cannot send encrypted emails, feel free to interact through GitHub Issues instead. Looking forward to connecting with you from the digital frontier!
 
 <details>
-  <summary>🔒 <i>Click to reveal contact information</i></summary>
-  
-  ```
-  isaac787.mo@gmail.com
-  ```
-  
-  🔐 **GPG Public Key:**  
-  📜 Retrieve via keyserver:
-  ```bash
-  gpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033
-  ```
+  <summary>🔒 <code>// Click to decrypt contact vectors</code> 🔑</summary>
+  <br>
+  <div align="center">
+    <table>
+      <tr>
+        <td align="center">
+          <code>isaac787.mo@gmail.com</code>
+        </td>
+      </tr>
+    </table>
+    
+    <img src="https://img.shields.io/badge/[ Public Key Fingerprint ]-black?style=flat-square" alt="Public Key" />
+    
+```bash
+# Import my public key from keyserver
+gpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033
+
+# Verify fingerprint before sending sensitive data
+gpg --fingerprint D22BC844F1646033
+```
+    <code>[ END TRANSMISSION ]</code>
+  </div>
 </details>
 
 ## 💬 Connect With Me
