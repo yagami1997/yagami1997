@@ -124,45 +124,30 @@ I believe the open-source large language model ecosystem will drive the fifth in
 ## ⚡ Encrypted Comms ⚡
 
 <div align="center">
-  <img src="https://img.shields.io/badge/✧-SECURE_CHANNEL-6A0DAD?style=for-the-badge&logoColor=white" alt="Secure Channel" />
-  <br>
   <img src="https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white" alt="End-to-End Encrypted" />
-  <img src="https://img.shields.io/badge/Signal_Protocol-Compatible-3A76F0?style=flat-square&logoColor=white" alt="Signal Protocol" />
 </div>
 
-<table>
-  <tr>
-    <td align="center">
-      <code>[ Communication requires encryption | No cleartext accepted ]</code>
-    </td>
-  </tr>
-</table>
-
-I only accept **GPG-encrypted communications**. If you don't know how to use GPG encryption or cannot send encrypted emails, feel free to interact through GitHub Issues instead. Looking forward to connecting with you from the digital frontier!
+I only accept **GPG-encrypted communications**. If you don't know how to use GPG encryption or cannot send encrypted emails, feel free to interact through GitHub Issues instead.
 
 <details>
-  <summary>🔒 <code>// Click to decrypt contact vectors</code> 🔑</summary>
+  <summary>🔒 <code>Click to reveal contact information</code></summary>
   <br>
+  
+  <!-- Email with note to copy -->
   <div align="center">
-    <table>
-      <tr>
-        <td align="center">
-          <code>isaac787.mo@gmail.com</code>
-        </td>
-      </tr>
-    </table>
-    
-    <img src="https://img.shields.io/badge/[ Public Key Fingerprint ]-black?style=flat-square" alt="Public Key" />
-    
-```bash
-# Import my public key from keyserver
-gpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033
-
-# Verify fingerprint before sending sensitive data
-gpg --fingerprint D22BC844F1646033
-```
-    <code>[ END TRANSMISSION ]</code>
+    <code id="email">isaac787.mo@gmail.com</code>
+    <br><br>
+    <i>(Please copy the email address above)</i>
   </div>
+  <br>
+  
+  ```bash
+  # Import my public key from keyserver
+  gpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033
+  
+  # Verify fingerprint before sending sensitive data
+  gpg --fingerprint D22BC844F1646033
+  ```
 </details>
 
 ## 💬 Connect With Me
