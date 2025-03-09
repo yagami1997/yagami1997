@@ -14,7 +14,7 @@ I am a digital nomad from the sun-kissed shores of Del Mar, California—a digit
 
 I cherish the golden California sun, the rhythm of the waves, and the serenity of the mountains and forests. Here, life flows with an effortless grace, blending creativity with tranquility. 
 
-Captivated by the artistry of digital creation in the age of human ingenuity, I have embarked on developing a series of intriguing open-source AI coding projects. I invite you to explore, contribute, and refine them together—let’s build something remarkable.
+Captivated by the artistry of digital creation in the age of human ingenuity, I have embarked on developing a series of intriguing open-source AI coding projects. I invite you to explore, contribute, and refine them together—let's build something remarkable.
 
 From my observations and reflections over the past few years, humanity has entered the Fifth Industrial Revolution, led by artificial intelligence technology, with large language models and their inference capabilities at the forefront. Amid this wave, I believe only the open-source AI ecosystem can truly liberate humanity, creating new employment opportunities and pathways for survival.
 
@@ -120,6 +120,25 @@ I believe the open-source large language model ecosystem will drive the fifth in
     <img src="https://github-profile-trophy.vercel.app/?username=yagami1997&theme=nord&row=1&column=7&margin-w=15&margin-h=15&no-frame=true&no-bg=true&title_color=5F9EA0" width="100%" alt="GitHub Trophies" />
   </a>
 </p>
+
+## 📧 Secure Contact
+
+<div align="center">
+  <img src="https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white" alt="End-to-End Encrypted" />
+</div>
+
+```
+isaac787.mo@gmail.com
+```
+
+I only accept **GPG-encrypted emails**. Please use my public key below.  
+If you don't know how to use GPG encryption or cannot send encrypted emails, feel free to interact through GitHub Issues instead. Looking forward to connecting with you!
+
+🔐 **GPG Public Key:**  
+📜 Retrieve via keyserver:
+```bash
+gpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033
+```
 
 ## 💬 Connect With Me
 
