@@ -1,4 +1,4 @@
-name: Email Request with Approval
+name: Email Request Handler
 
 on:
   issues:
@@ -8,101 +8,72 @@ on:
 
 permissions:
   issues: write
-  contents: read
 
 jobs:
   initial-response:
     runs-on: ubuntu-latest
-    if: github.event_name == 'issues' && contains(github.event.issue.title, 'Email Request')
+    # 简化条件判断，只检查issue标题
+    if: github.event_name == 'issues' && contains(github.event.issue.title, 'Email')
     steps:
-      - name: Initial Response
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const issueNumber = context.issue.number;
-            
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: issueNumber,
-              body: `Thank you for your interest in secure communication!
+      - name: Send Initial Response
+        run: |
+          ISSUE_NUMBER="${{ github.event.issue.number }}"
+          
+          # 创建初始回复
+          gh issue comment "$ISSUE_NUMBER" --body "## 🕵️‍♂️ Mission Received: Secure Communication Request 🕵️‍♀️
 
-Your request has been received and is pending review. If approved, I will share my GPG encrypted contact information with you.
+          Well hello there, fellow encryption enthusiast! Your request for my super-secret contact details has successfully reached my digital fortress.
 
-Please provide some context about why you'd like to connect, which will help me process your request faster.`
-            });
-            
-            // Add a pending label
-            await github.rest.issues.addLabels({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: issueNumber,
-              labels: ['pending-approval']
-            });
+          I see you've discovered my cryptographic hideout - impressive! But as any good spy knows, verification is key before exchanging classified information.
 
-  approve-and-share:
-    runs-on: ubuntu-latest
-    if: >-
-      github.event_name == 'issue_comment' && 
-      contains(github.event.comment.body, 'Fox 3') && 
-      github.event.comment.user.login == github.repository_owner
-    steps:
-      - name: Share Contact Info
-        uses: actions/github-script@v6
+          **Your mission, should you choose to accept it:**
+          Tell me a bit about why you'd like to establish this encrypted communication channel. Are we planning to discuss revolutionary open-source ideas? Trading secrets about the fifth industrial revolution? Or perhaps you just appreciate the art of properly encrypted emails in this age of digital surveillance?
+
+          Your request is now in the secret approval queue. Once I've confirmed you're not an agent from the anti-open-source league, I'll transmit my secure communication coordinates.
+
+          Stay encrypted, stay free! 🔐
+
+          *This message will NOT self-destruct in 10 seconds, because that would be a waste of perfectly good bits and bytes.*"
+          
+          # 添加标签
+          gh issue edit "$ISSUE_NUMBER" --add-label "pending-approval"
         env:
-          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
-          GPG_KEY: ${{ secrets.GPG_KEY }}
-        with:
-          script: |
-            const issueNumber = context.issue.number;
-            const contactEmail = process.env.CONTACT_EMAIL;
-            const gpgKey = process.env.GPG_KEY;
-            
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: issueNumber,
-              body: `### 🔐 Request Approved
+          GH_TOKEN: ${{ github.token }}
 
-Thank you for your patience! Your request has been approved.
+  approve-request:
+    runs-on: ubuntu-latest
+    # 仅在有评论并且包含特定关键词时触发
+    if: github.event_name == 'issue_comment' && contains(github.event.comment.body, 'Fox 3') && github.event.comment.user.login == github.repository_owner
+    steps:
+      - name: Send Contact Info
+        run: |
+          ISSUE_NUMBER="${{ github.event.issue.number }}"
+          
+          # 发送批准消息和联系信息
+          gh issue comment "$ISSUE_NUMBER" --body "### 🔐 Request Approved
 
-Here's my contact information for secure communication:
+          Thank you for your patience! Your request has been approved.
 
-#### 📧 Email Address:
-\`\`\`
-${contactEmail}
-\`\`\`
+          Here's my contact information for secure communication:
 
-#### 🔑 GPG Key Instructions:
-\`\`\`bash
-# Import my public key from keyserver
-gpg --keyserver hkps://keys.openpgp.org --recv-keys ${gpgKey}
+          #### 📧 Email Address:
+          \`\`\`
+          ${{ secrets.CONTACT_EMAIL }}
+          \`\`\`
 
-# Verify fingerprint before sending sensitive data
-gpg --fingerprint ${gpgKey}
-\`\`\`
+          #### 🔑 GPG Key Instructions:
+          \`\`\`bash
+          # Import my public key from keyserver
+          gpg --keyserver hkps://keys.openpgp.org --recv-keys ${{ secrets.GPG_KEY }}
 
-![End-to-End Encrypted](https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white)
+          # Verify fingerprint before sending sensitive data
+          gpg --fingerprint ${{ secrets.GPG_KEY }}
+          \`\`\`
 
-I look forward to our encrypted conversation!`
-            });
-            
-            try {
-              // Try to remove the pending-approval label if it exists
-              await github.rest.issues.removeLabel({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issueNumber,
-                name: 'pending-approval'
-              });
-            } catch (error) {
-              console.log('Label may not exist, continuing');
-            }
-            
-            // Add approved label
-            await github.rest.issues.addLabels({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: issueNumber,
-              labels: ['approved']
-            });
+          I look forward to our encrypted conversation!"
+          
+          # 更新标签
+          gh issue edit "$ISSUE_NUMBER" --remove-label "pending-approval"
+          gh issue edit "$ISSUE_NUMBER" --add-label "approved"
+        env:
+          GH_TOKEN: ${{ github.token }}
