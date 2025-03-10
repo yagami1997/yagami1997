@@ -12,15 +12,9 @@
 
 ✨ I am a digital nomad from the sun-kissed shores of Del Mar, California—a digital content designer navigating the ever-evolving landscape of AGI. With AI coding tools as my brush, I craft and engineer digital systems, shaping ideas into existence. 🎨
 
-🌞 I cherish the golden California sun, the rhythm of the waves, and the serenity of the mountains and forests. Here, life flows with an effortless grace, blending creativity with tranquility. 🌊
+🌞 As a digital creator driven by a passion for technology-infused artistry, I am venturing into the vast landscape of AI development and engineering, exploring its boundless potential. I see AI not merely as a tool, but as a catalyst where innovation and artistry converge.
 
-💫 As a digital creator driven by a passion for technology-infused artistry, I am venturing into the vast landscape of AI development and engineering, exploring its boundless potential. I see AI not merely as a tool, but as a catalyst where innovation and artistry converge, breathing new life and dimensions into digital creation. My goal is to contribute to the AI coding ecosystem, wielding code as a brush and intelligence as ink, crafting a new chapter in the era of AI-augmented creativity. Let us embark on this journey together—exploring the unknown, shaping the future. 🚀
-
-🔮 From my observations and reflections over the past few years, humanity has entered the Fifth Industrial Revolution, led by artificial intelligence technology, with large language models and their inference capabilities at the forefront. Amid this wave, I believe only the open-source AI ecosystem can truly liberate humanity, creating new employment opportunities and pathways for survival. 🌐
-
-🔓 I am an absolute supporter of the open-source software movement and hope to see the GNU dream fully realized. 🌱
-
-> **"When everyone can access cutting-edge technology to create new technological achievements, needs, and value, and then pass these values on to others in a chain reaction that continues to create new value—this is the philosophical significance of open source."** ✨
+🔮 From my observations, humanity has entered the Fifth Industrial Revolution, led by artificial intelligence technology, with large language models at the forefront. I believe only the open-source AI ecosystem can truly liberate humanity, creating new opportunities and pathways.
 
 ```javascript
 const yagami = {
@@ -28,10 +22,23 @@ const yagami = {
   occupation: "Digital Nomad & AI Creative 🎭",
   interests: ["AI Technology 🤖", "Digital Marketing 📱", "Mobile Imaging Tech 📷"],
   passion: "Open Source Movement 🔓",
-  philosophy: "Technology should empower everyone to create and share value 💡",
   mission: "Democratizing access to cutting-edge technology 🌉"
 };
 ```
+
+## 🔧 Tech Stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
+![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM_Technology-%2347A248.svg?style=for-the-badge&logo=openai&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-%23000000.svg?style=for-the-badge&logo=cursor&logoColor=white)
+
+</div>
 
 ## 🚀 Featured Projects
 
@@ -40,43 +47,53 @@ const yagami = {
     <th width="15%" align="center">Project</th>
     <th width="34%" align="center">Description</th>
     <th width="13%" align="center">Stats</th>
-    <th width="13%" align="center">Activity</th>
     <th width="12%" align="center">Status</th>
+    <th width="13%" align="center">Tech Stack</th>
     <th width="13%" align="center">License</th>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
-    <td>Trading intelligence platform for market analysis</td>
-    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/> <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4"/></td>
-    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?label=commits&style=flat&color=5F9EA0" alt="Weekly commits"/></td>
-    <td align="center"><code>Production</code><br><code>Python</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
-    <td>Simple trading indicator insight tool for individual traders, providing accurate backtesting results and strategy recommendations</td>
-    <td align="center"><img src="https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0"/></td>
-    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind/dev?label=commits&style=flat&color=5F9EA0" alt="Weekly commits"/></td>
-    <td align="center"><code>Development</code><br><code>Python</code></td>
+    <td>Trading intelligence platform for market analysis with ML-based prediction models</td>
+    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/></td>
+    <td align="center"><code>Production</code></td>
+    <td align="center"><code>Python</code><br><code>TensorFlow</code><br><code>Financial APIs</code></td>
     <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
     <td>US phone number verification tool for digital nomads, based on the US LNP network, providing real-time status checks</td>
-    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB"/> <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE"/></td>
-    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?label=commits&style=flat&color=9370DB" alt="Weekly commits"/></td>
-    <td align="center"><code>Stable</code><br><code>Python</code></td>
+    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=5F9EA0"/></td>
+    <td align="center"><code>Stable</code></td>
+    <td align="center"><code>Python</code><br><code>Telecom APIs</code><br><code>Flask</code></td>
     <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
-    <td>Project management framework designed specifically for Cursor developers, enhancing efficiency through structured workflows and optimized behavior guidelines</td>
-    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=20B2AA"/> <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=48D1CC"/></td>
-    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/CursorMind?label=commits&style=flat&color=20B2AA" alt="Weekly commits"/></td>
-    <td align="center"><code>Beta</code><br><code>Bash/Python</code></td>
+    <td>Project management framework designed specifically for Cursor developers, enhancing efficiency through structured workflows</td>
+    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=5F9EA0"/></td>
+    <td align="center"><code>Beta</code></td>
+    <td align="center"><code>Bash</code><br><code>Python</code><br><code>LLM Integration</code></td>
+    <td align="center"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT License"/></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="#"><b>AICanvas</b></a></td>
+    <td>🔄 <i>Current project:</i> Open-source tool combining LLM capabilities with creative design workflows for digital content creation</td>
+    <td align="center"><img src="https://img.shields.io/badge/status-WIP-yellow?style=flat"/></td>
+    <td align="center"><code>In Progress</code></td>
+    <td align="center"><code>TypeScript</code><br><code>LLM</code><br><code>React</code></td>
     <td align="center"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT License"/></td>
   </tr>
 </table>
+
+## 💡 Open Source Philosophy
+
+<div align="center">
+  <img src="https://img.shields.io/badge/⟬_Open_Source_Liberation_⟭-5F9EA0?style=for-the-badge&logoColor=white" alt="Open Source Liberation" />
+</div>
+
+> **"When everyone can access cutting-edge technology to create new technological achievements, needs, and value, and then pass these values on to others in a chain reaction that continues to create new value—this is the philosophical significance of open source."** ✨
+
+I believe the open-source large language model ecosystem will drive the fifth industrial revolution, creating infinite possibilities. Through open source and technology sharing, we can build a more equitable and innovative technological future, achieving true technological equality.
 
 ## 📈 GitHub Stats
 
@@ -91,53 +108,24 @@ const yagami = {
   </tr>
 </table>
 
-## 🔧 Tech Stack
+## 📚 Current Learning Focus
 
 <div align="center">
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
-![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
+  <img src="https://img.shields.io/badge/Generative_AI-Exploring_Multimodal_Models-5F9EA0?style=flat-square" alt="Current Focus" />
+  <img src="https://img.shields.io/badge/Reading-Superintelligence:_Paths,_Dangers,_Strategies-4682B4?style=flat-square" alt="Current Reading" />
 </div>
 
-## 💡 Open Source Philosophy
-
-<div align="center">
-  <img src="https://img.shields.io/badge/⟬_Open_Source_Liberation_⟭-5F9EA0?style=for-the-badge&logoColor=white" alt="Open Source Liberation" />
-  <img src="https://img.shields.io/badge/⟬_Technological_Equality_⟭-4682B4?style=for-the-badge&logoColor=white" alt="Technological Equality" />
-  <img src="https://img.shields.io/badge/⟬_Fifth_Industrial_Revolution_⟭-9370DB?style=for-the-badge&logoColor=white" alt="Fifth Industrial Revolution" />
-</div>
-
-I believe the open-source large language model ecosystem will drive the fifth industrial revolution, creating infinite possibilities. Through open source and technology sharing, we can build a more equitable and innovative technological future, achieving true technological equality.
-
-## 🏆 Achievements
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=yagami1997&theme=nord&row=1&column=7&margin-w=15&margin-h=15&no-frame=true&no-bg=true&title_color=5F9EA0" width="100%" alt="GitHub Trophies" />
-  </a>
-</p>
-
-## ⚡ Encrypted Comms ⚡
+## ⚡ Encrypted Comms
 
 <div align="center">
   <img src="https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white" alt="End-to-End Encrypted" />
+  <br><br>
+  <a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%20%F0%9F%94%90%20Request%20for%20Secure%20Communication%20Channel%20%F0%9F%94%90%0A%0AGreetings%2C%20I%27d%20like%20to%20establish%20encrypted%20communication%20with%20you.%0A%0A%23%23%20Why%20I%27m%20Seeking%20Encrypted%20Contact%3A%0A%3C%21--%20Please%20share%20a%20bit%20about%20why%20you%27d%20like%20to%20connect%20--%3E%0A%0A%23%23%20My%20GitHub%20Background%3A%0A%3C%21--%20A%20quick%20introduction%20helps%20establish%20trust%20--%3E%0A%0ALooking%20forward%20to%20connecting%20securely%21">
+    <img src="https://img.shields.io/badge/Request_Secure_Channel-4682B4?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Request Email" />
+  </a>
 </div>
 
-I only accept **GPG-encrypted communications**. If you don't know how to use GPG encryption or cannot send encrypted emails, feel free to interact through GitHub Issues instead.
-
-<details>
-  <summary><div align="center">🔐 <i>Click to reveal secure contact options</i></div></summary>
-  <br>
-  <div align="center">
-<a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%20%F0%9F%94%90%20Request%20for%20Secure%20Communication%20Channel%20%F0%9F%94%90%0A%0AGreetings%2C%20I%27d%20like%20to%20establish%20encrypted%20communication%20with%20you.%0A%0A%23%23%20Why%20I%27m%20Seeking%20Encrypted%20Contact%3A%0A%3C%21--%20Please%20share%20a%20bit%20about%20why%20you%27d%20like%20to%20connect%20--%3E%0A%0A%23%23%20My%20GitHub%20Background%3A%0A%3C%21--%20A%20quick%20introduction%20helps%20establish%20trust%20--%3E%0A%0ALooking%20forward%20to%20connecting%20securely%21">
-  <img src="https://img.shields.io/badge/Request_Secure_Channel-4682B4?style=flat-square&logo=minutemailer&logoColor=white" alt="Request Email" />
-</a>
-  </div>
-</details>
+I only accept **GPG-encrypted communications**. If you don't know how to use GPG encryption, feel free to interact through GitHub Issues instead.
 
 ## 💬 Connect With Me
 
@@ -147,10 +135,9 @@ I only accept **GPG-encrypted communications**. If you don't know how to use GPG
   </a>
 </div>
 
-Feel free to connect through GitHub Issues!
-
 ---
 
 <div align="center">
+  <i>Last Updated: March 2025</i><br>
   <i>Long live free software, technological equality, and the people!</i>
 </div>
