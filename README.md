@@ -82,10 +82,7 @@ const yagami = {
 
 <div align="center">
   <a href="https://github.com/yagami1997">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
-  </a>
-  <a href="https://github.com/yagami1997">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&card_width=320&exclude_repo=obsidian-vault,dotfiles,zsh-config" />
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&card_width=500" />
   </a>
 </div>
 
