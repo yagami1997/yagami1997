@@ -46,43 +46,52 @@ const yagami = {
 
 <table width="100%" align="center">
   <tr>
-    <th width="15%" align="center">Project</th>
-    <th width="34%" align="center">Description</th>
-    <th width="13%" align="center">Stats</th>
-    <th width="12%" align="center">Status</th>
-    <th width="13%" align="center">Tech Stack</th>
-    <th width="13%" align="center">License</th>
+    <th width="18%" align="center">Project</th>
+    <th width="37%" align="center">Description</th>
+    <th width="20%" align="center">Stats & Status</th>
+    <th width="15%" align="center">Tech Stack</th>
+    <th width="10%" align="center">License</th>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
     <td>Trading intelligence platform for market analysis with ML-based prediction models</td>
-    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/></td>
-    <td align="center"><code>Production</code></td>
-    <td align="center"><code>Python</code><br><code>TensorFlow</code><br><code>Financial APIs</code></td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/>
+      <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=5F9EA0"/>
+      <br>
+      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?label=commits&style=flat&color=5F9EA0"/>
+      <br>
+      <code>Production</code>
+    </td>
+    <td align="center"><code>Python</code><br><code>Financial APIs</code></td>
     <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
     <td>US phone number verification tool for digital nomads, based on the US LNP network, providing real-time status checks</td>
-    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=5F9EA0"/></td>
-    <td align="center"><code>Stable</code></td>
-    <td align="center"><code>Python</code><br><code>Telecom APIs</code><br><code>Flask</code></td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=5F9EA0"/>
+      <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=5F9EA0"/>
+      <br>
+      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?label=commits&style=flat&color=5F9EA0"/>
+      <br>
+      <code>Stable</code>
+    </td>
+    <td align="center"><code>Python</code><br><code>Telecom APIs</code></td>
     <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
     <td>Project management framework designed specifically for Cursor developers, enhancing efficiency through structured workflows</td>
-    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=5F9EA0"/></td>
-    <td align="center"><code>Beta</code></td>
-    <td align="center"><code>Bash</code><br><code>Python</code><br><code>LLM Integration</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT License"/></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="#"><b>AICanvas</b></a></td>
-    <td>🔄 <i>Current project:</i> Open-source tool combining LLM capabilities with creative design workflows for digital content creation</td>
-    <td align="center"><img src="https://img.shields.io/badge/status-WIP-yellow?style=flat"/></td>
-    <td align="center"><code>In Progress</code></td>
-    <td align="center"><code>TypeScript</code><br><code>LLM</code><br><code>React</code></td>
+    <td align="center">
+      <img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=5F9EA0"/>
+      <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=5F9EA0"/>
+      <br>
+      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/CursorMind?label=commits&style=flat&color=5F9EA0"/>
+      <br>
+      <code>Beta</code>
+    </td>
+    <td align="center"><code>Bash</code><br><code>LLM</code></td>
     <td align="center"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT License"/></td>
   </tr>
 </table>
@@ -113,10 +122,16 @@ I believe the open-source large language model ecosystem will drive the fifth in
 ## 📚 Current Learning Focus
 
 <div align="center">
-  <img src="https://img.shields.io/badge/AI_Coding-Cursor_+_Claude_Integration-5F9EA0?style=flat-square" alt="AI Coding" />
-  <img src="https://img.shields.io/badge/Code_Auditing-Security_&_Best_Practices-4682B4?style=flat-square" alt="Code Auditing" />
-  <img src="https://img.shields.io/badge/Cursor-Behavior_Management_&_Standards-9370DB?style=flat-square" alt="Cursor Management" />
-  <img src="https://img.shields.io/badge/Quantitative_Trading-Theory_&_Practice-20B2AA?style=flat-square" alt="Quant Trading" />
+  <table width="80%" align="center" style="border:none;">
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/AI_Coding-Cursor_+_Claude-5F9EA0?style=for-the-badge&logoColor=white" alt="AI Coding" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Code_Auditing-Security_Practices-4682B4?style=for-the-badge&logoColor=white" alt="Code Auditing" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Cursor-Workflow_Management-9370DB?style=for-the-badge&logoColor=white" alt="Cursor Management" /></td>
+      <td align="center"><img src="https://img.shields.io/badge/Quantitative_Trading-Analysis-20B2AA?style=for-the-badge&logoColor=white" alt="Quant Trading" /></td>
+    </tr>
+  </table>
 </div>
 
 ## ⚡ Encrypted Comms
