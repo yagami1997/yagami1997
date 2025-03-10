@@ -12,7 +12,9 @@
 
 ✨ I am a digital nomad from the sun-kissed shores of Del Mar, California—a digital content designer navigating the ever-evolving landscape of AGI. With AI coding tools as my brush, I craft and engineer digital systems, shaping ideas into existence. 🎨
 
-🌞 As a digital creator driven by a passion for technology-infused artistry, I am venturing into the vast landscape of AI development and engineering, exploring its boundless potential. I see AI not merely as a tool, but as a catalyst where innovation and artistry converge.
+🌞 I cherish the golden California sun, the rhythm of the waves, and the serenity of the mountains and forests. Here, life flows with an effortless grace, blending creativity with tranquility. 🌊
+
+💫 As a digital creator driven by a passion for technology-infused artistry, I am venturing into the vast landscape of AI development and engineering, exploring its boundless potential. I see AI not merely as a tool, but as a catalyst where innovation and artistry converge.
 
 🔮 From my observations, humanity has entered the Fifth Industrial Revolution, led by artificial intelligence technology, with large language models at the forefront. I believe only the open-source AI ecosystem can truly liberate humanity, creating new opportunities and pathways.
 
@@ -111,8 +113,10 @@ I believe the open-source large language model ecosystem will drive the fifth in
 ## 📚 Current Learning Focus
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Generative_AI-Exploring_Multimodal_Models-5F9EA0?style=flat-square" alt="Current Focus" />
-  <img src="https://img.shields.io/badge/Reading-Superintelligence:_Paths,_Dangers,_Strategies-4682B4?style=flat-square" alt="Current Reading" />
+  <img src="https://img.shields.io/badge/AI_Coding-Cursor_+_Claude_Integration-5F9EA0?style=flat-square" alt="AI Coding" />
+  <img src="https://img.shields.io/badge/Code_Auditing-Security_&_Best_Practices-4682B4?style=flat-square" alt="Code Auditing" />
+  <img src="https://img.shields.io/badge/Cursor-Behavior_Management_&_Standards-9370DB?style=flat-square" alt="Cursor Management" />
+  <img src="https://img.shields.io/badge/Quantitative_Trading-Theory_&_Practice-20B2AA?style=flat-square" alt="Quant Trading" />
 </div>
 
 ## ⚡ Encrypted Comms
