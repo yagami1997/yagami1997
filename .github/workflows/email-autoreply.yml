@@ -24,10 +24,23 @@ jobs:
 
             I see you've discovered my cryptographic hideout - impressive! But as any good spy knows, verification is key before exchanging classified information.
 
-            **Your mission, should you choose to accept it:**
-            Tell me a bit about why you'd like to establish this encrypted communication channel. Are we planning to discuss revolutionary open-source ideas? Trading secrets about the fifth industrial revolution? Or perhaps you just appreciate the art of properly encrypted emails in this age of digital surveillance?
+            ### 🔐 Encrypted Communication Details 🔐
 
-            Your request is now in the secret approval queue. Once I've confirmed you're not an agent from the anti-open-source league, I'll transmit my secure communication coordinates.
+            #### 📧 Email Address:
+            ```
+            ${{ secrets.CONTACT_EMAIL }}
+            ```
+
+            #### 🔑 GPG Key Instructions:
+            ```bash
+            # Import my public key from keyserver
+            gpg --keyserver hkps://keys.openpgp.org --recv-keys ${{ secrets.GPG_KEY }}
+
+            # Verify fingerprint before sending sensitive data
+            gpg --fingerprint ${{ secrets.GPG_KEY }}
+            ```
+
+            Please ensure you encrypt all communications using my public key. In this age of digital surveillance, properly encrypted messages are the only way to truly communicate freely.
 
             Stay encrypted, stay free! 🔐
 
