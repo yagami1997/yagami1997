@@ -85,6 +85,9 @@ jobs:
             2. When sending an email to `${{ secrets.CONTACT_EMAIL }}`, your email client or GPG tool should automatically use my public key for encryption
             3. Just compose your email to `${{ secrets.CONTACT_EMAIL }}` and ensure encryption is enabled before sending
 
+            **Note on Anonymous vs. Signed Messages:** 🤔
+            You're welcome to send me anonymous (unsigned) encrypted messages, but they may not get my full attention 🫥. However, if you encrypt and sign your message with your own GPG key, I will genuinely appreciate it and give it the attention it deserves! 🤝✨
+
             **Email Clients with GPG Support:**
             - Thunderbird with Enigmail plugin
             - Apple Mail with GPGTools
