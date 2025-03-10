@@ -82,10 +82,10 @@ const yagami = {
 
 <div align="center">
   <a href="https://github.com/yagami1997">
-    <img height="175px" src="https://github-readme-stats-sigma-five.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
   </a>
   <a href="https://github.com/yagami1997">
-    <img height="175px" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&langs_count=6&exclude_repo=obsidian-vault,dotfiles,zsh-config" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=yagami1997&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
   </a>
 </div>
 
@@ -115,7 +115,7 @@ I believe the open-source large language model ecosystem will drive the fifth in
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=yagami1997&theme=nord&row=1&column=7&margin-w=15&margin-h=15&no-frame=true&no-bg=true" alt="GitHub Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=yagami1997&theme=nord&row=1&column=6&margin-w=15&margin-h=15&no-frame=true" alt="GitHub Trophies" />
   </a>
 </div>
 
