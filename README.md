@@ -63,8 +63,11 @@ const yagami = {
       <br>
       <code style="background-color: #E0F2F1; color: #004D40; padding: 3px 6px; border-radius: 3px;">Development</code>
     </td>
-    <td align="center"><code>Python</code><br><code>Financial APIs</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/>
+      <img src="https://img.shields.io/badge/Financial_APIs-5F9EA0?style=flat-square" alt="Financial APIs"/>
+    </td>
+    <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
@@ -77,8 +80,11 @@ const yagami = {
       <br>
       <code style="background-color: #E1F5FE; color: #01579B; padding: 3px 6px; border-radius: 3px;">Production</code>
     </td>
-    <td align="center"><code>Python</code><br><code>Financial APIs</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/>
+      <img src="https://img.shields.io/badge/Financial_APIs-5F9EA0?style=flat-square" alt="Financial APIs"/>
+    </td>
+    <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
@@ -91,8 +97,11 @@ const yagami = {
       <br>
       <code style="background-color: #F3E5F5; color: #4A148C; padding: 3px 6px; border-radius: 3px;">Stable</code>
     </td>
-    <td align="center"><code>Python</code><br><code>Telecom APIs</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/>
+      <img src="https://img.shields.io/badge/Telecom_APIs-5F9EA0?style=flat-square" alt="Telecom APIs"/>
+    </td>
+    <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
@@ -105,8 +114,11 @@ const yagami = {
       <br>
       <code style="background-color: #E0F2F1; color: #00695C; padding: 3px 6px; border-radius: 3px;">Beta</code>
     </td>
-    <td align="center"><code>Bash</code><br><code>LLM</code></td>
-    <td align="center"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT License"/></td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash"/>
+      <img src="https://img.shields.io/badge/LLM-47A248?style=flat-square&logo=openai&logoColor=white" alt="LLM"/>
+    </td>
+    <td align="center"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge" alt="MIT License"/></td>
   </tr>
 </table>
 
@@ -177,6 +189,6 @@ I only accept **GPG-encrypted communications**. If you don't know how to use GPG
 ---
 
 <div align="center">
-  <i>Last Updated: March 2025</i><br>
+  <i>Last Updated: March 9, 2025 (PST)</i><br>
   <i>Long live free software, technological equality, and the people!</i>
 </div>
