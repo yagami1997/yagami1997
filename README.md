@@ -82,7 +82,34 @@ const yagami = {
 
 <div align="center">
   <a href="https://github.com/yagami1997">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&card_width=500" />
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&card_width=600&show_icons=true&include_all_commits=true&line_height=28&custom_title=Yagami's%20GitHub%20Stats&disable_animations=false" />
+  </a>
+  
+  <br><br>
+  
+  <a href="https://github.com/yagami1997?tab=repositories">
+    <img src="https://img.shields.io/badge/Repos-All%20Repositories-4682B4?style=for-the-badge&logo=github" alt="All Repositories"/>
+  </a>
+  <a href="https://github.com/yagami1997?tab=followers">
+    <img src="https://img.shields.io/github/followers/yagami1997?style=for-the-badge&logo=github&color=9370DB" alt="GitHub Followers"/>
+  </a>
+  <a href="https://github.com/yagami1997">
+    <img src="https://komarev.com/ghpvc/?username=yagami1997&style=for-the-badge&color=5F9EA0" alt="Profile Views"/>
+  </a>
+  
+  <br>
+  
+  <a href="https://github.com/yagami1997?tab=repositories&language=python">
+    <img src="https://img.shields.io/badge/Python-Repositories-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Repositories"/>
+  </a>
+  <a href="https://github.com/yagami1997?tab=repositories&language=typescript">
+    <img src="https://img.shields.io/badge/TypeScript-Repositories-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript Repositories"/>
+  </a>
+  <a href="https://github.com/yagami1997?tab=repositories&language=swift">
+    <img src="https://img.shields.io/badge/Swift-Repositories-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift Repositories"/>
+  </a>
+  <a href="https://github.com/yagami1997?tab=repositories&language=shell">
+    <img src="https://img.shields.io/badge/Shell-Repositories-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell Repositories"/>
   </a>
 </div>
 
