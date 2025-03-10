@@ -1,0 +1,94 @@
+name: Email Request Approval Process
+
+on:
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  # 初始响应作业 - 不自动关闭Issue
+  initial-response:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'issues' && contains(github.event.issue.title, 'Email Request')
+    steps:
+      - name: Initial Response
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            ## 🕵️‍♂️ Mission Received: Secure Communication Request 🕵️‍♀️
+
+            Well hello there, fellow encryption enthusiast! Your request for my super-secret contact details has successfully reached my digital fortress.
+
+            I see you've discovered my cryptographic hideout - impressive! But as any good spy knows, verification is key before exchanging classified information.
+
+            **Your mission, should you choose to accept it:**
+            Tell me a bit about why you'd like to establish this encrypted communication channel. Are we planning to discuss revolutionary open-source ideas? Trading secrets about the fifth industrial revolution? Or perhaps you just appreciate the art of properly encrypted emails in this age of digital surveillance?
+
+            Your request is now in the secret approval queue. Once I've confirmed you're not an agent from the anti-open-source league, I'll transmit my secure communication coordinates.
+
+            Stay encrypted, stay free! 🔐
+
+            *This message will NOT self-destruct in 10 seconds, because that would be a waste of perfectly good bits and bytes.*
+      
+      - name: Add label
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: pending-approval
+  
+  # 批准请求作业 - 当仓库所有者评论特定关键词时触发
+  approve-request:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'issue_comment' && contains(github.event.comment.body, 'Fox 3') && github.event.comment.user.login == github.repository_owner
+    steps:
+      - name: Send Contact Info
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            ## 🔐 Request Approved: Secure Channel Established 🔐
+
+            Mission accomplished! I've verified your identity and am transmitting the secure communication coordinates.
+
+            ### 📡 Encrypted Communication Details 📡
+
+            #### 📧 Email Address:
+            ```
+            ${{ secrets.CONTACT_EMAIL }}
+            ```
+
+            #### 🔑 GPG Key Instructions:
+            ```bash
+            # Import my public key from keyserver
+            gpg --keyserver hkps://keys.openpgp.org --recv-keys ${{ secrets.GPG_KEY }}
+
+            # Verify fingerprint before sending sensitive data
+            gpg --fingerprint ${{ secrets.GPG_KEY }}
+            ```
+
+            Please ensure all communications are properly encrypted. Looking forward to our secure exchange!
+
+            ![End-to-End Encrypted](https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white)
+      
+      - name: Update labels
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: approved
+      
+      - name: Remove pending label
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: pending-approval
+      
+      - name: Close the issue
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
