@@ -153,16 +153,31 @@ I believe the open-source large language model ecosystem will drive the fifth in
 
 ## 📈 GitHub Stats
 
-<table width="100%" align="center">
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800" alt="Yagami's GitHub Stats" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=yagami1997&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="Yagami's GitHub Streak" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <picture>
+    <source 
+      srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true" />
+  </picture>
+  
+  <picture>
+    <source 
+      srcset="https://streak-stats.demolab.com?user=yagami1997&theme=tokyonight&hide_border=true&background=00000000"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://streak-stats.demolab.com?user=yagami1997&theme=default&hide_border=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://streak-stats.demolab.com?user=yagami1997&theme=tokyonight&hide_border=true" />
+  </picture>
+</div>
 
 ## ⚡ Encrypted Comms
 
