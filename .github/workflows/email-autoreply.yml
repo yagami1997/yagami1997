@@ -15,14 +15,33 @@ jobs:
     steps:
       - name: Auto Reply to Email Request
         uses: actions/github-script@v6
+        env:
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          GPG_KEY: ${{ secrets.GPG_KEY }}
         with:
           script: |
             const issueNumber = context.issue.number;
+            const contactEmail = process.env.CONTACT_EMAIL;
+            const gpgKey = process.env.GPG_KEY;
+            
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issueNumber,
-              body: "Thank you for reaching out! To be honest, it takes some effort to get my GPG email information. Let's Rock!\n\nEmail Address: isaac787.mo@gmail.com\n\nGPG Key Instructions:\n```\n# Import my public key from keyserver\ngpg --keyserver hkps://keys.openpgp.org --recv-keys D22BC844F1646033\n\n# Verify fingerprint before sending sensitive data\ngpg --fingerprint D22BC844F1646033\n```\n\nThis is an automated response. I'll close this issue shortly to keep things tidy. Note that the issue will remain in the repository history but won't appear in the active issues list."
+              body: `Thank you for reaching out! To be honest, it takes some effort to get my GPG email information. Let's Rock!
+
+Email Address: ${contactEmail}
+
+GPG Key Instructions:
+\`\`\`bash
+# Import my public key from keyserver
+gpg --keyserver hkps://keys.openpgp.org --recv-keys ${gpgKey}
+
+# Verify fingerprint before sending sensitive data
+gpg --fingerprint ${gpgKey}
+\`\`\`
+
+This is an automated response. I'll close this issue shortly to keep things tidy. Note that the issue will remain in the repository history but won't appear in the active issues list.`
             });
             
             // Close the issue
