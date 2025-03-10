@@ -155,22 +155,13 @@ I believe the open-source large language model ecosystem will drive the fifth in
 
 <table width="100%" align="center">
   <tr>
-    <td width="50%" align="center">
+    <td align="center">
       <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&card_width=450&rank_icon=github&include_all_commits=true&count_private=true&line_height=27" height="175" />
     </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=yagami1997&theme=tokyo-night&hide_border=true&height=175" />
-    </td>
   </tr>
-</table>
-
-<table width="100%" align="center">
   <tr>
-    <td width="50%" align="center">
+    <td align="center">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=yagami1997&theme=tokyonight&hide_border=true" height="175" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&card_width=445&langs_count=6&exclude_repo=obsidian-vault,dotfiles,zsh-config" height="175" />
     </td>
   </tr>
 </table>
