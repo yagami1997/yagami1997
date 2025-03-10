@@ -1,0 +1,26 @@
+{
+    "yaml.customTags": [
+        "!reference sequence",
+        "!And",
+        "!If",
+        "!Not",
+        "!Equals",
+        "!Or",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!Select",
+        "!Split",
+        "!Join sequence"
+    ],
+    "yaml.validate": false,
+    "files.associations": {
+        "*.yml": "yaml"
+    },
+    "problems.decorations.enabled": false
+} 
