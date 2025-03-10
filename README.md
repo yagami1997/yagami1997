@@ -14,9 +14,13 @@
 
 🌞 I cherish the golden California sun, the rhythm of the waves, and the serenity of the mountains and forests. Here, life flows with an effortless grace, blending creativity with tranquility. 🌊
 
-💫 As a digital creator driven by a passion for technology-infused artistry, I am venturing into the vast landscape of AI development and engineering, exploring its boundless potential. I see AI not merely as a tool, but as a catalyst where innovation and artistry converge.
+💫 As a digital creator driven by a passion for technology-infused artistry, I am venturing into the vast landscape of AI development and engineering, exploring its boundless potential. I see AI not merely as a tool, but as a catalyst where innovation and artistry converge, breathing new life and dimensions into digital creation. My goal is to contribute to the AI coding ecosystem, wielding code as a brush and intelligence as ink, crafting a new chapter in the era of AI-augmented creativity. Let us embark on this journey together—exploring the unknown, shaping the future. 🚀
 
-🔮 From my observations, humanity has entered the Fifth Industrial Revolution, led by artificial intelligence technology, with large language models at the forefront. I believe only the open-source AI ecosystem can truly liberate humanity, creating new opportunities and pathways.
+🔮 From my observations and reflections over the past few years, humanity has entered the Fifth Industrial Revolution, led by artificial intelligence technology, with large language models and their inference capabilities at the forefront. Amid this wave, I believe only the open-source AI ecosystem can truly liberate humanity, creating new employment opportunities and pathways for survival. 🌐
+
+🔓 I am an absolute supporter of the open-source software movement and hope to see the GNU dream fully realized. 🌱
+
+> **"When everyone can access cutting-edge technology to create new technological achievements, needs, and value, and then pass these values on to others in a chain reaction that continues to create new value—this is the philosophical significance of open source."** ✨
 
 ```javascript
 const yagami = {
@@ -24,9 +28,66 @@ const yagami = {
   occupation: "Digital Nomad & AI Creative 🎭",
   interests: ["AI Technology 🤖", "Digital Marketing 📱", "Mobile Imaging Tech 📷"],
   passion: "Open Source Movement 🔓",
+  philosophy: "Technology should empower everyone to create and share value 💡",
   mission: "Democratizing access to cutting-edge technology 🌉"
 };
 ```
+
+## 🚀 Featured Projects
+
+<table width="100%" align="center">
+  <tr>
+    <th width="15%" align="center">Project</th>
+    <th width="34%" align="center">Description</th>
+    <th width="13%" align="center">Stats</th>
+    <th width="13%" align="center">Activity</th>
+    <th width="12%" align="center">Status</th>
+    <th width="13%" align="center">License</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
+    <td>Trading intelligence platform for market analysis</td>
+    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/> <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4"/></td>
+    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?label=commits&style=flat&color=5F9EA0" alt="Weekly commits"/></td>
+    <td align="center"><code>Production</code><br><code>Python</code></td>
+    <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
+    <td>Simple trading indicator insight tool for individual traders, providing accurate backtesting results and strategy recommendations</td>
+    <td align="center"><img src="https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0"/></td>
+    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind/dev?label=commits&style=flat&color=5F9EA0" alt="Weekly commits"/></td>
+    <td align="center"><code>Development</code><br><code>Python</code></td>
+    <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
+    <td>US phone number verification tool for digital nomads, based on the US LNP network, providing real-time status checks</td>
+    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB"/> <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE"/></td>
+    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?label=commits&style=flat&color=9370DB" alt="Weekly commits"/></td>
+    <td align="center"><code>Stable</code><br><code>Python</code></td>
+    <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
+    <td>Project management framework designed specifically for Cursor developers, enhancing efficiency through structured workflows and optimized behavior guidelines</td>
+    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=20B2AA"/> <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=48D1CC"/></td>
+    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/CursorMind?label=commits&style=flat&color=20B2AA" alt="Weekly commits"/></td>
+    <td align="center"><code>Beta</code><br><code>Bash/Python</code></td>
+    <td align="center"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT License"/></td>
+  </tr>
+</table>
+
+## 📈 GitHub Stats
+
+<div align="center">
+  <a href="https://github.com/yagami1997">
+    <img height="175px" src="https://github-readme-stats-sigma-five.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+  </a>
+  <a href="https://github.com/yagami1997">
+    <img height="175px" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&langs_count=6&exclude_repo=obsidian-vault,dotfiles,zsh-config" />
+  </a>
+</div>
 
 ## 🔧 Tech Stack
 
@@ -37,172 +98,44 @@ const yagami = {
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
 ![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![LLM](https://img.shields.io/badge/LLM_Technology-%2347A248.svg?style=for-the-badge&logo=openai&logoColor=white)
-![Cursor](https://img.shields.io/badge/Cursor-%23000000.svg?style=for-the-badge&logo=cursor&logoColor=white)
 
 </div>
-
-## 🚀 Featured Projects
-
-<table width="100%" align="center">
-  <tr>
-    <th width="18%" align="center">Project</th>
-    <th width="37%" align="center">Description</th>
-    <th width="20%" align="center">Stats & Status</th>
-    <th width="10%" align="center">Tech Stack</th>
-    <th width="15%" align="center">License</th>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
-    <td>Simple trading indicator insight tool for individual traders, providing accurate backtesting results and strategy recommendations</td>
-    <td align="center" style="background-color: rgba(95, 158, 160, 0.1);">
-      <img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/>
-      <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=5F9EA0"/>
-      <br>
-      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind/dev?label=commits&style=flat&color=E0F2F1&labelColor=5F9EA0"/>
-      <br>
-      <code style="background-color: #E0F2F1; color: #004D40; padding: 3px 6px; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Development</code>
-    </td>
-    <td align="center"><font size="1">Python<br>Financial APIs</font></td>
-    <td align="center">
-      <div style="box-shadow: 1px 1px 3px rgba(0,0,0,0.2); border-radius: 4px; display: inline-block;">
-        <img src="https://img.shields.io/badge/License-GPL%20v3-green.svg?style=for-the-badge" width="120" alt="GPL v3"/>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
-    <td>Trading intelligence platform for market analysis with ML-based prediction models</td>
-    <td align="center" style="background-color: rgba(70, 130, 180, 0.1);">
-      <img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/>
-      <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=5F9EA0"/>
-      <br>
-      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?label=commits&style=flat&color=E0F2F1&labelColor=5F9EA0"/>
-      <br>
-      <code style="background-color: #E1F5FE; color: #01579B; padding: 3px 6px; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Production</code>
-    </td>
-    <td align="center"><font size="2">Python<br>Financial APIs</font></td>
-    <td align="center">
-      <div style="box-shadow: 1px 1px 3px rgba(0,0,0,0.2); border-radius: 4px; display: inline-block;">
-        <img src="https://img.shields.io/badge/License-GPL%20v3-green.svg?style=for-the-badge" alt="GPL v3"/>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
-    <td>US phone number verification tool for digital nomads, based on the US LNP network, providing real-time status checks</td>
-    <td align="center" style="background-color: rgba(147, 112, 219, 0.1);">
-      <img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=5F9EA0"/>
-      <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=5F9EA0"/>
-      <br>
-      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?label=commits&style=flat&color=E0F2F1&labelColor=5F9EA0"/>
-      <br>
-      <code style="background-color: #F3E5F5; color: #4A148C; padding: 3px 6px; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Stable</code>
-    </td>
-    <td align="center"><font size="1">Python<br>Telecom APIs</font></td>
-    <td align="center">
-      <div style="box-shadow: 1px 1px 3px rgba(0,0,0,0.2); border-radius: 4px; display: inline-block;">
-        <img src="https://img.shields.io/badge/License-GPL%20v3-green.svg?style=for-the-badge" width="120" alt="GPL v3"/>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
-    <td>Project management framework designed specifically for Cursor developers, enhancing efficiency through structured workflows</td>
-    <td align="center" style="background-color: rgba(32, 178, 170, 0.1);">
-      <img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=5F9EA0"/>
-      <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=5F9EA0"/>
-      <br>
-      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/CursorMind?label=commits&style=flat&color=E0F2F1&labelColor=5F9EA0"/>
-      <br>
-      <code style="background-color: #E0F2F1; color: #00695C; padding: 3px 6px; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Beta</code>
-    </td>
-    <td align="center"><font size="1">Bash<br>LLM</font></td>
-    <td align="center">
-      <div style="box-shadow: 1px 1px 3px rgba(0,0,0,0.2); border-radius: 4px; display: inline-block;">
-        <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" width="120" alt="MIT License"/>
-      </div>
-    </td>
-  </tr>
-</table>
 
 ## 💡 Open Source Philosophy
 
 <div align="center">
   <img src="https://img.shields.io/badge/⟬_Open_Source_Liberation_⟭-5F9EA0?style=for-the-badge&logoColor=white" alt="Open Source Liberation" />
+  <img src="https://img.shields.io/badge/⟬_Technological_Equality_⟭-4682B4?style=for-the-badge&logoColor=white" alt="Technological Equality" />
+  <img src="https://img.shields.io/badge/⟬_Fifth_Industrial_Revolution_⟭-9370DB?style=for-the-badge&logoColor=white" alt="Fifth Industrial Revolution" />
 </div>
-
-> **"When everyone can access cutting-edge technology to create new technological achievements, needs, and value, and then pass these values on to others in a chain reaction that continues to create new value—this is the philosophical significance of open source."** ✨
 
 I believe the open-source large language model ecosystem will drive the fifth industrial revolution, creating infinite possibilities. Through open source and technology sharing, we can build a more equitable and innovative technological future, achieving true technological equality.
 
-## 📚 Current Learning Focus
+## 🏆 Achievements
 
 <div align="center">
-  <table width="80%" border="0" cellspacing="10" cellpadding="0">
-    <tr>
-      <td width="50%" align="left"><img src="https://img.shields.io/badge/AI_Coding-Cursor_+_Claude-5F9EA0?style=for-the-badge&logoColor=white" alt="AI Coding" /></td>
-      <td width="50%" align="left"><img src="https://img.shields.io/badge/Code_Auditing-Security_Practices-4682B4?style=for-the-badge&logoColor=white" alt="Code Auditing" /></td>
-    </tr>
-    <tr>
-      <td width="50%" align="left"><img src="https://img.shields.io/badge/Cursor-Workflow_Management-9370DB?style=for-the-badge&logoColor=white" alt="Cursor Management" /></td>
-      <td width="50%" align="left"><img src="https://img.shields.io/badge/Quantitative_Trading-Analysis-20B2AA?style=for-the-badge&logoColor=white" alt="Quant Trading" /></td>
-    </tr>
-  </table>
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=yagami1997&theme=nord&row=1&column=7&margin-w=15&margin-h=15&no-frame=true&no-bg=true" alt="GitHub Trophies" />
+  </a>
 </div>
 
-## 📈 GitHub Stats
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="50%">
-        <picture>
-          <source 
-            srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000&rank_icon=github&card_width=495&hide_rank=true"
-            media="(prefers-color-scheme: dark)"
-          />
-          <source
-            srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&card_width=495&hide_rank=true"
-            media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-          />
-          <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&card_width=495&hide_rank=true" />
-        </picture>
-      </td>
-      <td align="center" width="50%">
-        <picture>
-          <source 
-            srcset="https://streak-stats.demolab.com?user=yagami1997&theme=tokyonight&hide_border=true&background=00000000&card_width=495"
-            media="(prefers-color-scheme: dark)"
-          />
-          <source
-            srcset="https://streak-stats.demolab.com?user=yagami1997&theme=default&hide_border=true&card_width=495"
-            media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-          />
-          <img src="https://streak-stats.demolab.com?user=yagami1997&theme=tokyonight&hide_border=true&card_width=495" />
-        </picture>
-      </td>
-    </tr>
-  </table>
-</div>
-
-## ⚡ Encrypted Comms
+## ⚡ Encrypted Comms ⚡
 
 <div align="center">
   <img src="https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white" alt="End-to-End Encrypted" />
 </div>
 
+I only accept **GPG-encrypted communications**. If you don't know how to use GPG encryption or cannot send encrypted emails, feel free to interact through GitHub Issues instead.
+
 <details>
   <summary><div align="center">🔐 <i>Click to reveal secure contact options</i></div></summary>
   <br>
   <div align="center">
-    <a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%20%F0%9F%94%90%20Request%20for%20Secure%20Communication%20Channel%20%F0%9F%94%90%0A%0AGreetings%2C%20I%27d%20like%20to%20establish%20encrypted%20communication%20with%20you.%0A%0A%23%23%20Why%20I%27m%20Seeking%20Encrypted%20Contact%3A%0A%3C%21--%20Please%20share%20a%20bit%20about%20why%20you%27d%20like%20to%20connect%20--%3E%0A%0A%23%23%20My%20GitHub%20Background%3A%0A%3C%21--%20A%20quick%20introduction%20helps%20establish%20trust%20--%3E%0A%0ALooking%20forward%20to%20connecting%20securely%21">
-      <img src="https://img.shields.io/badge/Request_Secure_Channel-4682B4?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Request Email" />
-    </a>
+<a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%20%F0%9F%94%90%20Request%20for%20Secure%20Communication%20Channel%20%F0%9F%94%90%0A%0AGreetings%2C%20I%27d%20like%20to%20establish%20encrypted%20communication%20with%20you.%0A%0A%23%23%20Why%20I%27m%20Seeking%20Encrypted%20Contact%3A%0A%3C%21--%20Please%20share%20a%20bit%20about%20why%20you%27d%20like%20to%20connect%20--%3E%0A%0A%23%23%20My%20GitHub%20Background%3A%0A%3C%21--%20A%20quick%20introduction%20helps%20establish%20trust%20--%3E%0A%0ALooking%20forward%20to%20connecting%20securely%21">
+  <img src="https://img.shields.io/badge/Request_Secure_Channel-4682B4?style=flat-square&logo=minutemailer&logoColor=white" alt="Request Email" />
+</a>
   </div>
 </details>
-
-I only accept **GPG-encrypted communications**. If you don't know how to use GPG encryption, feel free to interact through GitHub Issues instead.
 
 ## 💬 Connect With Me
 
@@ -212,9 +145,10 @@ I only accept **GPG-encrypted communications**. If you don't know how to use GPG
   </a>
 </div>
 
+Feel free to connect through GitHub Issues!
+
 ---
 
 <div align="center">
-  <i>Last Updated: March 9, 2025 (PST)</i><br>
   <i>Long live free software, technological equality, and the people!</i>
 </div>
