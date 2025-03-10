@@ -1,19 +1,53 @@
-name: Auto Reply to Email Requests
+name: Email Request with Approval
 
 on:
   issues:
     types: [opened]
+  issue_comment:
+    types: [created]
 
 permissions:
   issues: write
   contents: read
 
 jobs:
-  auto-reply:
+  initial-response:
     runs-on: ubuntu-latest
-    if: contains(github.event.issue.title, 'Email Request')
+    if: github.event_name == 'issues' && contains(github.event.issue.title, 'Email Request')
     steps:
-      - name: Auto Reply to Email Request
+      - name: Initial Response
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issueNumber = context.issue.number;
+            
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: `Thank you for your interest in secure communication!
+
+Your request has been received and is pending review. If approved, I will share my GPG encrypted contact information with you.
+
+Please provide some context about why you'd like to connect, which will help me process your request faster.`
+            });
+            
+            // Add a pending label
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              labels: ['pending-approval']
+            });
+
+  approve-and-share:
+    runs-on: ubuntu-latest
+    if: >-
+      github.event_name == 'issue_comment' && 
+      contains(github.event.comment.body, 'Fox 3') && 
+      github.event.comment.user.login == github.repository_owner
+    steps:
+      - name: Share Contact Info
         uses: actions/github-script@v6
         env:
           CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
@@ -28,11 +62,18 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issueNumber,
-              body: `Thank you for reaching out! To be honest, it takes some effort to get my GPG email information. Let's Rock!
+              body: `### 🔐 Request Approved
 
-Email Address: ${contactEmail}
+Thank you for your patience! Your request has been approved.
 
-GPG Key Instructions:
+Here's my contact information for secure communication:
+
+#### 📧 Email Address:
+\`\`\`
+${contactEmail}
+\`\`\`
+
+#### 🔑 GPG Key Instructions:
 \`\`\`bash
 # Import my public key from keyserver
 gpg --keyserver hkps://keys.openpgp.org --recv-keys ${gpgKey}
@@ -41,13 +82,27 @@ gpg --keyserver hkps://keys.openpgp.org --recv-keys ${gpgKey}
 gpg --fingerprint ${gpgKey}
 \`\`\`
 
-This is an automated response. I'll close this issue shortly to keep things tidy. Note that the issue will remain in the repository history but won't appear in the active issues list.`
+![End-to-End Encrypted](https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white)
+
+I look forward to our encrypted conversation!`
             });
             
-            // Close the issue
-            await github.rest.issues.update({
+            try {
+              // Try to remove the pending-approval label if it exists
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                name: 'pending-approval'
+              });
+            } catch (error) {
+              console.log('Label may not exist, continuing');
+            }
+            
+            // Add approved label
+            await github.rest.issues.addLabels({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issueNumber,
-              state: 'closed'
+              labels: ['approved']
             });
