@@ -82,7 +82,7 @@ const yagami = {
 
 <div align="center">
   <a href="https://github.com/yagami1997">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&card_width=520&show_icons=true&line_height=33&custom_title=Yagami's%20Lifetime%20GitHub%20Stats&icon_size=35&border_radius=15" />
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&card_width=540&show_icons=true&line_height=33&custom_title=Yagami's%20Lifetime%20GitHub%20Stats&icon_size=45&border_radius=15" />
   </a>
 </div>
 
