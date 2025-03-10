@@ -96,6 +96,7 @@ const yagami = {
 [![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![Claude](https://img.shields.io/badge/Anthropic%20Claude-%23FF8C5F.svg?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/)
 [![Cursor](https://img.shields.io/badge/Cursor-%23000000.svg?style=for-the-badge&logo=cursor&logoColor=00FF00)](https://cursor.sh/)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-%23E95420.svg?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 
 </div>
 
