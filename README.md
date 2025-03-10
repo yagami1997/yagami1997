@@ -61,14 +61,10 @@ const yagami = {
       <br>
       <img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind/dev?label=commits&style=flat&color=E0F2F1&labelColor=5F9EA0"/>
       <br>
-      <code style="background-color: #E0F2F1; color: #004D40; padding: 3px 6px; border-radius: 3px;">Development</code>
+      <code style="background-color: #E0F2F1; color: #004D40; padding: 3px 6px; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Development</code>
     </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/>
-      <br>
-      <img src="https://img.shields.io/badge/Financial_APIs-5F9EA0?style=flat-square" alt="Financial APIs"/>
-    </td>
-    <td align="center"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square" alt="GPL v3"/></td>
+    <td align="center"><font size="2">Python<br>Financial APIs</font></td>
+    <td align="center"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=for-the-badge" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
@@ -79,14 +75,10 @@ const yagami = {
       <br>
       <img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?label=commits&style=flat&color=E0F2F1&labelColor=5F9EA0"/>
       <br>
-      <code style="background-color: #E1F5FE; color: #01579B; padding: 3px 6px; border-radius: 3px;">Production</code>
+      <code style="background-color: #E1F5FE; color: #01579B; padding: 3px 6px; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Production</code>
     </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/>
-      <br>
-      <img src="https://img.shields.io/badge/Financial_APIs-5F9EA0?style=flat-square" alt="Financial APIs"/>
-    </td>
-    <td align="center"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square" alt="GPL v3"/></td>
+    <td align="center"><font size="2">Python<br>Financial APIs</font></td>
+    <td align="center"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=for-the-badge" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
@@ -97,7 +89,7 @@ const yagami = {
       <br>
       <img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?label=commits&style=flat&color=E0F2F1&labelColor=5F9EA0"/>
       <br>
-      <code style="background-color: #F3E5F5; color: #4A148C; padding: 3px 6px; border-radius: 3px;">Stable</code>
+      <code style="background-color: #F3E5F5; color: #4A148C; padding: 3px 6px; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Stable</code>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/>
@@ -115,14 +107,10 @@ const yagami = {
       <br>
       <img src="https://img.shields.io/github/commit-activity/w/yagami1997/CursorMind?label=commits&style=flat&color=E0F2F1&labelColor=5F9EA0"/>
       <br>
-      <code style="background-color: #E0F2F1; color: #00695C; padding: 3px 6px; border-radius: 3px;">Beta</code>
+      <code style="background-color: #E0F2F1; color: #00695C; padding: 3px 6px; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Beta</code>
     </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash"/>
-      <br>
-      <img src="https://img.shields.io/badge/LLM-47A248?style=flat-square&logo=openai&logoColor=white" alt="LLM"/>
-    </td>
-    <td align="center"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="MIT License"/></td>
+    <td align="center"><font size="2">Bash<br>LLM</font></td>
+    <td align="center"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"/></td>
   </tr>
 </table>
 
