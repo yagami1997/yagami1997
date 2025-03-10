@@ -68,7 +68,7 @@ const yagami = {
       <br>
       <img src="https://img.shields.io/badge/Financial_APIs-5F9EA0?style=flat-square" alt="Financial APIs"/>
     </td>
-    <td align="center"><img src="https://img.shields.io/badge/GPL--v3-green.svg?style=for-the-badge" alt="GPL v3"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
@@ -86,7 +86,7 @@ const yagami = {
       <br>
       <img src="https://img.shields.io/badge/Financial_APIs-5F9EA0?style=flat-square" alt="Financial APIs"/>
     </td>
-    <td align="center"><img src="https://img.shields.io/badge/GPL--v3-green.svg?style=for-the-badge" alt="GPL v3"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
@@ -122,7 +122,7 @@ const yagami = {
       <br>
       <img src="https://img.shields.io/badge/LLM-47A248?style=flat-square&logo=openai&logoColor=white" alt="LLM"/>
     </td>
-    <td align="center"><img src="https://img.shields.io/badge/MIT-blue.svg?style=for-the-badge" alt="MIT License"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="MIT License"/></td>
   </tr>
 </table>
 
