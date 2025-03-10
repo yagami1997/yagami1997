@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 jobs:
-  # 初始响应作业 - 不自动关闭Issue
+  # Initial response job - Does not auto-close the issue
   initial-response:
     runs-on: ubuntu-latest
     if: github.event_name == 'issues' && contains(github.event.issue.title, 'Email Request')
@@ -42,7 +42,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: pending-approval
   
-  # 批准请求作业 - 当仓库所有者评论特定关键词时触发
+  # Approval request job - Triggered when repository owner comments with specific keyword
   approve-request:
     runs-on: ubuntu-latest
     if: github.event_name == 'issue_comment' && contains(github.event.comment.body, 'Fox 3') && github.event.comment.user.login == github.repository_owner
@@ -58,7 +58,7 @@ jobs:
 
             ### 📧 Encrypted Communication Details 📧
 
-            <!-- 注意: 以下密钥在GitHub Actions环境中有效，本地编辑器可能会显示警告 -->
+            <!-- Note: These secrets are valid in the GitHub Actions environment, local editor might show warnings -->
             #### 📧 Secure Email Address:
             ```
             ${{ secrets.CONTACT_EMAIL }}
