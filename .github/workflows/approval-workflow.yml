@@ -58,11 +58,13 @@ jobs:
 
             ### 📡 Encrypted Communication Details 📡
 
+            <!-- 注意: 以下密钥在GitHub Actions环境中有效，本地编辑器可能会显示警告 -->
             #### 📧 Email Address:
             ```
             ${{ secrets.CONTACT_EMAIL }}
             ```
 
+            <!-- 注意: 以下密钥在GitHub Actions环境中有效，本地编辑器可能会显示警告 -->
             #### 🔑 GPG Key Instructions:
             ```bash
             # Import my public key from keyserver
