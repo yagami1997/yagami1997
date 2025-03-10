@@ -56,9 +56,10 @@ const yagami = {
     <td align="center"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
     <td>Simple trading indicator insight tool for individual traders, providing accurate backtesting results and strategy recommendations</td>
     <td align="center" style="background-color: rgba(95, 158, 160, 0.1);">
-      <img src="https://img.shields.io/github/stars/yagami1997/TradeMind/dev?style=flat&color=5F9EA0"/>
+      <img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/>
+      <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=5F9EA0"/>
       <br>
-      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind/dev?label=commits&style=flat&color=ffffff&labelColor=5F9EA0"/>
+      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind/dev?label=commits&style=flat&color=E0F2F1&labelColor=5F9EA0"/>
       <br>
       <code style="background-color: #E0F2F1; color: #004D40; padding: 3px 6px; border-radius: 3px;">Development</code>
     </td>
@@ -72,7 +73,7 @@ const yagami = {
       <img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/>
       <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=5F9EA0"/>
       <br>
-      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?label=commits&style=flat&color=ffffff&labelColor=5F9EA0"/>
+      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?label=commits&style=flat&color=E0F2F1&labelColor=5F9EA0"/>
       <br>
       <code style="background-color: #E1F5FE; color: #01579B; padding: 3px 6px; border-radius: 3px;">Production</code>
     </td>
@@ -86,7 +87,7 @@ const yagami = {
       <img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=5F9EA0"/>
       <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=5F9EA0"/>
       <br>
-      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?label=commits&style=flat&color=ffffff&labelColor=5F9EA0"/>
+      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?label=commits&style=flat&color=E0F2F1&labelColor=5F9EA0"/>
       <br>
       <code style="background-color: #F3E5F5; color: #4A148C; padding: 3px 6px; border-radius: 3px;">Stable</code>
     </td>
@@ -100,7 +101,7 @@ const yagami = {
       <img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=5F9EA0"/>
       <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=5F9EA0"/>
       <br>
-      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/CursorMind?label=commits&style=flat&color=ffffff&labelColor=5F9EA0"/>
+      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/CursorMind?label=commits&style=flat&color=E0F2F1&labelColor=5F9EA0"/>
       <br>
       <code style="background-color: #E0F2F1; color: #00695C; padding: 3px 6px; border-radius: 3px;">Beta</code>
     </td>
