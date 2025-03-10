@@ -56,23 +56,40 @@ jobs:
 
             Mission accomplished! I've verified your identity and am transmitting the secure communication coordinates.
 
-            ### 📡 Encrypted Communication Details 📡
+            ### 📧 Encrypted Communication Details 📧
 
             <!-- 注意: 以下密钥在GitHub Actions环境中有效，本地编辑器可能会显示警告 -->
-            #### 📧 Email Address:
+            #### 📧 Secure Email Address:
             ```
             ${{ secrets.CONTACT_EMAIL }}
             ```
 
-            <!-- 注意: 以下密钥在GitHub Actions环境中有效，本地编辑器可能会显示警告 -->
-            #### 🔑 GPG Key Instructions:
+            #### 🔑 How to Send Encrypted Emails:
+
+            **Option 1: Command Line GPG**
             ```bash
-            # Import my public key from keyserver
+            # Import my public key from the keyserver
             gpg --keyserver hkps://keys.openpgp.org --recv-keys ${{ secrets.GPG_KEY }}
 
             # Verify fingerprint before sending sensitive data
             gpg --fingerprint ${{ secrets.GPG_KEY }}
             ```
+
+            **Option 2: GUI Tools**
+            - **GPG Keychain** (macOS): Search for key ID `${{ secrets.GPG_KEY }}` on keys.openpgp.org
+            - **Kleopatra** (Windows): Search for key ID `${{ secrets.GPG_KEY }}` on keys.openpgp.org
+            - **Mailvelope** (Browser extension): Import my key from keys.openpgp.org
+
+            **Sending Encrypted Email - Quick Guide:**
+            1. After importing my public key, my email `${{ secrets.CONTACT_EMAIL }}` will be associated with this key in your GPG system
+            2. When sending an email to `${{ secrets.CONTACT_EMAIL }}`, your email client or GPG tool should automatically use my public key for encryption
+            3. Just compose your email to `${{ secrets.CONTACT_EMAIL }}` and ensure encryption is enabled before sending
+
+            **Email Clients with GPG Support:**
+            - Thunderbird with Enigmail plugin
+            - Apple Mail with GPGTools
+            - Gmail with Mailvelope browser extension
+            - K-9 Mail (Android) with OpenKeychain
 
             Please ensure all communications are properly encrypted. Looking forward to our secure exchange!
 
