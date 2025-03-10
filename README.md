@@ -49,8 +49,8 @@ const yagami = {
     <th width="18%" align="center">Project</th>
     <th width="37%" align="center">Description</th>
     <th width="20%" align="center">Stats & Status</th>
-    <th width="15%" align="center">Tech Stack</th>
-    <th width="10%" align="center">License</th>
+    <th width="10%" align="center">Tech Stack</th>
+    <th width="15%" align="center">License</th>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
@@ -63,10 +63,10 @@ const yagami = {
       <br>
       <code style="background-color: #E0F2F1; color: #004D40; padding: 3px 6px; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Development</code>
     </td>
-    <td align="center"><font size="2">Python<br>Financial APIs</font></td>
+    <td align="center"><font size="1">Python<br>Financial APIs</font></td>
     <td align="center">
       <div style="box-shadow: 1px 1px 3px rgba(0,0,0,0.2); border-radius: 4px; display: inline-block;">
-        <img src="https://img.shields.io/badge/License-GPL%20v3-green.svg?style=for-the-badge" alt="GPL v3"/>
+        <img src="https://img.shields.io/badge/License-GPL%20v3-green.svg?style=for-the-badge" width="120" alt="GPL v3"/>
       </div>
     </td>
   </tr>
@@ -99,10 +99,10 @@ const yagami = {
       <br>
       <code style="background-color: #F3E5F5; color: #4A148C; padding: 3px 6px; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Stable</code>
     </td>
-    <td align="center"><font size="2">Python<br>Telecom APIs</font></td>
+    <td align="center"><font size="1">Python<br>Telecom APIs</font></td>
     <td align="center">
       <div style="box-shadow: 1px 1px 3px rgba(0,0,0,0.2); border-radius: 4px; display: inline-block;">
-        <img src="https://img.shields.io/badge/License-GPL%20v3-green.svg?style=for-the-badge" alt="GPL v3"/>
+        <img src="https://img.shields.io/badge/License-GPL%20v3-green.svg?style=for-the-badge" width="120" alt="GPL v3"/>
       </div>
     </td>
   </tr>
@@ -117,10 +117,10 @@ const yagami = {
       <br>
       <code style="background-color: #E0F2F1; color: #00695C; padding: 3px 6px; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Beta</code>
     </td>
-    <td align="center"><font size="2">Bash<br>LLM</font></td>
+    <td align="center"><font size="1">Bash<br>LLM</font></td>
     <td align="center">
       <div style="box-shadow: 1px 1px 3px rgba(0,0,0,0.2); border-radius: 4px; display: inline-block;">
-        <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"/>
+        <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" width="120" alt="MIT License"/>
       </div>
     </td>
   </tr>
