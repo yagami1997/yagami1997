@@ -91,12 +91,8 @@ const yagami = {
       <br>
       <code style="background-color: #F3E5F5; color: #4A148C; padding: 3px 6px; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Stable</code>
     </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/>
-      <br>
-      <img src="https://img.shields.io/badge/Telecom_APIs-5F9EA0?style=flat-square" alt="Telecom APIs"/>
-    </td>
-    <td align="center"><img src="https://img.shields.io/badge/GPL_v3-green.svg?style=for-the-badge&logo=gnu&logoColor=white" alt="GPL v3"/></td>
+    <td align="center"><font size="2">Python<br>Telecom APIs</font></td>
+    <td align="center"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=for-the-badge" alt="GPL v3"/></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
@@ -124,19 +120,6 @@ const yagami = {
 
 I believe the open-source large language model ecosystem will drive the fifth industrial revolution, creating infinite possibilities. Through open source and technology sharing, we can build a more equitable and innovative technological future, achieving true technological equality.
 
-## 📈 GitHub Stats
-
-<table width="100%" align="center">
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&card_width=450&rank_icon=github&include_all_commits=true&count_private=true&line_height=27" height="175" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&card_width=445&langs_count=6&exclude_repo=obsidian-vault,dotfiles,zsh-config" height="175" />
-    </td>
-  </tr>
-</table>
-
 ## 📚 Current Learning Focus
 
 <div align="center">
@@ -151,6 +134,19 @@ I believe the open-source large language model ecosystem will drive the fifth in
     </tr>
   </table>
 </div>
+
+## 📈 GitHub Stats
+
+<table width="100%" align="center">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&card_width=450&rank_icon=github&include_all_commits=true&count_private=true&line_height=27" height="175" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&card_width=445&langs_count=6&exclude_repo=obsidian-vault,dotfiles,zsh-config" height="175" />
+    </td>
+  </tr>
+</table>
 
 ## ⚡ Encrypted Comms
 
