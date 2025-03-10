@@ -53,15 +53,28 @@ const yagami = {
     <th width="10%" align="center">License</th>
   </tr>
   <tr>
+    <td align="center"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
+    <td>Simple trading indicator insight tool for individual traders, providing accurate backtesting results and strategy recommendations</td>
+    <td align="center" style="background-color: rgba(95, 158, 160, 0.1);">
+      <img src="https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0"/>
+      <br>
+      <img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind/dev?label=commits&style=flat&color=5F9EA0"/>
+      <br>
+      <code style="background-color: #E0F2F1; color: #004D40; padding: 3px 6px; border-radius: 3px;">Development</code>
+    </td>
+    <td align="center"><code>Python</code><br><code>Financial APIs</code></td>
+    <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
+  </tr>
+  <tr>
     <td align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
     <td>Trading intelligence platform for market analysis with ML-based prediction models</td>
-    <td align="center">
+    <td align="center" style="background-color: rgba(70, 130, 180, 0.1);">
       <img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/>
       <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=5F9EA0"/>
       <br>
       <img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?label=commits&style=flat&color=5F9EA0"/>
       <br>
-      <code>Production</code>
+      <code style="background-color: #E1F5FE; color: #01579B; padding: 3px 6px; border-radius: 3px;">Production</code>
     </td>
     <td align="center"><code>Python</code><br><code>Financial APIs</code></td>
     <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
@@ -69,13 +82,13 @@ const yagami = {
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
     <td>US phone number verification tool for digital nomads, based on the US LNP network, providing real-time status checks</td>
-    <td align="center">
+    <td align="center" style="background-color: rgba(147, 112, 219, 0.1);">
       <img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=5F9EA0"/>
       <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=5F9EA0"/>
       <br>
       <img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?label=commits&style=flat&color=5F9EA0"/>
       <br>
-      <code>Stable</code>
+      <code style="background-color: #F3E5F5; color: #4A148C; padding: 3px 6px; border-radius: 3px;">Stable</code>
     </td>
     <td align="center"><code>Python</code><br><code>Telecom APIs</code></td>
     <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
@@ -83,13 +96,13 @@ const yagami = {
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
     <td>Project management framework designed specifically for Cursor developers, enhancing efficiency through structured workflows</td>
-    <td align="center">
+    <td align="center" style="background-color: rgba(32, 178, 170, 0.1);">
       <img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=5F9EA0"/>
       <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=5F9EA0"/>
       <br>
       <img src="https://img.shields.io/github/commit-activity/w/yagami1997/CursorMind?label=commits&style=flat&color=5F9EA0"/>
       <br>
-      <code>Beta</code>
+      <code style="background-color: #E0F2F1; color: #00695C; padding: 3px 6px; border-radius: 3px;">Beta</code>
     </td>
     <td align="center"><code>Bash</code><br><code>LLM</code></td>
     <td align="center"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT License"/></td>
@@ -121,15 +134,15 @@ I believe the open-source large language model ecosystem will drive the fifth in
 
 ## 📚 Current Learning Focus
 
-<div align="center">
-  <table width="80%" align="center" style="border:none;">
+<div align="left">
+  <table width="100%" border="0" cellspacing="10" cellpadding="0">
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/AI_Coding-Cursor_+_Claude-5F9EA0?style=for-the-badge&logoColor=white" alt="AI Coding" /></td>
-      <td align="center"><img src="https://img.shields.io/badge/Code_Auditing-Security_Practices-4682B4?style=for-the-badge&logoColor=white" alt="Code Auditing" /></td>
+      <td width="50%" align="left"><img src="https://img.shields.io/badge/AI_Coding-Cursor_+_Claude-5F9EA0?style=for-the-badge&logoColor=white" alt="AI Coding" /></td>
+      <td width="50%" align="left"><img src="https://img.shields.io/badge/Code_Auditing-Security_Practices-4682B4?style=for-the-badge&logoColor=white" alt="Code Auditing" /></td>
     </tr>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Cursor-Workflow_Management-9370DB?style=for-the-badge&logoColor=white" alt="Cursor Management" /></td>
-      <td align="center"><img src="https://img.shields.io/badge/Quantitative_Trading-Analysis-20B2AA?style=for-the-badge&logoColor=white" alt="Quant Trading" /></td>
+      <td width="50%" align="left"><img src="https://img.shields.io/badge/Cursor-Workflow_Management-9370DB?style=for-the-badge&logoColor=white" alt="Cursor Management" /></td>
+      <td width="50%" align="left"><img src="https://img.shields.io/badge/Quantitative_Trading-Analysis-20B2AA?style=for-the-badge&logoColor=white" alt="Quant Trading" /></td>
     </tr>
   </table>
 </div>
@@ -138,11 +151,17 @@ I believe the open-source large language model ecosystem will drive the fifth in
 
 <div align="center">
   <img src="https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white" alt="End-to-End Encrypted" />
-  <br><br>
-  <a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%20%F0%9F%94%90%20Request%20for%20Secure%20Communication%20Channel%20%F0%9F%94%90%0A%0AGreetings%2C%20I%27d%20like%20to%20establish%20encrypted%20communication%20with%20you.%0A%0A%23%23%20Why%20I%27m%20Seeking%20Encrypted%20Contact%3A%0A%3C%21--%20Please%20share%20a%20bit%20about%20why%20you%27d%20like%20to%20connect%20--%3E%0A%0A%23%23%20My%20GitHub%20Background%3A%0A%3C%21--%20A%20quick%20introduction%20helps%20establish%20trust%20--%3E%0A%0ALooking%20forward%20to%20connecting%20securely%21">
-    <img src="https://img.shields.io/badge/Request_Secure_Channel-4682B4?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Request Email" />
-  </a>
 </div>
+
+<details>
+  <summary><div align="center">🔐 <i>Click to reveal secure contact options</i></div></summary>
+  <br>
+  <div align="center">
+    <a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%20%F0%9F%94%90%20Request%20for%20Secure%20Communication%20Channel%20%F0%9F%94%90%0A%0AGreetings%2C%20I%27d%20like%20to%20establish%20encrypted%20communication%20with%20you.%0A%0A%23%23%20Why%20I%27m%20Seeking%20Encrypted%20Contact%3A%0A%3C%21--%20Please%20share%20a%20bit%20about%20why%20you%27d%20like%20to%20connect%20--%3E%0A%0A%23%23%20My%20GitHub%20Background%3A%0A%3C%21--%20A%20quick%20introduction%20helps%20establish%20trust%20--%3E%0A%0ALooking%20forward%20to%20connecting%20securely%21">
+      <img src="https://img.shields.io/badge/Request_Secure_Channel-4682B4?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Request Email" />
+    </a>
+  </div>
+</details>
 
 I only accept **GPG-encrypted communications**. If you don't know how to use GPG encryption, feel free to interact through GitHub Issues instead.
 
