@@ -154,29 +154,36 @@ I believe the open-source large language model ecosystem will drive the fifth in
 ## 📈 GitHub Stats
 
 <div align="center">
-  <picture>
-    <source 
-      srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000"
-      media="(prefers-color-scheme: dark)"
-    />
-    <source
-      srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true"
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-    />
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true" />
-  </picture>
-  
-  <picture>
-    <source 
-      srcset="https://streak-stats.demolab.com?user=yagami1997&theme=tokyonight&hide_border=true&background=00000000"
-      media="(prefers-color-scheme: dark)"
-    />
-    <source
-      srcset="https://streak-stats.demolab.com?user=yagami1997&theme=default&hide_border=true"
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-    />
-    <img src="https://streak-stats.demolab.com?user=yagami1997&theme=tokyonight&hide_border=true" />
-  </picture>
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <picture>
+          <source 
+            srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000&rank_icon=github&card_width=495&hide_rank=true"
+            media="(prefers-color-scheme: dark)"
+          />
+          <source
+            srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&card_width=495&hide_rank=true"
+            media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          />
+          <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&card_width=495&hide_rank=true" />
+        </picture>
+      </td>
+      <td align="center" width="50%">
+        <picture>
+          <source 
+            srcset="https://streak-stats.demolab.com?user=yagami1997&theme=tokyonight&hide_border=true&background=00000000&card_width=495"
+            media="(prefers-color-scheme: dark)"
+          />
+          <source
+            srcset="https://streak-stats.demolab.com?user=yagami1997&theme=default&hide_border=true&card_width=495"
+            media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+          />
+          <img src="https://streak-stats.demolab.com?user=yagami1997&theme=tokyonight&hide_border=true&card_width=495" />
+        </picture>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ## ⚡ Encrypted Comms
