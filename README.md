@@ -84,7 +84,7 @@ const yagami = {
   <p><i>"Your coffee fuels the code that weaves digital dreams—every contribution ripples through the open-source ecosystem, creating waves of innovation that transcend boundaries and democratize technology. Together, we craft tomorrow's digital canvas. ✨🌊"</i></p>
   
   <a href="https://ko-fi.com/K3K62U4TW">
-    <img src="https://img.shields.io/badge/☕_Support_on_Ko--fi-%23218574?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi"/>
+    <img src="https://img.shields.io/badge/Support_on_Ko--fi-%23218574?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi"/>
   </a>
 </div>
 
@@ -109,7 +109,7 @@ const yagami = {
 [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)](https://daringfireball.net/projects/markdown/)
 [![Claude AI](https://img.shields.io/badge/claude_ai-%23FF8A3C.svg?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com/claude)
-[![Cursor](https://img.shields.io/badge/cursor-%23007FFF.svg?style=for-the-badge&logo=cursor&logoColor=white)](https://cursor.sh/)
+[![Cursor](https://img.shields.io/badge/cursor-%23000000.svg?style=for-the-badge&logo=cursor&logoColor=white)](https://cursor.sh/)
 [![Ubuntu](https://img.shields.io/badge/ubuntu-%23E95420.svg?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 [![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 
