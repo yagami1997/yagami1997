@@ -196,7 +196,7 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
     </tr>
     <tr>
       <td align="center"><b>CiCi(DouBao)</b></td>
-      <td align="center"><a href="https://www.cici.com/chat/">doubao.com</a></td>
+      <td align="center"><a href="https://www.cici.com/chat/">cici.com</a></td>
       <td>ByteDance's comprehensive AI creation platform offering text, image, and video generation. Exceptional multi-modal capabilities with particularly strong performance in Chinese content creation. Features seamless workflow integration between different creative outputs.</td>
       <td align="center">⭐⭐⭐⭐⭐</td>
     </tr>
