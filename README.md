@@ -195,8 +195,8 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
       <td align="center">⭐⭐⭐⭐⭐</td>
     </tr>
     <tr>
-      <td align="center"><b>豆包 (Dou Bao)</b></td>
-      <td align="center"><a href="https://www.doubao.com/">doubao.com</a></td>
+      <td align="center"><b>CiCi(DouBao)</b></td>
+      <td align="center"><a href="https://www.cici.com/chat/">doubao.com</a></td>
       <td>ByteDance's comprehensive AI creation platform offering text, image, and video generation. Exceptional multi-modal capabilities with particularly strong performance in Chinese content creation. Features seamless workflow integration between different creative outputs.</td>
       <td align="center">⭐⭐⭐⭐⭐</td>
     </tr>
@@ -271,8 +271,8 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
       <td align="center">⭐⭐⭐⭐⭐</td>
     </tr>
     <tr>
-      <td align="center"><b>COZI</b></td>
-      <td align="center"><a href="https://cozi.community/">cozi.community</a></td>
+      <td align="center"><b>COZE</b></td>
+      <td align="center"><a href="https://coze.com/">COZE.community</a></td>
       <td>ByteDance's open ecosystem for AI developers focusing on conversational agents. Provides comprehensive tools, resources, and frameworks for building and training specialized AI assistants with strong multilingual support.</td>
       <td align="center">⭐⭐⭐⭐</td>
     </tr>
@@ -417,6 +417,7 @@ Beyond general AI models, I leverage specialized creative tools that excel in sp
       <td align="center">⭐⭐⭐⭐</td>
     </tr>
   </table>
+  
   ### 🎵 Audio & Voice Tools (Full List)
 
   <table width="100%" align="center">
