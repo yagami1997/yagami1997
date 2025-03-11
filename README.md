@@ -81,7 +81,7 @@ const yagami = {
 ## ☕ Support My Work
 
 <div align="center">
-  <p><i>"Your support helps build open-source tools that promote technological equality. Together, we're creating a future where cutting-edge technology is available to all.✨🌊"</i></p>
+  <p><i>"Your support helps build open-source tools that promote technological equality. Together, we're creating a future where innovation is driven by passion, not privilege, making advanced technology accessible to all.✨🌊"</i></p>
   
   <a href="https://ko-fi.com/K3K62U4TW">
     <img src="https://img.shields.io/badge/Support_on_Ko--fi-5F9EA0?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=4682B4" width="220" height="30" alt="Support on Ko-fi"/>
