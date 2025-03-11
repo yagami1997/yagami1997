@@ -78,6 +78,134 @@ const yagami = {
   </tr>
 </table>
 
+## 🧠 AGI Tools Recommendation
+
+Tools I've discovered and utilized throughout my AI exploration journey. These tools have not only enhanced my workflow but also profoundly shaped my understanding of AI's future.
+
+### 🌟 Large Language Models
+
+<table width="100%" align="center">
+  <tr>
+    <th width="18%" align="center">Tool Name</th>
+    <th width="22%" align="center">Official Website</th>
+    <th width="45%" align="center">Key Features</th>
+    <th width="15%" align="center">Rating</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Claude 3.5</b></td>
+    <td align="center"><a href="https://claude.ai/">claude.ai</a></td>
+    <td>Superior reasoning capabilities and conversational experience. Exceptional at processing long documents, complex analysis, and creative writing while maintaining precise instruction following.</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td align="center"><b>GPT-4o</b></td>
+    <td align="center"><a href="https://chat.openai.com/">chat.openai.com</a></td>
+    <td>Versatile model particularly excellent for programming assistance and system design. The most mature API integration with a rich third-party application ecosystem.</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td align="center"><b>Qwen 2.0</b></td>
+    <td align="center"><a href="https://tongyi.aliyun.com/">tongyi.aliyun.com</a></td>
+    <td>Alibaba Cloud's open-source model with exceptional Chinese language capabilities. Active in the developer community, friendly for local deployment, and suitable for custom training.</td>
+    <td align="center">⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td align="center"><b>Llama 3</b></td>
+    <td align="center"><a href="https://llama.meta.ai/">llama.meta.ai</a></td>
+    <td>One of the most powerful models in the open-source domain. Supports local deployment for offline use, has an active community contributing to its development, and offers diverse fine-tuned versions.</td>
+    <td align="center">⭐⭐⭐⭐</td>
+  </tr>
+</table>
+
+### 🎨 Creative AI Tools
+
+<table width="100%" align="center">
+  <tr>
+    <th width="18%" align="center">Tool Name</th>
+    <th width="22%" align="center">Official Website</th>
+    <th width="45%" align="center">Key Features</th>
+    <th width="15%" align="center">Rating</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Midjourney</b></td>
+    <td align="center"><a href="https://www.midjourney.com/">midjourney.com</a></td>
+    <td>Premier AI image generation platform with unparalleled aesthetic quality. Excels at photorealistic imagery, concept art, and stylized illustrations. Its intuitive Discord interface and powerful V6 model make complex visual ideation accessible to both artists and non-artists.</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+</table>
+
+### 🤖 AI Agents
+
+<table width="100%" align="center">
+  <tr>
+    <th width="18%" align="center">Tool Name</th>
+    <th width="22%" align="center">Official Website</th>
+    <th width="45%" align="center">Key Features</th>
+    <th width="15%" align="center">Rating</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Cursor</b></td>
+    <td align="center"><a href="https://cursor.sh/">cursor.sh</a></td>
+    <td>AI-powered code editor that understands entire codebases, offering completion and refactoring suggestions with a project-wide perspective. Supports module-level development and automated test generation.</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td align="center"><b>GitHub Copilot</b></td>
+    <td align="center"><a href="https://github.com/features/copilot">github.com/features/copilot</a></td>
+    <td>AI programming assistant deeply integrated with IDEs. Provides precise real-time code suggestions, learns personal coding styles, supports multiple languages, and seamlessly integrates into workflows.</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td align="center"><b>AutoGPT</b></td>
+    <td align="center"><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT GitHub</a></td>
+    <td>Autonomous AI agent capable of breaking down, planning, and executing tasks after setting goals. Features memory management and web access capabilities, ideal for complex project automation.</td>
+    <td align="center">⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td align="center"><b>Devin</b></td>
+    <td align="center"><a href="https://www.cognition.ai/">cognition.ai</a></td>
+    <td>AI software engineer that can manage complete development cycles from requirement analysis to testing and deployment. Demonstrates independent work capability and problem-solving skills.</td>
+    <td align="center">⭐⭐⭐⭐</td>
+  </tr>
+</table>
+
+### 🌐 Communities
+
+<table width="100%" align="center">
+  <tr>
+    <th width="18%" align="center">Community</th>
+    <th width="22%" align="center">Link</th>
+    <th width="45%" align="center">Key Features</th>
+    <th width="15%" align="center">Rating</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Hugging Face</b></td>
+    <td align="center"><a href="https://huggingface.co/">huggingface.co</a></td>
+    <td>Central hub for open-source AI models and datasets. Provides user-friendly model access APIs with high community activity, making it an ideal platform for discovering and sharing the latest AI research.</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td align="center"><b>ModelScope</b></td>
+    <td align="center"><a href="https://modelscope.cn/">modelscope.cn</a></td>
+    <td>Alibaba Cloud's comprehensive AI model community that focuses on practical model implementation. Offers a vast collection of pre-trained models spanning NLP, CV, speech, and multimodal domains with excellent documentation.</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td align="center"><b>COZI</b></td>
+    <td align="center"><a href="https://cozi.community/">cozi.community</a></td>
+    <td>ByteDance's open ecosystem for AI developers focusing on conversational agents. Provides comprehensive tools, resources, and frameworks for building and training specialized AI assistants with strong multilingual support.</td>
+    <td align="center">⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td align="center"><b>LMSys</b></td>
+    <td align="center"><a href="https://lmsys.org/">lmsys.org</a></td>
+    <td>Open-source large language model evaluation platform featuring interactive comparison tools like ChatBot Arena. Publishes the latest model performance leaderboards, invaluable for tracking LLM development trends.</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+</table>
+
+> 💡 **Continuously Updated**: These recommendations are based on my actual usage experience and will be updated regularly as technology evolves and new tools emerge. Feel free to share your discoveries through my encrypted communication channels!
+
 ## ☕ Support My Work
 
 <div align="center">
@@ -87,19 +215,6 @@ const yagami = {
     <img src="https://img.shields.io/badge/Support_on_Ko--fi-5F9EA0?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=4682B4" width="220" height="30" alt="Support on Ko-fi"/>
   </a>
 </div>
-
-## 📈 GitHub Stats
-
-<table width="100%" align="center">
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&card_width=450&rank_icon=github&include_all_commits=true&count_private=true&line_height=27" height="175" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&card_width=445&langs_count=6&exclude_repo=obsidian-vault,dotfiles,zsh-config" height="175" />
-    </td>
-  </tr>
-</table>
 
 ## 🔧 Tech Stack
 
