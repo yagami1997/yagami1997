@@ -84,7 +84,7 @@ const yagami = {
   <p><i>"Your coffee fuels the code that weaves digital dreams—every contribution ripples through the open-source ecosystem, creating waves of innovation that transcend boundaries and democratize technology. Together, we craft tomorrow's digital canvas. ✨🌊"</i></p>
   
   <a href="https://ko-fi.com/K3K62U4TW">
-    <img src="https://img.shields.io/badge/Support_on_Ko--fi-%23218574?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi"/>
+    <img src="https://storage.ko-fi.com/cdn/kofi3.png?v=3" alt="Support on Ko-fi" style="height: 50px;" />
   </a>
 </div>
 
