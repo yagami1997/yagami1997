@@ -88,7 +88,16 @@ const yagami = {
   </a>
 </div>
 
-## 🧠 AGI Tools Recommendation
+## 🤖 AI Tools Recommendation
+
+<details>
+<summary>Click to expand</summary>
+
+### 🌟 General Purpose AI
+
+<div align="center">
+  <img src="https://img.shields.io/badge/⟬_AI_Powerhouse_⟭-7B68EE?style=for-the-badge&logoColor=white" alt="AI Powerhouse" />
+</div>
 
 Curated selection of the most impactful AI tools I've discovered in my journey. These are the essentials that have transformed my workflow and creative process.
 
@@ -129,171 +138,39 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
 </table>
 
 <details>
-  <summary><b>🔍 Click to explore my complete AI toolkit</b></summary>
-  <br>
+<summary><b>🔍 Click to explore my complete AI toolkit</b></summary>
+<br>
 
-  ### 🌟 Large Language Models (Full List)
+### 🌟 Large Language Models (Full List)
 
-  <table width="100%" align="center">
-    <tr>
-      <th width="20%" align="center">Tool Name</th>
-      <th width="20%" align="center">Official Website</th>
-      <th width="45%" align="center">Key Features</th>
-      <th width="15%" align="center">Rating</th>
-    </tr>
-    <tr>
-      <td align="center"><b>Claude 3.7 Sonnet</b></td>
-      <td align="center"><a href="https://claude.ai/">claude.ai</a></td>
-      <td>Latest Anthropic model with exceptional reasoning capabilities and conversational experience. Unparalleled at processing long documents, complex analysis, and creative writing while maintaining precise instruction following.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>GPT-4o</b></td>
-      <td align="center"><a href="https://chat.openai.com/">chat.openai.com</a></td>
-      <td>OpenAI's most versatile model with excellent programming assistance and system design capabilities. Features the most mature API integration with a rich third-party application ecosystem.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Grok-1.5</b></td>
-      <td align="center"><a href="https://grok.x.com/">grok.x.com</a></td>
-      <td>X's conversational AI with real-time internet browsing capabilities. Features a unique, witty personality and uncensored responses. Particularly strong at current events analysis, coding, and interdisciplinary knowledge application.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Deepseek</b></td>
-      <td align="center"><a href="https://deepseek.com/">deepseek.com</a></td>
-      <td>Advanced language model with exceptional code generation capabilities. Particularly strong in complex problem-solving tasks and technical domains. Open-sourced model versions provide excellent performance for local deployment and customization.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Qwen 2.0</b></td>
-      <td align="center"><a href="https://tongyi.aliyun.com/">tongyi.aliyun.com</a></td>
-      <td>Alibaba Cloud's open-source model with exceptional Chinese language capabilities. Active in the developer community, friendly for local deployment, and suitable for custom training.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Llama 3</b></td>
-      <td align="center"><a href="https://llama.meta.ai/">llama.meta.ai</a></td>
-      <td>One of the most powerful models in the open-source domain. Supports local deployment for offline use, has an active community contributing to its development, and offers diverse fine-tuned versions.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-  </table>
+<table width="100%" align="center">
+  <tr>
+    <th width="20%" align="center">Tool Name</th>
+    <th width="20%" align="center">Official Website</th>
+    <th width="45%" align="center">Key Features</th>
+    <th width="15%" align="center">Rating</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Claude 3.7 Sonnet</b></td>
+    <td align="center"><a href="https://claude.ai/">claude.ai</a></td>
+    <td>Latest Anthropic model with exceptional reasoning capabilities and conversational experience. Unparalleled at processing long documents, complex analysis, and creative writing while maintaining precise instruction following.</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td align="center"><b>GPT-4o</b></td>
+    <td align="center"><a href="https://chat.openai.com/">chat.openai.com</a></td>
+    <td>Versatile coding & system design</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td align="center"><b>Grok</b></td>
+    <td align="center"><a href="https://grok.x.com/">grok.x.com</a></td>
+    <td>Real-time web access & rebellious personality</td>
+    <td align="center">⭐⭐⭐⭐</td>
+  </tr>
+</table>
 
-  > 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
-
-  ### 🎨 Creative AI Tools (Full List)
-
-  <table width="100%" align="center">
-    <tr>
-      <th width="20%" align="center">Tool Name</th>
-      <th width="20%" align="center">Official Website</th>
-      <th width="45%" align="center">Key Features</th>
-      <th width="15%" align="center">Rating</th>
-    </tr>
-    <tr>
-      <td align="center"><b>Midjourney</b></td>
-      <td align="center"><a href="https://www.midjourney.com/">midjourney.com</a></td>
-      <td>Premier AI image generation platform with unparalleled aesthetic quality. Excels at photorealistic imagery, concept art, and stylized illustrations. Its intuitive Discord interface and powerful V6 model make complex visual ideation accessible to both artists and non-artists.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>CiCi(DouBao)</b></td>
-      <td align="center"><a href="https://www.cici.com/chat/">cici.com</a></td>
-      <td>ByteDance's comprehensive AI creation platform offering text, image, and video generation. Exceptional multi-modal capabilities with particularly strong performance in Chinese content creation. Features seamless workflow integration between different creative outputs.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>KIMI</b></td>
-      <td align="center"><a href="https://kimi.moonshot.cn/">kimi.moonshot.cn</a></td>
-      <td>Moonshot AI's versatile assistant with exceptional document understanding and content creation abilities. Features real-time web search capabilities and supports multiple file formats. Particularly excels at academic writing, research summarization, and data analysis.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Flowith.ai</b></td>
-      <td align="center"><a href="https://flowith.io/">flowith.io</a></td>
-      <td>AI-powered content creation platform specializing in workflow automation. Streamlines content generation across multiple platforms with customizable templates and style guides. Particularly valuable for content marketers and digital creators managing multiple channels.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-
-  > 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
-
-  ### 🤖 AI Agents (Full List)
-
-  <table width="100%" align="center">
-    <tr>
-      <th width="20%" align="center">Tool Name</th>
-      <th width="20%" align="center">Official Website</th>
-      <th width="45%" align="center">Key Features</th>
-      <th width="15%" align="center">Rating</th>
-    </tr>
-    <tr>
-      <td align="center"><b>Cursor</b></td>
-      <td align="center"><a href="https://cursor.sh/">cursor.sh</a></td>
-      <td>AI-powered code editor that understands entire codebases, offering completion and refactoring suggestions with a project-wide perspective. Supports module-level development and automated test generation.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>GitHub Copilot</b></td>
-      <td align="center"><a href="https://github.com/features/copilot">github.com/features/copilot</a></td>
-      <td>AI programming assistant deeply integrated with IDEs. Provides precise real-time code suggestions, learns personal coding styles, supports multiple languages, and seamlessly integrates into workflows.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>AutoGPT</b></td>
-      <td align="center"><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT GitHub</a></td>
-      <td>Autonomous AI agent capable of breaking down, planning, and executing tasks after setting goals. Features memory management and web access capabilities, ideal for complex project automation.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Devin</b></td>
-      <td align="center"><a href="https://www.cognition.ai/">cognition.ai</a></td>
-      <td>AI software engineer that can manage complete development cycles from requirement analysis to testing and deployment. Demonstrates independent work capability and problem-solving skills.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-
-  > 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
-
-  ### 🌐 Communities (Full List)
-
-  <table width="100%" align="center">
-    <tr>
-      <th width="20%" align="center">Community</th>
-      <th width="20%" align="center">Link</th>
-      <th width="45%" align="center">Key Features</th>
-      <th width="15%" align="center">Rating</th>
-    </tr>
-    <tr>
-      <td align="center"><b>Hugging Face</b></td>
-      <td align="center"><a href="https://huggingface.co/">huggingface.co</a></td>
-      <td>Central hub for open-source AI models and datasets. Provides user-friendly model access APIs with high community activity, making it an ideal platform for discovering and sharing the latest AI research.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>ModelScope</b></td>
-      <td align="center"><a href="https://modelscope.cn/">modelscope.cn</a></td>
-      <td>Alibaba Cloud's comprehensive AI model community that focuses on practical model implementation. Offers a vast collection of pre-trained models spanning NLP, CV, speech, and multimodal domains with excellent documentation.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>COZE</b></td>
-      <td align="center"><a href="https://coze.com/">COZE.community</a></td>
-      <td>ByteDance's open ecosystem for AI developers focusing on conversational agents. Provides comprehensive tools, resources, and frameworks for building and training specialized AI assistants with strong multilingual support.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>LMSys</b></td>
-      <td align="center"><a href="https://lmsys.org/">lmsys.org</a></td>
-      <td>Open-source large language model evaluation platform featuring interactive comparison tools like ChatBot Arena. Publishes the latest model performance leaderboards, invaluable for tracking LLM development trends.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-
-  > 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
-</details>
-
-## 🎭 Specialized Creative Tools
+### 🎭 Specialized Creative Tools
 
 <div align="center">
   <img src="https://img.shields.io/badge/⟬_Creative_AI_Arsenal_⟭-FF6B6B?style=for-the-badge&logoColor=white" alt="Creative AI Arsenal" />
@@ -340,175 +217,56 @@ Beyond general AI models, I leverage specialized creative tools that excel in sp
   </tr>
 </table>
 
-<details>
-  <summary><b>🔍 Click to explore my specialized creative tools library</b></summary>
-  <br>
+### 🤖 AI Agents (Full List)
 
-  ### 🎭 Visual Design Tools (Full List)
+<table width="100%" align="center">
+  <tr>
+    <th width="20%" align="center">Tool Name</th>
+    <th width="20%" align="center">Official Website</th>
+    <th width="45%" align="center">Key Features</th>
+    <th width="15%" align="center">Rating</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Cursor</b></td>
+    <td align="center"><a href="https://cursor.sh/">cursor.sh</a></td>
+    <td>AI-powered code editor with codebase understanding</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td align="center"><b>GitHub Copilot</b></td>
+    <td align="center"><a href="https://github.com/features/copilot">github.com/features/copilot</a></td>
+    <td>Seamless IDE integration</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+</table>
 
-  <table width="100%" align="center">
-    <tr>
-      <th width="20%" align="center">Tool Name</th>
-      <th width="20%" align="center">Official Website</th>
-      <th width="45%" align="center">Key Features</th>
-      <th width="15%" align="center">Rating</th>
-    </tr>
-    <tr>
-      <td align="center"><b>Adobe Firefly</b></td>
-      <td align="center"><a href="https://firefly.adobe.com/">firefly.adobe.com</a></td>
-      <td>Adobe's commercially-safe generative AI suite for professional creators. Deeply integrated with Creative Cloud applications like Photoshop and Illustrator. Specializes in commercial content generation with copyright-safe training, vector graphics, and text effects with complete creative control.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Ideogram</b></td>
-      <td align="center"><a href="https://ideogram.ai/">ideogram.ai</a></td>
-      <td>Specialized image generator excelling at text rendering in images. Creates visually appealing compositions with accurate, legible text integration perfect for marketing materials, poster designs, and concept art with typography. Superior at maintaining text integrity in generated images.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Leonardo.ai</b></td>
-      <td align="center"><a href="https://leonardo.ai/">leonardo.ai</a></td>
-      <td>AI platform specializing in game asset creation and illustration. Features custom model training, style consistency controls, and asset variations with texture generation capabilities. Particularly valuable for indie game developers, concept artists, and digital entertainment studios.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Pika Labs</b></td>
-      <td align="center"><a href="https://pika.art/">pika.art</a></td>
-      <td>Creative video generation platform with specialized style controls. Features image-to-video, text-to-video, and video editing capabilities with an emphasis on artistic styles. Excels at creating short-form creative content for social media and digital art.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Vizcom</b></td>
-      <td align="center"><a href="https://www.vizcom.ai/">vizcom.ai</a></td>
-      <td>AI design tool that transforms rough sketches into polished product renderings. Designed specifically for industrial designers and product developers with specialized knowledge of materials, lighting, and presentation standards for product visualization.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-  </table>
+### 🌐 Communities (Full List)
 
-  ### 🎬 Interactive Media Tools (Full List)
+<table width="100%" align="center">
+  <tr>
+    <th width="20%" align="center">Tool Name</th>
+    <th width="20%" align="center">Official Website</th>
+    <th width="45%" align="center">Key Features</th>
+    <th width="15%" align="center">Rating</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Hugging Face</b></td>
+    <td align="center"><a href="https://huggingface.co/">huggingface.co</a></td>
+    <td>Hub for open-source models & datasets</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td align="center"><b>ModelScope</b></td>
+    <td align="center"><a href="https://modelscope.cn/">modelscope.cn</a></td>
+    <td>Alibaba's comprehensive model library</td>
+    <td align="center">⭐⭐⭐⭐⭐</td>
+  </tr>
+</table>
 
-  <table width="100%" align="center">
-    <tr>
-      <th width="20%" align="center">Tool Name</th>
-      <th width="20%" align="center">Official Website</th>
-      <th width="45%" align="center">Key Features</th>
-      <th width="15%" align="center">Rating</th>
-    </tr>
-    <tr>
-      <td align="center"><b>RunwayML</b></td>
-      <td align="center"><a href="https://runwayml.com/">runwayml.com</a></td>
-      <td>Leading AI video generation platform with powerful Gen-2 model for text-to-video and image-to-video creation. Features advanced video editing capabilities including inpainting, outpainting, and style transfer. Professional-grade tools for filmmakers, artists, and content creators.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>HeyGen</b></td>
-      <td align="center"><a href="https://www.heygen.com/">heygen.com</a></td>
-      <td>AI video platform for creating studio-quality videos with customizable avatars. Features multilingual capabilities, screen recording integration, and collaborative workflow tools. Particularly strong for localization, with the ability to translate content into multiple languages while maintaining lip sync.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Synthesia</b></td>
-      <td align="center"><a href="https://www.synthesia.io/">synthesia.io</a></td>
-      <td>AI avatar platform for creating professional video presentations without filming. Features 140+ diverse AI presenters speaking in 120+ languages with natural gestures and expressions. Perfect for training, marketing, and educational content with a text-to-video interface.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>D-ID</b></td>
-      <td align="center"><a href="https://www.d-id.com/">d-id.com</a></td>
-      <td>Specializes in creating talking portrait videos from still images. Allows users to animate photos with realistic speech, expressions, and head movements. Supports diverse languages and custom voice options for personalized digital human experiences.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Wonder Dynamics</b></td>
-      <td align="center"><a href="https://wonderdynamics.com/">wonderdynamics.com</a></td>
-      <td>AI-powered production suite for real-time CG character animation and integration into live footage. Offers professional-grade motion capture, lighting estimation, and physics simulation. Significantly reduces the cost and complexity of visual effects production for filmmakers.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-  
-  ### 🎵 Audio & Voice Tools (Full List)
+</details>
 
-  <table width="100%" align="center">
-    <tr>
-      <th width="20%" align="center">Tool Name</th>
-      <th width="20%" align="center">Official Website</th>
-      <th width="45%" align="center">Key Features</th>
-      <th width="15%" align="center">Rating</th>
-    </tr>
-    <tr>
-      <td align="center"><b>ElevenLabs</b></td>
-      <td align="center"><a href="https://elevenlabs.io/">elevenlabs.io</a></td>
-      <td>State-of-the-art AI voice technology with the most natural-sounding synthesized speech available. Features voice cloning capabilities, emotion and tone control, and multilingual support. Used by publishers, filmmakers, and game developers for premium voice content.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Descript</b></td>
-      <td align="center"><a href="https://www.descript.com/">descript.com</a></td>
-      <td>All-in-one audio and video editor with advanced AI voice capabilities. Features text-based editing where changing the transcript edits the audio, voice cloning for corrections, and automatic filler word removal. Particularly valuable for podcast production and interview editing.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Riffusion</b></td>
-      <td align="center"><a href="https://www.riffusion.com/">riffusion.com</a></td>
-      <td>AI music generation tool based on Stable Diffusion technology. Creates original music snippets and loops from text prompts with control over style, mood, and instruments. Open-source foundation allows for integration into other creative workflows and applications.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Soundraw</b></td>
-      <td align="center"><a href="https://soundraw.io/">soundraw.io</a></td>
-      <td>AI music generator that creates royalty-free original tracks based on mood, genre, and length specifications. Features full-length composition capabilities with verse/chorus structure and customizable instruments. Ideal for content creators, filmmakers, and game developers.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>MuseNet</b></td>
-      <td align="center"><a href="https://openai.com/research/musenet">openai.com/research/musenet</a></td>
-      <td>OpenAI's deep neural network for generating 4-minute musical compositions with up to 10 different instruments. Combines styles from country to Mozart to Beatles, creating unique cross-genre compositions. Particularly valuable for musical experimentation and inspiration.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-  </table>
+> 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
 
-  ### 📝 Writing & Content Tools (Full List)
-
-  <table width="100%" align="center">
-    <tr>
-      <th width="20%" align="center">Tool Name</th>
-      <th width="20%" align="center">Official Website</th>
-      <th width="45%" align="center">Key Features</th>
-      <th width="15%" align="center">Rating</th>
-    </tr>
-    <tr>
-      <td align="center"><b>Jasper</b></td>
-      <td align="center"><a href="https://www.jasper.ai/">jasper.ai</a></td>
-      <td>AI content platform designed specifically for marketing teams and agencies. Features specialized templates for ads, emails, and social media with brand voice customization. Includes SEO optimization, team collaboration features, and content repurposing capabilities.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Copy.ai</b></td>
-      <td align="center"><a href="https://www.copy.ai/">copy.ai</a></td>
-      <td>Marketing-focused AI copywriting tool with specialized templates for sales, ads, and websites. Features brand voice customization, multi-language support, and complete marketing campaign generation. Particularly valuable for small businesses and marketing professionals.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Tome</b></td>
-      <td align="center"><a href="https://www.tome.app/">tome.app</a></td>
-      <td>AI-powered storytelling platform for creating visual narratives and presentations. Features generative page designs, data visualization capabilities, and interactive elements. Particularly valuable for pitches, reports, and educational content with a narrative focus.</td>
-      <td align="center">⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Wordtune</b></td>
-      <td align="center"><a href="https://www.wordtune.com/">wordtune.com</a></td>
-      <td>AI writing companion focused on meaning preservation while rewriting. Features tone adjustment, formality levels, and multilingual support with sentence expansion and shortening. Particularly valuable for non-native writers and professionals refining important communications.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td align="center"><b>Notion AI</b></td>
-      <td align="center"><a href="https://www.notion.so/product/ai">notion.so/product/ai</a></td>
-      <td>Integrated AI writing assistant within the Notion workspace platform. Features content summarization, idea generation, and editing capabilities within your knowledge management system. Particularly valuable for research teams, project managers, and content planners.</td>
-      <td align="center">⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-
-  > 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
 </details>
 
 ## 🔧 Tech Stack
