@@ -100,14 +100,16 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
   <tr>
     <td align="center"><b>Large Language Models</b></td>
     <td>
-      <b><a href="https://claude.ai/">Claude 3.5</a></b> - Superior reasoning & document analysis 
+      <b><a href="https://claude.ai/">Claude 3.7 Sonnet</a></b> - Superior reasoning & document analysis 
       • <b><a href="https://chat.openai.com/">GPT-4o</a></b> - Versatile coding & system design
+      • <b><a href="https://grok.x.com/">Grok</a></b> - Real-time web access & rebellious personality
     </td>
   </tr>
   <tr>
     <td align="center"><b>Creative AI</b></td>
     <td>
-      <b><a href="https://www.midjourney.com/">Midjourney</a></b> - Unparalleled image generation with photorealistic capabilities
+      <b><a href="https://www.midjourney.com/">Midjourney</a></b> - Unparalleled image generation 
+      • <b><a href="https://www.doubao.com/">豆包 (Dou Bao)</a></b> - Comprehensive Chinese creation suite
     </td>
   </tr>
   <tr>
@@ -140,15 +142,27 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
       <th width="15%" align="center">Rating</th>
     </tr>
     <tr>
-      <td align="center"><b>Claude 3.5</b></td>
+      <td align="center"><b>Claude 3.7 Sonnet</b></td>
       <td align="center"><a href="https://claude.ai/">claude.ai</a></td>
-      <td>Superior reasoning capabilities and conversational experience. Exceptional at processing long documents, complex analysis, and creative writing while maintaining precise instruction following.</td>
+      <td>Latest Anthropic model with exceptional reasoning capabilities and conversational experience. Unparalleled at processing long documents, complex analysis, and creative writing while maintaining precise instruction following.</td>
       <td align="center">⭐⭐⭐⭐⭐</td>
     </tr>
     <tr>
       <td align="center"><b>GPT-4o</b></td>
       <td align="center"><a href="https://chat.openai.com/">chat.openai.com</a></td>
-      <td>Versatile model particularly excellent for programming assistance and system design. The most mature API integration with a rich third-party application ecosystem.</td>
+      <td>OpenAI's most versatile model with excellent programming assistance and system design capabilities. Features the most mature API integration with a rich third-party application ecosystem.</td>
+      <td align="center">⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Grok-1.5</b></td>
+      <td align="center"><a href="https://grok.x.com/">grok.x.com</a></td>
+      <td>X's conversational AI with real-time internet browsing capabilities. Features a unique, witty personality and uncensored responses. Particularly strong at current events analysis, coding, and interdisciplinary knowledge application.</td>
+      <td align="center">⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Deepseek</b></td>
+      <td align="center"><a href="https://deepseek.com/">deepseek.com</a></td>
+      <td>Advanced language model with exceptional code generation capabilities. Particularly strong in complex problem-solving tasks and technical domains. Open-sourced model versions provide excellent performance for local deployment and customization.</td>
       <td align="center">⭐⭐⭐⭐⭐</td>
     </tr>
     <tr>
@@ -179,6 +193,24 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
       <td align="center"><a href="https://www.midjourney.com/">midjourney.com</a></td>
       <td>Premier AI image generation platform with unparalleled aesthetic quality. Excels at photorealistic imagery, concept art, and stylized illustrations. Its intuitive Discord interface and powerful V6 model make complex visual ideation accessible to both artists and non-artists.</td>
       <td align="center">⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td align="center"><b>豆包 (Dou Bao)</b></td>
+      <td align="center"><a href="https://www.doubao.com/">doubao.com</a></td>
+      <td>ByteDance's comprehensive AI creation platform offering text, image, and video generation. Exceptional multi-modal capabilities with particularly strong performance in Chinese content creation. Features seamless workflow integration between different creative outputs.</td>
+      <td align="center">⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td align="center"><b>KIMI</b></td>
+      <td align="center"><a href="https://kimi.moonshot.cn/">kimi.moonshot.cn</a></td>
+      <td>Moonshot AI's versatile assistant with exceptional document understanding and content creation abilities. Features real-time web search capabilities and supports multiple file formats. Particularly excels at academic writing, research summarization, and data analysis.</td>
+      <td align="center">⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Flowith.ai</b></td>
+      <td align="center"><a href="https://flowith.io/">flowith.io</a></td>
+      <td>AI-powered content creation platform specializing in workflow automation. Streamlines content generation across multiple platforms with customizable templates and style guides. Particularly valuable for content marketers and digital creators managing multiple channels.</td>
+      <td align="center">⭐⭐⭐⭐</td>
     </tr>
   </table>
 
