@@ -179,6 +179,8 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
     </tr>
   </table>
 
+  > 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
+
   ### 🎨 Creative AI Tools (Full List)
 
   <table width="100%" align="center">
@@ -213,6 +215,8 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
       <td align="center">⭐⭐⭐⭐</td>
     </tr>
   </table>
+
+  > 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
 
   ### 🤖 AI Agents (Full List)
 
@@ -249,6 +253,8 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
     </tr>
   </table>
 
+  > 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
+
   ### 🌐 Communities (Full List)
 
   <table width="100%" align="center">
@@ -283,7 +289,9 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
       <td align="center">⭐⭐⭐⭐⭐</td>
     </tr>
   </table>
+
   > 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
+</details>
 
 ## 🎭 Specialized Creative Tools
 
@@ -499,10 +507,9 @@ Beyond general AI models, I leverage specialized creative tools that excel in sp
       <td align="center">⭐⭐⭐⭐</td>
     </tr>
   </table>
+
+  > 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
 </details>
-
-
-> 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
 
 ## 🔧 Tech Stack
 
@@ -548,7 +555,7 @@ I only accept **GPG-encrypted communications**. If you don't know how to use GPG
   <summary><div align="center">🔐 <i>Click to reveal secure contact options</i></div></summary>
   <br>
   <div align="center">
-<a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%20%F0%9F%94%90%20Request%20for%20Secure%20Communication%20Channel%20%F0%9F%94%90%0A%0AGreetings%2C%20I%27d%20like%20to%20establish%20encrypted%20communication%20with%20you.%0A%0A%23%23%20Why%20I%27m%20Seeking%20Encrypted%20Contact%3A%0A%3C%21--%20Please%20share%20a%20bit%20about%20why%20you%27d%20like%20to%20connect%20--%3E%0A%0A%23%23%20My%20GitHub%20Background%3A%0A%3C%21--%20A%20quick%20introduction%20helps%20establish%20trust%20--%3E%0A%0ALooking%20forward%20to%20connecting%20securely%21">
+<a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20%F0%9F%94%90%20Request%20for%20Secure%20Communication%20Channel%20%F0%9F%94%90%0A%0AGreetings%2C%20I%27d%20like%20to%20establish%20encrypted%20communication%20with%20you.%0A%0A%23%23%20Why%20I%27m%20Seeking%20Encrypted%20Contact%3A%0A%3C%21--%20Please%20share%20a%20bit%20about%20why%20you%27d%20like%20to%20connect%20--%3E%0A%0A%23%23%20My%20GitHub%20Background%3A%0A%3C%21--%20A%20quick%20introduction%20helps%20establish%20trust%20--%3E%0A%0ALooking%20forward%20to%20connecting%20securely%21">
   <img src="https://img.shields.io/badge/Request_Secure_Channel-4682B4?style=flat-square&logo=minutemailer&logoColor=white" alt="Request Email" />
 </a>
   </div>
