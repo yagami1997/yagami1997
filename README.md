@@ -283,6 +283,140 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
       <td align="center">⭐⭐⭐⭐⭐</td>
     </tr>
   </table>
+  > 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
+
+## 🎭 Specialized Creative Tools
+
+<div align="center">
+  <img src="https://img.shields.io/badge/⟬_Creative_AI_Arsenal_⟭-FF6B6B?style=for-the-badge&logoColor=white" alt="Creative AI Arsenal" />
+</div>
+
+Beyond general AI models, I leverage specialized creative tools that excel in specific domains. These complement my main AI toolkit with focused capabilities.
+
+<table width="100%" align="center">
+  <tr>
+    <th width="22%" align="center">Category</th>
+    <th width="78%" align="center">Top Specialized Tools</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Design & Visual</b></td>
+    <td>
+      <b><a href="https://firefly.adobe.com/">Adobe Firefly</a></b> - Commercial-safe generative design 
+      • <b><a href="https://ideogram.ai/">Ideogram</a></b> - Superior text rendering in images
+      • <b><a href="https://leonardo.ai/">Leonardo.ai</a></b> - Game asset generation
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Interactive Media</b></td>
+    <td>
+      <b><a href="https://runwayml.com/">RunwayML</a></b> - Professional video generation 
+      • <b><a href="https://www.heygen.com/">HeyGen</a></b> - Custom AI avatars
+      • <b><a href="https://www.synthesia.io/">Synthesia</a></b> - Multilingual video presenter
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Audio & Voice</b></td>
+    <td>
+      <b><a href="https://elevenlabs.io/">ElevenLabs</a></b> - Emotional voice synthesis 
+      • <b><a href="https://www.descript.com/">Descript</a></b> - Text-based audio editing
+      • <b><a href="https://www.riffusion.com/">Riffusion</a></b> - AI music generation
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Writing & Content</b></td>
+    <td>
+      <b><a href="https://www.jasper.ai/">Jasper</a></b> - Marketing content automation 
+      • <b><a href="https://www.copy.ai/">Copy.ai</a></b> - Specialized marketing copy
+      • <b><a href="https://www.tome.app/">Tome</a></b> - AI-powered storytelling
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary><b>🔍 Click to explore my specialized creative tools library</b></summary>
+  <br>
+
+  ### 🎭 Visual Design Tools (Full List)
+
+  <table width="100%" align="center">
+    <tr>
+      <th width="20%" align="center">Tool Name</th>
+      <th width="20%" align="center">Official Website</th>
+      <th width="45%" align="center">Key Features</th>
+      <th width="15%" align="center">Rating</th>
+    </tr>
+    <tr>
+      <td align="center"><b>Adobe Firefly</b></td>
+      <td align="center"><a href="https://firefly.adobe.com/">firefly.adobe.com</a></td>
+      <td>Adobe's commercially-safe generative AI suite for professional creators. Deeply integrated with Creative Cloud applications like Photoshop and Illustrator. Specializes in commercial content generation with copyright-safe training, vector graphics, and text effects with complete creative control.</td>
+      <td align="center">⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Ideogram</b></td>
+      <td align="center"><a href="https://ideogram.ai/">ideogram.ai</a></td>
+      <td>Specialized image generator excelling at text rendering in images. Creates visually appealing compositions with accurate, legible text integration perfect for marketing materials, poster designs, and concept art with typography. Superior at maintaining text integrity in generated images.</td>
+      <td align="center">⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Leonardo.ai</b></td>
+      <td align="center"><a href="https://leonardo.ai/">leonardo.ai</a></td>
+      <td>AI platform specializing in game asset creation and illustration. Features custom model training, style consistency controls, and asset variations with texture generation capabilities. Particularly valuable for indie game developers, concept artists, and digital entertainment studios.</td>
+      <td align="center">⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Pika Labs</b></td>
+      <td align="center"><a href="https://pika.art/">pika.art</a></td>
+      <td>Creative video generation platform with specialized style controls. Features image-to-video, text-to-video, and video editing capabilities with an emphasis on artistic styles. Excels at creating short-form creative content for social media and digital art.</td>
+      <td align="center">⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Vizcom</b></td>
+      <td align="center"><a href="https://www.vizcom.ai/">vizcom.ai</a></td>
+      <td>AI design tool that transforms rough sketches into polished product renderings. Designed specifically for industrial designers and product developers with specialized knowledge of materials, lighting, and presentation standards for product visualization.</td>
+      <td align="center">⭐⭐⭐⭐</td>
+    </tr>
+  </table>
+
+  ### 🎬 Interactive Media Tools (Full List)
+
+  <table width="100%" align="center">
+    <tr>
+      <th width="20%" align="center">Tool Name</th>
+      <th width="20%" align="center">Official Website</th>
+      <th width="45%" align="center">Key Features</th>
+      <th width="15%" align="center">Rating</th>
+    </tr>
+    <tr>
+      <td align="center"><b>RunwayML</b></td>
+      <td align="center"><a href="https://runwayml.com/">runwayml.com</a></td>
+      <td>Leading AI video generation platform with powerful Gen-2 model for text-to-video and image-to-video creation. Features advanced video editing capabilities including inpainting, outpainting, and style transfer. Professional-grade tools for filmmakers, artists, and content creators.</td>
+      <td align="center">⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td align="center"><b>HeyGen</b></td>
+      <td align="center"><a href="https://www.heygen.com/">heygen.com</a></td>
+      <td>AI video platform for creating studio-quality videos with customizable avatars. Features multilingual capabilities, screen recording integration, and collaborative workflow tools. Particularly strong for localization, with the ability to translate content into multiple languages while maintaining lip sync.</td>
+      <td align="center">⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Synthesia</b></td>
+      <td align="center"><a href="https://www.synthesia.io/">synthesia.io</a></td>
+      <td>AI avatar platform for creating professional video presentations without filming. Features 140+ diverse AI presenters speaking in 120+ languages with natural gestures and expressions. Perfect for training, marketing, and educational content with a text-to-video interface.</td>
+      <td align="center">⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td align="center"><b>D-ID</b></td>
+      <td align="center"><a href="https://www.d-id.com/">d-id.com</a></td>
+      <td>Specializes in creating talking portrait videos from still images. Allows users to animate photos with realistic speech, expressions, and head movements. Supports diverse languages and custom voice options for personalized digital human experiences.</td>
+      <td align="center">⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Wonder Dynamics</b></td>
+      <td align="center"><a href="https://wonderdynamics.com/">wonderdynamics.com</a></td>
+      <td>AI-powered production suite for real-time CG character animation and integration into live footage. Offers professional-grade motion capture, lighting estimation, and physics simulation. Significantly reduces the cost and complexity of visual effects production for filmmakers.</td>
+      <td align="center">⭐⭐⭐⭐</td>
+    </tr>
+  </table>
 </details>
 
 > 💡 **Continuously Updated**: These recommendations reflect my actual usage experience and evolve as technology advances. Share your discoveries through my encrypted channels!
