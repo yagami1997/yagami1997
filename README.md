@@ -296,7 +296,7 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
 ## 🎭 Specialized Creative Tools
 
 <div align="center">
-  <img src="https://img.shields.io/badge/⟬_Creative_AI_Arsenal_⟭-FF6B6B?style=for-the-badge&logoColor=white" alt="Creative AI Arsenal" />
+  <img src="https://img.shields.io/badge/⟬_Creative_AI_Arsenal_⟭-7EB8DD?style=for-the-badge&logoColor=white" alt="Creative AI Arsenal" />
 </div>
 
 Beyond general AI models, I leverage specialized creative tools that excel in specific domains. These complement my main AI toolkit with focused capabilities.
