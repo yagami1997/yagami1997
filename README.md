@@ -78,25 +78,36 @@ const yagami = {
   </tr>
 </table>
 
-## 📈 GitHub Stats
+## ☕ Support My Work
 
 <div align="center">
-  <a href="https://github.com/yagami1997">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&card_width=540&show_icons=true&line_height=33&custom_title=Yagami's%20Lifetime%20GitHub%20Stats&icon_size=55&border_radius=20" />
-  </a>
+  <p><i>"Thanks to your support, the open-source revolution thrives—together we're building a more equitable technological future where innovation belongs to everyone. Long live the people! ✨"</i></p>
+  
+  [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K62U4TW)
 </div>
+
+## 📈 GitHub Stats
+
+<table width="100%" align="center">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&card_width=450&rank_icon=github&include_all_commits=true&count_private=true&line_height=27" height="175" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&theme=tokyonight&hide_border=true&layout=compact&card_width=445&langs_count=6&exclude_repo=obsidian-vault,dotfiles,zsh-config" height="175" />
+    </td>
+  </tr>
+</table>
 
 ## 🔧 Tech Stack
 
 <div align="center">
 
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
-[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)](https://daringfireball.net/projects/markdown/)
-[![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
-[![Claude](https://img.shields.io/badge/Anthropic%20Claude-%23FF8C5F.svg?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/)
-[![Cursor](https://img.shields.io/badge/Cursor-%23000000.svg?style=for-the-badge&logo=cursor&logoColor=00FF00)](https://cursor.sh/)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-%23E95420.svg?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
+![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 </div>
 
@@ -112,11 +123,11 @@ I believe the open-source large language model ecosystem will drive the fifth in
 
 ## 🏆 Achievements
 
-<div align="center">
+<p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=yagami1997&theme=nord&row=1&column=6&margin-w=15&margin-h=15&no-frame=true" alt="GitHub Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=yagami1997&theme=nord&row=1&column=7&margin-w=15&margin-h=15&no-frame=true&no-bg=true&title_color=5F9EA0" width="100%" alt="GitHub Trophies" />
   </a>
-</div>
+</p>
 
 ## ⚡ Encrypted Comms ⚡
 
