@@ -46,7 +46,7 @@ const yagami = {
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
-    <td>Trading intelligence platform for market analysis</td>
+    <td>Trading intelligence platform for market analysis with advanced forecasting algorithms</td>
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/> <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4"/></td>
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?label=commits&style=flat&color=5F9EA0" alt="Weekly commits"/></td>
     <td align="center"><code>Production</code><br><code>Python</code></td>
@@ -54,7 +54,7 @@ const yagami = {
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
-    <td>Simple trading indicator insight tool for individual traders, providing accurate backtesting results and strategy recommendations</td>
+    <td>Trading indicator tool for individual traders with accurate backtesting and strategy recommendations</td>
     <td align="center"><img src="https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0"/></td>
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind/dev?label=commits&style=flat&color=5F9EA0" alt="Weekly commits"/></td>
     <td align="center"><code>Development</code><br><code>Python</code></td>
@@ -62,7 +62,7 @@ const yagami = {
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
-    <td>US phone number verification tool for digital nomads, based on the US LNP network, providing real-time status checks</td>
+    <td>US phone number verification for digital nomads using LNP network with real-time status checks</td>
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB"/> <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE"/></td>
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?label=commits&style=flat&color=9370DB" alt="Weekly commits"/></td>
     <td align="center"><code>Stable</code><br><code>Python</code></td>
@@ -70,7 +70,7 @@ const yagami = {
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
-    <td>Project management framework designed specifically for Cursor developers, enhancing efficiency through structured workflows and optimized behavior guidelines</td>
+    <td>Project management for Cursor developers with structured workflows and optimized behavior guidelines</td>
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=20B2AA"/> <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=48D1CC"/></td>
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/CursorMind?label=commits&style=flat&color=20B2AA" alt="Weekly commits"/></td>
     <td align="center"><code>Beta</code><br><code>Bash/Python</code></td>
@@ -78,7 +78,7 @@ const yagami = {
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/yagami1997/Lensify"><b>Lensify</b></a></td>
-    <td>Precision tools for photographers and filmmakers - a comprehensive calculator for understanding relationships between sensor sizes, focal lengths, and apertures</td>
+    <td>Photography toolkit for calculating relationships between sensor sizes, focal lengths, and apertures</td>
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/Lensify?style=flat&color=orange"/> <img src="https://img.shields.io/github/forks/yagami1997/Lensify?style=flat&color=orange"/></td>
     <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/Lensify?label=commits&style=flat&color=orange" alt="Weekly commits"/></td>
     <td align="center"><code>Active</code><br><code>JavaScript</code></td>
