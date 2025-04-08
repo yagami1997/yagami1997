@@ -76,6 +76,14 @@ const yagami = {
     <td align="center"><code>Beta</code><br><code>Bash/Python</code></td>
     <td align="center"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT License"/></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/yagami1997/Lensify"><b>Lensify</b></a></td>
+    <td>Precision tools for photographers and filmmakers - a comprehensive calculator for understanding relationships between sensor sizes, focal lengths, and apertures</td>
+    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/Lensify?style=flat&color=orange"/> <img src="https://img.shields.io/github/forks/yagami1997/Lensify?style=flat&color=orange"/></td>
+    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/Lensify?label=commits&style=flat&color=orange" alt="Weekly commits"/></td>
+    <td align="center"><code>Active</code><br><code>JavaScript</code></td>
+    <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
+  </tr>
 </table>
 
 ## ☕ Support My Work
