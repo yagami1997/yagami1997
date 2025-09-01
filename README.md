@@ -77,6 +77,14 @@ const yagami = {
     <td align="center"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT License"/></td>
   </tr>
   <tr>
+    <td align="center"><a href="https://github.com/yagami1997/esimswap"><b>esimswap</b></a></td>
+    <td>Standards-compliant eSIM profile and QR code converter with accurate configuration output</td>
+    <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/esimswap?style=flat&color=6b46c1"/> <img src="https://img.shields.io/github/forks/yagami1997/esimswap?style=flat&color=8b5cf6"/></td>
+    <td align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/esimswap?label=commits&style=flat&color=6b46c1" alt="Weekly commits"/></td>
+    <td align="center"><code>Production</code><br><code>JavaScript</code></td>
+    <td align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
+  </tr>
+  <tr>
     <td align="center"><a href="https://github.com/yagami1997/Lensify"><b>Lensify</b></a></td>
     <td>Photography toolkit for calculating relationships between sensor sizes, focal lengths, and apertures</td>
     <td align="center"><img src="https://img.shields.io/github/stars/yagami1997/Lensify?style=flat&color=orange"/> <img src="https://img.shields.io/github/forks/yagami1997/Lensify?style=flat&color=orange"/></td>
