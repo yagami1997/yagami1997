@@ -116,9 +116,9 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
   <tr>
     <td align="center"><b>Large Language Models</b></td>
     <td>
-      <b><a href="https://gemini.google.com/">Gemini 2.0 Flash</a></b> - Google's multimodal powerhouse with real-time capabilities
-      • <b><a href="https://claude.ai/">Claude 3.5 Sonnet</a></b> - Superior reasoning & document analysis 
-      • <b><a href="https://chat.openai.com/">GPT-4o</a></b> - Versatile coding & system design
+      <b><a href="https://gemini.google.com/">Gemini 2.5 Pro</a></b> - Google's multimodal powerhouse with advanced reasoning
+      • <b><a href="https://claude.ai/">Claude 4.1 Opus</a></b> - Superior reasoning & document analysis 
+      • <b><a href="https://chat.openai.com/">GPT-5</a></b> - OpenAI's latest flagship model with enhanced capabilities
       • <b><a href="https://chat.deepseek.com/">DeepSeek R1</a></b> - Open-source reasoning specialist
     </td>
   </tr>
@@ -162,21 +162,21 @@ Curated selection of the most impactful AI tools I've discovered in my journey. 
     <th width="15%" align="center">Rating</th>
   </tr>
   <tr>
-    <td align="center"><b>Gemini 2.0 Flash</b></td>
+    <td align="center"><b>Gemini 2.5 Pro</b></td>
     <td align="center"><a href="https://gemini.google.com/">gemini.google.com</a></td>
-    <td>Google's latest multimodal AI model with native support for text, images, audio, and video. Features real-time capabilities, function calling, and integration with Google services. Excels at complex reasoning, code generation, and multimodal understanding with 1M+ token context window.</td>
+    <td>Google's latest multimodal AI model with advanced reasoning capabilities and native support for text, images, audio, and video. Features enhanced function calling, real-time capabilities, and seamless integration with Google services. Excels at complex reasoning, code generation, and multimodal understanding with 2M+ token context window.</td>
     <td align="center">⭐⭐⭐⭐⭐</td>
   </tr>
   <tr>
-    <td align="center"><b>Claude 3.5 Sonnet</b></td>
+    <td align="center"><b>Claude 4.1 Opus</b></td>
     <td align="center"><a href="https://claude.ai/">claude.ai</a></td>
-    <td>Anthropic's most advanced model with exceptional reasoning capabilities and conversational experience. Unparalleled at processing long documents, complex analysis, and creative writing while maintaining precise instruction following. Strong focus on safety and helpfulness.</td>
+    <td>Anthropic's most advanced model with breakthrough reasoning capabilities and enhanced agent task performance. Features superior code generation, logical reasoning, and long-form content creation. Maintains industry-leading safety standards while delivering exceptional performance across complex analytical tasks.</td>
     <td align="center">⭐⭐⭐⭐⭐</td>
   </tr>
   <tr>
-    <td align="center"><b>GPT-4o</b></td>
+    <td align="center"><b>GPT-5</b></td>
     <td align="center"><a href="https://chat.openai.com/">chat.openai.com</a></td>
-    <td>OpenAI's flagship multimodal model with excellent programming assistance and system design capabilities. Features the most mature API integration with a rich third-party application ecosystem. Strong performance across diverse tasks from coding to creative writing.</td>
+    <td>OpenAI's latest flagship model representing a significant leap in AI capabilities. Features enhanced reasoning, improved multimodal understanding, and superior performance across all domains. Available to both free and paid users with the most mature API ecosystem and extensive third-party integrations.</td>
     <td align="center">⭐⭐⭐⭐⭐</td>
   </tr>
   <tr>
