@@ -132,109 +132,151 @@ I see AI not merely as a tool, but as a catalyst where innovation and artistry c
 
 <br/>
 
-<!-- Project Grid Layout -->
-<table width="100%" align="center">
+<!-- Enhanced Project Grid Layout with Better Spacing -->
+<div align="center">
+
+<table width="100%" cellpadding="20" cellspacing="0" style="border-collapse: separate; border-spacing: 20px;">
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 1px solid #6B46C1;">
       
 ### 📈 [**TradeMind**](https://github.com/yagami1997/TradeMind)
 > *AI-Powered Trading Intelligence Platform*
+
+<br/>
 
 🎯 **What it does:** Advanced market analysis with ML forecasting algorithms  
 🔧 **Tech Stack:** `Python` `TensorFlow` `FastAPI` `PostgreSQL`  
 📊 **Impact:** Helping traders make data-driven decisions  
 🚀 **Status:** `Production Ready`
 
+<br/>
+
 <div align="center">
   <img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=for-the-badge&color=5F9EA0&labelColor=4682B4"/>
   <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=for-the-badge&color=4682B4&labelColor=5F9EA0"/>
-  <img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge"/>
-</div>
-
----
-
-### 📱 [**RealCarrier**](https://github.com/yagami1997/RealCarrier)
-> *Digital Nomad Phone Verification*
-
-🎯 **What it does:** US number verification using LNP network  
-🔧 **Tech Stack:** `Python` `FastAPI` `Redis` `WebSocket`  
-📊 **Impact:** Simplifying mobile connectivity for nomads  
-🚀 **Status:** `Stable Release`
-
-<div align="center">
-  <img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=for-the-badge&color=9370DB&labelColor=7B68EE"/>
-  <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=for-the-badge&color=7B68EE&labelColor=9370DB"/>
-  <img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge"/>
-</div>
-
----
-
-### 📷 [**Lensify**](https://github.com/yagami1997/Lensify)
-> *Photography Calculation Toolkit*
-
-🎯 **What it does:** Sensor size & aperture relationship calculator  
-🔧 **Tech Stack:** `JavaScript` `Vue.js` `Chart.js` `PWA`  
-📊 **Impact:** Helping photographers master technical aspects  
-🚀 **Status:** `Active Development`
-
-<div align="center">
-  <img src="https://img.shields.io/github/stars/yagami1997/Lensify?style=for-the-badge&color=orange&labelColor=FF8C00"/>
-  <img src="https://img.shields.io/github/forks/yagami1997/Lensify?style=for-the-badge&color=FF8C00&labelColor=orange"/>
+  <br/>
   <img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge"/>
 </div>
 
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 1px solid #20B2AA;">
       
 ### 🧠 [**CursorMind**](https://github.com/yagami1997/CursorMind)
 > *AI Development Framework*
+
+<br/>
 
 🎯 **What it does:** Project management for Cursor developers  
 🔧 **Tech Stack:** `Python` `Bash` `YAML` `Git Hooks`  
 📊 **Impact:** Streamlining AI-assisted development workflows  
 🚀 **Status:** `Beta Testing`
 
+<br/>
+
 <div align="center">
   <img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=for-the-badge&color=20B2AA&labelColor=48D1CC"/>
   <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=for-the-badge&color=48D1CC&labelColor=20B2AA"/>
+  <br/>
   <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge"/>
 </div>
 
----
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" style="padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 1px solid #9370DB;">
+      
+### 📱 [**RealCarrier**](https://github.com/yagami1997/RealCarrier)
+> *Digital Nomad Phone Verification*
 
+<br/>
+
+🎯 **What it does:** US number verification using LNP network  
+🔧 **Tech Stack:** `Python` `FastAPI` `Redis` `WebSocket`  
+📊 **Impact:** Simplifying mobile connectivity for nomads  
+🚀 **Status:** `Stable Release`
+
+<br/>
+
+<div align="center">
+  <img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=for-the-badge&color=9370DB&labelColor=7B68EE"/>
+  <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=for-the-badge&color=7B68EE&labelColor=9370DB"/>
+  <br/>
+  <img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge"/>
+</div>
+
+    </td>
+    <td width="50%" valign="top" style="padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 1px solid #6b46c1;">
+      
 ### 📡 [**esimswap**](https://github.com/yagami1997/esimswap)
 > *eSIM Configuration Converter*
+
+<br/>
 
 🎯 **What it does:** Standards-compliant eSIM QR code converter  
 🔧 **Tech Stack:** `JavaScript` `PWA` `QR.js` `CloudFlare`  
 📊 **Impact:** Simplifying eSIM profile management  
 🚀 **Status:** `Production Ready`
 
+<br/>
+
 <div align="center">
   <img src="https://img.shields.io/github/stars/yagami1997/esimswap?style=for-the-badge&color=6b46c1&labelColor=8b5cf6"/>
   <img src="https://img.shields.io/github/forks/yagami1997/esimswap?style=for-the-badge&color=8b5cf6&labelColor=6b46c1"/>
+  <br/>
   <img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge"/>
 </div>
 
----
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" style="padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 1px solid #FF8C00;">
+      
+### 📷 [**Lensify**](https://github.com/yagami1997/Lensify)
+> *Photography Calculation Toolkit*
 
+<br/>
+
+🎯 **What it does:** Sensor size & aperture relationship calculator  
+🔧 **Tech Stack:** `JavaScript` `Vue.js` `Chart.js` `PWA`  
+📊 **Impact:** Helping photographers master technical aspects  
+🚀 **Status:** `Active Development`
+
+<br/>
+
+<div align="center">
+  <img src="https://img.shields.io/github/stars/yagami1997/Lensify?style=for-the-badge&color=orange&labelColor=FF8C00"/>
+  <img src="https://img.shields.io/github/forks/yagami1997/Lensify?style=for-the-badge&color=FF8C00&labelColor=orange"/>
+  <br/>
+  <img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge"/>
+</div>
+
+    </td>
+    <td width="50%" valign="top" style="padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 1px solid #5F9EA0;">
+      
 ### 🔄 [**TradeMind DEV**](https://github.com/yagami1997/TradeMind/tree/dev)
 > *Individual Trader Tools*
+
+<br/>
 
 🎯 **What it does:** Backtesting & strategy recommendations  
 🔧 **Tech Stack:** `Python` `Pandas` `NumPy` `Plotly`  
 📊 **Impact:** Democratizing professional trading tools  
 🚀 **Status:** `Development Branch`
 
+<br/>
+
 <div align="center">
   <img src="https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=for-the-badge&color=5F9EA0&labelColor=4682B4"/>
   <img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind/dev?style=for-the-badge&color=4682B4&labelColor=5F9EA0"/>
+  <br/>
   <img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge"/>
 </div>
 
     </td>
   </tr>
 </table>
+
+</div>
 
 <!-- Project Stats Summary -->
 <div align="center">
@@ -848,44 +890,110 @@ Beyond general AI models, I leverage specialized creative tools that excel in sp
 ## 🔧 Tech Stack
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2000&pause=500&color=6B46C1&center=true&vCenter=true&width=500&lines=My+Digital+Arsenal;Tools+that+power+my+creativity;Building+the+future%2C+one+line+at+a+time" alt="Tech Stack Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=header&text=My%20Digital%20Arsenal&fontSize=28&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Tools%20that%20power%20my%20creativity&descAlignY=55&descSize=14" alt="Tech Stack Header"/>
 </div>
 
 <br/>
 
-<!-- Tech Stack Grid -->
+<!-- Enhanced Tech Stack Grid with Cards -->
 <div align="center">
 
+<table width="100%" cellpadding="15" cellspacing="0" style="border-collapse: separate; border-spacing: 15px;">
+  <tr>
+    <td width="33%" align="center" style="padding: 20px; border-radius: 15px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: 2px solid #6B46C1;">
+      
 ### 💻 **Programming Languages**
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
-[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-### 🤖 **AI & Tools**
-[![Gemini](https://img.shields.io/badge/gemini-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white)](https://gemini.google.com/)
-[![Cursor](https://img.shields.io/badge/cursor-%23000000.svg?style=for-the-badge&logo=cursor&logoColor=white)](https://cursor.sh/)
-[![GitHub Copilot](https://img.shields.io/badge/github%20copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)](https://github.com/features/copilot)
+<div style="padding: 10px;">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python"/>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"/>
+</div>
 
+**Proficiency:**
+```
+Python     ████████████ 100%
+TypeScript ███████████  90%
+JavaScript ███████████  90%
+```
+
+    </td>
+    <td width="33%" align="center" style="padding: 20px; border-radius: 15px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border: 2px solid #FF6B6B;">
+      
+### 🤖 **AI & Creative Tools**
+
+<div style="padding: 10px;">
+  <img src="https://img.shields.io/badge/gemini-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white" alt="Gemini"/>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/cursor-%23000000.svg?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor"/>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/github%20copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"/>
+</div>
+
+**Expertise:**
+```
+AI Models  ████████████ 100%
+Prompting  ████████████ 100%
+Automation ██████████   85%
+```
+
+    </td>
+    <td width="33%" align="center" style="padding: 20px; border-radius: 15px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border: 2px solid #45B7D1;">
+      
 ### 🛠️ **Development Environment**
-[![Ubuntu](https://img.shields.io/badge/ubuntu-%23E95420.svg?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
-[![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)](https://daringfireball.net/projects/markdown/)
-[![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+
+<div style="padding: 10px;">
+  <img src="https://img.shields.io/badge/ubuntu-%23E95420.svg?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown"/>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+</div>
+
+**Skills:**
+```
+Linux      ██████████   85%
+DevOps     ████████     80%
+Design     ███████      70%
+```
+
+    </td>
+  </tr>
+</table>
 
 </div>
 
-<!-- Tech Proficiency Visualization -->
+<br/>
+
+<!-- Interactive Skills Radar -->
 <div align="center">
 
-### 📊 **Proficiency Levels**
+### 🎯 **Skills Overview**
 
-```
-Python      ████████████████████ 100%
-TypeScript  ██████████████████   90%
-JavaScript  ██████████████████   90%
-AI Tools    ████████████████████ 100%
-DevOps      ████████████████     80%
-Design      ██████████████       70%
-```
+<table width="80%" style="border-collapse: collapse;">
+  <tr>
+    <td width="50%" align="center" style="padding: 20px; background: linear-gradient(45deg, #1a1a2e, #16213e); border-radius: 10px; margin: 10px;">
+      
+**🚀 Core Strengths**
+- **AI Integration:** Seamlessly blending AI into development workflows
+- **Full-Stack Development:** From backend APIs to frontend experiences  
+- **Open Source:** Contributing to the global developer community
+- **Innovation:** Always exploring cutting-edge technologies
+
+    </td>
+    <td width="50%" align="center" style="padding: 20px; background: linear-gradient(45deg, #16213e, #1a1a2e); border-radius: 10px; margin: 10px;">
+      
+**🎨 Creative Arsenal**
+- **Midjourney V6.1:** AI-powered visual creation
+- **RunwayML Gen-3:** Video and motion graphics
+- **Suno v4:** AI music composition
+- **GitHub Copilot:** Intelligent code assistance
+
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -1014,16 +1122,27 @@ I believe the open-source large language model ecosystem will drive the fifth in
 
 <div align="center">
 
-<!-- GitHub Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=yagami1997&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" width="100%"/>
-
-<!-- Achievement Badges -->
-<div>
-  <img src="https://img.shields.io/badge/🌟%20GitHub%20Stars-200+-FF6B6B?style=for-the-badge&labelColor=4ECDC4"/>
-  <img src="https://img.shields.io/badge/🔀%20Total%20Forks-50+-45B7D1?style=for-the-badge&labelColor=96CEB4"/>
-  <img src="https://img.shields.io/badge/📈%20Contributions-1000+-FFEAA7?style=for-the-badge&labelColor=DDA0DD"/>
-  <img src="https://img.shields.io/badge/🎯%20Projects-6%20Active-A29BFE?style=for-the-badge&labelColor=6C5CE7"/>
-</div>
+<!-- Simple Achievement Stats -->
+<table width="60%" style="border-collapse: collapse;">
+  <tr>
+    <td align="center" style="padding: 15px; background: linear-gradient(45deg, #FF6B6B, #4ECDC4); border-radius: 10px; margin: 5px;">
+      <strong>🌟 200+</strong><br/>
+      <small>GitHub Stars</small>
+    </td>
+    <td align="center" style="padding: 15px; background: linear-gradient(45deg, #45B7D1, #96CEB4); border-radius: 10px; margin: 5px;">
+      <strong>🔀 50+</strong><br/>
+      <small>Total Forks</small>
+    </td>
+    <td align="center" style="padding: 15px; background: linear-gradient(45deg, #FFEAA7, #DDA0DD); border-radius: 10px; margin: 5px;">
+      <strong>📈 1000+</strong><br/>
+      <small>Contributions</small>
+    </td>
+    <td align="center" style="padding: 15px; background: linear-gradient(45deg, #A29BFE, #6C5CE7); border-radius: 10px; margin: 5px;">
+      <strong>🎯 6</strong><br/>
+      <small>Active Projects</small>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -1129,11 +1248,13 @@ Feel free to connect through GitHub Issues!
 
 <br/>
 
-<!-- Real-time Pacific Time Timestamp -->
+<!-- Pacific Time Information -->
 <div>
-  <img src="https://img.shields.io/badge/🕐%20Last%20Updated-Pacific%20Time-6B46C1?style=flat-square&labelColor=4682B4" alt="Last Updated in Pacific Time"/>
+  <img src="https://img.shields.io/badge/🕐%20Last%20Updated-January%2015,%202025-6B46C1?style=flat-square&labelColor=4682B4" alt="Last Updated"/>
   <br/>
-  <img src="https://img.shields.io/badge/dynamic/json?color=6B46C1&label=🌊%20Del%20Mar%20Time&query=%24.datetime&url=https%3A%2F%2Fworldtimeapi.org%2Fapi%2Ftimezone%2FAmerica%2FLos_Angeles&style=flat-square&labelColor=4682B4" alt="Current Pacific Time"/>
+  <img src="https://img.shields.io/badge/🌊%20Del%20Mar%20Time-PST%20(UTC--8)-6B46C1?style=flat-square&labelColor=4682B4" alt="Del Mar Time Zone"/>
+  <br/>
+  <img src="https://img.shields.io/badge/📍%20Location-California,%20USA-6B46C1?style=flat-square&labelColor=4682B4" alt="Location"/>
 </div>
 
 </div>
