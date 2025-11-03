@@ -132,149 +132,32 @@ I see AI not merely as a tool, but as a catalyst where innovation and artistry c
 
 <br/>
 
-<!-- Enhanced Project Grid Layout with Better Spacing -->
+<!-- Clean Project Grid -->
 <div align="center">
 
-<table width="100%" cellpadding="20" cellspacing="0" style="border-collapse: separate; border-spacing: 20px;">
-  <tr>
-    <td width="50%" valign="top" style="padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 1px solid #6B46C1;">
-      
-### 📈 [**TradeMind**](https://github.com/yagami1997/TradeMind)
-> *AI-Powered Trading Intelligence Platform*
+| 📈 **TradeMind** | 🧠 **CursorMind** |
+|:---:|:---:|
+| *AI-Powered Trading Intelligence Platform* | *AI Development Framework* |
+| Advanced market analysis with ML forecasting algorithms | Project management for Cursor developers |
+| `Python` `TensorFlow` `FastAPI` `PostgreSQL` | `Python` `Bash` `YAML` `Git Hooks` |
+| ![Stars](https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0) ![Forks](https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4) | ![Stars](https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=20B2AA) ![Forks](https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=48D1CC) |
+| **Status:** `Production Ready` | **Status:** `Beta Testing` |
 
-<br/>
+| 📱 **RealCarrier** | 📡 **esimswap** |
+|:---:|:---:|
+| *Digital Nomad Phone Verification* | *eSIM Configuration Converter* |
+| US number verification using LNP network | Standards-compliant eSIM QR code converter |
+| `Python` `FastAPI` `Redis` `WebSocket` | `JavaScript` `PWA` `QR.js` `CloudFlare` |
+| ![Stars](https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB) ![Forks](https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE) | ![Stars](https://img.shields.io/github/stars/yagami1997/esimswap?style=flat&color=6b46c1) ![Forks](https://img.shields.io/github/forks/yagami1997/esimswap?style=flat&color=8b5cf6) |
+| **Status:** `Stable Release` | **Status:** `Production Ready` |
 
-🎯 **What it does:** Advanced market analysis with ML forecasting algorithms  
-🔧 **Tech Stack:** `Python` `TensorFlow` `FastAPI` `PostgreSQL`  
-📊 **Impact:** Helping traders make data-driven decisions  
-🚀 **Status:** `Production Ready`
-
-<br/>
-
-<div align="center">
-  <img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=for-the-badge&color=5F9EA0&labelColor=4682B4"/>
-  <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=for-the-badge&color=4682B4&labelColor=5F9EA0"/>
-  <br/>
-  <img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge"/>
-</div>
-
-    </td>
-    <td width="50%" valign="top" style="padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 1px solid #20B2AA;">
-      
-### 🧠 [**CursorMind**](https://github.com/yagami1997/CursorMind)
-> *AI Development Framework*
-
-<br/>
-
-🎯 **What it does:** Project management for Cursor developers  
-🔧 **Tech Stack:** `Python` `Bash` `YAML` `Git Hooks`  
-📊 **Impact:** Streamlining AI-assisted development workflows  
-🚀 **Status:** `Beta Testing`
-
-<br/>
-
-<div align="center">
-  <img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=for-the-badge&color=20B2AA&labelColor=48D1CC"/>
-  <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=for-the-badge&color=48D1CC&labelColor=20B2AA"/>
-  <br/>
-  <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge"/>
-</div>
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" style="padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 1px solid #9370DB;">
-      
-### 📱 [**RealCarrier**](https://github.com/yagami1997/RealCarrier)
-> *Digital Nomad Phone Verification*
-
-<br/>
-
-🎯 **What it does:** US number verification using LNP network  
-🔧 **Tech Stack:** `Python` `FastAPI` `Redis` `WebSocket`  
-📊 **Impact:** Simplifying mobile connectivity for nomads  
-🚀 **Status:** `Stable Release`
-
-<br/>
-
-<div align="center">
-  <img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=for-the-badge&color=9370DB&labelColor=7B68EE"/>
-  <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=for-the-badge&color=7B68EE&labelColor=9370DB"/>
-  <br/>
-  <img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge"/>
-</div>
-
-    </td>
-    <td width="50%" valign="top" style="padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 1px solid #6b46c1;">
-      
-### 📡 [**esimswap**](https://github.com/yagami1997/esimswap)
-> *eSIM Configuration Converter*
-
-<br/>
-
-🎯 **What it does:** Standards-compliant eSIM QR code converter  
-🔧 **Tech Stack:** `JavaScript` `PWA` `QR.js` `CloudFlare`  
-📊 **Impact:** Simplifying eSIM profile management  
-🚀 **Status:** `Production Ready`
-
-<br/>
-
-<div align="center">
-  <img src="https://img.shields.io/github/stars/yagami1997/esimswap?style=for-the-badge&color=6b46c1&labelColor=8b5cf6"/>
-  <img src="https://img.shields.io/github/forks/yagami1997/esimswap?style=for-the-badge&color=8b5cf6&labelColor=6b46c1"/>
-  <br/>
-  <img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge"/>
-</div>
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" style="padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 1px solid #FF8C00;">
-      
-### 📷 [**Lensify**](https://github.com/yagami1997/Lensify)
-> *Photography Calculation Toolkit*
-
-<br/>
-
-🎯 **What it does:** Sensor size & aperture relationship calculator  
-🔧 **Tech Stack:** `JavaScript` `Vue.js` `Chart.js` `PWA`  
-📊 **Impact:** Helping photographers master technical aspects  
-🚀 **Status:** `Active Development`
-
-<br/>
-
-<div align="center">
-  <img src="https://img.shields.io/github/stars/yagami1997/Lensify?style=for-the-badge&color=orange&labelColor=FF8C00"/>
-  <img src="https://img.shields.io/github/forks/yagami1997/Lensify?style=for-the-badge&color=FF8C00&labelColor=orange"/>
-  <br/>
-  <img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge"/>
-</div>
-
-    </td>
-    <td width="50%" valign="top" style="padding: 25px; border-radius: 12px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 1px solid #5F9EA0;">
-      
-### 🔄 [**TradeMind DEV**](https://github.com/yagami1997/TradeMind/tree/dev)
-> *Individual Trader Tools*
-
-<br/>
-
-🎯 **What it does:** Backtesting & strategy recommendations  
-🔧 **Tech Stack:** `Python` `Pandas` `NumPy` `Plotly`  
-📊 **Impact:** Democratizing professional trading tools  
-🚀 **Status:** `Development Branch`
-
-<br/>
-
-<div align="center">
-  <img src="https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=for-the-badge&color=5F9EA0&labelColor=4682B4"/>
-  <img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind/dev?style=for-the-badge&color=4682B4&labelColor=5F9EA0"/>
-  <br/>
-  <img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=for-the-badge"/>
-</div>
-
-    </td>
-  </tr>
-</table>
+| 📷 **Lensify** | 🔄 **TradeMind DEV** |
+|:---:|:---:|
+| *Photography Calculation Toolkit* | *Individual Trader Tools* |
+| Sensor size & aperture relationship calculator | Backtesting & strategy recommendations |
+| `JavaScript` `Vue.js` `Chart.js` `PWA` | `Python` `Pandas` `NumPy` `Plotly` |
+| ![Stars](https://img.shields.io/github/stars/yagami1997/Lensify?style=flat&color=orange) ![Forks](https://img.shields.io/github/forks/yagami1997/Lensify?style=flat&color=FF8C00) | ![Commits](https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0) ![Activity](https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind/dev?style=flat&color=4682B4) |
+| **Status:** `Active Development` | **Status:** `Development Branch` |
 
 </div>
 
@@ -890,112 +773,53 @@ Beyond general AI models, I leverage specialized creative tools that excel in sp
 ## 🔧 Tech Stack
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=header&text=My%20Digital%20Arsenal&fontSize=28&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Tools%20that%20power%20my%20creativity&descAlignY=55&descSize=14" alt="Tech Stack Header"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2000&pause=500&color=6B46C1&center=true&vCenter=true&width=600&lines=My+Digital+Arsenal;Tools+that+power+my+creativity;Building+the+future%2C+one+line+at+a+time" alt="Tech Stack Typing SVG" />
 </div>
 
 <br/>
 
-<!-- Enhanced Tech Stack Grid with Cards -->
-<div align="center">
-
-<table width="100%" cellpadding="15" cellspacing="0" style="border-collapse: separate; border-spacing: 15px;">
-  <tr>
-    <td width="33%" align="center" style="padding: 20px; border-radius: 15px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: 2px solid #6B46C1;">
-      
 ### 💻 **Programming Languages**
-
-<div style="padding: 10px;">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python"/>
-  <br/><br/>
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <br/><br/>
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"/>
-</div>
-
-**Proficiency:**
-```
-Python     ████████████ 100%
-TypeScript ███████████  90%
-JavaScript ███████████  90%
-```
-
-    </td>
-    <td width="33%" align="center" style="padding: 20px; border-radius: 15px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border: 2px solid #FF6B6B;">
-      
-### 🤖 **AI & Creative Tools**
-
-<div style="padding: 10px;">
-  <img src="https://img.shields.io/badge/gemini-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white" alt="Gemini"/>
-  <br/><br/>
-  <img src="https://img.shields.io/badge/cursor-%23000000.svg?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor"/>
-  <br/><br/>
-  <img src="https://img.shields.io/badge/github%20copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"/>
-</div>
-
-**Expertise:**
-```
-AI Models  ████████████ 100%
-Prompting  ████████████ 100%
-Automation ██████████   85%
-```
-
-    </td>
-    <td width="33%" align="center" style="padding: 20px; border-radius: 15px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border: 2px solid #45B7D1;">
-      
-### 🛠️ **Development Environment**
-
-<div style="padding: 10px;">
-  <img src="https://img.shields.io/badge/ubuntu-%23E95420.svg?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
-  <br/><br/>
-  <img src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown"/>
-  <br/><br/>
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-</div>
-
-**Skills:**
-```
-Linux      ██████████   85%
-DevOps     ████████     80%
-Design     ███████      70%
-```
-
-    </td>
-  </tr>
-</table>
-
-</div>
-
-<br/>
-
-<!-- Interactive Skills Radar -->
 <div align="center">
-
-### 🎯 **Skills Overview**
-
-<table width="80%" style="border-collapse: collapse;">
-  <tr>
-    <td width="50%" align="center" style="padding: 20px; background: linear-gradient(45deg, #1a1a2e, #16213e); border-radius: 10px; margin: 10px;">
-      
-**🚀 Core Strengths**
-- **AI Integration:** Seamlessly blending AI into development workflows
-- **Full-Stack Development:** From backend APIs to frontend experiences  
-- **Open Source:** Contributing to the global developer community
-- **Innovation:** Always exploring cutting-edge technologies
-
-    </td>
-    <td width="50%" align="center" style="padding: 20px; background: linear-gradient(45deg, #16213e, #1a1a2e); border-radius: 10px; margin: 10px;">
-      
-**🎨 Creative Arsenal**
-- **Midjourney V6.1:** AI-powered visual creation
-- **RunwayML Gen-3:** Video and motion graphics
-- **Suno v4:** AI music composition
-- **GitHub Copilot:** Intelligent code assistance
-
-    </td>
-  </tr>
-</table>
+  
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
+[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 </div>
+
+### 🤖 **AI & Tools**
+<div align="center">
+  
+[![Gemini](https://img.shields.io/badge/gemini-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white)](https://gemini.google.com/)
+[![Cursor](https://img.shields.io/badge/cursor-%23000000.svg?style=for-the-badge&logo=cursor&logoColor=white)](https://cursor.sh/)
+[![GitHub Copilot](https://img.shields.io/badge/github%20copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)](https://github.com/features/copilot)
+
+</div>
+
+### 🛠️ **Development Environment**
+<div align="center">
+  
+[![Ubuntu](https://img.shields.io/badge/ubuntu-%23E95420.svg?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
+[![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)](https://daringfireball.net/projects/markdown/)
+[![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+
+</div>
+
+### 📊 **Proficiency Levels**
+```
+Python      ████████████████████ 100%
+TypeScript  ██████████████████   90%
+JavaScript  ██████████████████   90%
+AI Tools    ████████████████████ 100%
+DevOps      ████████████████     80%
+Design      ██████████████       70%
+```
+
+### 🎯 **Core Strengths**
+- 🤖 **AI Integration:** Seamlessly blending AI into development workflows
+- 🔧 **Full-Stack Development:** From backend APIs to frontend experiences  
+- 🌍 **Open Source:** Contributing to the global developer community
+- 💡 **Innovation:** Always exploring cutting-edge technologies
 
 ## 💡 Open Source Philosophy
 
@@ -1011,19 +835,13 @@ I believe the open-source large language model ecosystem will drive the fifth in
 
 <div align="center">
 
-### ☕ **Coffee Chat with Yagami**
+### ☕ **Support My Work**
 
-*Interested in AI, open source, or just want to chat about the future of technology?*
+*Interested in AI, open source, or just want to support my projects?*
 
 <div>
-  <a href="https://calendly.com/yagami1997" target="_blank">
-    <img src="https://img.shields.io/badge/☕%20Schedule%20Coffee%20Chat-FF6B6B?style=for-the-badge&logo=calendly&logoColor=white&labelColor=4ECDC4"/>
-  </a>
-  <a href="mailto:hello@yagami.dev" target="_blank">
-    <img src="https://img.shields.io/badge/📧%20Email%20Me-45B7D1?style=for-the-badge&logo=gmail&logoColor=white&labelColor=96CEB4"/>
-  </a>
-  <a href="https://twitter.com/yagami1997" target="_blank">
-    <img src="https://img.shields.io/badge/🐦%20Follow%20on%20X-1DA1F2?style=for-the-badge&logo=x&logoColor=white&labelColor=000000"/>
+  <a href="https://ko-fi.com/yagami1997" target="_blank">
+    <img src="https://img.shields.io/badge/☕%20Buy%20Me%20a%20Coffee-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=4ECDC4" alt="Buy Me a Coffee"/>
   </a>
 </div>
 
@@ -1248,13 +1066,9 @@ Feel free to connect through GitHub Issues!
 
 <br/>
 
-<!-- Pacific Time Information -->
+<!-- Elegant Info Block -->
 <div>
-  <img src="https://img.shields.io/badge/🕐%20Last%20Updated-January%2015,%202025-6B46C1?style=flat-square&labelColor=4682B4" alt="Last Updated"/>
-  <br/>
-  <img src="https://img.shields.io/badge/🌊%20Del%20Mar%20Time-PST%20(UTC--8)-6B46C1?style=flat-square&labelColor=4682B4" alt="Del Mar Time Zone"/>
-  <br/>
-  <img src="https://img.shields.io/badge/📍%20Location-California,%20USA-6B46C1?style=flat-square&labelColor=4682B4" alt="Location"/>
+  <img src="https://img.shields.io/badge/🕐%20Updated:%20Nov%203,%202025%20•%20🌊%20Del%20Mar,%20CA%20(PST)%20•%20📍%20Made%20with%20❤️%20&%20AI-6B46C1?style=for-the-badge&labelColor=4682B4" alt="Profile Information"/>
 </div>
 
 </div>
