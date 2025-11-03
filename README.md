@@ -31,7 +31,7 @@
   
   <!-- Dynamic Status Bar -->
   <div role="img" aria-label="Dynamic status messages about AI development and creativity">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6B46C1&center=true&vCenter=true&multiline=true&width=800&height=100&lines=🌊+Crafting+digital+systems+with+AI+as+my+brush;🎨+Shaping+ideas+into+existence+from+Del+Mar,+CA;🚀+Exploring+the+boundless+potential+of+AGI;🔓+Building+the+future+of+open-source+AI" alt="Animated text showing: Crafting digital systems with AI, Shaping ideas from Del Mar CA, Exploring AGI potential, Building open-source AI future" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=6B46C1&center=true&vCenter=true&multiline=true&width=900&height=120&lines=🌊+Crafting+digital+systems+with+AI+as+my+brush;🎨+Shaping+ideas+into+existence+from+Del+Mar,+CA;🚀+Exploring+the+boundless+potential+of+AGI;🔓+Building+the+future+of+open-source+AI" alt="Animated text showing: Crafting digital systems with AI, Shaping ideas from Del Mar CA, Exploring AGI potential, Building open-source AI future" />
   </div>
   
   <!-- Real-time Location & Status -->
