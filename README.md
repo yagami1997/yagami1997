@@ -134,49 +134,49 @@ I see AI not merely as a tool, but as a catalyst where innovation and artistry c
 
 <table width="100%" align="center">
   <tr>
-    <td width="15%" align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
-    <td width="35%">AI-powered trading intelligence<br/>platform with advanced market<br/>analysis and ML forecasting</td>
-    <td width="20%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/> <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4"/></td>
+    <td width="12%" align="center"><a href="https://github.com/yagami1997/TradeMind"><b>TradeMind</b></a></td>
+    <td width="30%">AI-powered trading intelligence<br/>platform with advanced market<br/>analysis and ML forecasting</td>
+    <td width="18%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/> <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4"/></td>
     <td width="15%" align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/TradeMind?label=commits&style=flat&color=5F9EA0" alt="Weekly commits"/></td>
     <td width="10%" align="center"><code>Production</code><br><code>Python</code></td>
     <td width="15%" align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
   </tr>
   <tr>
-    <td width="15%" align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
-    <td width="35%">AI development framework for<br/>project management and workflow<br/>optimization for Cursor developers</td>
-    <td width="20%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=20B2AA"/> <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=48D1CC"/></td>
+    <td width="12%" align="center"><a href="https://github.com/yagami1997/CursorMind"><b>CursorMind</b></a></td>
+    <td width="30%">AI development framework for<br/>project management and workflow<br/>optimization for Cursor developers</td>
+    <td width="18%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/CursorMind?style=flat&color=20B2AA"/> <img src="https://img.shields.io/github/forks/yagami1997/CursorMind?style=flat&color=48D1CC"/></td>
     <td width="15%" align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/CursorMind?label=commits&style=flat&color=20B2AA" alt="Weekly commits"/></td>
     <td width="10%" align="center"><code>Beta</code><br><code>Python</code></td>
     <td width="15%" align="center"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT"/></td>
   </tr>
   <tr>
-    <td width="15%" align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
-    <td width="35%">Digital nomad phone verification<br/>system using LNP network for<br/>US number verification</td>
-    <td width="20%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB"/> <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE"/></td>
+    <td width="12%" align="center"><a href="https://github.com/yagami1997/RealCarrier"><b>RealCarrier</b></a></td>
+    <td width="30%">Digital nomad phone verification<br/>system using LNP network for<br/>US number verification</td>
+    <td width="18%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/RealCarrier?style=flat&color=9370DB"/> <img src="https://img.shields.io/github/forks/yagami1997/RealCarrier?style=flat&color=7B68EE"/></td>
     <td width="15%" align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/RealCarrier?label=commits&style=flat&color=9370DB" alt="Weekly commits"/></td>
     <td width="10%" align="center"><code>Stable</code><br><code>Python</code></td>
     <td width="15%" align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
   </tr>
   <tr>
-    <td width="15%" align="center"><a href="https://github.com/yagami1997/esimswap"><b>esimswap</b></a></td>
-    <td width="35%">Standards-compliant eSIM profile<br/>and QR code converter with<br/>accurate configuration output</td>
-    <td width="20%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/esimswap?style=flat&color=6b46c1"/> <img src="https://img.shields.io/github/forks/yagami1997/esimswap?style=flat&color=8b5cf6"/></td>
+    <td width="12%" align="center"><a href="https://github.com/yagami1997/esimswap"><b>esimswap</b></a></td>
+    <td width="30%">Standards-compliant eSIM profile<br/>and QR code converter with<br/>accurate configuration output</td>
+    <td width="18%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/esimswap?style=flat&color=6b46c1"/> <img src="https://img.shields.io/github/forks/yagami1997/esimswap?style=flat&color=8b5cf6"/></td>
     <td width="15%" align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/esimswap?label=commits&style=flat&color=6b46c1" alt="Weekly commits"/></td>
     <td width="10%" align="center"><code>Production</code><br><code>JavaScript</code></td>
     <td width="15%" align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
   </tr>
   <tr>
-    <td width="15%" align="center"><a href="https://github.com/yagami1997/Lensify"><b>Lensify</b></a></td>
-    <td width="35%">Photography calculation toolkit<br/>for sensor size and aperture<br/>relationship analysis</td>
-    <td width="20%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/Lensify?style=flat&color=orange"/> <img src="https://img.shields.io/github/forks/yagami1997/Lensify?style=flat&color=FF8C00"/></td>
+    <td width="12%" align="center"><a href="https://github.com/yagami1997/Lensify"><b>Lensify</b></a></td>
+    <td width="30%">Photography calculation toolkit<br/>for sensor size and aperture<br/>relationship analysis</td>
+    <td width="18%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/Lensify?style=flat&color=orange"/> <img src="https://img.shields.io/github/forks/yagami1997/Lensify?style=flat&color=FF8C00"/></td>
     <td width="15%" align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/Lensify?label=commits&style=flat&color=orange" alt="Weekly commits"/></td>
     <td width="10%" align="center"><code>Development</code><br><code>JavaScript</code></td>
     <td width="15%" align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
   </tr>
   <tr>
-    <td width="15%" align="center"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
-    <td width="35%">Individual trader tools with<br/>backtesting capabilities and<br/>strategy recommendations</td>
-    <td width="20%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/> <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4"/></td>
+    <td width="12%" align="center"><a href="https://github.com/yagami1997/TradeMind/tree/dev"><b>TradeMind DEV</b></a></td>
+    <td width="30%">Individual trader tools with<br/>backtesting capabilities and<br/>strategy recommendations</td>
+    <td width="18%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/TradeMind?style=flat&color=5F9EA0"/> <img src="https://img.shields.io/github/forks/yagami1997/TradeMind?style=flat&color=4682B4"/></td>
     <td width="15%" align="center"><img src="https://img.shields.io/github/last-commit/yagami1997/TradeMind/dev?style=flat&color=5F9EA0" alt="Last commit"/></td>
     <td width="10%" align="center"><code>Dev Branch</code><br><code>Python</code></td>
     <td width="15%" align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
@@ -793,14 +793,7 @@ Beyond general AI models, I leverage specialized creative tools that excel in sp
 
 <div align="center">
 
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
-[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Gemini](https://img.shields.io/badge/gemini-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white)](https://gemini.google.com/)
-[![Cursor](https://img.shields.io/badge/cursor-%23000000.svg?style=for-the-badge&logo=cursor&logoColor=white)](https://cursor.sh/)
-[![GitHub Copilot](https://img.shields.io/badge/github%20copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)](https://github.com/features/copilot)
-[![Ubuntu](https://img.shields.io/badge/ubuntu-%23E95420.svg?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
-[![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/) [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Gemini](https://img.shields.io/badge/gemini-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white)](https://gemini.google.com/) [![OpenAI](https://img.shields.io/badge/openai-%23412991.svg?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/) [![Claude](https://img.shields.io/badge/claude-%23CC785C.svg?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/) [![Cursor](https://img.shields.io/badge/cursor-%23000000.svg?style=for-the-badge&logo=cursor&logoColor=white)](https://cursor.sh/) [![Ubuntu](https://img.shields.io/badge/ubuntu-%23E95420.svg?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/) [![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 
 </div>
 
