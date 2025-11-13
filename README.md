@@ -168,7 +168,7 @@ I see AI not merely as a tool, but as a catalyst where innovation and artistry c
   <tr>
     <td width="12%" align="center"><a href="https://github.com/yagami1997/Lensify"><b>Lensify</b></a></td>
     <td width="30%">Photography calculation toolkit<br/>for sensor size and aperture<br/>relationship analysis</td>
-    <td width="18%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/Lensify?style=flat&color=orange"/> <img src="https://img.shields.io/github/forks/yagami1997/Lensify?style=flat&color=FF8C00"/></td>
+    <td width="18%" align="center"><img src="https://img.shields.io/github/stars/yagami1997/Lensify?style=flat&color=orange"/> <img src="https://img.shields.io/github/forks/yagami1997/Lensify?style=flat&color=orange"/></td>
     <td width="15%" align="center"><img src="https://img.shields.io/github/commit-activity/w/yagami1997/Lensify?label=commits&style=flat&color=orange" alt="Weekly commits"/></td>
     <td width="10%" align="center"><code>Development</code><br><code>JavaScript</code></td>
     <td width="15%" align="center"><img src="https://img.shields.io/badge/license-GPL%20v3-green.svg?style=flat" alt="GPL v3"/></td>
@@ -185,7 +185,7 @@ I see AI not merely as a tool, but as a catalyst where innovation and artistry c
 
 <!-- Project Stats Summary -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20Projects-6-FF6B6B?style=flat&labelColor=4ECDC4"/> <img src="https://img.shields.io/badge/Languages-Python%20•%20JavaScript%20•%20TypeScript-45B7D1?style=flat&labelColor=96CEB4"/> <img src="https://img.shields.io/badge/Focus-AI%20•%20Web%20•%20Tools-FFEAA7?style=flat&labelColor=DDA0DD"/> <img src="https://img.shields.io/badge/License-Open%20Source-A29BFE?style=flat&labelColor=6C5CE7"/>
+  <img src="https://img.shields.io/badge/Featured%20Projects-6-FF6B6B?style=flat&labelColor=4ECDC4"/> <img src="https://img.shields.io/badge/Languages-Python%20•%20JavaScript%20•%20TypeScript-45B7D1?style=flat&labelColor=96CEB4"/> <img src="https://img.shields.io/badge/Focus-AI%20•%20Web%20•%20Tools-FFEAA7?style=flat&labelColor=DDA0DD"/> <img src="https://img.shields.io/badge/License-Open%20Source-A29BFE?style=flat&labelColor=6C5CE7"/>
 </div>
 
 ## ☕ Support My Work
