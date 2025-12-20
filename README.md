@@ -197,7 +197,7 @@ I see AI not merely as a tool, but as a catalyst where innovation and artistry c
 <br/>
 
 <a href="https://ko-fi.com/yagami1997">
-  <img src="https://img.shields.io/badge/Ko--fi-Support%20Me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi"/>
+  <img src="https://img.shields.io/badge/Ko--fi-Support%20Me-FF6433?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi"/>
 </a>
 &nbsp;&nbsp;
 <a href="https://patreon.com/yagami1997">
@@ -996,7 +996,7 @@ Feel free to connect through GitHub Issues!
     <img src="https://img.shields.io/badge/GitHub-Follow-6495ED?style=for-the-badge&logo=github" alt="Follow on GitHub"/>
   </a>
   <a href="https://ko-fi.com/yagami1997" aria-label="Support Yagami on Ko-fi">
-    <img src="https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi"/>
+    <img src="https://img.shields.io/badge/Ko--fi-Support-FF6433?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi"/>
   </a>
   <a href="https://patreon.com/yagami1997" aria-label="Support Yagami on Patreon">
     <img src="https://img.shields.io/badge/Patreon-Support-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Support on Patreon"/>
