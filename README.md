@@ -191,49 +191,39 @@ I see AI not merely as a tool, but as a catalyst where innovation and artistry c
 ## ☕ Support My Work
 
 <div align="center">
-  <p><i>"Your support helps build open-source tools that promote technological equality. Together, we're creating a future where innovation is driven by passion, not privilege, making advanced technology accessible to all.✨🌊"</i></p>
 
-  <!-- Two Sponsorship Platforms -->
-  <table>
-    <tr>
-      <td align="center" width="50%">
-        <a href="https://ko-fi.com/yagami1997">
-          <img src="https://img.shields.io/badge/☕%20Ko--fi-Support%20Me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=4682B4" alt="Support on Ko-fi"/>
-        </a>
-        <br/><br/>
-        <small>One-time donations & membership</small>
-      </td>
-      <td align="center" width="50%">
-        <a href="https://patreon.com/yagami1997">
-          <img src="https://img.shields.io/badge/🎨%20Patreon-Become%20a%20Patron-F96854?style=for-the-badge&logo=patreon&logoColor=white&labelColor=FF424D" alt="Support on Patreon"/>
-        </a>
-        <br/><br/>
-        <small>Monthly subscription & exclusive content</small>
-      </td>
-    </tr>
-  </table>
+*Your support helps build open-source tools that promote technological equality.*
 
-  <br/>
+<br/>
 
-  <!-- Compliance Notice -->
-  <details>
-    <summary><b>📜 Why I Stopped Accepting Cryptocurrency Sponsorships</b></summary>
-    <br/>
-    <div align="left">
+<a href="https://ko-fi.com/yagami1997">
+  <img src="https://img.shields.io/badge/Ko--fi-Support%20Me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://patreon.com/yagami1997">
+  <img src="https://img.shields.io/badge/Patreon-Become%20a%20Patron-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Support on Patreon"/>
+</a>
 
-  As of **December 2025**, I have officially stopped accepting cryptocurrency sponsorships (BTC, USDT, etc.).
+<br/><br/>
 
-  **Key Reasons:**
-  - 🔍 **Chain Analysis Risk**: Public crypto addresses are vulnerable to "dusting attacks" and association with high-risk transactions, potentially triggering account freezes on essential banking services
-  - 📋 **Compliance Requirements**: Modern financial auditing requires "Triple-Link" verification (Identity + Source of Funds + Business Rationale) — crypto donations often lack this evidence chain
-  - 🛡️ **Asset Protection**: Centralizing contributions through verified platforms ensures my consultancy and development work remains unimpeachable by global regulators
+<details>
+<summary>📜 <b>Why I Stopped Accepting Cryptocurrency</b></summary>
+<br/>
 
-  > *"In the current era, transparency is the new privacy."*
+As of **December 2025**, I no longer accept crypto sponsorships (BTC, USDT, etc.) due to compliance requirements.
 
-  📖 **[Read the Full Sponsorship Policy Statement →](https://gist.github.com/yagami1997/8c7383e9714055da38fee89f8d880b87)**
+| Reason | Explanation |
+|:------:|:------------|
+| 🔍 **Chain Analysis Risk** | Public addresses vulnerable to association with high-risk transactions |
+| 📋 **Compliance Requirements** | Modern auditing requires Identity + Source + Business Rationale verification |
+| 🛡️ **Asset Protection** | Verified platforms ensure regulatory compliance |
 
-    </div>
-  </details>
+> *"In the current era, transparency is the new privacy."*
+
+📖 [**Read Full Policy Statement →**](https://gist.github.com/yagami1997/8c7383e9714055da38fee89f8d880b87)
+
+</details>
+
 </div>
 
 ## 🔮 AI Manifesto: My Vision for the Future
@@ -844,22 +834,6 @@ Beyond general AI models, I leverage specialized creative tools that excel in sp
 </div>
 
 I believe the open-source large language model ecosystem will drive the fifth industrial revolution, creating infinite possibilities. Through open source and technology sharing, we can build a more equitable and innovative technological future, achieving true technological equality.
-
-## 💬 Let's Connect & Collaborate
-
-<div align="center">
-
-### ☕ **Support My Work**
-
-*Interested in AI, open source, or just want to support my projects?*
-
-<div>
-  <a href="https://ko-fi.com/yagami1997" target="_blank">
-    <img src="https://img.shields.io/badge/☕%20Buy%20Me%20a%20Coffee-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=4ECDC4" alt="Buy Me a Coffee"/>
-  </a>
-</div>
-
-</div>
 
 ---
 
