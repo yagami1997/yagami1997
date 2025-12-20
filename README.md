@@ -192,10 +192,48 @@ I see AI not merely as a tool, but as a catalyst where innovation and artistry c
 
 <div align="center">
   <p><i>"Your support helps build open-source tools that promote technological equality. Together, we're creating a future where innovation is driven by passion, not privilege, making advanced technology accessible to all.✨🌊"</i></p>
-  
-  <a href="https://ko-fi.com/K3K62U4TW">
-    <img src="https://img.shields.io/badge/Support_on_Ko--fi-5F9EA0?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=4682B4" width="220" height="30" alt="Support on Ko-fi"/>
-  </a>
+
+  <!-- Two Sponsorship Platforms -->
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <a href="https://ko-fi.com/yagami1997">
+          <img src="https://img.shields.io/badge/☕%20Ko--fi-Support%20Me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=4682B4" alt="Support on Ko-fi"/>
+        </a>
+        <br/><br/>
+        <small>One-time donations & membership</small>
+      </td>
+      <td align="center" width="50%">
+        <a href="https://patreon.com/yagami1997">
+          <img src="https://img.shields.io/badge/🎨%20Patreon-Become%20a%20Patron-F96854?style=for-the-badge&logo=patreon&logoColor=white&labelColor=FF424D" alt="Support on Patreon"/>
+        </a>
+        <br/><br/>
+        <small>Monthly subscription & exclusive content</small>
+      </td>
+    </tr>
+  </table>
+
+  <br/>
+
+  <!-- Compliance Notice -->
+  <details>
+    <summary><b>📜 Why I Stopped Accepting Cryptocurrency Sponsorships</b></summary>
+    <br/>
+    <div align="left">
+
+  As of **December 2025**, I have officially stopped accepting cryptocurrency sponsorships (BTC, USDT, etc.).
+
+  **Key Reasons:**
+  - 🔍 **Chain Analysis Risk**: Public crypto addresses are vulnerable to "dusting attacks" and association with high-risk transactions, potentially triggering account freezes on essential banking services
+  - 📋 **Compliance Requirements**: Modern financial auditing requires "Triple-Link" verification (Identity + Source of Funds + Business Rationale) — crypto donations often lack this evidence chain
+  - 🛡️ **Asset Protection**: Centralizing contributions through verified platforms ensures my consultancy and development work remains unimpeachable by global regulators
+
+  > *"In the current era, transparency is the new privacy."*
+
+  📖 **[Read the Full Sponsorship Policy Statement →](https://gist.github.com/yagami1997/8c7383e9714055da38fee89f8d880b87)**
+
+    </div>
+  </details>
 </div>
 
 ## 🔮 AI Manifesto: My Vision for the Future
