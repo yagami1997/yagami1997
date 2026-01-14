@@ -842,20 +842,10 @@ I believe the open-source large language model ecosystem will drive the fifth in
 <div align="center">
 
 <!-- GitHub Stats Cards -->
-<table>
-<tr>
-<td width="50%">
-
-<img src="https://github-readme-stats.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6B46C1&icon_color=6B46C1&text_color=C9D1D9" alt="GitHub Stats" width="100%"/>
-
-</td>
-<td width="50%">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagami1997&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6B46C1&text_color=C9D1D9" alt="Top Languages" width="100%"/>
-
-</td>
-</tr>
-</table>
+<a href="https://github.com/yagami1997">
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=yagami1997&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6B46C1&icon_color=6B46C1&text_color=C9D1D9&include_all_commits=true&count_private=true&cache_seconds=7200"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yagami1997&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6B46C1&text_color=C9D1D9&langs_count=8&cache_seconds=7200"/>
+</a>
 
 <!-- Contribution Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=yagami1997&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6B46C1&line=6B46C1&point=C9D1D9" width="100%" alt="Contribution Graph"/>
