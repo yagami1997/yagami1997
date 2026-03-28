@@ -4,9 +4,9 @@
 
 <div align="center">
 
-[![Del Mar](https://img.shields.io/badge/Del%20Mar-Digital%20Nomad-1f2937?style=flat-square&labelColor=0f766e)](#contact)
-[![Agent-Native](https://img.shields.io/badge/Agent--Native-Execution-1f2937?style=flat-square&labelColor=0ea5e9)](#from-chat-to-agent)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Pragmatist-1f2937?style=flat-square&labelColor=f59e0b)](#about)
+[![Agent-Native Execution](https://img.shields.io/badge/Agent--Native%20Execution-0ea5e9?style=flat-square)](#from-chat-to-agent)
+[![Open-Source Pragmatist](https://img.shields.io/badge/Open--Source%20Pragmatist-f59e0b?style=flat-square)](#about)
+[![Updated March 2026](https://img.shields.io/badge/Updated%20March%202026-4b5563?style=flat-square)](#contact)
 
 </div>
 
@@ -23,7 +23,6 @@ Open-source tools matter because they keep intelligence inspectable, adaptable, 
 
 [![GitHub](https://img.shields.io/badge/GitHub-yagami1997-181717?style=flat-square&logo=github)](https://github.com/yagami1997)
 [![Current Project](https://img.shields.io/badge/Current%20Focus-Surgemac-0f766e?style=flat-square)](#selected-projects)
-[![Updated](https://img.shields.io/badge/Updated-March%202026-f59e0b?style=flat-square)](#contact)
 
 > Systems over demos. Open source over lock-in. Long-term projects over novelty.
 
