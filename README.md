@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,35:0f766e,70:0ea5e9,100:f59e0b&text=Systems%20Over%20Hype&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=Yagami%20%E2%80%A2%20Independent%20Researcher%20%26%20Builder%20%E2%80%A2%20Based%20in%20Del%20Mar&descAlignY=58&descSize=18" alt="Yagami header"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,35:0f766e,70:0ea5e9,100:f59e0b&text=Systems%20Over%20Hype&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=Independent%20Builder%20%E2%80%A2%20Del%20Mar%20%E2%80%A2%20Building%20in%20the%20Open&descAlignY=58&descSize=18" alt="Yagami header"/>
 </div>
 
 <div align="center">
