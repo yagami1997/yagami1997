@@ -233,44 +233,26 @@ Small, precise, and practical. Exactly the kind of narrow-scope software I respe
 
 <div align="center">
 
-## GitHub Activity
-
-<img height="150em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yagami1997&layout=compact&hide_border=true&bg_color=0D1117&title_color=5eead4&text_color=C9D1D9&langs_count=6" alt="Top languages"/>
-
-</div>
-
----
-
-<div align="center">
-
 ## Contact
-
-<table align="center">
-<tr>
-<td width="50%" align="center" valign="top">
 
 ### Support
 
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20My%20Work-ff6433?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/yagami1997)
 [![Patreon](https://img.shields.io/badge/Patreon-Become%20a%20Patron-f96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/yagami1997)
 
-Support helps me keep building open-source tools, long-term projects, and practical software without turning everything into hype or short-term noise.
+Support helps me keep building open-source tools, long-term projects, and practical software.
 
-</td>
-<td width="50%" align="center" valign="top">
+<br/>
 
 ### Secure Contact
 
 [![GPG](https://img.shields.io/badge/GPG-Request%20Encrypted%20Contact-0f766e?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)](https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A)
-[![Timezone](https://img.shields.io/badge/PST-UTC--8-1f2937?style=for-the-badge)](#contact)
 
 For sensitive topics, use the same secure contact flow as before: start through GitHub and request a GPG-secured channel there.
 
 Key exchange details are handled through the existing workflow behind that request. The public key is not exposed on this page.
 
-</td>
-</tr>
-</table>
+<br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-@yagami1997-181717?style=flat-square&logo=github)](https://github.com/yagami1997)
 
