@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,35:0f766e,70:0ea5e9,100:f59e0b&text=Systems%20Over%20Hype&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=Yagami%20%E2%80%A2%20Del%20Mar%20Digital%20Nomad%20%E2%80%A2%20Agent-Native%20Builder&descAlignY=58&descSize=18" alt="Yagami header"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,35:0f766e,70:0ea5e9,100:f59e0b&text=Systems%20Over%20Hype&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=Yagami%20%E2%80%A2%20Independent%20Researcher%20%26%20Builder%20%E2%80%A2%20Based%20in%20Del%20Mar&descAlignY=58&descSize=18" alt="Yagami header"/>
 </div>
 
 <div align="center">
@@ -16,7 +16,9 @@
 
 ## Building practical systems where AI does work, not just talks.
 
-Digital nomad in Del Mar, building open-source AI software, useful tools, and agent-native workflows.
+Independent researcher and builder. Based in Del Mar. Building in the open.
+
+I build open-source AI software, useful tools, and agent-native workflows.
 
 I believe the real value of AI is not better chat, but better execution.
 Open-source tools matter because they keep intelligence inspectable, adaptable, and in the hands of builders.
@@ -39,7 +41,7 @@ Open-source tools matter because they keep intelligence inspectable, adaptable, 
 
 ### Building
 
-Practical software systems with cleaner architecture and real operating value.
+Practical software systems with cleaner architecture, real operating value, and open development.
 
 </td>
 <td width="33%" align="center" valign="top">
