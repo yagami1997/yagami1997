@@ -22,7 +22,6 @@ I believe the real value of AI is not better chat, but better execution.
 Open-source tools matter because they keep intelligence inspectable, adaptable, and in the hands of builders.
 
 [![GitHub](https://img.shields.io/badge/GitHub-yagami1997-181717?style=flat-square&logo=github)](https://github.com/yagami1997)
-[![Current Project](https://img.shields.io/badge/Current%20Focus-Surgemac-0f766e?style=flat-square)](#selected-projects)
 
 > Systems over demos. Open source over lock-in. Long-term projects over novelty.
 
