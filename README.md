@@ -4,9 +4,9 @@
 
 <div align="center">
 
-[![Location](https://img.shields.io/badge/Del%20Mar-Digital%20Nomad-1f2937?style=for-the-badge&labelColor=0f766e)](#contact)
-[![Focus](https://img.shields.io/badge/Focus-Agent--Native%20Workflows-1f2937?style=for-the-badge&labelColor=0ea5e9)](#from-chat-to-agent)
-[![Style](https://img.shields.io/badge/Style-Open--Source%20Pragmatist-1f2937?style=for-the-badge&labelColor=f59e0b)](#about)
+[![Del Mar](https://img.shields.io/badge/Del%20Mar-Digital%20Nomad-1f2937?style=flat-square&labelColor=0f766e)](#contact)
+[![Agent-Native](https://img.shields.io/badge/Focus-Agent--Native%20Execution-1f2937?style=flat-square&labelColor=0ea5e9)](#from-chat-to-agent)
+[![Open Source](https://img.shields.io/badge/Belief-Open--Source%20Pragmatist-1f2937?style=flat-square&labelColor=f59e0b)](#about)
 
 </div>
 
@@ -18,17 +18,14 @@
 
 Digital nomad in Del Mar, building open-source AI software, useful tools, and agent-native workflows.
 
+I believe the real value of AI is not better chat, but better execution.
+Open-source tools matter because they keep intelligence inspectable, adaptable, and in the hands of builders.
+
 [![GitHub](https://img.shields.io/badge/GitHub-yagami1997-181717?style=flat-square&logo=github)](https://github.com/yagami1997)
 [![Current Project](https://img.shields.io/badge/Current%20Focus-Surgemac-0f766e?style=flat-square)](#selected-projects)
-[![Base](https://img.shields.io/badge/Base-Del%20Mar-1f2937?style=flat-square)](#contact)
 [![Updated](https://img.shields.io/badge/Updated-March%202026-f59e0b?style=flat-square)](#contact)
 
-> Systems over demos. Workflow over hype. Long-term projects over novelty.
-
-[![Open Source](https://img.shields.io/badge/Open%20Source-First-0f766e?style=flat-square)](#about)
-[![Execution](https://img.shields.io/badge/Execution-Agent--Native-0ea5e9?style=flat-square)](#from-chat-to-agent)
-[![Projects](https://img.shields.io/badge/Projects-Long--Term-f59e0b?style=flat-square)](#selected-projects)
-[![Lifestyle](https://img.shields.io/badge/Lifestyle-Digital%20Nomad-1f2937?style=flat-square)](#contact)
+> Systems over demos. Open source over lock-in. Long-term projects over novelty.
 
 </div>
 
@@ -78,7 +75,7 @@ From better answers to better execution.
 
 <table align="center">
 <tr>
-<td width="42%" align="center" valign="top">
+<td width="45%" align="center" valign="top">
 
 ### Chat Era
 
@@ -88,12 +85,12 @@ Copy outputs
 Finish manually
 
 </td>
-<td width="16%" align="center" valign="middle">
+<td width="10%" align="center" valign="middle">
 
 ## →
 
 </td>
-<td width="42%" align="center" valign="top">
+<td width="45%" align="center" valign="top">
 
 ### Agent Era
 
@@ -108,9 +105,7 @@ Verify the result
 
 <div align="center">
 
-Prompting still matters.
-
-Task decomposition, context engineering, tool orchestration, and verification loops matter more.
+Prompting still matters, but task decomposition, context engineering, tool orchestration, and verification loops matter more.
 
 </div>
 
