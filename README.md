@@ -231,8 +231,8 @@ Small, precise, and practical. Exactly the kind of narrow-scope software I respe
 
 ### Support
 
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20My%20Work-ff6433?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/yagami1997)
-[![Patreon](https://img.shields.io/badge/Patreon-Become%20a%20Patron-f96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/yagami1997)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20My%20Work-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/yagami1997)
+[![Patreon](https://img.shields.io/badge/Patreon-Become%20a%20Patron-FF424D?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/yagami1997)
 
 Support helps me keep building open-source tools, long-term projects, and practical software.
 
