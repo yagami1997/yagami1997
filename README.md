@@ -65,35 +65,38 @@ Task fit, control, repeatability, and software that remains useful over time.
 
 ## From Chat to Agent
 
-From better answers to better execution.
+The center of gravity has moved from prompting to execution design.
 
 </div>
 
 <table align="center">
 <tr>
-<td width="45%" align="center" valign="top">
+<td width="25%" align="center" valign="top">
 
-### Chat Era
+### Prompting
 
-Ask for answers  
-Refine prompts  
-Copy outputs  
-Finish manually
+Still useful, but no longer the whole game.
 
 </td>
-<td width="10%" align="center" valign="middle">
+<td width="25%" align="center" valign="top">
 
-## →
+### Task Design
+
+Breaking goals into executable units with clear boundaries.
 
 </td>
-<td width="45%" align="center" valign="top">
+<td width="25%" align="center" valign="top">
 
-### Agent Era
+### Context Engineering
 
-Define the goal  
-Split work into steps  
-Assign the right tool  
-Verify the result
+Giving the model, tools, and workflow the right working context.
+
+</td>
+<td width="25%" align="center" valign="top">
+
+### Verification Loops
+
+Reviewing outputs through tests, inspection, and human judgment.
 
 </td>
 </tr>
@@ -101,7 +104,7 @@ Verify the result
 
 <div align="center">
 
-Prompting still matters, but task decomposition, context engineering, tool orchestration, and verification loops matter more.
+Prompting still matters, but execution now depends far more on decomposition, context, orchestration, and verification.
 
 </div>
 
