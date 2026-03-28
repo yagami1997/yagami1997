@@ -1,78 +1,176 @@
-# Yagami
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,35:0f766e,70:0ea5e9,100:f59e0b&text=Yagami&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=California-based%20Agent-Native%20Builder&descAlignY=58&descSize=18" alt="Yagami header"/>
+</div>
 
-**California-based agent-native builder focused on open-source AI, practical systems, and useful software.**
+<div align="center">
 
-- Building systems where AI does work, not just talks
-- Rebuilding long-term projects with clearer architecture and better workflows
-- Choosing tools by task fit, control, and execution value
+[![Location](https://img.shields.io/badge/California-PST%20Builder-1f2937?style=for-the-badge&labelColor=0f766e)](#contact)
+[![Focus](https://img.shields.io/badge/Focus-Agent--Native%20Workflows-1f2937?style=for-the-badge&labelColor=0ea5e9)](#from-chat-to-agent)
+[![Mode](https://img.shields.io/badge/Style-Open--Source%20Pragmatist-1f2937?style=for-the-badge&labelColor=f59e0b)](#about)
 
-[![GitHub](https://img.shields.io/badge/GitHub-yagami1997-181717?style=for-the-badge&logo=github)](https://github.com/yagami1997)
-[![Focus](https://img.shields.io/badge/Focus-Agent--Native%20Workflows-0A7EA4?style=for-the-badge)](#from-chat-to-agent)
-[![Updated](https://img.shields.io/badge/Updated-March%202026-2E8B57?style=for-the-badge)](#contact)
+</div>
 
-Currently rebuilding **Surgemac**, refining practical AI workflows, and keeping the stack lean.
+<br/>
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+## Yagami
+
+**Building practical systems where AI does work, not just talks.**
+
+I am a California-based builder focused on open-source AI, useful software, and agent-native execution.
+
+My work is centered on:
+
+- rebuilding long-term projects with cleaner architecture
+- turning AI capability into structured workflows
+- choosing tools by task fit, control, and execution value
+
+</td>
+<td width="42%" valign="top">
+
+<div align="center">
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=yagami1997&show_icons=true&hide_border=true&bg_color=0D1117&title_color=5eead4&icon_color=f59e0b&text_color=C9D1D9&include_all_commits=true&count_private=true" alt="GitHub stats"/>
+
+</div>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-yagami1997-181717?style=flat-square&logo=github)](https://github.com/yagami1997)
+[![Current Project](https://img.shields.io/badge/Current%20Focus-Surgemac-0f766e?style=flat-square)](#selected-projects)
+[![Updated](https://img.shields.io/badge/Updated-March%202026-f59e0b?style=flat-square)](#contact)
+
+</div>
+
+> Systems over demos. Workflow over hype. Long-term projects over novelty.
+
+<div align="center">
+
+[![Open Source](https://img.shields.io/badge/Open%20Source-First-0f766e?style=flat-square)](#about)
+[![Execution](https://img.shields.io/badge/Execution-Agent--Native-0ea5e9?style=flat-square)](#from-chat-to-agent)
+[![Projects](https://img.shields.io/badge/Projects-Long--Term-f59e0b?style=flat-square)](#selected-projects)
+[![Region](https://img.shields.io/badge/Region-California-1f2937?style=flat-square)](#contact)
+
+</div>
 
 ---
 
 ## About
 
-I build practical software systems and open-source tools from California.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-My focus has shifted from chat-centric AI usage to **agent-native execution**: task design, context design, tool orchestration, and reliable verification.
+### Now
 
-I care about clarity over noise, systems over demos, and software that stays useful after the hype cycle moves on.
+- building practical software systems from California
+- shifting from chat-centric usage to agent-native execution
+- rebuilding long-term projects with cleaner structure
+- keeping the workflow lean, testable, and reusable
 
-Based on the open-source side of the ecosystem, I prefer tools and workflows that are inspectable, controllable, and worth compounding over time.
+</td>
+<td width="50%" valign="top">
+
+### Principles
+
+- clarity over noise
+- systems over demos
+- open-source where control matters
+- software that stays useful after the hype cycle
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## From Chat to Agent
 
-The important shift is no longer about getting better answers from a model.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-It is about designing better execution.
+### Chat Era
 
-The old workflow was:
+- ask for answers
+- refine prompts
+- copy results manually
+- finish the work yourself
 
-- ask
-- refine
-- copy
-- manually finish
+</td>
+<td width="50%" valign="top">
 
-The new workflow is:
+### Agent Era
 
-- define the goal
-- break it into executable steps
-- assign the right model or tool to each step
-- verify outputs with code, tests, and judgment
+- define the goal clearly
+- split work into executable steps
+- assign the right tool to each step
+- verify outputs through code and judgment
+
+</td>
+</tr>
+</table>
 
 That shift changes what matters.
 
-- `Prompting` still matters, but it is no longer the center of the craft.
+- `Prompting` still matters, but it is no longer the center.
 - `Task decomposition` matters more.
 - `Context engineering` matters more.
 - `Tool orchestration` matters more.
 - `Verification loops` matter more.
 
-I am interested in AI systems that can move work forward with structure, not just generate impressive text.
+I am interested in AI systems that move work forward with structure, not just impressive text.
 
 ---
 
 ## How I Build
 
-My default workflow is simple:
+<table>
+<tr>
+<td width="25%" valign="top">
 
-1. Define the task clearly.
-2. Break it into executable units.
-3. Choose the best-fit model, tool, or runtime for each unit.
-4. Validate the result through tests, inspection, and iteration.
+**1. Define**
 
-My selection criteria are also simple:
+Make the task concrete enough to execute.
 
-- use the strongest reasoning tool when the task is ambiguous
-- use faster agents when iteration speed matters more than depth
-- use open models when control, cost, or local experimentation matters
-- keep the workflow understandable enough to debug and reuse
+</td>
+<td width="25%" valign="top">
+
+**2. Break Down**
+
+Turn the goal into smaller units with clear boundaries.
+
+</td>
+<td width="25%" valign="top">
+
+**3. Assign**
+
+Choose the best-fit model, tool, or runtime for each unit.
+
+</td>
+<td width="25%" valign="top">
+
+**4. Verify**
+
+Review with tests, outputs, and human judgment.
+
+</td>
+</tr>
+</table>
+
+My selection criteria stay simple:
+
+- strongest reasoning when ambiguity is high
+- faster agents when iteration speed matters
+- open models when control or local experimentation matters
+- workflows that remain understandable enough to debug and reuse
 
 I do not optimize for novelty. I optimize for leverage, reliability, and repeatability.
 
@@ -80,44 +178,89 @@ I do not optimize for novelty. I optimize for leverage, reliability, and repeata
 
 ## Current Stack
 
-I choose tools by task, not by hype.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- **Deep reasoning:** frontier chat and coding models for planning, debugging, and hard decisions
-- **Coding agents:** agentic editors and terminal-first workflows for multi-step implementation
-- **Open-source experimentation:** local-friendly and open-weight model stacks when control matters
-- **Delivery:** GitHub, automation, and lean deployment paths that keep iteration tight
+### Tooling Priorities
 
-What I value most in a tool:
+- **Deep reasoning:** frontier models for planning, debugging, and hard decisions
+- **Coding agents:** agentic editors and terminal-first implementation loops
+- **Open-source experimentation:** controllable stacks for local or cost-sensitive work
+- **Delivery:** GitHub, automation, and lean release paths
 
-- can it reduce execution overhead
-- can it fit into a repeatable workflow
-- can it be verified
-- can it stay useful after the novelty wears off
+</td>
+<td width="50%" valign="top">
+
+### What I Value
+
+- lower execution overhead
+- repeatable workflow fit
+- verifiable output quality
+- usefulness that survives novelty cycles
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+[![Reasoning](https://img.shields.io/badge/Deep%20Reasoning-Frontier%20Models-0ea5e9?style=flat-square)](#current-stack)
+[![Agents](https://img.shields.io/badge/Coding%20Agents-Terminal--First-0f766e?style=flat-square)](#current-stack)
+[![Open Models](https://img.shields.io/badge/Open%20Models-When%20Control%20Matters-f59e0b?style=flat-square)](#current-stack)
+[![Delivery](https://img.shields.io/badge/Delivery-GitHub%20%2B%20Automation-1f2937?style=flat-square)](#current-stack)
+
+</div>
 
 ---
 
 ## Selected Projects
 
-### Surgemac
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### [Surgemac](https://github.com/yagami1997/Surgemac)
 `Active Rebuild`
 
-A long-term project I am actively rebuilding with clearer architecture, tighter workflows, and stronger product discipline.
+A long-term project I am rebuilding with clearer architecture, tighter workflows, and stronger product discipline.
 
-This is the best representation of how I currently think: simplify the system, remove noise, and build something sustainable instead of endlessly layering features.
+</td>
+<td width="33%" valign="top">
 
-### TradeMind
+### [TradeMind](https://github.com/yagami1997/TradeMind)
 `AI Systems`
 
 An AI-assisted trading intelligence system focused on structured analysis and practical decision support.
 
-It reflects my interest in turning models into usable systems with workflows, signals, and operational value instead of one-off AI demos.
+</td>
+<td width="33%" valign="top">
 
-### esimswap
+### [esimswap](https://github.com/yagami1997/esimswap)
 `Utility Tool`
 
 A standards-focused utility for transforming eSIM data into correct and usable outputs.
 
-Small, precise, and practical. It represents the kind of software work I respect most: narrow scope, real use, minimal noise.
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+This project best represents how I think now: simplify the system, remove noise, and build for sustainability.
+
+</td>
+<td valign="top">
+
+It reflects my interest in turning models into usable systems with workflows, signals, and operational value.
+
+</td>
+<td valign="top">
+
+Small, precise, and practical. Exactly the kind of narrow-scope software I respect.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -125,8 +268,7 @@ Small, precise, and practical. It represents the kind of software work I respect
 
 <div align="center">
   <a href="https://github.com/yagami1997">
-    <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=yagami1997&show_icons=true&hide_border=true&bg_color=0D1117&title_color=4DA3C8&icon_color=4DA3C8&text_color=C9D1D9&include_all_commits=true&count_private=true" alt="GitHub stats"/>
-    <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yagami1997&layout=compact&hide_border=true&bg_color=0D1117&title_color=4DA3C8&text_color=C9D1D9&langs_count=8" alt="Top languages"/>
+    <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yagami1997&layout=compact&hide_border=true&bg_color=0D1117&title_color=5eead4&text_color=C9D1D9&langs_count=8" alt="Top languages"/>
   </a>
 </div>
 
@@ -134,17 +276,40 @@ Small, precise, and practical. It represents the kind of software work I respect
 
 ## Contact
 
-- GitHub: [@yagami1997](https://github.com/yagami1997)
-- Support: [Ko-fi](https://ko-fi.com/yagami1997) / [Patreon](https://patreon.com/yagami1997)
-- Collaboration: open to practical conversations around open-source AI, workflows, and useful software
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<details>
-<summary><strong>Secure Contact</strong></summary>
+### Reach Out
 
-I prefer secure communication for sensitive topics.
+<div align="left">
 
-If encrypted contact is necessary, reach out through GitHub first and establish the channel there.
+[![GitHub](https://img.shields.io/badge/GitHub-@yagami1997-181717?style=for-the-badge&logo=github)](https://github.com/yagami1997)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-ff6433?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/yagami1997)
+[![Patreon](https://img.shields.io/badge/Patreon-Support-f96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/yagami1997)
 
-</details>
+</div>
 
-<sub>California · Last updated: March 2026 · PST (UTC-8)</sub>
+Open to practical conversations around open-source AI, workflows, and useful software.
+
+</td>
+<td width="50%" valign="top">
+
+### Secure Contact
+
+<div align="left">
+
+[![GPG](https://img.shields.io/badge/GPG-Encrypted%20Contact-0f766e?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)](https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A)
+[![PST](https://img.shields.io/badge/Timezone-PST%20(UTC--8)-1f2937?style=for-the-badge)](#contact)
+
+</div>
+
+For sensitive topics, use the same secure contact flow as before: start through GitHub and request a GPG-secured channel there.
+
+Key exchange details are handled through the existing workflow behind that request. The public key is not exposed on this page.
+
+California · Last updated: March 2026 · PST (UTC-8)
+
+</td>
+</tr>
+</table>
