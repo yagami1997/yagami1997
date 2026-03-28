@@ -5,8 +5,8 @@
 <div align="center">
 
 [![Del Mar](https://img.shields.io/badge/Del%20Mar-Digital%20Nomad-1f2937?style=flat-square&labelColor=0f766e)](#contact)
-[![Agent-Native](https://img.shields.io/badge/Focus-Agent--Native%20Execution-1f2937?style=flat-square&labelColor=0ea5e9)](#from-chat-to-agent)
-[![Open Source](https://img.shields.io/badge/Belief-Open--Source%20Pragmatist-1f2937?style=flat-square&labelColor=f59e0b)](#about)
+[![Agent-Native](https://img.shields.io/badge/Agent--Native-Execution-1f2937?style=flat-square&labelColor=0ea5e9)](#from-chat-to-agent)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Pragmatist-1f2937?style=flat-square&labelColor=f59e0b)](#about)
 
 </div>
 
