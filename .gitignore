@@ -1,0 +1,6 @@
+# Local Claude Code / agent workspace and environment
+.claude/
+.superpowers/
+.direnv/
+.env
+.env.*
