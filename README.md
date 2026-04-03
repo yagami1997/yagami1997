@@ -6,7 +6,7 @@
 
 [![Agent-Native Execution](https://img.shields.io/badge/Agent--Native%20Execution-0ea5e9?style=flat-square)](#how-i-work)
 [![Open-Source Pragmatist](https://img.shields.io/badge/Open--Source%20Pragmatist-f59e0b?style=flat-square)](#about)
-[![Updated March 2026](https://img.shields.io/badge/Updated%20March%202026-4b5563?style=flat-square)](#contact)
+[![Updated April 2026](https://img.shields.io/badge/Updated%20April%202026-4b5563?style=flat-square)](#contact)
 
 </div>
 
@@ -194,22 +194,20 @@ A standards-focused utility for transforming eSIM data into correct and usable o
 
 Support helps me keep building open-source tools, long-term projects, and practical software.
 
-<br/>
+---
 
 ### Secure Contact
 
 [![GPG](https://img.shields.io/badge/GPG-Request%20Encrypted%20Contact-0f766e?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)](https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A)
 
-For sensitive topics, use the same secure contact flow as before: start through GitHub and request a GPG-secured channel there.
+For sensitive topics: open a GitHub issue to request a GPG-secured channel. Key exchange details are handled through that request. The public key is not exposed on this page.
 
-Key exchange details are handled through the existing workflow behind that request. The public key is not exposed on this page.
-
-<br/>
+---
 
 [![GitHub](https://img.shields.io/badge/GitHub-@yagami1997-181717?style=flat-square&logo=github)](https://github.com/yagami1997)
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-Del Mar, California · Last updated: 2026-04-02 19:18:50 PDT (UTC-7)
+Del Mar, California · Last updated: 2026-04-03 PDT (UTC-7)
 
 </div>
