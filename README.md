@@ -18,13 +18,11 @@
 
 </div>
 
-Independent researcher and builder based in Del Mar, California. I build open-source AI tools, agent-native workflows, and practical software systems.
+Independent researcher and builder based in Del Mar. I build open-source AI tools and agent-native workflows — software where the model does real work, not just generates text.
 
-My work is shaped by a few fixed beliefs. AI's real value is in execution, not conversation — the model should do work, not just talk about it. Open-source matters because intelligence that can't be inspected can't be trusted. Long-term projects beat clever demos. The right tool is the one that fits the task, not the one that dominates the news cycle.
+AI's real value is execution, not conversation. Open-source matters because intelligence that can't be inspected can't be trusted. The right tool is the one that fits the task — not the one with the most coverage, the biggest release, or the loudest community.
 
-I'm not interested in building things that look impressive in a screenshot. I'm interested in systems that hold up under real conditions, over real time, with real consequences. That means cleaner architecture, tighter workflows, and honest evaluation of what's actually working.
-
-Vibe Coding is a real and useful practice — for exploration, prototyping, and moving fast in the early stages. But it hits a hard ceiling the moment execution reliability starts to matter. Generating code by feel works until it doesn't, and when it breaks, there's no model for why. The skill that matters now isn't better prompting. It's execution design: how you decompose a goal, how you give the model the right working context, and how you verify that what ran is actually what you intended.
+I build for the long term. That means resisting novelty for its own sake, keeping systems inspectable, and treating execution design as the actual craft.
 
 > Systems over demos. Open source over lock-in. Long-term projects over novelty.
 
