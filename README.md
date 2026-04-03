@@ -18,13 +18,30 @@
 
 </div>
 
-Independent researcher and builder based in Del Mar. I build open-source AI tools and agent-native workflows — software where the model does real work, not just generates text.
+```
+╔═══════════════════════════════════════════════════════════╗
+║  yagami1997  ·  Del Mar, CA  ·  Independent Builder       ║
+╚═══════════════════════════════════════════════════════════╝
 
-AI's real value is execution, not conversation. Open-source matters because intelligence that can't be inspected can't be trusted. The right tool is the one that fits the task — not the one with the most coverage, the biggest release, or the loudest community.
+  Independent researcher and builder based in Del Mar.
+  I build open-source AI tools and agent-native workflows
+  — software where the model does real work, not just
+  generates text.
 
-I build for the long term. That means resisting novelty for its own sake, keeping systems inspectable, and treating execution design as the actual craft.
+  ───────────────────────────────────────────────────────
+  beliefs:
+    execution    >  conversation
+    inspectable  >  opaque
+    long-term    >  novelty
+  ───────────────────────────────────────────────────────
 
-> Systems over demos. Open source over lock-in. Long-term projects over novelty.
+  I build for the long term. That means resisting novelty
+  for its own sake, keeping systems inspectable, and
+  treating execution design as the actual craft.
+
+  "Systems over demos. Open source over lock-in.
+   Long-term projects over novelty."
+```
 
 ---
 
@@ -32,19 +49,45 @@ I build for the long term. That means resisting novelty for its own sake, keepin
 
 ## Field Notes
 
-*Short takes on what's happening in AI and software — updated as things shift.*
+*Short takes on AI and software — updated as things shift.*
 
 </div>
 
-**`Apr 2, 2026`** · **The Paradigm Has Already Shifted**
+```
+╔═══════════════════════════════════════════════════════════╗
+║  ~/field_notes                                            ║
+╚═══════════════════════════════════════════════════════════╝
 
-The move from Chat to Agent isn't a product category update. It's a change in what the model's role actually is. In the Chat paradigm, the model generates and you execute. In the Agent paradigm, the model executes. That distinction changes everything — how you structure tasks, how you manage context across a session, how you think about verification.
+  [2026-04-02]  The Paradigm Has Already Shifted
+  ───────────────────────────────────────────────────────
 
-Claude Code is the clearest example I've worked with of what this shift looks like in practice. It's not a smarter autocomplete or a faster way to write boilerplate. It reads your codebase, runs commands, edits files, and makes decisions over a full working session. The bottleneck stops being "can the model write good code?" and becomes "did you design the task clearly enough for it to execute?" That's a fundamentally different kind of work.
+  The move from Chat to Agent isn't a product category
+  update. It's a change in what the model's role is. In
+  the Chat paradigm, the model generates and you execute.
+  In the Agent paradigm, the model executes. That changes
+  everything — task structure, context management,
+  verification.
 
-The Computer Use direction pushes this further. Once the model can operate a browser, a terminal, or an interface the way a person would, the distinction between "AI assistant" and "AI worker" collapses. We're not there yet in terms of reliability, but the architecture is real and the trajectory is clear.
+  Claude Code is the clearest example I've worked with.
+  It reads your codebase, runs commands, edits files, and
+  makes decisions across a full working session. The
+  bottleneck stops being "can it write good code?" and
+  becomes "did you design the task clearly enough?" That
+  is a fundamentally different kind of work.
 
-What concerns me about how most people are approaching this shift: they're applying Chat-era thinking to Agent-era tools. They treat the agent like a faster chatbot — throw a prompt at it, see what comes out. That works for simple tasks. For anything with real complexity or real stakes, execution design is the missing piece. Decomposition, context engineering, verification loops. These aren't advanced techniques. They're the basics of making agents actually work.
+  Computer Use pushes this further. Once the model can
+  operate a browser or terminal the way a person would,
+  the line between "AI assistant" and "AI worker"
+  collapses. The architecture is already real. The
+  trajectory is clear.
+
+  What concerns me: most people are applying Chat-era
+  thinking to Agent-era tools — treating the agent like
+  a faster chatbot. That works for simple tasks. For
+  anything with real complexity, execution design is the
+  missing piece: decomposition, context engineering,
+  verification loops. Not advanced techniques. Basics.
+```
 
 ---
 
