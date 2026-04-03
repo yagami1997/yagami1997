@@ -1,9 +1,9 @@
-# GitHub Profile Redesign Spec
-Date: 2026-04-03
+# GitHub Profile Status & Design Record
+Last updated: 2026-04-03
 
 ## Overview
 
-Full redesign of the `yagami1997` GitHub profile README. The goal is to improve structure, reduce redundancy, and elevate the Projects section — while preserving the current visual identity and all existing contact content.
+Design record for the `yagami1997` GitHub profile README. Documents current state, decisions made, and what was changed.
 
 ## Target Audience
 
@@ -12,85 +12,58 @@ Full redesign of the `yagami1997` GitHub profile README. The goal is to improve 
 
 ## Design Principles
 
-- Keep the existing color scheme: dark background, teal/blue/gold (`#0f172a`, `#0f766e`, `#0ea5e9`, `#f59e0b`)
+- Color scheme: dark background, teal/blue/gold (`#0f172a`, `#0f766e`, `#0ea5e9`, `#f59e0b`)
 - No dynamic widgets (no GitHub stats, no streak graphs, no trophies) — anti-vanity-metric philosophy
 - Consistent with "Systems Over Hype" brand: clean, direct, no decoration for decoration's sake
 
-## Section-by-Section Decisions
+---
+
+## Current Section State
 
 ### 1. Header Banner
-**Keep as-is.** Capsule-render waving banner with current colors and text.
+**Kept as-is.** Capsule-render waving banner with current colors and "Systems Over Hype / Independent Builder · Del Mar · Building in the Open".
 
 ### 2. Badges (×3)
-**Keep as-is.** Agent-Native Execution / Open-Source Pragmatist / Updated date.
+**Active.** Agent-Native Execution / Open-Source Pragmatist / Updated April 2026.
+- Badge date updated to April 2026 on 2026-04-03.
 
-### 3. Intro Text
-**Light tightening only.** The heading and paragraph copy are solid. Minor cleanup for concision if needed, no structural change.
+### 3. Who I Am
+**Kept as-is.** Opening paragraph + blockquote. Copy is solid, no changes needed.
 
-### 4. About (3-column table)
-**Keep as-is.** Building / Shifting Toward / Choosing For — works well.
+### 4. Field Notes
+**Kept as-is.** Pine mail reader format, ~105 chars wide. Strongest differentiator on the page. Current message: "The Paradigm Has Already Shifted" (2026-04-02).
 
-### 5. How I Work *(merged section)*
-**Merge "From Chat to Agent" + "How I Build" → one section.**
+### 5. About (3-column table)
+**Kept as-is.** Building / Shifting Toward / Choosing For.
 
-The two existing 4-column tables are visually identical in structure and partially overlap in content. Merge into a single "How I Work" section using **Layout C (left-label list)**:
+### 6. How I Work
+**Merged.** Two original 4-column tables combined into one left-label table: DESIGN / DECOMPOSE / ASSIGN / VERIFY.
 
-```
-DESIGN      Make the task concrete enough to execute
-DECOMPOSE   Break goals into units with clean boundaries
-ASSIGN      Best-fit model, tool, or runtime per unit
-VERIFY      Tests, outputs, and human judgment
-```
+### 7. Current Stack
+**Kept as-is.** Four `for-the-badge` badges: Deep Reasoning / Coding Agents / Open Models / Delivery.
 
-Rationale: consistent with anti-show-off philosophy, stable across screen sizes, reads as confident and direct.
+### 8. Selected Projects
+**Kept as-is (2×2 grid).** Four projects: Surgemac / TradeMind / RealCarrier / esimswap.
+- Original spec proposed upgrading to single-column with "why I built it" — decided against for now, current format is workable.
 
-### 6. Current Stack (badges)
-**Keep as-is.** Four `for-the-badge` style badges.
+### 9. Contact
+**Restructured on 2026-04-03.**
+- Replaced `<br/>` spacers with `---` dividers between the three sub-sections (Support / Secure Contact / GitHub)
+- Rewrote Secure Contact description: removed "as before" phrasing that was confusing to first-time visitors
+- Simplified timestamp to date-only format: `2026-04-03 PDT (UTC-7)`
+- All links and content unchanged: Ko-fi, Patreon, GPG request flow, GitHub badge
 
-### 7. Selected Projects *(upgraded)*
-**Upgrade to Layout C (single-column with depth).**
+---
 
-Each project gets: name + status label on one line, followed by 2-3 sentences covering what it does and *why it was built*. This is the most important section for both target audiences.
+## Change Log
 
-Layout format (exact copy to be finalized during implementation, based on current README descriptions):
-```
-Surgemac                                    ● Active Rebuild
-Rebuilt from the ground up with cleaner architecture and tighter product discipline.
-Represents how I currently think: remove noise, build for the long term.
-
-TradeMind                                   ◆ AI Systems
-Turns models into usable systems with structured workflows — not a chatbot,
-a decision-support tool with operational value.
-
-esimswap                                    ✓ Utility
-Small, precise, practical. Exactly the kind of narrow-scope software that gets used.
-```
-
-Note: the above is draft copy derived from the existing README. Final wording stays close to this but can be polished during implementation.
-
-### 8. Contact *(visual restructure, content unchanged)*
-**All three elements must remain: Ko-fi, Patreon, GPG.** Restructured into three visually equal sub-sections:
-
-1. **Support** — Ko-fi + Patreon as large `for-the-badge`-sized buttons (current size), side by side
-2. **Secure Contact** — GPG button (same large size), with existing description text
-3. **GitHub** — `@yagami1997` link as a smaller outlined badge, followed by footer text
-
-The divider line (`---`) between each sub-section creates visual separation without implying hierarchy.
-
-## What Does NOT Change
-
-- Color scheme and brand identity
-- Header banner
-- Badges
-- About section
-- Current Stack section
-- All contact content (Ko-fi, Patreon, GPG links and descriptions)
-- The "Systems Over Hype" tagline and core copy
-
-## Summary of Changes
-
-| Section | Change |
-|---------|--------|
-| How I Work | Merge two 4-col tables → one left-label list |
-| Projects | Upgrade from 3-col grid → single-column with "why I built it" |
-| Contact | Visual restructure: 3 equal sub-sections, large support buttons |
+| Date | Change |
+|------|--------|
+| 2026-04-03 | Badge date: March → April 2026 |
+| 2026-04-03 | Contact: `<br/>` → `---` dividers, 3 equal sub-sections |
+| 2026-04-03 | Secure Contact copy: removed "as before", clearer for new visitors |
+| 2026-04-03 | Timestamp simplified to date-only |
+| 2026-04-02 | Field Notes message updated to "The Paradigm Has Already Shifted" |
+| 2026-04-02 | Field Notes width extended to ~105 chars |
+| 2026-04-02 | Sender address updated to github.com/yagami1997 |
+| 2026-04-02 | How I Work: merged two tables into one |
