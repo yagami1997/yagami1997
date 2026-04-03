@@ -37,38 +37,40 @@ I build for the long term. That means resisting novelty for its own sake, keepin
 </div>
 
 ```
- field_notes/2026-04-02.md                                     [readonly]
- ─────────────────────────────────────────────────────────────────────────
-  1  [2026-04-02]  The Paradigm Has Already Shifted
-  2  ───────────────────────────────────────────────────────────────────
-  3
-  4  The move from Chat to Agent isn't a product category update. It's
-  5  a change in what the model's role is. In the Chat paradigm, the
-  6  model generates and you execute. In the Agent paradigm, the model
-  7  executes. That changes everything — task structure, context
-  8  management, verification.
-  9
- 10  Claude Code is the clearest example I've worked with. It reads
- 11  your codebase, runs commands, edits files, and makes decisions
- 12  across a full working session. The bottleneck stops being "can it
- 13  write good code?" and becomes "did you design the task clearly
- 14  enough?" That is a fundamentally different kind of work.
- 15
- 16  Computer Use pushes this further. Once the model can operate a
- 17  browser or terminal the way a person would, the line between
- 18  "AI assistant" and "AI worker" collapses. The architecture is
- 19  already real. The trajectory is clear.
- 20
- 21  What concerns me: most people are applying Chat-era thinking to
- 22  Agent-era tools — treating the agent like a faster chatbot. That
- 23  works for simple tasks. For anything with real complexity,
- 24  execution design is the missing piece: decomposition, context
- 25  engineering, verification loops. Not advanced techniques. Basics.
- 26  ~
- 27  ~
- 28  ~
- ─────────────────────────────────────────────────────────────────────────
- "field_notes/2026-04-02.md" [readonly] 25L, 1337C ──────────── 25,1  All
+INBOX  [1 message]  ~/field_notes
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+From : yagami1997@delmar.ca.us
+Date : Thu, 02 Apr 2026 18:45:49 -0700 (PDT)
+Subj : The Paradigm Has Already Shifted
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The move from Chat to Agent isn't a product category update. It's
+a change in what the model's role is. In the Chat paradigm, the
+model generates and you execute. In the Agent paradigm, the model
+executes. That changes everything — task structure, context
+management, verification.
+
+Claude Code is the clearest example I've worked with. It reads
+your codebase, runs commands, edits files, and makes decisions
+across a full working session. The bottleneck stops being "can it
+write good code?" and becomes "did you design the task clearly
+enough?" That is a fundamentally different kind of work.
+
+Computer Use pushes this further. Once the model can operate a
+browser or terminal the way a person would, the line between
+"AI assistant" and "AI worker" collapses. The architecture is
+already real. The trajectory is clear.
+
+What concerns me: most people are applying Chat-era thinking to
+Agent-era tools — treating the agent like a faster chatbot. That
+works for simple tasks. For anything with real complexity,
+execution design is the missing piece. Not advanced techniques.
+Basics.
+
+--
+yagami1997 | Del Mar, CA | building in the open
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[END OF MESSAGE]  n)ext  q)uit  r)eply  ?
 ```
 
 ---
