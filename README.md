@@ -160,6 +160,6 @@ Key exchange details are handled through the existing workflow behind that reque
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-Del Mar, California · Last updated: March 2026 · PST (UTC-8)
+Del Mar, California · Last updated: 2026-04-02 18:45:49 PDT (UTC-7)
 
 </div>
