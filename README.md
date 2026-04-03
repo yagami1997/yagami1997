@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Agent-Native Execution](https://img.shields.io/badge/Agent--Native%20Execution-0ea5e9?style=flat-square)](#from-chat-to-agent)
+[![Agent-Native Execution](https://img.shields.io/badge/Agent--Native%20Execution-0ea5e9?style=flat-square)](#how-i-work)
 [![Open-Source Pragmatist](https://img.shields.io/badge/Open--Source%20Pragmatist-f59e0b?style=flat-square)](#about)
 [![Updated March 2026](https://img.shields.io/badge/Updated%20March%202026-4b5563?style=flat-square)](#contact)
 
@@ -65,105 +65,20 @@ Task fit, control, repeatability, and software that remains useful over time.
 
 <div align="center">
 
-## From Chat to Agent
+## How I Work
 
-The center of gravity has moved from prompting to execution design.
-
-</div>
-
-<table align="center">
-<tr>
-<td width="25%" align="center" valign="top">
-
-### Prompting
-
-Still useful, but no longer the whole game.
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### Task Design
-
-Breaking goals into executable units with clear boundaries.
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### Context Engineering
-
-Giving the model, tools, and workflow the right working context.
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### Verification Loops
-
-Reviewing outputs through tests, inspection, and human judgment.
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-Prompting still matters, but execution now depends far more on decomposition, context, orchestration, and verification.
+Execution depends on decomposition, context, orchestration, and verification — not just prompting.
 
 </div>
 
----
-
 <div align="center">
 
-## How I Build
-
-</div>
-
-<table align="center">
-<tr>
-<td width="25%" align="center" valign="top">
-
-### 1
-
-**Define**
-
-Make the task concrete enough to execute.
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### 2
-
-**Break Down**
-
-Turn the goal into smaller units with clean boundaries.
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### 3
-
-**Assign**
-
-Choose the best-fit model, tool, or runtime for each unit.
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### 4
-
-**Verify**
-
-Review with tests, outputs, and human judgment.
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-Strong reasoning when ambiguity is high.  
-Faster agents when iteration speed matters.  
-Open models when control or local experimentation matters.
+| | |
+|:--|:--|
+| `DESIGN` | Make the task concrete enough to execute |
+| `DECOMPOSE` | Break goals into executable units with clean boundaries |
+| `ASSIGN` | Choose the best-fit model, tool, or runtime for each unit |
+| `VERIFY` | Review with tests, outputs, and human judgment |
 
 </div>
 
@@ -190,40 +105,31 @@ I choose tools by task, not by hype.
 
 </div>
 
-<table align="center">
-<tr>
-<td width="33%" align="center" valign="top">
+<div align="center">
+<table>
+<tr><td width="680" align="left" valign="top">
 
-### [Surgemac](https://github.com/yagami1997/Surgemac)
-`Active Rebuild`
+### [Surgemac](https://github.com/yagami1997/Surgemac) `Active Rebuild`
 
-A long-term project being rebuilt with clearer architecture, tighter workflows, and stronger product discipline.
+Rebuilt from the ground up with cleaner architecture, tighter workflows, and stronger product discipline. Represents how I currently think: simplify the system, remove noise, and build for sustainability.
 
-Best represents how I currently think: simplify the system, remove noise, and build for sustainability.
+</td></tr>
+<tr><td align="left" valign="top">
 
-</td>
-<td width="33%" align="center" valign="top">
+### [TradeMind](https://github.com/yagami1997/TradeMind) `AI Systems`
 
-### [TradeMind](https://github.com/yagami1997/TradeMind)
-`AI Systems`
+Turns models into usable systems with structured analysis workflows — not a chatbot, but a decision-support tool with real operational value. Built to demonstrate what it means to go from raw model output to a reliable, repeatable process.
 
-An AI-assisted trading intelligence system focused on structured analysis and practical decision support.
+</td></tr>
+<tr><td align="left" valign="top">
 
-Represents my interest in turning models into usable systems with workflows and operational value.
+### [esimswap](https://github.com/yagami1997/esimswap) `Utility Tool`
 
-</td>
-<td width="33%" align="center" valign="top">
+A standards-focused utility for transforming eSIM data into correct and usable outputs. Small, precise, and practical — exactly the kind of narrow-scope software that gets used.
 
-### [esimswap](https://github.com/yagami1997/esimswap)
-`Utility Tool`
-
-A standards-focused utility for transforming eSIM data into correct and usable outputs.
-
-Small, precise, and practical. Exactly the kind of narrow-scope software I respect.
-
-</td>
-</tr>
+</td></tr>
 </table>
+</div>
 
 ---
 
