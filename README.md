@@ -208,6 +208,6 @@ For sensitive topics: open a GitHub issue to request a GPG-secured channel. Key 
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-Del Mar, California · Last updated: 2026-04-03 PDT (UTC-7)
+Del Mar, California · Last updated: 2026-04-02 19:48:52 PDT
 
 </div>
