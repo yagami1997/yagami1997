@@ -37,35 +37,38 @@ I build for the long term. That means resisting novelty for its own sake, keepin
 </div>
 
 ```
-  1 [2026-04-02]  The Paradigm Has Already Shifted
-  2 ──────────────────────────────────────────────────────────────────
+ field_notes/2026-04-02.md                                     [readonly]
+ ─────────────────────────────────────────────────────────────────────────
+  1  [2026-04-02]  The Paradigm Has Already Shifted
+  2  ───────────────────────────────────────────────────────────────────
   3
-  4 The move from Chat to Agent isn't a product category update.
-  5 It's a change in what the model's role is. In the Chat paradigm,
-  6 the model generates and you execute. In the Agent paradigm, the
-  7 model executes. That changes everything — task structure, context
-  8 management, verification.
+  4  The move from Chat to Agent isn't a product category update. It's
+  5  a change in what the model's role is. In the Chat paradigm, the
+  6  model generates and you execute. In the Agent paradigm, the model
+  7  executes. That changes everything — task structure, context
+  8  management, verification.
   9
- 10 Claude Code is the clearest example I've worked with. It reads
- 11 your codebase, runs commands, edits files, and makes decisions
- 12 across a full working session. The bottleneck stops being "can it
- 13 write good code?" and becomes "did you design the task clearly
- 14 enough?" That is a fundamentally different kind of work.
+ 10  Claude Code is the clearest example I've worked with. It reads
+ 11  your codebase, runs commands, edits files, and makes decisions
+ 12  across a full working session. The bottleneck stops being "can it
+ 13  write good code?" and becomes "did you design the task clearly
+ 14  enough?" That is a fundamentally different kind of work.
  15
- 16 Computer Use pushes this further. Once the model can operate a
- 17 browser or terminal the way a person would, the line between
- 18 "AI assistant" and "AI worker" collapses. The architecture is
- 19 already real. The trajectory is clear.
+ 16  Computer Use pushes this further. Once the model can operate a
+ 17  browser or terminal the way a person would, the line between
+ 18  "AI assistant" and "AI worker" collapses. The architecture is
+ 19  already real. The trajectory is clear.
  20
- 21 What concerns me: most people are applying Chat-era thinking to
- 22 Agent-era tools — treating the agent like a faster chatbot. That
- 23 works for simple tasks. For anything with real complexity,
- 24 execution design is the missing piece: decomposition, context
- 25 engineering, verification loops. Not advanced techniques. Basics.
- 26 ~
- 27 ~
- 28 ~
-"field_notes/2026-04-02.md" [readonly] 25L, 1337C
+ 21  What concerns me: most people are applying Chat-era thinking to
+ 22  Agent-era tools — treating the agent like a faster chatbot. That
+ 23  works for simple tasks. For anything with real complexity,
+ 24  execution design is the missing piece: decomposition, context
+ 25  engineering, verification loops. Not advanced techniques. Basics.
+ 26  ~
+ 27  ~
+ 28  ~
+ ─────────────────────────────────────────────────────────────────────────
+ "field_notes/2026-04-02.md" [readonly] 25L, 1337C ──────────── 25,1  All
 ```
 
 ---
