@@ -65,13 +65,13 @@ beside the Agent, not beneath it.
 Three questions for any Agent product you adopt: Can you see each step? Can you identify where
 it failed? Who is accountable? If none of those have answers, you are holding a larger black box.
 
-→ Full essay: FieldNotes/001-from-anti-to-box.md
-
 --
 yagami1997 | Del Mar, CA | building in the open
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [END OF MESSAGE]  n)ext  q)uit  r)eply  ?
 ```
+
+→ Full essay: [From Anti-Microsoft to Anti-Black Box](FieldNotes/001-from-anti-to-box.md)
 
 ---
 
