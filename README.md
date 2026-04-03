@@ -44,7 +44,7 @@ Date : Fri, 03 Apr 2026 04:04:38 -0700 (PDT)
 Subj : From Anti-Microsoft to Anti-Black Box
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Twenty years ago, Wang Yin argued that engineers should face genuine complexity rather than
+Twenty years ago, Yin Wang（王垠）argued that engineers should face genuine complexity rather than
 surrender to opaque encapsulation. Most people remember the surface: Linux good, use it.
 The real argument was about posture — tools should help you understand the system, not
 replace your understanding of it.
