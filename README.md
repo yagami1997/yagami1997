@@ -39,7 +39,7 @@ I build for the long term. That means resisting novelty for its own sake, keepin
 ```
 INBOX  [1 message]  ~/field_notes
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-From : yagami1997@delmar.ca.us
+From : github.com/yagami1997
 Date : Thu, 02 Apr 2026 18:45:49 -0700 (PDT)
 Subj : The Paradigm Has Already Shifted
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
