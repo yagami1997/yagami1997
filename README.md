@@ -105,31 +105,40 @@ I choose tools by task, not by hype.
 
 </div>
 
-<div align="center">
 <table>
-<tr><td width="680" align="left" valign="top">
+<tr>
+<td width="50%" valign="top">
 
-### [Surgemac](https://github.com/yagami1997/Surgemac) `Active Rebuild`
+### [Surgemac](https://github.com/yagami1997/Surgemac) `Network Routing`
 
-Rebuilt from the ground up with cleaner architecture, tighter workflows, and stronger product discipline. Represents how I currently think: simplify the system, remove noise, and build for sustainability.
+A self-hosted network routing toolkit for Surge Pro 6 on macOS and iOS. 2,500+ rules across 67 files, zero third-party dependencies. Built for precise traffic control without relying on anyone else's infrastructure.
 
-</td></tr>
-<tr><td align="left" valign="top">
+</td>
+<td width="50%" valign="top">
 
 ### [TradeMind](https://github.com/yagami1997/TradeMind) `AI Systems`
 
-Turns models into usable systems with structured analysis workflows — not a chatbot, but a decision-support tool with real operational value. Built to demonstrate what it means to go from raw model output to a reliable, repeatable process.
+Turns models into usable systems with structured analysis workflows — not a chatbot, but a decision-support tool with real operational value. A working example of going from raw model output to a reliable, repeatable process.
 
-</td></tr>
-<tr><td align="left" valign="top">
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### [RealCarrier](https://github.com/yagami1997/RealCarrier) `Utility Tool`
+
+A Python tool for querying US phone number carrier information with real-time LNP data. Dual provider support, batch processing, and multi-level caching. Telecom data utility built to work correctly, not just conveniently.
+
+</td>
+<td valign="top">
 
 ### [esimswap](https://github.com/yagami1997/esimswap) `Utility Tool`
 
 A standards-focused utility for transforming eSIM data into correct and usable outputs. Small, precise, and practical — exactly the kind of narrow-scope software that gets used.
 
-</td></tr>
+</td>
+</tr>
 </table>
-</div>
 
 ---
 
