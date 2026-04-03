@@ -14,17 +14,39 @@
 
 <div align="center">
 
-## Building practical systems where AI does work, not just talks.
+## Who I Am
 
 </div>
 
-Independent researcher and builder based in Del Mar.
+Independent researcher and builder based in Del Mar, California. I build open-source AI tools, agent-native workflows, and practical software systems.
 
-I build open-source AI tools and agent-native workflows — software where the model does real work, not just generates text.
+My work is shaped by a few fixed beliefs. AI's real value is in execution, not conversation — the model should do work, not just talk about it. Open-source matters because intelligence that can't be inspected can't be trusted. Long-term projects beat clever demos. The right tool is the one that fits the task, not the one that dominates the news cycle.
 
-The shift from prompting to execution is the most underrated change in AI right now. I'm building in that direction: systems that decompose goals, manage context, and verify outputs. Open-source, because intelligence should stay inspectable and in the hands of builders.
+I'm not interested in building things that look impressive in a screenshot. I'm interested in systems that hold up under real conditions, over real time, with real consequences. That means cleaner architecture, tighter workflows, and honest evaluation of what's actually working.
+
+Vibe Coding is a real and useful practice — for exploration, prototyping, and moving fast in the early stages. But it hits a hard ceiling the moment execution reliability starts to matter. Generating code by feel works until it doesn't, and when it breaks, there's no model for why. The skill that matters now isn't better prompting. It's execution design: how you decompose a goal, how you give the model the right working context, and how you verify that what ran is actually what you intended.
 
 > Systems over demos. Open source over lock-in. Long-term projects over novelty.
+
+---
+
+<div align="center">
+
+## Field Notes
+
+*Short takes on what's happening in AI and software — updated as things shift.*
+
+</div>
+
+**`Apr 2, 2026`** · **The Paradigm Has Already Shifted**
+
+The move from Chat to Agent isn't a product category update. It's a change in what the model's role actually is. In the Chat paradigm, the model generates and you execute. In the Agent paradigm, the model executes. That distinction changes everything — how you structure tasks, how you manage context across a session, how you think about verification.
+
+Claude Code is the clearest example I've worked with of what this shift looks like in practice. It's not a smarter autocomplete or a faster way to write boilerplate. It reads your codebase, runs commands, edits files, and makes decisions over a full working session. The bottleneck stops being "can the model write good code?" and becomes "did you design the task clearly enough for it to execute?" That's a fundamentally different kind of work.
+
+The Computer Use direction pushes this further. Once the model can operate a browser, a terminal, or an interface the way a person would, the distinction between "AI assistant" and "AI worker" collapses. We're not there yet in terms of reliability, but the architecture is real and the trajectory is clear.
+
+What concerns me about how most people are approaching this shift: they're applying Chat-era thinking to Agent-era tools. They treat the agent like a faster chatbot — throw a prompt at it, see what comes out. That works for simple tasks. For anything with real complexity or real stakes, execution design is the missing piece. Decomposition, context engineering, verification loops. These aren't advanced techniques. They're the basics of making agents actually work.
 
 ---
 
