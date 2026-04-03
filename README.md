@@ -37,7 +37,7 @@ I build for the long term. That means resisting novelty for its own sake, keepin
 </div>
 
 ```
-INBOX  [1 message]  ~/field_notes
+INBOX  [1 message]  ~/FieldNotes
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 From : github.com/yagami1997
 Date : Fri, 03 Apr 2026 04:04:38 -0700 (PDT)
