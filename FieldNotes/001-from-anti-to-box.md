@@ -6,7 +6,7 @@
 
 ## Prologue
 
-Twenty years ago, a Chinese programmer named Wang Yin wrote an essay called *Working Completely in Linux*. It circulated widely through developer communities, passed hand to hand like a manifesto — a declaration that a serious engineer should understand the tools they work with, not merely consume them.
+Twenty years ago, a Chinese programmer named Yin Wang（王垠）wrote an essay called [*Working Completely in Linux*](https://dywang.csie.cyut.edu.tw/dywang/linux-wangyin). It circulated widely through developer communities, passed hand to hand like a manifesto — a declaration that a serious engineer should understand the tools they work with, not merely consume them.
 
 Twenty years later, I reread it. What I felt was not nostalgia. It was a sting — and something close to anger.
 
@@ -18,7 +18,7 @@ This piece is not a love letter to Linux. It is not a sermon about the command l
 
 ---
 
-## I. What Wang Yin Was Actually Arguing
+## I. What Yin Wang Was Actually Arguing
 
 A few sentences from that essay have stayed with me:
 
@@ -28,7 +28,7 @@ A few sentences from that essay have stayed with me:
 
 Most people who read the essay remember the surface argument: Linux is good, use it. But these sentences are saying something else entirely — something about a posture, a way of relating to the tools you work with.
 
-Wang Yin was not against the Windows brand. He was against the habit of clicking through interfaces without understanding what happens underneath. What he advocated for — text configuration files, shell scripts, composable tools, the command line — was an environment that was, as much as possible, not a black box.
+Yin Wang was not against the Windows brand. He was against the habit of clicking through interfaces without understanding what happens underneath. What he advocated for — text configuration files, shell scripts, composable tools, the command line — was an environment that was, as much as possible, not a black box.
 
 His core stance: it is better to suffer through the genuine complexity of a system than to surrender to an opaque encapsulation of it.
 
@@ -54,7 +54,7 @@ Black boxes create moats. If you cannot understand the system, you cannot replic
 
 KPI-driven product teams do not build transparent systems because transparency is expensive in ways that do not appear on quarterly dashboards. Explainability, auditability, safety margins — these are costs. Conversion rate, retention, revenue — these are rewards. The organizational incentive structure points in one direction only.
 
-This is not a few companies making bad decisions. It is the industry making a systemic choice under performance logic. And that choice is, in essence, the same logic Wang Yin was arguing against: the appliance-ification of computing — let us handle it, you just use it.
+This is not a few companies making bad decisions. It is the industry making a systemic choice under performance logic. And that choice is, in essence, the same logic Yin Wang was arguing against: the appliance-ification of computing — let us handle it, you just use it.
 
 Twenty years ago we left Windows because it was too opaque. Twenty years later we decided Linux was too much trouble and handed ourselves to the cloud and to AI. The black box never disappeared. It just became more comfortable, more seamless, and harder to question.
 
@@ -84,7 +84,7 @@ The industry rush into AI Agents is technical rationality losing control of itse
 
 There is a peculiar irony worth naming directly.
 
-AI safety and alignment research is genuinely engaged with the anti-black-box project: interpretability work attempting to visualize internal model reasoning, safety evaluations requiring risk disclosure, alignment work negotiating which requests should be refused and why. The people working on this share something real with Wang Yin's original impulse — the insistence that systems should be understandable, bounded, and accountable to humans.
+AI safety and alignment research is genuinely engaged with the anti-black-box project: interpretability work attempting to visualize internal model reasoning, safety evaluations requiring risk disclosure, alignment work negotiating which requests should be refused and why. The people working on this share something real with Yin Wang's original impulse — the insistence that systems should be understandable, bounded, and accountable to humans.
 
 Meanwhile, the commercial layer is systematically repackaging all of this capability back into black boxes. Managed APIs, hosted studios, minimal front ends concealing maximum complexity — with "experience" as the justifying word for invisibility.
 
@@ -140,7 +140,7 @@ The uncomfortable part: many of us are building this. The engineer writing the e
 
 I am not arguing that everyone should install Linux. Nostalgia cannot fix structural problems.
 
-But Wang Yin's essay contains three things worth translating into present practice.
+But Yin Wang's essay contains three things worth translating into present practice.
 
 **First: Maintain at least one domain of your work that you completely understand and control.**
 
@@ -172,7 +172,7 @@ The alignment and safety work in large-scale AI is attempting to rebuild this co
 
 For those of us who are technical: the point is not to retrain as philosophers. It is to hold space, while writing code and building systems, for the questions that the humanities have always asked — what are we doing, why are we doing it, and who has the right to decide where we stop.
 
-Wang Yin's essay survives twenty years not because it tells you which operating system to install. It survives because it embodies a posture that is increasingly rare: the deliberate refusal of comfortable opacity, the willingness to face complexity directly, the choice not to surrender at the moment when surrender is easiest.
+Yin Wang's essay survives twenty years not because it tells you which operating system to install. It survives because it embodies a posture that is increasingly rare: the deliberate refusal of comfortable opacity, the willingness to face complexity directly, the choice not to surrender at the moment when surrender is easiest.
 
 Translated into 2026:
 
