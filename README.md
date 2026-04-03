@@ -40,27 +40,32 @@ I build for the long term. That means resisting novelty for its own sake, keepin
 INBOX  [1 message]  ~/field_notes
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 From : github.com/yagami1997
-Date : Thu, 02 Apr 2026 19:18:50 -0700 (PDT)
-Subj : The Paradigm Has Already Shifted
+Date : Fri, 03 Apr 2026 04:04:38 -0700 (PDT)
+Subj : From Anti-Microsoft to Anti-Black Box
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-The move from Chat to Agent isn't a product category update. It's a change in what the model's
-role is. In the Chat paradigm, the model generates and you execute. In the Agent paradigm, the
-model executes. That changes everything — task structure, context management, verification.
+Twenty years ago, Wang Yin argued that engineers should face genuine complexity rather than
+surrender to opaque encapsulation. Most people remember the surface: Linux good, use it.
+The real argument was about posture — tools should help you understand the system, not
+replace your understanding of it.
 
-Claude Code is the clearest example I've worked with. It reads your codebase, runs commands, edits
-files, and makes decisions across a full working session. The bottleneck stops being "can it write
-good code?" and becomes "did you design the task clearly enough?" That is a fundamentally different
-kind of work.
+Twenty years later: we left Windows because it was too opaque, decided Linux was too much
+trouble, and handed ourselves to the cloud and to AI. The black box never disappeared.
+It became more comfortable, more seamless, and harder to question.
 
-Computer Use pushes this further. Once the model can operate a browser or terminal the way a person
-would, the line between "AI assistant" and "AI worker" collapses. The architecture is already real.
-The trajectory is clear.
+AI Agents are the largest single expansion of black box complexity in computing history.
+A typical Agent chains models, tool calls, code execution, and sub-agents — dozens of steps,
+none traceable in real time. When something goes wrong, "emergent behavior of a complex system"
+is a complete sentence. It dissolves accountability entirely.
 
-What concerns me: most people are applying Chat-era thinking to Agent-era tools — treating the agent
-like a faster chatbot. That works for simple tasks. For anything with real complexity, execution
-design is the missing piece: decomposition, context engineering, verification loops. Not advanced
-techniques. Basics.
+The counter-movement is quieter: the return of the command line — not as nostalgia, but as
+the shared control plane between humans and AI. Structured. Auditable. Traceable. Standing
+beside the Agent, not beneath it.
+
+Three questions for any Agent product you adopt: Can you see each step? Can you identify where
+it failed? Who is accountable? If none of those have answers, you are holding a larger black box.
+
+→ Full essay: FieldNotes/001-from-anti-to-box.md
 
 --
 yagami1997 | Del Mar, CA | building in the open
@@ -208,6 +213,6 @@ For sensitive topics: open a GitHub issue to request a GPG-secured channel. Key 
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-Del Mar, California · Last updated: 2026-04-02 19:48:52 PDT
+Del Mar, California · Last updated: 2026-04-03 04:04:38 PDT
 
 </div>
