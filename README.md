@@ -16,16 +16,15 @@
 
 ## Building practical systems where AI does work, not just talks.
 
-Independent researcher and builder. Based in Del Mar. Building in the open.
+</div>
 
-I build open-source AI software, useful tools, and agent-native workflows.
+Independent researcher and builder based in Del Mar.
 
-I believe the real value of AI is not better chat, but better execution.
-Open-source tools matter because they keep intelligence inspectable, adaptable, and in the hands of builders.
+I build open-source AI tools and agent-native workflows — software where the model does real work, not just generates text.
+
+The shift from prompting to execution is the most underrated change in AI right now. I'm building in that direction: systems that decompose goals, manage context, and verify outputs. Open-source, because intelligence should stay inspectable and in the hands of builders.
 
 > Systems over demos. Open source over lock-in. Long-term projects over novelty.
-
-</div>
 
 ---
 
