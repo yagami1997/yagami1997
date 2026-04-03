@@ -19,25 +19,24 @@
 </div>
 
 ```
-╔═══════════════════════════════════════════════════════════╗
-║  yagami1997  ·  Del Mar, CA  ·  Independent Builder       ║
-╚═══════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════╗
+║  yagami1997  ·  Del Mar, CA  ·  Independent Builder                     ║
+╚══════════════════════════════════════════════════════════════════════════╝
 
-  Independent researcher and builder based in Del Mar.
-  I build open-source AI tools and agent-native workflows
-  — software where the model does real work, not just
-  generates text.
+  Independent researcher and builder based in Del Mar. I build
+  open-source AI tools and agent-native workflows — software where
+  the model does real work, not just generates text.
 
-  ───────────────────────────────────────────────────────
+  ──────────────────────────────────────────────────────────────────────
   beliefs:
     execution    >  conversation
     inspectable  >  opaque
     long-term    >  novelty
-  ───────────────────────────────────────────────────────
+  ──────────────────────────────────────────────────────────────────────
 
-  I build for the long term. That means resisting novelty
-  for its own sake, keeping systems inspectable, and
-  treating execution design as the actual craft.
+  I build for the long term. That means resisting novelty for its own
+  sake, keeping systems inspectable, and treating execution design as
+  the actual craft.
 
   "Systems over demos. Open source over lock-in.
    Long-term projects over novelty."
@@ -54,38 +53,34 @@
 </div>
 
 ```
-╔═══════════════════════════════════════════════════════════╗
-║  ~/field_notes                                            ║
-╚═══════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ~/field_notes                                                           ║
+╚══════════════════════════════════════════════════════════════════════════╝
 
   [2026-04-02]  The Paradigm Has Already Shifted
-  ───────────────────────────────────────────────────────
+  ──────────────────────────────────────────────────────────────────────
 
-  The move from Chat to Agent isn't a product category
-  update. It's a change in what the model's role is. In
-  the Chat paradigm, the model generates and you execute.
-  In the Agent paradigm, the model executes. That changes
-  everything — task structure, context management,
+  The move from Chat to Agent isn't a product category update. It's a
+  change in what the model's role is. In the Chat paradigm, the model
+  generates and you execute. In the Agent paradigm, the model executes.
+  That changes everything — task structure, context management,
   verification.
 
-  Claude Code is the clearest example I've worked with.
-  It reads your codebase, runs commands, edits files, and
-  makes decisions across a full working session. The
-  bottleneck stops being "can it write good code?" and
-  becomes "did you design the task clearly enough?" That
-  is a fundamentally different kind of work.
+  Claude Code is the clearest example I've worked with. It reads your
+  codebase, runs commands, edits files, and makes decisions across a
+  full working session. The bottleneck stops being "can it write good
+  code?" and becomes "did you design the task clearly enough?" That is
+  a fundamentally different kind of work.
 
-  Computer Use pushes this further. Once the model can
-  operate a browser or terminal the way a person would,
-  the line between "AI assistant" and "AI worker"
-  collapses. The architecture is already real. The
+  Computer Use pushes this further. Once the model can operate a browser
+  or terminal the way a person would, the line between "AI assistant"
+  and "AI worker" collapses. The architecture is already real. The
   trajectory is clear.
 
-  What concerns me: most people are applying Chat-era
-  thinking to Agent-era tools — treating the agent like
-  a faster chatbot. That works for simple tasks. For
-  anything with real complexity, execution design is the
-  missing piece: decomposition, context engineering,
+  What concerns me: most people are applying Chat-era thinking to
+  Agent-era tools — treating the agent like a faster chatbot. That
+  works for simple tasks. For anything with real complexity, execution
+  design is the missing piece: decomposition, context engineering,
   verification loops. Not advanced techniques. Basics.
 ```
 
