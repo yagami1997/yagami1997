@@ -2,16 +2,29 @@
 .claude/
 .superpowers/
 docs/
+.codex/
+.copilot/
+.cursor/
 
 # Local environment files
 .direnv/
 .env
 .env.*
 .python-version
+.envrc
+
+# Logs and transient local outputs
+*.log
+*.out
+*.pid
+*.tmp
+*.temp
 
 # Editor and IDE settings
 .idea/
 .vscode/
+.history/
+.cache/
 *.swp
 *.swo
 *~
