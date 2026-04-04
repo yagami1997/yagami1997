@@ -1,6 +1,21 @@
-# Local Claude Code / agent workspace and environment
+# Local agent and working directories
 .claude/
 .superpowers/
+docs/
+
+# Local environment files
 .direnv/
 .env
 .env.*
+.python-version
+
+# Editor and IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
