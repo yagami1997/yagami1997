@@ -171,9 +171,9 @@ Turns models into usable systems with structured analysis workflows — not a ch
 <tr>
 <td valign="top">
 
-### [RealCarrier](https://github.com/yagami1997/RealCarrier) `Utility Tool`
+### [BurnBox](https://github.com/yagami1997/BurnBox) `Utility Tool`
 
-A Python tool for querying US phone number carrier information with real-time LNP data. Dual provider support, batch processing, and multi-level caching. Telecom data utility built to work correctly, not just conveniently.
+A practical utility project built around focused, narrow-scope workflows. Small, direct, and usable software that solves a real problem without pretending to be bigger than it needs to be.
 
 </td>
 <td valign="top">
@@ -213,6 +213,6 @@ For sensitive topics: open a GitHub issue to request a GPG-secured channel. Key 
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-Del Mar, California · Last updated: 2026-04-03 04:04:38 PDT
+Del Mar, California · Last updated: 2026-04-10 19:49 PDT
 
 </div>
