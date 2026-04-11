@@ -173,7 +173,7 @@ Turns models into usable systems with structured analysis workflows — not a ch
 
 ### [BurnBox](https://github.com/yagami1997/BurnBox) `Utility Tool`
 
-A practical utility project built around focused, narrow-scope workflows. Small, direct, and usable software that solves a real problem without pretending to be bigger than it needs to be.
+A private R2 file workspace for controlled sharing, revocable links, and edge-native file operations on Cloudflare.
 
 </td>
 <td valign="top">
