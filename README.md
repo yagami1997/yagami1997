@@ -171,7 +171,7 @@ Turns models into usable systems with structured analysis workflows — not a ch
 <tr>
 <td valign="top">
 
-### [BurnBox](https://github.com/yagami1997/BurnBox) `Utility Tool`
+### [BurnBox](https://github.com/yagami1997/BurnBox) `Secure Sharing System`
 
 A private R2 file workspace for controlled sharing, revocable links, and edge-native file operations on Cloudflare.
 
