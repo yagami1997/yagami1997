@@ -155,9 +155,9 @@ I choose tools by task, not by hype.
 <tr>
 <td width="50%" valign="top">
 
-### [Surgemac](https://github.com/yagami1997/Surgemac) `Network Routing`
+### [Arclane](https://github.com/yagami1997/Arclane) `Network Routing`
 
-A self-hosted network routing toolkit for Surge Pro 6 on macOS and iOS. 2,500+ rules across 67 files, zero third-party dependencies. Built for precise traffic control without relying on anyone else's infrastructure.
+Third-party routing configuration research for Surge-compatible environments. Text-based policy artifacts, compatibility modules, and operational reference tooling. Zero third-party dependencies. Not affiliated with Nssurge Inc.
 
 </td>
 <td width="50%" valign="top">
@@ -213,6 +213,6 @@ For sensitive topics: open a GitHub issue to request a GPG-secured channel. Key 
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-Del Mar, California · Last updated: 2026-04-10 19:49 PDT
+Del Mar, California · Last updated: 2026-04-14 PDT
 
 </div>
