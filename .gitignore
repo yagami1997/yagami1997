@@ -1,3 +1,6 @@
+# Local scripts
+gpg.sh
+
 # Local agent and working directories
 .claude/
 .superpowers/
