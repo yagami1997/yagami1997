@@ -223,6 +223,6 @@ My email address is never posted in plaintext. All exchanges happen over GPG-enc
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-Del Mar, California · Last updated: 2026-04-14 PDT
+Del Mar, California · Last updated: 2026-04-16 PDT
 
 </div>
