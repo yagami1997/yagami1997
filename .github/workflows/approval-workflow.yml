@@ -1,116 +1,146 @@
-name: Email Request Approval Process
+name: GPG Contact Request
 
 on:
   issues:
     types: [opened]
-  issue_comment:
-    types: [created]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue number to approve — action will encrypt your email and close the issue"
+        required: true
+        type: number
 
 permissions:
   issues: write
   contents: read
 
 jobs:
-  # Initial response job - Does not auto-close the issue
+  # Step 1: Auto-reply when a new Email Request issue is opened
   initial-response:
     runs-on: ubuntu-latest
     if: github.event_name == 'issues' && contains(github.event.issue.title, 'Email Request')
     steps:
-      - name: Initial Response
+      - name: Ask for GPG public key
         uses: peter-evans/create-or-update-comment@v3
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
-            ## 🕵️‍♂️ Mission Received: Secure Communication Request 🕵️‍♀️
+            Thanks for reaching out.
 
-            Well hello there, fellow encryption enthusiast! Your request for my super-secret contact details has successfully reached my digital fortress.
+            To establish a secure channel, please share your **GPG public key** as a reply to this issue.
 
-            I see you've discovered my cryptographic hideout - impressive! But as any good spy knows, verification is key before exchanging classified information.
+            **How to export your public key:**
 
-            **Your mission, should you choose to accept it:**
-            Tell me a bit about why you'd like to establish this encrypted communication channel. Are we planning to discuss revolutionary open-source ideas? Trading secrets about the fifth industrial revolution? Or perhaps you just appreciate the art of properly encrypted emails in this age of digital surveillance?
+            ```bash
+            gpg --armor --export YOUR_KEY_ID_OR_EMAIL
+            ```
 
-            Your request is now in the secret approval queue. Once I've confirmed you're not an agent from the anti-open-source league, I'll transmit my secure communication coordinates.
+            Paste the full block (starting with `-----BEGIN PGP PUBLIC KEY BLOCK-----`) as a comment below.
 
-            Stay encrypted, stay free! 🔐
+            Once received and approved, I will post my contact email encrypted with your key — only you will be able to read it.
 
-            *This message will NOT self-destruct in 10 seconds, because that would be a waste of perfectly good bits and bytes.*
-      
       - name: Add label
         uses: actions-ecosystem/action-add-labels@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: pending-approval
-  
-  # Approval request job - Triggered when repository owner comments with specific keyword
-  approve-request:
+          labels: awaiting-gpg-key
+
+  # Step 2: Owner approves — encrypts contact email with requester's GPG key and posts ciphertext
+  # Trigger privately: gh workflow run approval-workflow.yml -f issue_number=<N>
+  approve-and-encrypt:
     runs-on: ubuntu-latest
-    if: github.event_name == 'issue_comment' && contains(github.event.comment.body, 'Fox 3') && github.event.comment.user.login == github.repository_owner
+    if: github.event_name == 'workflow_dispatch'
     steps:
-      - name: Send Contact Info
-        uses: peter-evans/create-or-update-comment@v3
+      - name: Extract requester's GPG public key from comments
+        id: extract-key
+        uses: actions/github-script@v7
         with:
-          issue-number: ${{ github.event.issue.number }}
-          body: |
-            ## 🔐 Request Approved: Secure Channel Established 🔐
+          script: |
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: ${{ github.event.inputs.issue_number }}
+            });
 
-            Mission accomplished! I've verified your identity and am transmitting the secure communication coordinates.
+            for (const comment of comments) {
+              const match = comment.body.match(
+                /(-----BEGIN PGP PUBLIC KEY BLOCK-----[\s\S]+?-----END PGP PUBLIC KEY BLOCK-----)/
+              );
+              if (match) {
+                core.setOutput('gpg_key', match[1]);
+                return;
+              }
+            }
 
-            ### 📧 Encrypted Communication Details 📧
+            core.setFailed('No GPG public key block found in issue comments.');
 
-            <!-- Note: These secrets are valid in the GitHub Actions environment, local editor might show warnings -->
-            #### 📧 Secure Email Address:
-            ```
-            ${{ secrets.CONTACT_EMAIL }}
-            ```
+      - name: Encrypt contact email with requester's key
+        id: encrypt
+        env:
+          REQUESTER_KEY: ${{ steps.extract-key.outputs.gpg_key }}
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+        run: |
+          # Import requester's public key
+          echo "$REQUESTER_KEY" | gpg --batch --import
 
-            #### 🔑 How to Send Encrypted Emails:
+          # Extract fingerprint
+          FINGERPRINT=$(echo "$REQUESTER_KEY" | \
+            gpg --batch --with-colons --import-options show-only --import 2>/dev/null | \
+            awk -F: '/^fpr/ { print $10; exit }')
 
-            **Option 1: Command Line GPG**
-            ```bash
-            # Import my public key from the keyserver
-            gpg --keyserver hkps://keys.openpgp.org --recv-keys ${{ secrets.GPG_KEY }}
+          if [ -z "$FINGERPRINT" ]; then
+            echo "Failed to extract fingerprint" >&2
+            exit 1
+          fi
 
-            # Verify fingerprint before sending sensitive data
-            gpg --fingerprint ${{ secrets.GPG_KEY }}
-            ```
+          # Encrypt the contact email
+          ENCRYPTED=$(echo "$CONTACT_EMAIL" | \
+            gpg --batch --armor --encrypt \
+                --recipient "$FINGERPRINT" \
+                --trust-model always)
 
-            **Option 2: GUI Tools**
-            - **GPG Keychain** (macOS): Search for key ID `${{ secrets.GPG_KEY }}` on keys.openpgp.org
-            - **Kleopatra** (Windows): Search for key ID `${{ secrets.GPG_KEY }}` on keys.openpgp.org
-            - **Mailvelope** (Browser extension): Import my key from keys.openpgp.org
+          # Write to GITHUB_OUTPUT (multiline safe)
+          {
+            echo "encrypted<<GPGEOF"
+            echo "$ENCRYPTED"
+            echo "GPGEOF"
+          } >> "$GITHUB_OUTPUT"
 
-            **Sending Encrypted Email - Quick Guide:**
-            1. After importing my public key, my email `${{ secrets.CONTACT_EMAIL }}` will be associated with this key in your GPG system
-            2. When sending an email to `${{ secrets.CONTACT_EMAIL }}`, your email client or GPG tool should automatically use my public key for encryption
-            3. Just compose your email to `${{ secrets.CONTACT_EMAIL }}` and ensure encryption is enabled before sending
-
-            **Note on Anonymous vs. Signed Messages:** 🤔
-            You're welcome to send me anonymous (unsigned) encrypted messages, but they may not get my full attention 🫥. However, if you encrypt and sign your message with your own GPG key, I will genuinely appreciate it and give it the attention it deserves! 🤝✨
-
-            **Email Clients with GPG Support:**
-            - Thunderbird with Enigmail plugin
-            - Apple Mail with GPGTools
-            - Gmail with Mailvelope browser extension
-            - K-9 Mail (Android) with OpenKeychain
-
-            Please ensure all communications are properly encrypted. Looking forward to our secure exchange!
-
-            ![End-to-End Encrypted](https://img.shields.io/badge/E2E-Encrypted-00C853?style=flat-square&logo=gnuprivacyguard&logoColor=white)
-      
-      - name: Update labels
-        uses: actions-ecosystem/action-add-labels@v1
+      - name: Post encrypted email and close issue
+        uses: actions/github-script@v7
+        env:
+          ENCRYPTED_EMAIL: ${{ steps.encrypt.outputs.encrypted }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: approved
-      
-      - name: Remove pending label
-        uses: actions-ecosystem/action-remove-labels@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: pending-approval
-      
-      - name: Close the issue
-        uses: peter-evans/close-issue@v3
-        with:
-          issue-number: ${{ github.event.issue.number }}
+          script: |
+            const encrypted = process.env.ENCRYPTED_EMAIL;
+            const issueNumber = ${{ github.event.inputs.issue_number }};
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: [
+                'Your request has been approved.',
+                '',
+                'Below is my contact email, encrypted with your GPG public key.',
+                'Only you can decrypt it.',
+                '',
+                '```',
+                encrypted,
+                '```',
+                '',
+                'To decrypt:',
+                '',
+                '```bash',
+                '# Save the block above to a file, then:',
+                'gpg --decrypt contact.asc',
+                '```',
+              ].join('\n')
+            });
+
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              state: 'closed'
+            });
