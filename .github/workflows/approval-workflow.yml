@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       issue_number:
-        description: "Issue number to approve — action will encrypt your email and close the issue"
+        description: "Issue number to approve — action will encrypt your GPG fingerprint and close the issue"
         required: true
         type: number
 
@@ -43,7 +43,7 @@ jobs:
 
             Your key must be uploaded to `keys.openpgp.org`. Fingerprints from other keyservers are not accepted.
 
-            Once received and approved, I will post my contact email encrypted with your key — only you will be able to read it.
+            Once received and approved, I will reply with my GPG fingerprint encrypted to your key. Import it from `keys.openpgp.org` to find my contact address and send me an encrypted email.
 
       - name: Add label
         uses: actions-ecosystem/action-add-labels@v1
@@ -51,7 +51,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: awaiting-gpg-key
 
-  # Step 2: Owner approves — encrypts contact email with requester's GPG key and posts ciphertext
+  # Step 2: Owner approves — encrypts GPG fingerprint with requester's key and posts ciphertext
   # Trigger privately: gh workflow run approval-workflow.yml -f issue_number=<N>
   approve-and-encrypt:
     runs-on: ubuntu-latest
@@ -92,36 +92,36 @@ jobs:
 
             core.setFailed('No GPG public key or fingerprint found in issue comments.');
 
-      - name: Encrypt contact email with requester's key
+      - name: Encrypt GPG fingerprint with requester's key
         id: encrypt
         env:
           MODE: ${{ steps.extract-key.outputs.mode }}
           REQUESTER_KEY: ${{ steps.extract-key.outputs.gpg_key }}
-          FINGERPRINT: ${{ steps.extract-key.outputs.fingerprint }}
-          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          REQUESTER_FP: ${{ steps.extract-key.outputs.fingerprint }}
+          MY_FINGERPRINT: ${{ secrets.GPG_FINGERPRINT }}
         run: |
           if [ "$MODE" = "key" ]; then
             # Import full public key block
             echo "$REQUESTER_KEY" | gpg --batch --import
 
             # Extract fingerprint from imported key
-            FINGERPRINT=$(echo "$REQUESTER_KEY" | \
+            REQUESTER_FP=$(echo "$REQUESTER_KEY" | \
               gpg --batch --with-colons --import-options show-only --import 2>/dev/null | \
               awk -F: '/^fpr/ { print $10; exit }')
           else
-            # Fetch key from keyserver by fingerprint
-            gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys "$FINGERPRINT"
+            # Fetch requester's key from keyserver by fingerprint
+            gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys "$REQUESTER_FP"
           fi
 
-          if [ -z "$FINGERPRINT" ]; then
-            echo "Failed to resolve GPG fingerprint" >&2
+          if [ -z "$REQUESTER_FP" ]; then
+            echo "Failed to resolve requester's GPG fingerprint" >&2
             exit 1
           fi
 
-          # Encrypt the contact email
-          ENCRYPTED=$(echo "$CONTACT_EMAIL" | \
+          # Encrypt my GPG fingerprint with requester's public key
+          ENCRYPTED=$(echo "$MY_FINGERPRINT" | \
             gpg --batch --armor --encrypt \
-                --recipient "$FINGERPRINT" \
+                --recipient "$REQUESTER_FP" \
                 --trust-model always)
 
           # Write to GITHUB_OUTPUT (multiline safe)
@@ -131,13 +131,13 @@ jobs:
             echo "GPGEOF"
           } >> "$GITHUB_OUTPUT"
 
-      - name: Post encrypted email and close issue
+      - name: Post encrypted fingerprint and close issue
         uses: actions/github-script@v7
         env:
-          ENCRYPTED_EMAIL: ${{ steps.encrypt.outputs.encrypted }}
+          ENCRYPTED_FP: ${{ steps.encrypt.outputs.encrypted }}
         with:
           script: |
-            const encrypted = process.env.ENCRYPTED_EMAIL;
+            const encrypted = process.env.ENCRYPTED_FP;
             const issueNumber = ${{ github.event.inputs.issue_number }};
 
             await github.rest.issues.createComment({
@@ -147,18 +147,23 @@ jobs:
               body: [
                 'Your request has been approved.',
                 '',
-                'Below is my contact email, encrypted with your GPG public key.',
+                'Below is my GPG fingerprint, encrypted with your public key.',
                 'Only you can decrypt it.',
                 '',
                 '```',
                 encrypted,
                 '```',
                 '',
-                'To decrypt:',
+                'To decrypt and import my key:',
                 '',
                 '```bash',
-                '# Save the block above to a file, then:',
+                '# Decrypt to get my fingerprint',
                 'gpg --decrypt contact.asc',
+                '',
+                '# Import my key from keyserver',
+                'gpg --keyserver hkps://keys.openpgp.org --recv-keys <fingerprint>',
+                '',
+                '# My contact email is in the key UID — send encrypted email only.',
                 '```',
               ].join('\n')
             });

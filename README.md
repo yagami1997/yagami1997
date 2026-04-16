@@ -213,7 +213,7 @@ If you need to reach me privately, I only accept contact through GPG-encrypted c
 
 1. Click the badge below to open an issue
 2. Share your GPG public key block or 40-character fingerprint (must be on `keys.openpgp.org`)
-3. I'll reply with my contact email encrypted to your key — only you can read it
+3. I'll reply with my GPG fingerprint encrypted to your key — import it from `keys.openpgp.org` to find my address, then send encrypted email only
 
 ---
 
