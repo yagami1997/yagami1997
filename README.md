@@ -209,6 +209,8 @@ For general questions, ideas, or feedback — GitHub issues are the right place.
 
 If you need to reach me privately, I only accept contact through GPG-encrypted channels. No plain email, no DMs.
 
+Think of it as a small decryption puzzle — if you can play this game, we already speak the same language.
+
 **To request a private channel:**
 
 1. Click the badge below to open an issue
