@@ -27,15 +27,21 @@ jobs:
           body: |
             Thanks for reaching out.
 
-            To establish a secure channel, please share your **GPG public key** as a reply to this issue.
+            To establish a secure channel, please share your GPG information as a reply to this issue. Either of the following works:
 
-            **How to export your public key:**
+            **Option A — Full public key block:**
 
             ```bash
             gpg --armor --export YOUR_KEY_ID_OR_EMAIL
             ```
 
-            Paste the full block (starting with `-----BEGIN PGP PUBLIC KEY BLOCK-----`) as a comment below.
+            Paste the full block starting with `-----BEGIN PGP PUBLIC KEY BLOCK-----`.
+
+            **Option B — Key fingerprint:**
+
+            Paste your 40-character fingerprint, e.g. `4FBD 2F95 3DFA F373 17A2  2ECE 1A90 41C4 0840 FE13`
+
+            Your key must be uploaded to `keys.openpgp.org`. Fingerprints from other keyservers are not accepted.
 
             Once received and approved, I will post my contact email encrypted with your key — only you will be able to read it.
 
@@ -51,7 +57,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch'
     steps:
-      - name: Extract requester's GPG public key from comments
+      - name: Extract GPG key or fingerprint from comments
         id: extract-key
         uses: actions/github-script@v7
         with:
@@ -63,33 +69,52 @@ jobs:
             });
 
             for (const comment of comments) {
-              const match = comment.body.match(
+              // Option A: full public key block
+              const keyMatch = comment.body.match(
                 /(-----BEGIN PGP PUBLIC KEY BLOCK-----[\s\S]+?-----END PGP PUBLIC KEY BLOCK-----)/
               );
-              if (match) {
-                core.setOutput('gpg_key', match[1]);
+              if (keyMatch) {
+                core.setOutput('gpg_key', keyMatch[1]);
+                core.setOutput('mode', 'key');
+                return;
+              }
+
+              // Option B: fingerprint (40 hex chars, spaces allowed)
+              const fpMatch = comment.body.match(
+                /([0-9A-Fa-f]{4}(?:\s+[0-9A-Fa-f]{4}){9})/
+              );
+              if (fpMatch) {
+                core.setOutput('fingerprint', fpMatch[1].replace(/\s+/g, ''));
+                core.setOutput('mode', 'fingerprint');
                 return;
               }
             }
 
-            core.setFailed('No GPG public key block found in issue comments.');
+            core.setFailed('No GPG public key or fingerprint found in issue comments.');
 
       - name: Encrypt contact email with requester's key
         id: encrypt
         env:
+          MODE: ${{ steps.extract-key.outputs.mode }}
           REQUESTER_KEY: ${{ steps.extract-key.outputs.gpg_key }}
+          FINGERPRINT: ${{ steps.extract-key.outputs.fingerprint }}
           CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
         run: |
-          # Import requester's public key
-          echo "$REQUESTER_KEY" | gpg --batch --import
+          if [ "$MODE" = "key" ]; then
+            # Import full public key block
+            echo "$REQUESTER_KEY" | gpg --batch --import
 
-          # Extract fingerprint
-          FINGERPRINT=$(echo "$REQUESTER_KEY" | \
-            gpg --batch --with-colons --import-options show-only --import 2>/dev/null | \
-            awk -F: '/^fpr/ { print $10; exit }')
+            # Extract fingerprint from imported key
+            FINGERPRINT=$(echo "$REQUESTER_KEY" | \
+              gpg --batch --with-colons --import-options show-only --import 2>/dev/null | \
+              awk -F: '/^fpr/ { print $10; exit }')
+          else
+            # Fetch key from keyserver by fingerprint
+            gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys "$FINGERPRINT"
+          fi
 
           if [ -z "$FINGERPRINT" ]; then
-            echo "Failed to extract fingerprint" >&2
+            echo "Failed to resolve GPG fingerprint" >&2
             exit 1
           fi
 
