@@ -205,7 +205,17 @@ Support helps me keep building open-source tools, long-term projects, and practi
 
 [![GPG](https://img.shields.io/badge/GPG-Request%20Encrypted%20Contact-0f766e?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)](https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A)
 
-For sensitive topics: open a GitHub issue and share your GPG public key in the thread. I will contact you directly via encrypted email. My address is never posted publicly.
+For sensitive topics, open a GitHub issue to request an encrypted channel.
+
+**How it works:**
+
+1. Click the badge above to open an issue
+2. Bot will reply and ask for your GPG information — provide either:
+   - Your full public key block (`gpg --armor --export YOUR_EMAIL`)
+   - Your 40-character key fingerprint (key must be on `keys.openpgp.org`)
+3. Once reviewed, I will reply with my contact email encrypted using your public key — only you can decrypt it
+
+My email address is never posted in plaintext. All exchanges happen over GPG-encrypted channels.
 
 ---
 
