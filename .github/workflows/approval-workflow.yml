@@ -40,6 +40,7 @@ jobs:
             **Option B — Key fingerprint:**
 
             Paste your 40-character fingerprint, e.g. `4FBD 2F95 3DFA F373 17A2  2ECE 1A90 41C4 0840 FE13`
+            *(that's the fingerprint of Zoë Kooyman, Executive Director of the FSF — a small tribute)*
 
             Your key must be uploaded to `keys.openpgp.org`. Fingerprints from other keyservers are not accepted.
 
