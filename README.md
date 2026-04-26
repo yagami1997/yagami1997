@@ -155,12 +155,28 @@ I choose tools by task, not by hype.
 <tr>
 <td width="50%" valign="top">
 
+### [BurnBox](https://github.com/yagami1997/BurnBox) `Secure Sharing System`
+
+A private R2 file workspace for controlled sharing, revocable links, and edge-native file operations on Cloudflare.
+
+</td>
+<td width="50%" valign="top">
+
+### [VeilHub](https://github.com/yagami1997/VeilHub) `Encrypted Link Infrastructure`
+
+Self-hosted encrypted redirect links for controlled URL sharing on Cloudflare Workers and KV. Target URLs are encrypted at rest, owner access stays behind a private route, and links can expire, be used once, or require an access code.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 ### [Arclane](https://github.com/yagami1997/Arclane) `Network Routing`
 
 Third-party routing configuration research for Surge-compatible environments. Text-based policy artifacts, compatibility modules, and operational reference tooling. Zero third-party dependencies. Not affiliated with Nssurge Inc.
 
 </td>
-<td width="50%" valign="top">
+<td valign="top">
 
 ### [TradeMind](https://github.com/yagami1997/TradeMind) `AI Systems`
 
@@ -171,9 +187,9 @@ Turns models into usable systems with structured analysis workflows — not a ch
 <tr>
 <td valign="top">
 
-### [BurnBox](https://github.com/yagami1997/BurnBox) `Secure Sharing System`
+### [RealCarrier](https://github.com/yagami1997/RealCarrier) `Telecom Verification`
 
-A private R2 file workspace for controlled sharing, revocable links, and edge-native file operations on Cloudflare.
+US phone number carrier lookup with live LNP data, number type detection, and batch query support. Built for identity checks, compliance workflows, and understanding whether a number is physical, virtual, or ported.
 
 </td>
 <td valign="top">
@@ -223,6 +239,6 @@ Think of it as a small decryption puzzle — if you can play this game, we alrea
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-Del Mar, California · Last updated: 2026-04-16 PDT
+Del Mar, California · Last updated: 2026-04-26 00:38:01 PDT
 
 </div>
