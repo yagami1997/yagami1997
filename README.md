@@ -164,7 +164,7 @@ A private R2 file workspace for controlled sharing, revocable links, and edge-na
 
 ### [VeilHub](https://github.com/yagami1997/VeilHub) `Encrypted Link Infrastructure`
 
-Self-hosted encrypted redirect links for controlled URL sharing on Cloudflare Workers and KV. Target URLs are encrypted at rest, owner access stays behind a private route, and links can expire, be used once, or require an access code.
+Self-hosted encrypted redirect links on Cloudflare Workers and KV. Targets are encrypted at rest, creation stays private, and links can expire, be one-time, or require an access code.
 
 </td>
 </tr>
