@@ -18,11 +18,13 @@
 
 </div>
 
-Independent researcher and builder based in Del Mar. I build open-source AI tools and agent-native workflows because I still believe software can feel honest, useful, and human.
+Independent researcher and builder based in Del Mar. I write software as a way of refusing comfortable opacity — the kind that turns users into passengers, engineers into interface operators, and complexity into something nobody is responsible for.
 
-AI's real value is execution, not conversation. Open-source matters because trust should not ask people to close their eyes. The right tool is the one that helps someone carry the work a little further — not the one with the most coverage, the biggest release, or the loudest community.
+I am interested in AI only when it can be made legible: when its work can be decomposed, inspected, replayed, and argued with. Intelligence that cannot be questioned becomes authority. Automation without traceability becomes another black box, only faster and more polite.
 
-I build for the long term. Some days that means resisting novelty; other days it means quietly repairing the small parts that make a system worth coming back to.
+Open source, for me, is not a licensing preference. It is a moral posture toward tools: if a system shapes how people think, decide, and act, then someone should be able to open it, read it, repair it, and say no to it.
+
+I build for the long term because speed without memory produces disposable systems, and novelty without accountability produces ruins with better branding.
 
 > Systems over demos. Open source over lock-in. Long-term projects over novelty.
 
