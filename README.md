@@ -18,11 +18,11 @@
 
 </div>
 
-Independent researcher and builder based in Del Mar. I build open-source AI tools and agent-native workflows — software where the model does real work, not just generates text.
+Independent researcher and builder based in Del Mar. I build open-source AI tools and agent-native workflows because I still believe software can feel honest, useful, and human.
 
-AI's real value is execution, not conversation. Open-source matters because intelligence that can't be inspected can't be trusted. The right tool is the one that fits the task — not the one with the most coverage, the biggest release, or the loudest community.
+AI's real value is execution, not conversation. Open-source matters because trust should not ask people to close their eyes. The right tool is the one that helps someone carry the work a little further — not the one with the most coverage, the biggest release, or the loudest community.
 
-I build for the long term. That means resisting novelty for its own sake, keeping systems inspectable, and treating execution design as the actual craft.
+I build for the long term. Some days that means resisting novelty; other days it means quietly repairing the small parts that make a system worth coming back to.
 
 > Systems over demos. Open source over lock-in. Long-term projects over novelty.
 
