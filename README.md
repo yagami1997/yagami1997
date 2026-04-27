@@ -18,13 +18,13 @@
 
 </div>
 
-Independent researcher and builder based in Del Mar. I write software as a way of refusing comfortable opacity — the kind that turns users into passengers, engineers into interface operators, and complexity into something nobody is responsible for.
+Independent researcher and builder based in Del Mar. I write software as a lantern against comfortable opacity — the kind that turns users into passengers, engineers into interface operators, and complexity into a room with no accountable owner.
 
-I am interested in AI only when it can be made legible: when its work can be decomposed, inspected, replayed, and argued with. Intelligence that cannot be questioned becomes authority. Automation without traceability becomes another black box, only faster and more polite.
+I am interested in AI only when it can be made legible: when its work can be decomposed, inspected, replayed, and argued with. Intelligence that cannot be questioned becomes authority. Automation without traceability is just a faster shadow with a smoother voice.
 
 Open source, for me, is not a licensing preference. It is a moral posture toward tools: if a system shapes how people think, decide, and act, then someone should be able to open it, read it, repair it, and say no to it.
 
-I build for the long term because speed without memory produces disposable systems, and novelty without accountability produces ruins with better branding.
+I build for the long term because speed without memory produces disposable systems, and novelty without accountability leaves polished ruins behind.
 
 > Systems over demos. Open source over lock-in. Long-term projects over novelty.
 
