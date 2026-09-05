@@ -4,129 +4,115 @@
 
 ---
 
-## The short version
+## Something that worked yesterday
 
-Twenty years ago the network was open unless someone had a reason to close it. Today it is closed unless someone has a reason to open it.
+I keep a public repository of network routing rules. They are plain text files that tell a computer which path a connection should take. Much of the work is maintenance: a service moves, a login check changes, or two parts of the network stop agreeing about an address.
 
-That is the whole change. The rest of this note is examples.
+Something that worked on Monday stops on Thursday. I go looking for what changed.
 
-I want to be careful about one thing up front. The early Internet was never a paradise. There were paywalls. There were firewalls. There were companies that kept their code secret. But those were the exceptions, and each one had to explain itself. Openness did not need an argument. Today it does.
+Sometimes the answer is an ordinary mistake, including one of mine. Sometimes a security check is doing exactly what it should. Sometimes a service has changed who it will let in. From the user's side, these can look much the same: a page that will not load, a login that never finishes, a message asking you to try again later.
 
----
+The repair begins with a question the screen has not answered: is this a failure, or a refusal?
 
-## What "open" meant, in plain words
-
-On September 27, 1983, Richard Stallman posted a message to a Usenet group. It began: "Free Unix!" Then: "Starting this Thanksgiving I am going to write a complete Unix-compatible software system called GNU (for Gnu's Not Unix), and give it away free to everyone who can use it."
-
-The idea behind it was simple enough to say in one breath. If you have a program, you should be able to run it, read it, change it, and give a copy to your neighbor. He founded the Free Software Foundation in 1985 to defend that idea, and wrote the GNU General Public License in 1989 to put it into a contract.
-
-By the early 2000s this idea had won more ground than anyone expected. In June 2001, Netcraft counted about 29 million web sites, and 63 percent of them ran Apache, a free web server anyone could download and read. Wikipedia went online on January 15, 2001. Creative Commons was founded the same year, so that writers and photographers could say "share this" in a way lawyers would respect. Any website could publish a feed, and any reader could follow it without an account, without asking.
-
-None of this came from one company's generosity. It was a set of habits. You got the whole thing. You could read it. You could change it. You could pass it on. Software worked this way, and the network worked this way, because both were built by people who assumed it should.
+That question has made me think differently about openness. A connection can be technically possible and still depend on permission from someone whose rules I cannot see. The [first note in this series](001-from-anti-to-box.md) was about understanding what happens inside a black box. This one is about what happens when the box will not let you in.
 
 ---
 
-## Five ordinary things, then and now
+## What we expected to be able to do
 
-The clearest way to see a default flip is to look at ordinary tasks. Not at policy, at what you actually do.
+When I say that open was once the default, I am thinking of a particular expectation: you could do useful things without first becoming someone's customer or asking a platform to approve them.
 
-### Installing a program
+You could publish a website and link to another. You could follow a public feed in a reader you chose. With free software, you could read the source, change it, and pass on your changes. These freedoms were different, but they made room for the same kind of person: someone who could participate, build, and leave with more than an account.
 
-Then: you downloaded a file and ran it. Nobody approved. Nobody was asked.
+This was never the whole Internet. Proprietary software, paid access, and restrictions were there too. Openness was something people worked to establish and defend. It was not a natural property of a network cable.
 
-On July 10, 2008, Apple opened the App Store with 500 apps. For the first time on a mainstream device, a company sat between you and every program you might want. The reasons were real. Phones carry your bank, your mail, your location. A review process stops a lot of harm.
+Richard Stallman's [announcement of GNU in 1983](https://www.gnu.org/gnu/initial-announcement.en.html) belongs to that work. He proposed a Unix-compatible system that people could freely share. The broader free-software commitment was concrete: users should be able to run a program, understand and change it, and give copies to others.
 
-But the decision moved. It used to be yours. Now it belongs to a queue you cannot see, following rules that change without notice, and the answer can be "no" for reasons you are never told. The rest of the industry followed. Today a device that lets you install anything you like is a niche product, and its owner is treated as a risk.
+What matters to me is the relationship this creates. The developer gives you something you can keep working with. If the original author changes direction, you still have the code and the right to continue.
 
-### Building on someone else's service
+A service offers a different relationship. You can use it while the operator continues to provide access. It may be excellent, generous, and convenient. You still cannot maintain your own copy of the service merely because you have learned to depend on it.
 
-Then: a company with a service published a way for other programs to talk to it, and people built things. Twitter did this in 2006. Whole categories of software existed because of it.
+In his [2010 essay on software as a service](https://www.bostonreview.net/articles/richard-stallman-free-software-drm/), Stallman made this loss of control central to his criticism. The operator runs the program and can change it. The user depends on decisions made elsewhere.
 
-In September 2012, Twitter released version 1.1 of its interface. Apps that "replicated the core Twitter experience" were capped at 100,000 users. In February 2023 the free tier ended entirely, with a week's notice, and the cheapest paid plan was set at 100 dollars a month. In June 2023 Reddit priced its own interface so that Apollo, the most popular independent Reddit app, would have owed about 20 million dollars a year. Apollo shut down on June 30.
-
-I do not think either company was lying when it first opened the door. But look at the pattern. The door is open while the service needs builders to grow. It closes when the service is big enough that the builders are competition.
-
-### Watching a video in a browser
-
-Then: a browser was a program on your computer that showed you what a server sent. You could read every line of it.
-
-On September 18, 2017, the World Wide Web Consortium, the body that writes the open standards of the web, published Encrypted Media Extensions as an official standard. Its purpose was to give copy protection a first-class place inside the browser. The same day, the Electronic Frontier Foundation resigned from the Consortium. Their letter said the Consortium was handing "a legally unauditable attack-surface to browsers used by billions of people."
-
-The reason was plain. Studios would not put films on the open web without a lock. The Consortium decided the web needed the films more than it needed to stay fully open. So now there is a part of the program on your own computer that you are not allowed to look inside, and in some countries you can be prosecuted for trying. The body that once wrote "the web is for everyone" voted for that.
-
-### Logging in to your bank
-
-Then: a login asked for your name and password. Where you were sitting was not part of the question.
-
-Today, many services look at your address before they look at your password. Banks and payment companies score the network you are connecting from. A shared address, a datacenter address, or an address in the wrong country can get your login refused, your account frozen, or a payment reversed. The reason is fraud, and fraud is real.
-
-But notice what the network is now asking. Before it hears what you want, it asks where you appear to be. The address has become a credit score. And the refusal, when it comes, usually does not admit that it is a refusal. You see a blank page, a spinner, "something went wrong, try again later." The rule is there. It has just decided not to tell you it exists.
-
-### Writing a program that reads the web
-
-Then: in 1994, a webmaster named Martijn Koster proposed a small text file called robots.txt. A site could use it to say "please do not read these pages." It was a request, not a lock. Search engines honored it anyway, for about thirty years, because that was the custom.
-
-In August 2023, The New York Times used that file to block OpenAI's crawler. Others followed. On July 1, 2025, Cloudflare, which sits in front of a large share of the web, announced it would block AI crawlers by default on every new site it serves. Site owners could opt back in, or charge for access.
-
-I do not blame the publishers. AI companies took what they wanted without asking, and a polite request has no teeth against that. But look at where we landed. The last open commons of the web now starts locked. A new site begins with a gate. Thirty years of "please" ended in "no, unless."
+I do not need to agree with every conclusion he drew to recognize the problem. Convenience can make dependence easy to overlook. You discover how much control you gave up when the terms change.
 
 ---
 
-## Stallman said this in 2010
+## When access becomes dependence
 
-On March 8, 2010, Stallman published an essay in the Boston Review. He was writing about what people were then calling "the cloud." He put it like this:
+A third-party app is a useful example. Its developer writes the interface, fixes the bugs, and earns the users' trust. But if the app relies on another company's service, that company can change the conditions under which the whole thing works.
 
-> "With SaaS, the users do not have even the executable file: it is on the server, where the users can't see or touch it."
+In 2023, Apollo's developer [announced that the Reddit app would close](https://www.reddit.com/r/apolloapp/comments/144f6xm/apollo_will_close_down_on_june_30th_reddits/) after Reddit introduced new API pricing. An API is the interface that lets one program communicate with another. Apollo depended on it; its developer could not afford the proposed costs within the transition period. The app closed on June 30.
 
-And:
+Charging for a service is not, by itself, a betrayal. Servers cost money. Access that is free today does not automatically carry a promise that it will be free forever.
 
-> "SaaS always subjects you to the power of the server operator."
+But the dependence was unequal. A pricing decision by one company could end years of another developer's work. Users could keep the app on their phones, but they could not make the service behind it continue to answer.
 
-When he wrote it, this sounded extreme. Gmail worked. Google Docs worked. Who cared where the program ran?
+That is the distinction I want to keep in view. Permission to build on a platform can be useful without giving a builder much lasting control. A growing ecosystem can look open while the power to determine its future remains with one operator.
 
-Fifteen years later, it describes nearly everything. Your mail, your documents, your photos, your code editor, and now the model that answers your questions all run somewhere you cannot see, under terms you did not write, that can change on a Tuesday. The first note in this series was about black boxes. This is the same box, seen from outside. You do not get a program you can read. You get permission to use one, for now.
-
-The move from software to service was the move from "you have it" to "you may use it, on our terms, until we change them." That is a different relationship. It should have a different name. Stallman gave it one. Most people did not want to hear it.
+Once people have built their work around that access, changing its terms is no longer just a private adjustment to a price list. Other people's time, work, and choices are involved. That deserves more consideration than the fact that the operator has the technical power to make the change.
 
 ---
 
-## How I know the default flipped
+## Some boundaries protect openness
 
-I keep a public repository of network routing rules. They are plain text files that tell a computer which path a connection should take. I started it in June 2022. As I write this it has 439 commits.
+There is a difficulty here that an argument against closed platforms has to face. People also need the right to refuse access to what they make.
 
-Almost none of those commits add anything. Nearly every one is a repair. A service moved its servers. A login check got stricter. A name started resolving to a different kind of address, and a program that checks addresses stopped trusting it. Something that worked on Monday stopped on Thursday, and I went looking for which line had moved.
+In July 2025, Cloudflare [announced default blocking of AI crawlers for new sites using its service](https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/). Website owners could choose to allow access. It was a visible change from assuming that automated access would be allowed to asking owners to authorize it.
 
-That repository is a log of other people's boundaries shifting. It exists because things break, and things break because somebody, somewhere, closed a door that used to be open. If the network still worked the way it did in 2001, the repository would have no reason to exist. I would prefer that.
+It would be easy to count this as one more example of the web closing. But a publisher refusing an AI crawler is not the same as a platform preventing a user from choosing their own software. The publisher has work to protect. The crawler's operator has interests of its own. Calling both situations “closed” does not tell us whose freedom is at stake.
 
-I also have to say the other half. I write rules too. Every line in that repository says: this goes here, that goes there. Anyone who sets up a router, a firewall, or a name server is drawing lines for someone else. So the honest question is not "who gets to draw lines." Everyone does, including me. The question is what a line has to look like before I should accept it. Including my own.
+Being able to read an article does not settle every question about collecting it, reusing it, or building a business from it. The same is true of a photograph, a code repository, or a shared file. Openness needs terms under which people are willing to contribute. It cannot mean that the largest collector gets to decide what everyone else's work is for.
 
----
-
-## Three questions for any wall
-
-Here is what I have settled on. When something on the network stops you, ask three things.
-
-**Does it admit it exists?** A page that says "forbidden" is honest. A timeout that hides a rule is not. The worst boundaries are the ones dressed up as accidents, because you cannot argue with an accident.
-
-**Does it tell you why?** "Your account is locked" is a fact. "Your account is locked because a login came from an address we do not recognize" is a reason. A reason can be wrong. A reason can be appealed. A fact just sits there.
-
-**Can it end?** Does the rule have an expiry date, a review, a way to be lifted? A block that can never be undone is a verdict, and nobody signed it.
-
-If a boundary passes all three, I can live with it, even when I dislike it. If it fails all three, what I am facing is not a rule. It is a wall that will not sign its name.
-
-These questions apply to me. When a rule I wrote fails them, the rule is the problem, not the person it stopped.
+This is where I have to be more precise about my objection. I want people to retain a say in the systems they depend on and the work they share. Sometimes that requires access. Sometimes it requires a boundary. In either case, I want to know who makes the decision and what the affected person can do about it.
 
 ---
 
-## The same question, one level up
+## The rules I write
 
-Stallman's 1983 question was small and concrete. Can you read this program? Can you change it? Can you give it to your neighbor?
+My routing repository is a small place to apply that question.
 
-It is time to ask the same three things about the network itself. Can you see the rule that stopped you? Can you do anything about where you stand? Can you pass on what you learned?
+It would be convenient to describe every repair as resistance to someone else's restriction. That would also be dishonest. Networks change for many reasons. A security check can reject an address because it is unsafe, because information is wrong, or because two systems interpret it differently. Making the request succeed is not enough to show that a repair was right.
 
-In 2001, the answer to all three was mostly yes, and nobody thought that was remarkable. Today the answer is mostly no, and nobody thinks that is remarkable either.
+I want to understand why it failed and restore the connection without removing a protection that still matters.
 
-A default is a decision that has stopped announcing itself. Open was the default once, because people decided it should be. It stopped being the default because other people decided otherwise. Neither happened by accident. That means the next one will not happen by accident either.
+I also write rules. A routing configuration directs traffic along one path rather than another. A firewall permits some connections and refuses others. Those decisions have consequences for whoever uses the configuration, even when the file is public and the intention is helpful.
+
+Publishing the rules makes them available to inspect. It does not automatically make them understandable or justified. I still have to explain what a rule does, why it is there, and when it should be changed or removed.
+
+The same standard should apply to a service that blocks me. I do not expect every request to succeed. I expect a meaningful way to understand and question the decision.
+
+---
+
+## Three questions for a boundary
+
+**Can I tell that a rule stopped me?**
+
+A refusal should be distinguishable from a broken connection. If a deliberate block looks like a timeout, the user may spend hours repairing something that is working exactly as intended. The system does not have to reveal every detail of its defenses to acknowledge that access was denied.
+
+**Can I understand the reason?**
+
+“Your account is locked” describes the result. Saying that an unfamiliar login triggered a security check gives the user something to respond to. There may be details a service cannot safely disclose. It should still explain what it can and offer a useful next step. An explanation makes it possible to identify a mistake.
+
+**Can the decision be reviewed?**
+
+Some restrictions should expire. Others may need to remain. What matters is that a mistaken decision can be corrected, and that a rule can be reconsidered when its reason no longer applies. Review does not mean that every appeal must succeed. It means that being refused once does not remove your right to ask again with new evidence.
+
+These questions do not make every boundary fair. They give us a place to begin examining it. They also apply to my own work. If a rule I wrote cannot meet them, I owe the person it affects a better explanation or a better rule.
+
+---
+
+## What I want to keep
+
+I do not want to recreate an imagined Internet where nothing was restricted. I want to preserve the possibility of participating without giving up all control over how I participate.
+
+Free software makes that possibility concrete: you can read, change, and share the program. Open protocols and portable data extend it: you can choose another tool or move your work. Clear rules and meaningful review matter where running your own copy is not an answer.
+
+These are different freedoms. Together, they give people ways to act beyond accepting whatever an operator decides.
+
+A default is a choice that has become familiar enough to go unquestioned. Open systems took work to build. They take work to keep open, including rules that protect the people contributing to them.
+
+I want that work to leave the user with something they can do: understand a restriction, challenge a mistake, choose another tool, or continue on their own. A system can have good reasons to say no. It should not make the person hearing it powerless.
 
 ---
 
