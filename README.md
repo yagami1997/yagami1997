@@ -1,3 +1,5 @@
+# Keep one space that is not a black box.
+
 [![Independent Builder](https://img.shields.io/badge/Independent%20Builder-0f766e?style=flat-square)](#who-i-am)
 [![Del Mar, CA](https://img.shields.io/badge/Del%20Mar%2C%20CA-0ea5e9?style=flat-square)](#contact)
 [![Building in the Open](https://img.shields.io/badge/Building%20in%20the%20Open-f59e0b?style=flat-square)](#what-i-am-building)
@@ -23,6 +25,47 @@ what       self-hosted tools · writing · AI in daily use, from the command lin
 I am an independent researcher and builder. I live in Del Mar, California. I write in Chinese and English, and I build small software tools that I need myself, then publish them so other people can run their own copies.
 
 AI is part of my everyday work. I use agents to research, write, and code, from the command line, where I can see what they do. I also spend a lot of time thinking about what that changes, and what it should not be allowed to change.
+
+## Field Notes
+
+Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The first one is the most important thing I worked out this year. Everything below follows from it.
+
+```
+INBOX  [1 message]  ~/FieldNotes
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+From : github.com/yagami1997
+Date : Fri, 03 Apr 2026 04:25:46 -0700 (PDT)
+Subj : From Anti-Microsoft to Anti-Black Box
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Twenty years ago, a Chinese programmer argued that engineers should face genuine complexity rather than
+surrender to opaque encapsulation. Most people remember the surface: Linux good, use it.
+The real argument was about posture — tools should help you understand the system, not
+replace your understanding of it.
+
+Twenty years later: we left Windows because it was too opaque, decided Linux was too much
+trouble, and handed ourselves to the cloud and to AI. The black box never disappeared.
+It became more comfortable, more seamless, and harder to question.
+
+AI Agents are the largest single expansion of black box complexity in computing history.
+A typical Agent chains models, tool calls, code execution, and sub-agents — dozens of steps,
+none traceable in real time. When something goes wrong, "emergent behavior of a complex system"
+is a complete sentence. It dissolves accountability entirely.
+
+The counter-movement is quieter: the return of the command line — not as nostalgia, but as
+the shared control plane between humans and AI. Structured. Auditable. Traceable. Standing
+beside the Agent, not beneath it.
+
+Three questions for any Agent product you adopt: Can you see each step? Can you identify where
+it failed? Who is accountable? If none of those have answers, you are holding a larger black box.
+
+--
+yagami1997 | Del Mar, CA | building in the open
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[END OF MESSAGE]  n)ext  q)uit  r)eply  ?
+```
+
+Full essay: [From Anti-Microsoft to Anti-Black Box](FieldNotes/001-from-anti-to-box.md)
 
 ## Where I stand
 
@@ -61,47 +104,6 @@ every action leaves a trace: a diff, a log, a command that can be rerun
 - **Markets as a system.** U.S. equities as something to model and backtest, not something to bet on.
 - **Writing.** Long-form essays, mostly in Chinese, on technology, companies, and the decisions behind them.
 - **History, philosophy, theology.** The traditions that ask what no KPI dashboard will: even if you can do this, should you, and who has the right to decide where you stop.
-
-## Field Notes
-
-Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The first one is the most important thing I worked out this year, and everything above comes from it.
-
-```
-INBOX  [1 message]  ~/FieldNotes
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-From : github.com/yagami1997
-Date : Fri, 03 Apr 2026 04:25:46 -0700 (PDT)
-Subj : From Anti-Microsoft to Anti-Black Box
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Twenty years ago, a Chinese programmer argued that engineers should face genuine complexity rather than
-surrender to opaque encapsulation. Most people remember the surface: Linux good, use it.
-The real argument was about posture — tools should help you understand the system, not
-replace your understanding of it.
-
-Twenty years later: we left Windows because it was too opaque, decided Linux was too much
-trouble, and handed ourselves to the cloud and to AI. The black box never disappeared.
-It became more comfortable, more seamless, and harder to question.
-
-AI Agents are the largest single expansion of black box complexity in computing history.
-A typical Agent chains models, tool calls, code execution, and sub-agents — dozens of steps,
-none traceable in real time. When something goes wrong, "emergent behavior of a complex system"
-is a complete sentence. It dissolves accountability entirely.
-
-The counter-movement is quieter: the return of the command line — not as nostalgia, but as
-the shared control plane between humans and AI. Structured. Auditable. Traceable. Standing
-beside the Agent, not beneath it.
-
-Three questions for any Agent product you adopt: Can you see each step? Can you identify where
-it failed? Who is accountable? If none of those have answers, you are holding a larger black box.
-
---
-yagami1997 | Del Mar, CA | building in the open
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[END OF MESSAGE]  n)ext  q)uit  r)eply  ?
-```
-
-Full essay: [From Anti-Microsoft to Anti-Black Box](FieldNotes/001-from-anti-to-box.md)
 
 ## What I am building
 
@@ -144,5 +146,5 @@ Support keeps the long-term projects alive.
 ---
 
 ```
-SESSION END  Del Mar, California · 2026-09-04 21:44:52 PDT
+SESSION END  Del Mar, California · 2026-09-04 21:46:40 PDT
 ```
