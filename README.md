@@ -14,7 +14,7 @@
 ```
 SESSION  github.com/yagami1997
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-who        independent researcher and builder
+who        designer and software engineer
 where      Del Mar, California (PDT)
 what       self-hosted tools · writing · AI in daily use, from the command line
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -22,7 +22,7 @@ what       self-hosted tools · writing · AI in daily use, from the command lin
 
 ## Who I am
 
-I am an independent researcher and builder. I live in Del Mar, California. I write in Chinese and English, and I build small software tools that I need myself, then publish them so other people can run their own copies.
+I am a designer and software engineer in Del Mar, California. I build small tools that I need myself, then publish them so other people can run their own copies.
 
 AI is part of my everyday work. I use agents to research, write, and code, from the command line, where I can see what they do. I also spend a lot of time thinking about what that changes, and what it should not be allowed to change.
 
@@ -104,7 +104,7 @@ The full argument is in the Field Notes above.
 - **Applied cryptography.** GPG, AES-GCM, PBKDF2. Not the math, the practice: keys, expiry, revocation, who holds what.
 - **Telecom plumbing.** Phone numbers, number portability, eSIM profiles. The parts of the network nobody looks at until they break.
 - **Markets as a system.** U.S. equities as something to model and backtest, not something to bet on.
-- **Writing.** Long-form essays, mostly in Chinese, on technology, companies, and the decisions behind them.
+- **Writing.** Long-form essays on technology, companies, and the decisions behind them.
 - **History, philosophy, theology.** The traditions that ask what no KPI dashboard will: even if you can do this, should you, and who has the right to decide where you stop.
 
 ## What I am building
@@ -148,5 +148,5 @@ Support keeps the long-term projects alive.
 ---
 
 ```
-SESSION END  Del Mar, California · 2026-09-04 21:48:40 PDT
+SESSION END  Del Mar, California · 2026-09-04 21:49:19 PDT
 ```
