@@ -19,36 +19,40 @@ AI is part of my everyday work. I use agents to research, write, and code, from 
 
 ## Field Notes
 
-Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The first one is the most important thing I worked out this year. Everything below follows from it.
+Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The inbox shows the latest one. The first, on black boxes, is where the position below comes from.
 
 ```
-INBOX  [1 message]  ~/FieldNotes
+INBOX  [2 messages]  ~/FieldNotes
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 From : github.com/yagami1997
-Date : Fri, 03 Apr 2026 04:25:46 -0700 (PDT)
-Subj : From Anti-Microsoft to Anti-Black Box
+Date : Fri, 04 Sep 2026 22:56:53 -0700 (PDT)
+Subj : When Open Was the Default
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Twenty years ago, a Chinese programmer argued that engineers should face genuine complexity rather than
-surrender to opaque encapsulation. Most people remember the surface: Linux good, use it.
-The real argument was about posture — tools should help you understand the system, not
-replace your understanding of it.
+Twenty years ago the network was open unless someone had a reason to close it. Today it is
+closed unless someone has a reason to open it. That is the whole change.
 
-Twenty years later: we left Windows because it was too opaque, decided Linux was too much
-trouble, and handed ourselves to the cloud and to AI. The black box never disappeared.
-It became more comfortable, more seamless, and harder to question.
+In 1983 Stallman announced GNU with one idea: if you have a program, you can run it, read it,
+change it, and give a copy to your neighbor. By 2001 that idea had won. Most of the web ran on
+a server anyone could read. Wikipedia and Creative Commons started that year. Nobody had to
+argue for openness. It was the default.
 
-AI Agents are the largest single expansion of black box complexity in computing history.
-A typical Agent chains models, tool calls, code execution, and sub-agents — dozens of steps,
-none traceable in real time. When something goes wrong, "emergent behavior of a complex system"
-is a complete sentence. It dissolves accountability entirely.
+Then the default flipped, one ordinary task at a time. Installing a program now goes through a
+review queue. Building on a service works until the service is big enough to close the door.
+The web's own standards body voted a lock into the browser. A login checks where you are before
+it checks who you are. The polite robots.txt request became a gate that new sites start behind.
 
-The counter-movement is quieter: the return of the command line — not as nostalgia, but as
-the shared control plane between humans and AI. Structured. Auditable. Traceable. Standing
-beside the Agent, not beneath it.
+Stallman said it in 2010: with software as a service you do not even get the program. You get
+permission to use one, for now. That sounded extreme. It now describes nearly everything.
 
-Three questions for any Agent product you adopt: Can you see each step? Can you identify where
-it failed? Who is accountable? If none of those have answers, you are holding a larger black box.
+I keep a public repository of routing rules. 439 commits since 2022, almost all of them repairs
+after someone else moved a boundary. If the network still worked the way it did in 2001, it
+would not need to exist. I also write rules. So the question is not who draws lines. It is what
+a line has to look like before anyone should accept it.
+
+Three questions for any wall: Does it admit it exists? Does it tell you why? Can it end?
+If the answer to all three is no, you are not facing a rule. You are facing a wall that will
+not sign its name.
 
 --
 yagami1997 | Del Mar, CA | building in the open
@@ -56,7 +60,7 @@ yagami1997 | Del Mar, CA | building in the open
 [END OF MESSAGE]  n)ext  q)uit  r)eply  ?
 ```
 
-Full essay: [From Anti-Microsoft to Anti-Black Box](FieldNotes/001-from-anti-to-box.md)
+Full essay: [When Open Was the Default](FieldNotes/002-when-open-was-the-default.md) · Previous: [From Anti-Microsoft to Anti-Black Box](FieldNotes/001-from-anti-to-box.md)
 
 ## Where I stand
 
@@ -126,4 +130,4 @@ Support keeps the long-term projects alive.
 
 ---
 
-<p align="center">Del Mar, California · Last updated: 2026-09-04 22:14:18 PDT</p>
+<p align="center">Del Mar, California · Last updated: 2026-09-04 22:56:53 PDT</p>
