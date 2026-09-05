@@ -98,6 +98,8 @@ The full argument is in the Field Notes above.
 
 Six tools. Self-hosted, free software, no hosted service. You run it, you hold the keys, you can shut it off.
 
+<div align="center">
+
 | [BurnBox](https://github.com/yagami1997/BurnBox) | [VeilHub](https://github.com/yagami1997/VeilHub) |
 |:--:|:--:|
 | File sharing, with an off switch. | A little privacy between links. |
@@ -105,6 +107,8 @@ Six tools. Self-hosted, free software, no hosted service. You run it, you hold t
 | Routes you can reason about. | From market data to a readable report. |
 | **[RealCarrier](https://github.com/yagami1997/RealCarrier)** | **[esimswap](https://github.com/yagami1997/esimswap)** |
 | Find the carrier behind the number. | Make that eSIM QR code work. |
+
+</div>
 
 > [!NOTE]
 > Arclane is independent research, not affiliated with Nssurge Inc. TradeMind is a learning tool, not investment advice.
