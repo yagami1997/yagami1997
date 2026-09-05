@@ -113,12 +113,12 @@ Six tools. All self-hosted, all GPL or MIT, none of them a hosted service. Each 
 
 | Project | What it does | Runs on |
 |:--|:--|:--:|
-| **[BurnBox](https://github.com/yagami1997/BurnBox)**<br>`files` | A private file workspace. Share by revocable link, not permanent URL. Expiry and download limits built in. | ![Cloudflare](https://img.shields.io/badge/Cloudflare-f38020?style=flat-square&logo=cloudflare&logoColor=white)<br><sub>Workers · R2 · D1</sub> |
-| **[VeilHub](https://github.com/yagami1997/VeilHub)**<br>`links` | Encrypted redirect links that expire. The destination is encrypted at rest; links can be one-time or need an access code. | ![Cloudflare](https://img.shields.io/badge/Cloudflare-f38020?style=flat-square&logo=cloudflare&logoColor=white)<br><sub>Workers · KV</sub> |
-| **[Arclane](https://github.com/yagami1997/Arclane)**<br>`network` | Routing configuration research with Surge-compatible artifacts. Text-based policies, modules, migration docs. | ![Surge](https://img.shields.io/badge/Surge-4D9DE0?style=flat-square&logo=apple&logoColor=white)<br><sub>iOS · macOS</sub> |
-| **[TradeMind](https://github.com/yagami1997/TradeMind)**<br>`markets` | Technical analysis for U.S. stocks and ETFs. Indicators, patterns, backtests, HTML reports. CLI and Web. | ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white)<br><sub>CLI · Web</sub> |
-| **[RealCarrier](https://github.com/yagami1997/RealCarrier)**<br>`telecom` | U.S. phone number lookup with live LNP data. Real carrier, number type, virtual or physical, porting history. | ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white)<br><sub>Telnyx · Twilio</sub> |
-| **[esimswap](https://github.com/yagami1997/esimswap)**<br>`esim` | Parse, generate, and repair eSIM QR codes in the browser. Camera scan, 120+ carriers, zero backend. | ![Cloudflare](https://img.shields.io/badge/Cloudflare-f38020?style=flat-square&logo=cloudflare&logoColor=white)<br><sub>Pages</sub> |
+| **[BurnBox](https://github.com/yagami1997/BurnBox)** | A private file workspace. Share by revocable link, not permanent URL. Expiry and download limits built in. | ![Cloudflare](https://img.shields.io/badge/Cloudflare-f38020?style=flat-square&logo=cloudflare&logoColor=white) |
+| **[VeilHub](https://github.com/yagami1997/VeilHub)** | Encrypted redirect links that expire. The destination is encrypted at rest; links can be one-time or need an access code. | ![Cloudflare](https://img.shields.io/badge/Cloudflare-f38020?style=flat-square&logo=cloudflare&logoColor=white) |
+| **[Arclane](https://github.com/yagami1997/Arclane)** | Routing configuration research with Surge-compatible artifacts. Text-based policies, modules, migration docs. | ![Surge](https://img.shields.io/badge/Surge-4D9DE0?style=flat-square&logo=apple&logoColor=white) |
+| **[TradeMind](https://github.com/yagami1997/TradeMind)** | Technical analysis for U.S. stocks and ETFs. Indicators, patterns, backtests, HTML reports. CLI and Web. | ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white) |
+| **[RealCarrier](https://github.com/yagami1997/RealCarrier)** | U.S. phone number lookup with live LNP data. Real carrier, number type, virtual or physical, porting history. | ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white) |
+| **[esimswap](https://github.com/yagami1997/esimswap)** | Parse, generate, and repair eSIM QR codes in the browser. Camera scan, 120+ carriers, zero backend. | ![Cloudflare](https://img.shields.io/badge/Cloudflare-f38020?style=flat-square&logo=cloudflare&logoColor=white) |
 
 > [!NOTE]
 > Arclane is independent research, not affiliated with Nssurge Inc. TradeMind is a learning tool, not investment advice.
@@ -148,5 +148,5 @@ Support keeps the long-term projects alive.
 ---
 
 ```
-SESSION END  Del Mar, California · 2026-09-04 21:54:22 PDT
+SESSION END  Del Mar, California · 2026-09-04 21:57:29 PDT
 ```
