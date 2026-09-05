@@ -19,40 +19,37 @@ AI is part of my everyday work. I use agents to research, write, and code, from 
 
 ## Field Notes
 
-Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The inbox shows the latest one. The first, on black boxes, is where the position below comes from.
+Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The inbox shows the latest note: on access, dependence, and the rules that stand between us and our work.
 
 ```
 INBOX  [2 messages]  ~/FieldNotes
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 From : github.com/yagami1997
-Date : Fri, 04 Sep 2026 22:56:53 -0700 (PDT)
+Date : Fri, 04 Sep 2026 23:09:20 -0700 (PDT)
 Subj : When Open Was the Default
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Twenty years ago the network was open unless someone had a reason to close it. Today it is
-closed unless someone has a reason to open it. That is the whole change.
+Something that worked on Monday stops on Thursday. I go looking for what changed. It may be a
+mistake, a security check, or a service changing who it lets in. The repair begins with a question
+the screen has not answered: is this a failure, or a refusal?
 
-In 1983 Stallman announced GNU with one idea: if you have a program, you can run it, read it,
-change it, and give a copy to your neighbor. By 2001 that idea had won. Most of the web ran on
-a server anyone could read. Wikipedia and Creative Commons started that year. Nobody had to
-argue for openness. It was the default.
+Free software gives you code and the right to continue working with it. A service gives you access
+while its operator continues to provide it. Both can be useful. But when the terms change, the
+difference becomes hard to ignore.
 
-Then the default flipped, one ordinary task at a time. Installing a program now goes through a
-review queue. Building on a service works until the service is big enough to close the door.
-The web's own standards body voted a lock into the browser. A login checks where you are before
-it checks who you are. The polite robots.txt request became a gate that new sites start behind.
+Openness also needs boundaries. A publisher refusing an AI crawler is not the same as a platform
+preventing a user from choosing their own software. The question is whose freedom is at stake, who
+decides, and what the affected person can do.
 
-Stallman said it in 2010: with software as a service you do not even get the program. You get
-permission to use one, for now. That sounded extreme. It now describes nearly everything.
+I write rules too. Publishing a routing configuration makes it available to inspect; it does not
+automatically make it understandable or justified. I still owe its users an explanation of what each
+rule does and why it belongs there.
 
-I keep a public repository of routing rules. 439 commits since 2022, almost all of them repairs
-after someone else moved a boundary. If the network still worked the way it did in 2001, it
-would not need to exist. I also write rules. So the question is not who draws lines. It is what
-a line has to look like before anyone should accept it.
+Three questions for a boundary: Can I tell that a rule stopped me? Can I understand the reason? Can
+the decision be reviewed?
 
-Three questions for any wall: Does it admit it exists? Does it tell you why? Can it end?
-If the answer to all three is no, you are not facing a rule. You are facing a wall that will
-not sign its name.
+These questions apply to my work as well. A system can have good reasons to say no. It should not
+make the person hearing it powerless.
 
 --
 yagami1997 | Del Mar, CA | building in the open
@@ -130,4 +127,4 @@ Support keeps the long-term projects alive.
 
 ---
 
-<p align="center">Del Mar, California · Last updated: 2026-09-04 22:56:53 PDT</p>
+<p align="center">Del Mar, California · Last updated: 2026-09-04 23:09:20 PDT</p>

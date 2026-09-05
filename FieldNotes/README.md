@@ -7,8 +7,9 @@ understanding of it. Engineering is not just execution — it is the deliberate 
 to build, what to refuse, and what to remain accountable for. In an era of accelerating black
 boxes and automated everything, I think that posture is worth defending in writing.
 
-The [Field Notes](../README.md#field-notes) inbox on my profile carries the short version.
-The full argument lives here.
+The [Field Notes](../README.md#field-notes) inbox on my profile carries a short version of the latest note. The full essays live here.
+
+The first note asks whether we can understand the systems we use. The second asks what happens when access depends on someone else’s rules, and what makes those rules acceptable. Both start from the same concern: people should retain a way to understand, question, and influence the tools they depend on.
 
 ---
 
@@ -19,4 +20,4 @@ The full argument lives here.
 
 ---
 
-*Last updated: 2026-09-04 22:53:03 PDT*
+*Last updated: 2026-09-04 23:09:20 PDT*
