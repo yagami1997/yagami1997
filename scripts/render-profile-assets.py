@@ -29,37 +29,70 @@ def svg(width, height, title, desc, body):
 '''
 
 
-def header(c, theme):
-    start, end = ('#f8f5f0', '#f0f3f5') if theme == 'light' else ('#292b30', '#222b32')
-    body = f'''<defs>
-      <linearGradient id="paper" x1="0" y1="0" x2="1" y2=".3">
-        <stop stop-color="{start}"/><stop offset="1" stop-color="{end}"/>
-      </linearGradient>
-    </defs>
-    <rect x=".5" y=".5" width="439" height="169" rx="12" fill="url(#paper)" stroke="{c['faint']}" stroke-opacity=".5"/>
-    <rect x="24" y="28" width="20" height="3" rx="1.5" fill="{c['accent']}"/>
-    <text x="56" y="37" fill="{c['muted']}" font-size="22">Independent builder</text>
-    <text x="24" y="92" fill="{c['ink']}" font-size="38" font-weight="500" letter-spacing="-1">yagami1997</text>
-    <text x="24" y="136" fill="{c['ink']}" font-size="22">Code, notes &amp; experiments.</text>'''
-    return svg(440, 170, 'yagami1997 — independent builder',
-               'Code, notes and experiments.', body)
-
+PROJECT_SUMMARIES = {
+    'BurnBox': 'Private file sharing with expiring, revocable links.',
+    'VeilHub': 'Self-hosted redirects with encrypted destinations.',
+    'Arclane': 'Routing policies and compatibility research.',
+    'TradeMind': 'Market reports, indicators, and backtest calculations.',
+    'RealCarrier': 'U.S. carrier, line type, and portability lookup.',
+    'esimswap': 'Parse, generate, and repair eSIM QR codes in your browser.',
+}
 
 
 def project(c, name, line1, line2, number):
-    lines = [(line, c['ink']) for line in wrap(line1, 32)]
-    lines += [(line, c['muted']) for line in wrap(line2, 32)]
-    description = ''.join(
-        f'<text x="16" y="{100 + i * 27}" fill="{color}" font-size="20">{escape(line)}</text>'
-        for i, (line, color) in enumerate(lines))
-    body = f'''
-    <text x="16" y="30" fill="{c['accent']}" font-size="18">{number}</text>
-    <text x="16" y="65" fill="{c['ink']}" font-size="27" font-weight="600">{name}</text>
-    <path d="M320 49h10v10m0-10-12 12" fill="none" stroke="{c['muted']}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-    {description}
-    <path d="M16 206H344" stroke="{c['faint']}"/>
-    '''
-    return svg(360, 220, name, f'{line1} {line2}', body)
+    lines = wrap(PROJECT_SUMMARIES[name], 39)
+    description = ''.join(f'<text x="18" y="{65+i*25}" fill="{c["ink"]}" font-size="18">{escape(line)}</text>' for i, line in enumerate(lines))
+    body = f'''<rect x=".5" y=".5" width="389" height="115" rx="8" fill="{c['accent']}" fill-opacity=".025" stroke="{c['faint']}" stroke-opacity=".7"/>
+    <text x="18" y="33" fill="{c['ink']}" font-size="22" font-weight="600">{name}</text>
+    <path d="M355 21h9v9m0-9-11 11" fill="none" stroke="{c['accent']}" stroke-width="1.5"/>
+    {description}'''
+    return svg(390, 116, name, f'{line1} {line2}', body)
+
+
+PANELS = [
+    ('intro-build', 'Building in the open', [
+        'I research, write, and build software with AI as part of my everyday practice. I like understanding how things work and making tools I want to use.',
+        'My projects begin with practical needs: sharing files privately, understanding my network, or making a small task easier. I share the work so others can inspect, adapt, and improve it.',
+    ]),
+    ('intro-notes', 'A notebook, kept in public', [
+        'Field Notes is my ongoing notebook: observations from building, questions I am still working through, and things I have learned along the way.',
+        'Lately, I am thinking about agent memory, permissions, and verification. I come back to these questions as I build, and revise my notes as my understanding changes.',
+    ]),
+    ('ai-practice', 'How I work', [
+        'I move between research, code, and writing with agents in the loop. I set the problem and bring the context; they help explore, implement, and iterate.',
+        'Tests and real outputs tell me what holds up. I decide what ships.',
+    ]),
+    ('ai-learning', 'What I care about', [
+        "I'm interested in workflows that get better with use: reusable tools, useful memory, and enough visibility to understand a failure and keep going.",
+    ]),
+    ('contact-public', 'A small decryption puzzle', [
+        'For general questions, ideas, or feedback — GitHub issues are the right place.',
+        'If you need to reach me privately, I only accept contact through GPG-encrypted channels. No plain email, no DMs.',
+        'Think of it as a small decryption puzzle — if you can play this game, we already speak the same language.',
+    ]),
+    ('contact-steps', 'To request a private channel', [
+        '1. Click the GPG button below to open an issue.',
+        '2. Share your GPG public key block or 40-character fingerprint (must be on keys.openpgp.org).',
+        "3. I'll reply with my GPG fingerprint encrypted to your key — import it from keys.openpgp.org to find my address, then send encrypted email only.",
+    ]),
+]
+
+
+def panel_lines(paragraphs):
+    lines = []
+    for paragraph in paragraphs:
+        if lines:
+            lines.append('')
+        lines.extend(wrap(paragraph, 34, break_long_words=False, break_on_hyphens=False))
+    return lines
+
+
+def panel(c, slug, title, paragraphs, height):
+    body = f'''<path d="M14 20h18" stroke="{c['accent']}" stroke-width="3" stroke-linecap="round"/>
+    <text x="14" y="53" fill="{c['ink']}" font-size="22" font-weight="600">{escape(title)}</text>'''
+    for i, line in enumerate(panel_lines(paragraphs)):
+        body += f'<text x="14" y="{91+i*28}" fill="{c["ink"]}" font-size="21">{escape(line)}</text>'
+    return svg(390, height, title, ' '.join(paragraphs), body)
 
 
 ACTIONS = [
@@ -73,11 +106,12 @@ ACTIONS = [
 
 
 def action(c, slug, name, label, width, icon):
-    body = f'''<rect x=".5" y=".5" width="{width-1}" height="75" rx="8" fill="none" stroke="{c['faint']}"/>
-    <g transform="translate(16 24) scale(.9)" stroke="{c['accent']}" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">{icon}</g>
-    <text x="50" y="30" fill="{c['ink']}" font-size="20" font-weight="600">{name}</text>
-    <text x="50" y="56" fill="{c['muted']}" font-size="18">{label}</text>'''
-    return svg(width, 76, name, label, body)
+    visible = 'GPG · Private contact' if slug == 'gpg' else name
+    width = 268 if slug == 'gpg' else 164
+    body = f'''<rect x=".5" y=".5" width="{width-1}" height="51" rx="8" fill="{c['accent']}" fill-opacity=".055" stroke="{c['faint']}"/>
+    <g transform="translate(16 15) scale(.8)" stroke="{c['accent']}" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">{icon}</g>
+    <text x="48" y="33" fill="{c['ink']}" font-size="19" font-weight="500">{visible}</text>'''
+    return svg(width, 52, name, label, body)
 
 
 NAVIGATION = [
@@ -89,20 +123,33 @@ NAVIGATION = [
 
 
 def navigation(c, slug, label, icon):
-    body = f'''<rect x=".5" y=".5" width="199" height="57" rx="9" fill="{c['accent']}" fill-opacity=".045" stroke="{c['faint']}"/>
-    <g transform="translate(14 19)" fill="none" stroke="{c['accent']}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">{icon}</g>
-    <text x="44" y="35" fill="{c['ink']}" font-size="20" font-weight="500">{label}</text>'''
-    return svg(200, 58, label, f'Jump to {label}', body)
+    body = f'''<rect x=".5" y=".5" width="199" height="47" rx="9" fill="{c['accent']}" fill-opacity=".045" stroke="{c['faint']}"/>
+    <g transform="translate(14 14)" fill="none" stroke="{c['accent']}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">{icon}</g>
+    <text x="44" y="30" fill="{c['ink']}" font-size="18" font-weight="500">{label}</text>'''
+    return svg(200, 48, label, f'Jump to {label}', body)
 
 
 if __name__ == '__main__':
+    import hashlib
+    import re
     ASSETS.mkdir(exist_ok=True)
+    generated = {}
     for theme, palette in PALETTES.items():
-        (ASSETS / f'profile-header-{theme}.svg').write_text(header(palette, theme))
-        for item in ACTIONS:
-            (ASSETS / f'action-{item[0]}-{theme}.svg').write_text(action(palette, *item))
-        for item in NAVIGATION:
-            (ASSETS / f'nav-{item[0]}-{theme}.svg').write_text(navigation(palette, *item))
-        for item in PROJECTS:
-            (ASSETS / f'project-{item[0].lower()}-{theme}.svg').write_text(project(palette, *item))
-    print('Generated 28 SVG assets: header, navigation, projects, and contact/support actions in both themes.')
+        items = [(f'action-{item[0]}', action(palette, *item)) for item in ACTIONS]
+        items += [(f'nav-{item[0]}', navigation(palette, *item)) for item in NAVIGATION]
+        items += [(f'project-{item[0].lower()}', project(palette, *item)) for item in PROJECTS]
+        for i in range(0, len(PANELS), 2):
+            pair = PANELS[i:i+2]
+            height = 108 + 28 * max(len(panel_lines(item[2])) for item in pair)
+            items += [(f'panel-{item[0]}', panel(palette, *item, height)) for item in pair]
+        for slug, content in items:
+            digest = hashlib.sha256(content.encode()).hexdigest()[:10]
+            filename = f'{slug}-{theme}-{digest}.svg'
+            (ASSETS / filename).write_text(content)
+            generated[f'{slug}-{theme}'] = filename
+    readme = ROOT / 'README.md'
+    text = readme.read_text()
+    for key, filename in generated.items():
+        text = re.sub(r'(?:(?:https://raw.githubusercontent.com/yagami1997/yagami1997/[^/]+/)?assets/)' + re.escape(key) + r'(?:-[a-f0-9]{10})?\.svg', f'assets/{filename}', text)
+    readme.write_text(text)
+    print(f'Generated {len(generated)} versioned assets and updated README references.')

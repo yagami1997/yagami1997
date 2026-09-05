@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="268" height="52" viewBox="0 0 268 52" role="img" aria-labelledby="title desc">
+  <title id="title">GPG</title>
+  <desc id="desc">Request encrypted contact</desc>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"><rect x=".5" y=".5" width="267" height="51" rx="8" fill="#f6a18b" fill-opacity=".055" stroke="#454c56"/>
+    <g transform="translate(16 15) scale(.8)" stroke="#f6a18b" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="13" rx="3"/><path d="M7 10V6a5 5 0 0 1 10 0v4m-5 6v3"/></g>
+    <text x="48" y="33" fill="#f0f3f6" font-size="19" font-weight="500">GPG · Private contact</text></g>
+</svg>
