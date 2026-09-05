@@ -79,12 +79,29 @@ def action(c, slug, name, label, width, icon):
     return svg(width, 56, name, label, body)
 
 
+NAVIGATION = [
+    ('notes', 'Field Notes', '<rect x="3" y="2" width="14" height="17" rx="2"/><path d="M7 7h6M7 11h6M7 15h3"/>'),
+    ('projects', 'Projects', '<rect x="2" y="2" width="6" height="6" rx="1"/><rect x="12" y="2" width="6" height="6" rx="1"/><rect x="2" y="12" width="6" height="6" rx="1"/><rect x="12" y="12" width="6" height="6" rx="1"/>'),
+    ('ai', 'Working with AI', '<path d="m7 5-5 5 5 5m6-10 5 5-5 5M11 3l-2 14"/>'),
+    ('contact', 'Contact', '<rect x="1" y="3" width="18" height="14" rx="2"/><path d="m2 5 8 6 8-6"/>'),
+]
+
+
+def navigation(c, slug, label, icon):
+    body = f'''<rect x=".5" y=".5" width="159" height="49" rx="9" fill="{c['accent']}" fill-opacity=".045" stroke="{c['faint']}"/>
+    <g transform="translate(12 15)" fill="none" stroke="{c['accent']}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">{icon}</g>
+    <text x="40" y="30" fill="{c['ink']}" font-size="15" font-weight="500">{label}</text>'''
+    return svg(160, 50, label, f'Jump to {label}', body)
+
+
 if __name__ == '__main__':
     ASSETS.mkdir(exist_ok=True)
     for theme, palette in PALETTES.items():
         (ASSETS / f'profile-header-{theme}.svg').write_text(header(palette, theme))
         for item in ACTIONS:
             (ASSETS / f'action-{item[0]}-{theme}.svg').write_text(action(palette, *item))
+        for item in NAVIGATION:
+            (ASSETS / f'nav-{item[0]}-{theme}.svg').write_text(navigation(palette, *item))
         for item in PROJECTS:
             (ASSETS / f'project-{item[0].lower()}-{theme}.svg').write_text(project(palette, *item))
-    print('Generated 20 SVG assets: header, projects, and contact/support actions in both themes.')
+    print('Generated 28 SVG assets: header, navigation, projects, and contact/support actions in both themes.')

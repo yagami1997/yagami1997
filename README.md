@@ -4,13 +4,22 @@
   <img src="assets/profile-header-light.svg" width="100%" alt="yagami1997 — independent builder. Code, notes and experiments. Writing Field Notes. Making open-source tools." />
 </picture>
 
-<sub>Independent builder · Del Mar, California · Systems over hype.</sub>
+### Independent builder · Del Mar, California
 
-I work with AI to research, write, and build software. My projects grow out of things I want to use: sharing files privately, understanding my network, making a small task easier.
+I research, write, and build software with AI as part of my everyday practice. I’m interested in how things work, where they break, and what becomes possible when one person can take an idea further.
 
-**Lately** — thinking about what agents should remember, what they should be allowed to do, and how to tell when the work is actually done.
+My projects grow out of things I want to use: sharing files privately, understanding my network, or making a small task easier. I build in the open so the work can be inspected, adapted, and improved by others. I care about software that stays understandable and useful beyond its first release.
 
-[Field Notes](#field-notes) &nbsp; · &nbsp; [Projects](#selected-projects) &nbsp; · &nbsp; [Working with AI](#working-with-ai) &nbsp; · &nbsp; [Contact](#contact)
+Working with agents has changed how I explore ideas and turn them into working tools. **Lately, I’m thinking about memory, permissions, and verification** — what agents should remember, what they should be allowed to do, and how we know the work is actually done.
+
+**Field Notes is my ongoing notebook:** observations from building, questions I’m still working through, and things I’ve learned along the way. It’s a place to think in public and return to an idea as my understanding changes.
+
+<p align="center">
+  <a href="#field-notes"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-notes-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/nav-notes-light.svg" /><img src="assets/nav-notes-light.svg" width="160" alt="Field Notes" /></picture></a>
+  <a href="#selected-projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-projects-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/nav-projects-light.svg" /><img src="assets/nav-projects-light.svg" width="160" alt="Projects" /></picture></a>
+  <a href="#working-with-ai"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-ai-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/nav-ai-light.svg" /><img src="assets/nav-ai-light.svg" width="160" alt="Working with AI" /></picture></a>
+  <a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-contact-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/nav-contact-light.svg" /><img src="assets/nav-contact-light.svg" width="160" alt="Contact" /></picture></a>
+</p>
 
 <br/>
 
@@ -122,6 +131,6 @@ Support helps me keep building open-source tools, long-term projects, and practi
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-<sub>Del Mar, California · Last updated: 2026-09-04 20:35:23 PDT</sub>
+<sub>Del Mar, California · Last updated: 2026-09-04 20:40:59 PDT</sub>
 
 </div>
