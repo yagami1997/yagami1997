@@ -137,4 +137,4 @@ Support keeps the long-term projects alive.
 
 ---
 
-Del Mar, California · Last updated: 2026-09-04 22:07:54 PDT
+<p align="center">Del Mar, California · Last updated: 2026-09-04 22:07:54 PDT</p>
