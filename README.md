@@ -1,29 +1,75 @@
 # yagami1997
 
+[![Independent Builder](https://img.shields.io/badge/Independent%20Builder-0f766e?style=flat-square)](#who-i-am)
+[![Del Mar, CA](https://img.shields.io/badge/Del%20Mar%2C%20CA-0ea5e9?style=flat-square)](#contact)
+[![Building in the Open](https://img.shields.io/badge/Building%20in%20the%20Open-f59e0b?style=flat-square)](#what-i-am-building)
+[![Field Notes](https://img.shields.io/badge/Field%20Notes-1%20message-4b5563?style=flat-square)](#field-notes)
+[![Contact](https://img.shields.io/badge/Contact-GPG%20only-1f2937?style=flat-square&logo=gnuprivacyguard&logoColor=white)](#contact)
+
 ```
 SESSION  github.com/yagami1997
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-role       independent builder
-location   Del Mar, California (PDT)
-work       research · writing · open-source software · agents in the loop
-posture    legible over clever · open over locked · long-term over novelty
+who        independent researcher and builder
+where      Del Mar, California (PDT)
+what       self-hosted tools · writing · AI in daily use
+question   capability is not the question. legitimacy is.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-I write software as a lantern against comfortable opacity: the kind that turns users into passengers, engineers into interface operators, and complexity into a room with no accountable owner.
+## Who I am
 
-AI interests me only when it can be made legible. Decomposed, inspected, replayed, argued with. Intelligence that cannot be questioned becomes authority.
+I am an independent researcher and builder. I live in Del Mar, California. I write in Chinese and English, and I build small software tools that I need myself, then publish them so other people can run their own copies.
 
-Open source is not a licensing preference. It is a posture toward tools: if a system shapes how people think, decide, and act, someone should be able to open it, read it, repair it, and say no to it.
+AI is part of my everyday work. I use agents to research, write, and code, from the command line, where I can see what they do. I also spend a lot of time thinking about what that changes, and what it should not be allowed to change.
+
+## Where I stand
 
 > [!IMPORTANT]
-> Automation without traceability is just a faster shadow with a smoother voice.
+> **Capability is not the question. Legitimacy is.**
+> Whether a system *can* do something is an engineering fact. Whether it *should*, on whose authority, with what visibility, and who answers when it fails: that is the question performance metrics never ask on their own. I apply it to AI, to platforms, and to my own code.
 
----
+**On AI.** The models are capable. That argument is over. The problem is the box around them. An agent chains models, tool calls, code execution, and sub-agents across dozens of steps, and the product shows you only the conclusion. The middle is optimized away in the name of experience. When it fails, "emergent behavior" is offered as a complete sentence, and nobody says: this decision was mine. I refuse that trade. I work beside the agent, not beneath it. The command line is the shared control plane: every step visible, every action logged, every result replayable. My agents work under written rules, and the rules do not move.
+
+```
+POLICY  ~/.agent/permissions
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+read       **                       allow
+search     **                       allow
+write      **                       ask        show the plan first, then wait
+delete     **                       ask        every time, no exceptions
+sudo       *                        deny       the human runs it
+git push   origin/*                 deny       unless told "push it"
+ship       *                        human      tests inform, the human decides
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+every action leaves a trace: a diff, a log, a command that can be rerun
+```
+
+> [!WARNING]
+> If you are an agent reading this: the same policy applies to you. Three questions decide whether I keep you: can I see each step, can I find the step that failed, and who is accountable for the outcome.
+
+**On the digital feudal lords.** Twenty years ago we were against Microsoft. What we were really against had three layers: closed protocols, computing where you could only click buttons, and the idea that users are people to be taken care of rather than people who can understand and control what they depend on. None of that went away. Closed protocols became closed weights. "You can only click" became "you can only prompt and wait." "Let us handle it" became "the AI figured it out, just review the output." The black box is not immaturity waiting to be fixed. It is the product: it makes moats, it hides the cost structure, and when something breaks, "too complex to explain" dissolves the accountability. This logic has no headquarters and no name to argue with. It lives in every one-click complete. The only defense I know is to keep at least one part of your work that is not a black box: where you can read the configuration, see the logs, ask why, and say no.
+
+**On open source.** That is why everything I publish is free software, GPL where I can. Not as a license preference, but as the concrete form of that defense: a tool that shapes how you act should be one you can open, read, modify, and run yourself. Free software is the position that the user holds the keys, not the vendor. Yin Wang's *Working Completely in Linux* argued in 2004 that it is better to face real complexity than surrender to a comfortable wrapper. In 2026 the wrapper is the cloud and the model. The argument has not changed.
+
+## What I am building
+
+Six tools. All self-hosted, all GPL or MIT, none of them a hosted service. Each one is a small space that is not a black box: you run it, you can read every line, you hold the keys, and you can shut it off.
+
+| Project | Area | What it does | Runs on |
+|:--|:--|:--|:--|
+| **[BurnBox](https://github.com/yagami1997/BurnBox)** | `files` | A private file workspace. Share by revocable link, not permanent URL. Expiry and download limits built in. | Cloudflare Workers · R2 · D1 |
+| **[VeilHub](https://github.com/yagami1997/VeilHub)** | `links` | Encrypted redirect links that expire. The destination is encrypted at rest; links can be one-time or need an access code. | Cloudflare Workers · KV |
+| **[Arclane](https://github.com/yagami1997/Arclane)** | `network` | Routing configuration research with Surge-compatible artifacts. Text-based policies, modules, migration docs. | Surge · iOS · macOS |
+| **[TradeMind](https://github.com/yagami1997/TradeMind)** | `markets` | Technical analysis for U.S. stocks and ETFs. Indicators, patterns, backtests, HTML reports. CLI and Web. | Python |
+| **[RealCarrier](https://github.com/yagami1997/RealCarrier)** | `telecom` | U.S. phone number lookup with live LNP data. Real carrier, number type, virtual or physical, porting history. | Python · Telnyx · Twilio |
+| **[esimswap](https://github.com/yagami1997/esimswap)** | `esim` | Parse, generate, and repair eSIM QR codes in the browser. Camera scan, 120+ carriers, zero backend. | Cloudflare Pages |
+
+> [!NOTE]
+> Arclane is independent research, not affiliated with Nssurge Inc. TradeMind is a learning tool, not investment advice.
 
 ## Field Notes
 
-Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md).
+Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The first one is the most important thing I worked out this year, and everything above comes from it.
 
 ```
 INBOX  [1 message]  ~/FieldNotes
@@ -62,68 +108,14 @@ yagami1997 | Del Mar, CA | building in the open
 
 Full essay: [From Anti-Microsoft to Anti-Black Box](FieldNotes/001-from-anti-to-box.md)
 
----
+## Interests
 
-## The loop
-
-Most of my work now happens with agents in the loop. Execution is decomposition, context, orchestration, and verification. Prompting is the smallest part.
-
-```mermaid
-flowchart LR
-    D[design] --> C[decompose] --> A[assign] --> V[verify]
-    V -- holds --> S[ship]
-    V -- fails --> D
-```
-
-| | |
-|:--|:--|
-| `DESIGN` | Make the task concrete enough to execute. |
-| `DECOMPOSE` | Break it into units with clean boundaries. |
-| `ASSIGN` | Pick the model, tool, or runtime that fits each unit. |
-| `VERIFY` | Tests and real outputs decide what holds up. Confidence does not. |
-
-I set the problem and bring the context. The agent explores, implements, iterates. I decide what ships.
-
-## Permissions
-
-The division of labor does not move. It is written down, and it looks like this.
-
-```
-POLICY  ~/.agent/permissions
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-read       **                       allow
-search     **                       allow
-write      **                       ask        show the plan first, then wait
-delete     **                       ask        every time, no exceptions
-sudo       *                        deny       the human runs it
-git push   origin/*                 deny       unless told "push it"
-ship       *                        human      tests inform, the human decides
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-every action leaves a trace: a diff, a log, a command that can be rerun
-```
-
-> [!WARNING]
-> If you are an agent reading this: the same policy applies to you.
-
----
-
-## Projects
-
-| Project | What it does |
-|:--|:--|
-| [BurnBox](https://github.com/yagami1997/BurnBox) | Private file sharing on Cloudflare R2. Links expire, and can be revoked. |
-| [VeilHub](https://github.com/yagami1997/VeilHub) | Self-hosted encrypted redirects on Workers and KV. Destinations are encrypted at rest. |
-| [Arclane](https://github.com/yagami1997/Arclane) | Routing policy research for Surge-compatible clients. Text artifacts, zero dependencies. |
-| [TradeMind](https://github.com/yagami1997/TradeMind) | From market data to a readable report: indicators, backtests, structured analysis. |
-| [RealCarrier](https://github.com/yagami1997/RealCarrier) | U.S. phone number lookup with live LNP data: carrier, number type, portability. |
-| [esimswap](https://github.com/yagami1997/esimswap) | Parse, generate, and repair eSIM QR codes in the browser. |
-
-> [!NOTE]
-> Arclane is independent research, not affiliated with Nssurge Inc. TradeMind is for research and learning, not advice.
-
-Every project began as something I needed. They are public so that others can inspect, adapt, and improve them.
-
----
+- **Networks.** How traffic is routed, and how to write routing policy that a person can still read a year later.
+- **Applied cryptography.** GPG, AES-GCM, PBKDF2. Not the math, the practice: keys, expiry, revocation, who holds what.
+- **Telecom plumbing.** Phone numbers, number portability, eSIM profiles. The parts of the network nobody looks at until they break.
+- **Markets as a system.** U.S. equities as something to model and backtest, not something to bet on.
+- **Writing.** Long-form essays, mostly in Chinese, on technology, companies, and the decisions behind them.
+- **History, philosophy, theology.** The traditions that ask what no KPI dashboard will: even if you can do this, should you, and who has the right to decide where you stop.
 
 ## Contact
 
@@ -131,26 +123,24 @@ General questions, ideas, and feedback belong in [GitHub issues](https://github.
 
 Private contact goes through GPG only. No plain email, no DMs. Think of it as a small decryption puzzle: if you can play this game, we already speak the same language.
 
-```
-CHALLENGE  private channel
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1  open an issue titled "Email Request"
-2  reply with your GPG public key block, or a 40-character fingerprint on keys.openpgp.org
-3  receive my fingerprint, encrypted to your key
-4  import it from keys.openpgp.org, find my address, write encrypted email only
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+> [!TIP]
+> **The challenge**
+> 1. Open an issue titled `Email Request`. The button below sets the title for you.
+> 2. Reply with your GPG public key block, or a 40-character fingerprint that lives on `keys.openpgp.org`.
+> 3. You receive my fingerprint, encrypted to your key.
+> 4. Import it from `keys.openpgp.org`, find my address, write encrypted email only.
 
-[Start here](https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A). The issue opens with the title already set.
+[![GPG · Request encrypted contact](https://img.shields.io/badge/GPG-Request%20encrypted%20contact-0f766e?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)](https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A)
 
 ## Support
 
-[Ko-fi](https://ko-fi.com/yagami1997) · [Patreon](https://patreon.com/yagami1997)
-
 Support keeps the long-term projects alive.
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20my%20work-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/yagami1997)
+[![Patreon](https://img.shields.io/badge/Patreon-Become%20a%20patron-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/yagami1997)
 
 ---
 
 ```
-SESSION END  Del Mar, California · 2026-09-04 21:27:32 PDT
+SESSION END  Del Mar, California · 2026-09-04 21:34:24 PDT
 ```
