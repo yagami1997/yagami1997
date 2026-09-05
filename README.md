@@ -19,7 +19,7 @@ AI is part of my everyday work. I use agents to research, write, and code, from 
 
 ## Field Notes
 
-Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The inbox introduces the latest essay. Read on for the full argument.
+Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The inbox highlights the latest essay and why it is worth reading.
 
 ```
 INBOX  [2 messages]  ~/FieldNotes
@@ -29,25 +29,25 @@ Date : Fri, 04 Sep 2026 23:09:20 -0700 (PDT)
 Subj : When Open Was the Default
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-A page will not load. A familiar app stops working. The screen says "try again later," but waiting
-changes nothing. Before we can fix the problem, we need to know what happened: did something break,
-or did someone decide we could no longer use it?
+If you have ever wondered how much of your digital life really belongs to you, this essay is worth
+reading. It makes a familiar situation easier to see: we can spend years putting our work into a
+service without knowing what we would keep if that service changed or disappeared.
 
-My first Field Note asked whether we could understand what happens inside the tools we use. This
-second essay asks what choices we have when those tools will no longer let us in. It follows a
-change that is easy to miss while everything still works.
+The clearest lesson is that convenience and control are different things. An app can be excellent
+and still leave its users with very few choices. The time to think about those choices is while
+everything works, when moving elsewhere is still a decision you can make for yourself.
 
-The story runs from Stallman's promise of software people could share and change to Apollo, an app
-whose future depended on Reddit's prices. Along the way, I look at the difference between having a
-program you can keep and having permission to use a service someone else controls.
+It also gives a practical reason to care about free software. You do not have to read code to
+benefit from someone being able to improve a tool, maintain it after its author leaves, or help you
+keep using it. That possibility can outlast the company or person who started the work.
 
-But the argument becomes harder when the person saying no is a writer protecting their work from AI
-crawlers. People need the freedom to use tools, and they also need a say in how others use what they
-create. The essay considers both sides of that problem.
+The essay gives equal attention to the people who create what we use. Sharing an article, a
+photograph, or a program should leave its creator with a say in how others use it. A worthwhile idea
+of openness has to make room for both the reader and the person doing the work.
 
-It ends with three questions about any restriction: can we see that it exists, understand its
-reason, and ask for a review? These are questions for the people building software as much as for
-those using it. They are where I begin asking what an open Internet should mean today.
+What stays with you is a simple question: does this tool leave me with choices? Can I take my work
+elsewhere, get help when something goes wrong, or continue without the original provider? Those
+questions make this a useful read for anyone who works online, whether or not they write software.
 
 --
 yagami1997 | Del Mar, CA | building in the open
