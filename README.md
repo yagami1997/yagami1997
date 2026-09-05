@@ -19,7 +19,7 @@ AI is part of my everyday work. I use agents to research, write, and code, from 
 
 ## Field Notes
 
-Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The inbox shows the latest note: on openness, dependence, and the freedom to choose.
+Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The inbox shows the latest note: what happens when a tool you rely on changes its terms, and what choices you still have.
 
 ```
 INBOX  [2 messages]  ~/FieldNotes
@@ -29,23 +29,26 @@ Date : Fri, 04 Sep 2026 23:09:20 -0700 (PDT)
 Subj : When Open Was the Default
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Openness gives people room to understand, change, and share the tools they use. When software
-becomes a service, those freedoms can become permission that someone else may withdraw.
+Imagine using an app for years. Your files are there, and you know how everything works. Then the
+company raises the price, removes a feature, or closes the service. Can you keep your files and move
+elsewhere? Or do you have to accept whatever the company decides?
 
-Convenience can make dependence easy to overlook. A tool may work well for years before a change in
-its terms reveals how little control its users have. The freedom to leave, keep our work, and choose
-another tool matters even when we have no immediate reason to use it.
+This is one reason free software matters. You can read its code, change it, and share copies. If its
+author stops working on it, you or another developer can continue. An online service is different:
+having an account does not give you your own copy of the system that runs it.
 
-Boundaries can protect people and their work. What matters is who decides, whether the reason is
-clear, and whether a mistaken decision can be challenged.
+You do not have to be a programmer to care about this. Before relying on a tool, ask a few simple
+questions. Can I export my work? Can another app open those files? If I stop paying, what can I
+keep? The answers tell you how easy it will be to leave.
 
-Open systems did not appear by accident, and they do not stay open without care. People chose to
-share code, publish protocols, and let others build on their work. Preserving those choices means
-protecting both the freedom to participate and the people who make participation possible.
+Services also need limits. A website should be able to protect private information or stop someone
+from abusing it. But if you are blocked by mistake, you need to know what happened and how to ask
+for a review. A message saying "try again later" does not help you fix the problem.
 
-Technology should leave us able to act: to question a restriction, choose another tool, or continue
-on our own. A system can have good reasons to say no. It should not make the person hearing it
-powerless.
+I want tools that leave people with choices. Use a service because it works well for you, with a way
+to take your work elsewhere if that changes. When a service refuses access, it should explain what
+it can and offer a way to correct mistakes. These are practical things to ask for, even if you never
+read a line of code.
 
 --
 yagami1997 | Del Mar, CA | building in the open
