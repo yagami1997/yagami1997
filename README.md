@@ -32,6 +32,10 @@ Subj : When Open Was the Default
 Openness gives people room to understand, change, and share the tools they use. When software
 becomes a service, those freedoms can become permission that someone else may withdraw.
 
+Convenience can make dependence easy to overlook. A tool may work well for years before a change in
+its terms reveals how little control its users have. The freedom to leave, keep our work, and choose
+another tool matters even when we have no immediate reason to use it.
+
 Boundaries can protect people and their work. What matters is who decides, whether the reason is
 clear, and whether a mistaken decision can be challenged.
 
