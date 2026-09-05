@@ -1,10 +1,10 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile-header-mobile-dark.svg" />
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/profile-header-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg" />
   <img src="assets/profile-header-light.svg" width="100%" alt="yagami1997 — a person building with agents. Independent builder in Del Mar, California. Systems over hype. Curiosity intact." />
 </picture>
+
+<sub>Independent builder · Del Mar, California · Systems over hype. Curiosity intact.</sub>
 
 I work with AI to research, write, and build software. My projects grow out of things I want to use: sharing files privately, understanding my network, making a small task easier.
 
