@@ -39,6 +39,10 @@ another tool matters even when we have no immediate reason to use it.
 Boundaries can protect people and their work. What matters is who decides, whether the reason is
 clear, and whether a mistaken decision can be challenged.
 
+Open systems did not appear by accident, and they do not stay open without care. People chose to
+share code, publish protocols, and let others build on their work. Preserving those choices means
+protecting both the freedom to participate and the people who make participation possible.
+
 Technology should leave us able to act: to question a restriction, choose another tool, or continue
 on our own. A system can have good reasons to say no. It should not make the person hearing it
 powerless.
