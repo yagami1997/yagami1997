@@ -140,11 +140,11 @@ Private contact goes through GPG only. No plain email, no DMs. Think of it as a 
 
 Support keeps the long-term projects alive.
 
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20my%20work-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/yagami1997)
-[![Patreon](https://img.shields.io/badge/Patreon-Become%20a%20patron-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/yagami1997)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20my%20work-8b6f8e?style=flat-square&logo=ko-fi&logoColor=white&labelColor=4b4f56)](https://ko-fi.com/yagami1997)
+[![Patreon](https://img.shields.io/badge/Patreon-Become%20a%20patron-835061?style=flat-square&logo=patreon&logoColor=white&labelColor=4b4f56)](https://patreon.com/yagami1997)
 
 ---
 
 ```
-SESSION END  Del Mar, California · 2026-09-04 21:41:16 PDT
+SESSION END  Del Mar, California · 2026-09-04 21:43:12 PDT
 ```
