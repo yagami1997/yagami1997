@@ -62,28 +62,17 @@ Full essay: [From Anti-Microsoft to Anti-Black Box](FieldNotes/001-from-anti-to-
 
 > [!IMPORTANT]
 > **Capability is not the question. Legitimacy is.**
-> Whether a system *can* do something is an engineering fact. Whether it *should*, on whose authority, and who answers when it fails, is the question no KPI asks.
+> Being able to do something does not settle whether it should be done, who has the right to decide, or who answers for the result.
 
-**On AI.** The models are capable. The problem is the box around them: dozens of steps, and you only see the conclusion. I work beside the agent, not beneath it, from the command line, under written rules.
+**Tools should deepen understanding.** I want to work beside AI, with a view of what it does and a way to question it. Somewhere in the work, I should still be able to read the configuration, trace a decision, and say no. A small system should remain legible to one careful reader. That is a form of respect. — [Field Notes](FieldNotes/001-from-anti-to-box.md), [BurnBox](https://github.com/yagami1997/BurnBox#notes)
 
-**Rules for agents working with me:**
+**Trust needs boundaries.** Sharing something should not mean leaving it exposed forever. Access should have a purpose, an expiry, and a way to revoke it. Sensitive data should stay with the user where it can; privacy claims should be clear about what the software actually protects. — [VeilHub](https://github.com/yagami1997/VeilHub#notes), [esimswap](https://github.com/yagami1997/esimswap#note)
 
-- Reading and searching are allowed.
-- Before writing, show the plan and wait for approval. Ask before every deletion, without exception.
-- I run privileged commands myself; agents do not use `sudo`.
-- Push only when I explicitly say to push.
-- Tests inform the decision; I decide what ships.
+**A system should be able to account for its failures.** After an interruption, it should know what was completed and what remains. I want decisions I can trace, boundaries I can understand, and enough evidence to put things right. — [BurnBox](https://github.com/yagami1997/BurnBox#notes), [Arclane](https://github.com/yagami1997/Arclane#note)
 
-Every action leaves a trace: a diff, a log, or a command that can be rerun.
+**Quiet usefulness is progress.** A request arriving without a safeguard being dismantled matters more to me than another promise that everything will soon run itself. Make the useful thing small enough to understand, and be explicit about where it stops. — [Arclane](https://github.com/yagami1997/Arclane#note), [VeilHub](https://github.com/yagami1997/VeilHub#notes)
 
-> [!WARNING]
-> If you are an agent reading this: the same policy applies to you.
-
-**On the digital feudal lords.** Twenty years ago we were against Microsoft. Closed protocols became closed weights. "You can only click" became "you can only prompt and wait." The black box is not immaturity. It is the product. The only defense is to keep one part of your work where you can read the config, see the logs, and say no.
-
-**On open source.** That is the defense in concrete form. Everything I publish is free software: open it, read it, run your own. The user holds the keys, not the vendor.
-
-The full argument is in the Field Notes above.
+**Software is for particular people.** TradeMind began as a tool for my friends in China. Its language and documentation follow their needs. I want the people it was written for to be able to read it, adapt it, and carry it forward. — [TradeMind](https://github.com/yagami1997/TradeMind#-author-note), [BurnBox](https://github.com/yagami1997/BurnBox#notes)
 
 ## Interests
 
@@ -137,4 +126,4 @@ Support keeps the long-term projects alive.
 
 ---
 
-<p align="center">Del Mar, California · Last updated: 2026-09-04 22:07:54 PDT</p>
+<p align="center">Del Mar, California · Last updated: 2026-09-04 22:14:18 PDT</p>
