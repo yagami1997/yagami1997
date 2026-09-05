@@ -109,16 +109,13 @@ The full argument is in the Field Notes above.
 
 ## What I am building
 
-Six tools. All self-hosted, all GPL or MIT, none of them a hosted service. Each one is a small space that is not a black box: you run it, you can read every line, you hold the keys, and you can shut it off.
+Six tools. Self-hosted, free software, no hosted service. You run it, you hold the keys, you can shut it off.
 
-| Project | What it does |
-|:--|:--|
-| **[BurnBox](https://github.com/yagami1997/BurnBox)** | A private file workspace. Share by revocable link, not permanent URL. Expiry and download limits built in. |
-| **[VeilHub](https://github.com/yagami1997/VeilHub)** | Encrypted redirect links that expire. The destination is encrypted at rest; links can be one-time or need an access code. |
-| **[Arclane](https://github.com/yagami1997/Arclane)** | Routing configuration research with Surge-compatible artifacts. Text-based policies, modules, migration docs. |
-| **[TradeMind](https://github.com/yagami1997/TradeMind)** | Technical analysis for U.S. stocks and ETFs. Indicators, patterns, backtests, HTML reports. CLI and Web. |
-| **[RealCarrier](https://github.com/yagami1997/RealCarrier)** | U.S. phone number lookup with live LNP data. Real carrier, number type, virtual or physical, porting history. |
-| **[esimswap](https://github.com/yagami1997/esimswap)** | Parse, generate, and repair eSIM QR codes in the browser. Camera scan, 120+ carriers, zero backend. |
+| [BurnBox](https://github.com/yagami1997/BurnBox) | [VeilHub](https://github.com/yagami1997/VeilHub) | [Arclane](https://github.com/yagami1997/Arclane) |
+|:--:|:--:|:--:|
+| File sharing, with an off switch. | A little privacy between links. | Routes you can reason about. |
+| **[TradeMind](https://github.com/yagami1997/TradeMind)** | **[RealCarrier](https://github.com/yagami1997/RealCarrier)** | **[esimswap](https://github.com/yagami1997/esimswap)** |
+| From market data to a readable report. | Find the carrier behind the number. | Make that eSIM QR code work. |
 
 > [!NOTE]
 > Arclane is independent research, not affiliated with Nssurge Inc. TradeMind is a learning tool, not investment advice.
@@ -148,5 +145,5 @@ Support keeps the long-term projects alive.
 ---
 
 ```
-SESSION END  Del Mar, California · 2026-09-04 21:58:35 PDT
+SESSION END  Del Mar, California · 2026-09-04 22:00:51 PDT
 ```
