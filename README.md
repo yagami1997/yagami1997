@@ -1,10 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg" />
-  <img src="assets/profile-header-light.svg" width="100%" alt="yagami1997 — a person building with agents. Independent builder in Del Mar, California. Systems over hype. Curiosity intact." />
-</picture>
+### yagami1997
 
-<sub>Independent builder · Del Mar, California · Systems over hype. Curiosity intact.</sub>
+<sub>Independent builder · Del Mar, California · Systems over hype.</sub>
 
 I work with AI to research, write, and build software. My projects grow out of things I want to use: sharing files privately, understanding my network, making a small task easier.
 
@@ -122,6 +118,6 @@ Support helps me keep building open-source tools, long-term projects, and practi
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-<sub>Del Mar, California · Last updated: 2026-09-04 20:30:22 PDT</sub>
+<sub>Del Mar, California · Last updated: 2026-09-04 20:31:43 PDT</sub>
 
 </div>

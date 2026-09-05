@@ -5,8 +5,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / 'assets'
 PALETTES = {
-    'light': dict(ink='#20242b', muted='#59636e', faint='#d1d9e0', accent='#bb482f', soft='#f9ede8'),
-    'dark': dict(ink='#f0f3f6', muted='#b1bac4', faint='#454c56', accent='#f6a18b', soft='#382d2b'),
+    'light': dict(ink='#20242b', muted='#59636e', faint='#d1d9e0', accent='#bb482f'),
+    'dark': dict(ink='#f0f3f6', muted='#b1bac4', faint='#454c56', accent='#f6a18b'),
 }
 PROJECTS = [
     ('BurnBox', 'File sharing, with an off switch.', 'Private storage. Expiring, revocable links.', '01'),
@@ -26,24 +26,6 @@ def svg(width, height, title, desc, body):
   <g font-family="{FONT}">{body}</g>
 </svg>
 '''
-
-
-def header(c):
-    # Transparent canvas also blends into GitHub's dimmed and high-contrast themes.
-    body = f'''
-    <text x="20" y="88" fill="{c['ink']}" font-size="76" font-weight="600" letter-spacing="-3">yagami1997<tspan fill="{c['accent']}">.</tspan></text>
-    <text x="24" y="141" fill="{c['ink']}" font-size="32">A person building with agents.</text>
-    <g transform="translate(686 90)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <circle r="58" fill="{c['soft']}" stroke="none"/>
-      <path d="M-55 18C-25-51 29-46 47-13C71 31 12 72-23 42C-52 17-11-29 26-15C64 0 20 50-9 22C-32 0-3-31 22-48" stroke="{c['accent']}" stroke-width="2.6"/>
-      <circle cx="22" cy="-48" r="4.5" fill="{c['accent']}" stroke="none"/>
-      <path d="M-57 17l2 7 7-3" stroke="{c['accent']}" stroke-width="2.6"/>
-    </g>
-    <path d="M24 188H776" stroke="{c['faint']}"/>
-    <path d="M24 188H64" stroke="{c['accent']}" stroke-width="2"/>
-    '''
-    return svg(800, 202, 'yagami1997 — a person building with agents',
-               'Independent builder in Del Mar, California. Systems over hype. Curiosity intact.', body)
 
 
 def project(c, name, line1, line2, number):
@@ -79,9 +61,8 @@ def action(c, slug, name, label, width, icon):
 if __name__ == '__main__':
     ASSETS.mkdir(exist_ok=True)
     for theme, palette in PALETTES.items():
-        (ASSETS / f'profile-header-{theme}.svg').write_text(header(palette))
         for item in ACTIONS:
             (ASSETS / f'action-{item[0]}-{theme}.svg').write_text(action(palette, *item))
         for item in PROJECTS:
             (ASSETS / f'project-{item[0].lower()}-{theme}.svg').write_text(project(palette, *item))
-    print('Generated 20 SVG assets: header, projects, and contact/support actions in both themes.')
+    print('Generated 18 SVG assets: projects and contact/support actions in both themes.')
