@@ -1,195 +1,75 @@
-<p align="center">
-  <img src="assets/profile-header.svg" width="100%" alt="Systems Over Hype. Human curiosity. Agent capability. Independent builder in Del Mar." />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg" />
+  <img src="assets/profile-header-light.svg" width="100%" alt="yagami1997 — a person building with agents. Independent builder in Del Mar, California. Systems over hype. Curiosity intact." />
+</picture>
 
-<div align="center">
+I work with AI to research, write, and build software. My projects grow out of things I want to use: sharing files privately, understanding my network, making a small task easier.
 
-### Human curiosity. Agent capability.
+**Lately** — thinking about what agents should remember, what they should be allowed to do, and how to tell when the work is actually done.
 
-Independent researcher and builder in Del Mar.<br/>
-I build open-source tools and AI workflows, from the first question to something people can use.
-
-Agents are part of how I work. The direction, the judgment, and the responsibility stay with me.
-
-[Selected Projects](#selected-projects) &nbsp; / &nbsp; [How I Work](#how-i-work) &nbsp; / &nbsp; [Field Notes](#field-notes) &nbsp; / &nbsp; [Contact](#contact)
+[Projects](#selected-projects) &nbsp; · &nbsp; [Working with AI](#working-with-ai) &nbsp; · &nbsp; [Field Notes](#field-notes) &nbsp; · &nbsp; [Contact](#contact)
 
 <br/>
 
-## Now
+### Selected Projects
 
-What I'm building, exploring, and thinking through.
-
-</div>
-
-<table width="100%" align="center">
-<tr>
-<td width="33%" align="center" valign="top">
-
-**BUILDING**
-
-Tools for sharing, routing,<br/>and repeatable analysis.
-
-[Explore the projects ↗](#selected-projects)
-
-</td>
-<td width="34%" align="center" valign="top">
-
-**EXPLORING**
-
-Useful context, bounded autonomy,<br/>and verifiable agent work.
-
-[Inside the workflow ↗](#how-i-work)
-
-</td>
-<td width="33%" align="center" valign="top">
-
-**WRITING**
-
-AI, software, and keeping<br/>our own judgment.
-
-[Read Field Notes ↗](#field-notes)
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<div align="center">
-
-## Selected Projects
-
-Six projects. Different problems. Built to be opened, understood, and used.
-
-</div>
-
-<table width="100%" align="center">
-<tr>
-<td width="50%" valign="top">
-
-<sub>CONTROLLED SHARING</sub>
-
-### [BurnBox](https://github.com/yagami1997/BurnBox)
-
-A private file workspace on Cloudflare Workers and R2. Share through links you can expire, limit, or revoke, with a separate private administration surface.
-
-[Explore ↗](https://github.com/yagami1997/BurnBox) &nbsp; · &nbsp; [Documentation ↗](https://github.com/yagami1997/BurnBox/tree/main/docs)
-
-</td>
-<td width="50%" valign="top">
-
-<sub>ENCRYPTED LINKS</sub>
-
-### [VeilHub](https://github.com/yagami1997/VeilHub)
-
-Self-hosted redirect links on Cloudflare Workers and KV. Destination URLs are encrypted at rest, keeping control of the link infrastructure with its operator.
-
-[Explore ↗](https://github.com/yagami1997/VeilHub)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<sub>NETWORK ROUTING</sub>
-
-### [Arclane](https://github.com/yagami1997/Arclane)
-
-Routing policies, compatibility modules, and operational reference tools. Includes Surge-compatible artifacts; independent and not affiliated with Nssurge Inc.
-
-[Explore ↗](https://github.com/yagami1997/Arclane) &nbsp; · &nbsp; [Documentation ↗](https://github.com/yagami1997/Arclane/tree/main/docs)
-
-</td>
-<td width="50%" valign="top">
-
-<sub>MARKET RESEARCH</sub>
-
-### [TradeMind](https://github.com/yagami1997/TradeMind)
-
-U.S. equity and ETF analysis, batch queries, indicators, backtest calculations, and local HTML reports. Terminal and browser workflows for research and learning.
-
-[Explore ↗](https://github.com/yagami1997/TradeMind)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<sub>TELECOM LOOKUP</sub>
-
-### [RealCarrier](https://github.com/yagami1997/RealCarrier)
-
-U.S. phone number carrier, number type, and portability lookup. Batch queries help make sense of numbers across providers and porting histories.
-
-[Explore ↗](https://github.com/yagami1997/RealCarrier)
-
-</td>
-<td width="50%" valign="top">
-
-<sub>ESIM UTILITIES</sub>
-
-### [esimswap](https://github.com/yagami1997/esimswap)
-
-Parse, generate, and repair eSIM QR codes in the browser. Camera scanning and configuration tools, with no backend.
-
-[Explore ↗](https://github.com/yagami1997/esimswap)
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<div align="center">
-
-## How I Work
-
-I set the direction. Agents help move the work forward. We check what actually works.
-
-</div>
-
-<table width="100%" align="center">
-<tr>
-<td width="50%" align="center" valign="top">
-
-**01 &nbsp; DIRECTION**
-
-Choose the problem worth solving.<br/>
-Define the boundaries and what counts as done.
-
-</td>
-<td width="50%" align="center" valign="top">
-
-**02 &nbsp; CONTEXT**
-
-Bring the right code, sources, and tools.<br/>
-Make constraints clear and knowledge reusable.
-
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top">
-
-**03 &nbsp; EXECUTION**
-
-Match models and runtimes to the task.<br/>
-Bound access and keep the work inspectable.
-
-</td>
-<td width="50%" align="center" valign="top">
-
-**04 &nbsp; JUDGMENT**
-
-Check tests, real outputs, and behavior.<br/>
-Decide what ships and take responsibility for it.
-
-</td>
-</tr>
-</table>
+A few things I've built and put out into the world.
 
 <p align="center">
-  <sub>Context that carries forward &nbsp; · &nbsp; Tools that compose &nbsp; · &nbsp; Results that can be checked</sub>
+  <a href="https://github.com/yagami1997/BurnBox">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/project-burnbox-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/project-burnbox-light.svg" />
+      <img src="assets/project-burnbox-light.svg" width="390" alt="BurnBox — File sharing, with an off switch. Private storage. Expiring, revocable links." />
+    </picture>
+  </a>
+  <a href="https://github.com/yagami1997/VeilHub">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/project-veilhub-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/project-veilhub-light.svg" />
+      <img src="assets/project-veilhub-light.svg" width="390" alt="VeilHub — A little privacy between links. Self-hosted redirects. Encrypted destinations." />
+    </picture>
+  </a>
+  <a href="https://github.com/yagami1997/Arclane">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/project-arclane-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/project-arclane-light.svg" />
+      <img src="assets/project-arclane-light.svg" width="390" alt="Arclane — Routes you can reason about. Routing policies and compatibility research." />
+    </picture>
+  </a>
+  <a href="https://github.com/yagami1997/TradeMind">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/project-trademind-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/project-trademind-light.svg" />
+      <img src="assets/project-trademind-light.svg" width="390" alt="TradeMind — From market data to a readable report. Equities, indicators, and backtest calculations." />
+    </picture>
+  </a>
+  <a href="https://github.com/yagami1997/RealCarrier">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/project-realcarrier-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/project-realcarrier-light.svg" />
+      <img src="assets/project-realcarrier-light.svg" width="390" alt="RealCarrier — Find the carrier behind the number. U.S. carrier, type, and portability lookup." />
+    </picture>
+  </a>
+  <a href="https://github.com/yagami1997/esimswap">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/project-esimswap-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/project-esimswap-light.svg" />
+      <img src="assets/project-esimswap-light.svg" width="390" alt="esimswap — Make that eSIM QR code work. Parse, generate, and repair in your browser." />
+    </picture>
+  </a>
 </p>
+
+<sub>Arclane is independent third-party research with Surge-compatible artifacts; not affiliated with Nssurge Inc. TradeMind is for research and learning.</sub>
+
+<br/>
+
+### Working with AI
+
+I move between research, code, and writing with agents in the loop. I set the problem and bring the context; they help explore, implement, and iterate. Tests and real outputs tell me what holds up. I decide what ships.
+
+I'm interested in workflows that get better with use: reusable tools, useful memory, and enough visibility to understand a failure and keep going.
 
 <br/>
 
@@ -242,9 +122,7 @@ yagami1997 | Del Mar, CA | building in the open
 
 ---
 
-<div align="center">
-
-## Contact
+### Contact
 
 ### Secure Contact
 
@@ -275,6 +153,4 @@ Support helps me keep building open-source tools, long-term projects, and practi
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-Del Mar, California · Last updated: 2026-09-04 20:06:24 PDT
-
-</div>
+<sub>Del Mar, California · Last updated: 2026-09-04 20:17:06 PDT</sub>

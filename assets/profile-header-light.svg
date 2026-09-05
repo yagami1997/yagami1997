@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="268" viewBox="0 0 800 268" role="img" aria-labelledby="title desc">
+  <title id="title">yagami1997 — a person building with agents</title>
+  <desc id="desc">Independent builder in Del Mar, California. Systems over hype. Curiosity intact.</desc>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="24" y="34" fill="#59636e" font-size="17">Independent builder</text>
+    <text x="776" y="34" text-anchor="end" fill="#59636e" font-size="17">Del Mar, California</text>
+    <text x="20" y="118" fill="#20242b" font-size="66" font-weight="600" letter-spacing="-3">yagami1997<tspan fill="#bb482f">.</tspan></text>
+    <text x="24" y="164" fill="#20242b" font-size="23">A person building with agents.</text>
+    <text x="24" y="221" fill="#59636e" font-size="17">Systems over hype. Curiosity intact.</text>
+    <g transform="translate(676 128)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <circle r="58" fill="#f9ede8" stroke="none"/>
+      <path d="M-55 18C-25-51 29-46 47-13C71 31 12 72-23 42C-52 17-11-29 26-15C64 0 20 50-9 22C-32 0-3-31 22-48" stroke="#bb482f" stroke-width="2.6"/>
+      <circle cx="22" cy="-48" r="4.5" fill="#bb482f" stroke="none"/>
+      <path d="M-57 17l2 7 7-3" stroke="#bb482f" stroke-width="2.6"/>
+    </g>
+    <path d="M24 251H776" stroke="#d1d9e0"/>
+    <path d="M24 251H64" stroke="#bb482f" stroke-width="2"/>
+    </g>
+</svg>
