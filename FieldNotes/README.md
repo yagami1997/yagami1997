@@ -15,7 +15,8 @@ The full argument lives here.
 | # | Title | Date |
 |---|-------|------|
 | 001 | [From Anti-Microsoft to Anti-Black Box: Rereading "Working Completely in Linux" Twenty Years Later](001-from-anti-to-box.md) | April 2026 |
+| 002 | [When Open Was the Default](002-when-open-was-the-default.md) | September 2026 |
 
 ---
 
-*Last updated: 2026-04-03 04:24:09 PDT*
+*Last updated: 2026-09-04 22:53:03 PDT*
