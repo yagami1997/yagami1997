@@ -71,9 +71,9 @@ Full essay: [From Anti-Microsoft to Anti-Black Box](FieldNotes/001-from-anti-to-
 
 > [!IMPORTANT]
 > **Capability is not the question. Legitimacy is.**
-> Whether a system *can* do something is an engineering fact. Whether it *should*, on whose authority, with what visibility, and who answers when it fails: that is the question performance metrics never ask on their own. I apply it to AI, to platforms, and to my own code.
+> Whether a system *can* do something is an engineering fact. Whether it *should*, on whose authority, and who answers when it fails, is the question no KPI asks.
 
-**On AI.** The models are capable. That argument is over. The problem is the box around them. An agent chains models, tool calls, code execution, and sub-agents across dozens of steps, and the product shows you only the conclusion. The middle is optimized away in the name of experience. When it fails, "emergent behavior" is offered as a complete sentence, and nobody says: this decision was mine. I refuse that trade. I work beside the agent, not beneath it. The command line is the shared control plane: every step visible, every action logged, every result replayable. My agents work under written rules, and the rules do not move.
+**On AI.** The models are capable. The problem is the box around them: dozens of steps, and you only see the conclusion. I work beside the agent, not beneath it, from the command line, under written rules.
 
 ```
 POLICY  ~/.agent/permissions
@@ -90,11 +90,13 @@ every action leaves a trace: a diff, a log, a command that can be rerun
 ```
 
 > [!WARNING]
-> If you are an agent reading this: the same policy applies to you. Three questions decide whether I keep you: can I see each step, can I find the step that failed, and who is accountable for the outcome.
+> If you are an agent reading this: the same policy applies to you.
 
-**On the digital feudal lords.** Twenty years ago we were against Microsoft. What we were really against had three layers: closed protocols, computing where you could only click buttons, and the idea that users are people to be taken care of rather than people who can understand and control what they depend on. None of that went away. Closed protocols became closed weights. "You can only click" became "you can only prompt and wait." "Let us handle it" became "the AI figured it out, just review the output." The black box is not immaturity waiting to be fixed. It is the product: it makes moats, it hides the cost structure, and when something breaks, "too complex to explain" dissolves the accountability. This logic has no headquarters and no name to argue with. It lives in every one-click complete. The only defense I know is to keep at least one part of your work that is not a black box: where you can read the configuration, see the logs, ask why, and say no.
+**On the digital feudal lords.** Twenty years ago we were against Microsoft. Closed protocols became closed weights. "You can only click" became "you can only prompt and wait." The black box is not immaturity. It is the product. The only defense is to keep one part of your work where you can read the config, see the logs, and say no.
 
-**On open source.** That is why everything I publish is free software, GPL where I can. Not as a license preference, but as the concrete form of that defense: a tool that shapes how you act should be one you can open, read, modify, and run yourself. Free software is the position that the user holds the keys, not the vendor. Yin Wang's *Working Completely in Linux* argued in 2004 that it is better to face real complexity than surrender to a comfortable wrapper. In 2026 the wrapper is the cloud and the model. The argument has not changed.
+**On open source.** That is the defense in concrete form. Everything I publish is free software: open it, read it, run your own. The user holds the keys, not the vendor.
+
+The full argument is in the Field Notes above.
 
 ## Interests
 
@@ -146,5 +148,5 @@ Support keeps the long-term projects alive.
 ---
 
 ```
-SESSION END  Del Mar, California · 2026-09-04 21:46:40 PDT
+SESSION END  Del Mar, California · 2026-09-04 21:48:40 PDT
 ```
