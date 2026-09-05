@@ -2,10 +2,13 @@
 <h3 align="center">Independent builder · Del Mar, California</h3>
 <p align="center">Research, writing, and open-source software — with AI in the loop.</p>
 
-<p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/panel-intro-build-dark-1e4164356e.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/panel-intro-build-light-29e4bfda98.svg" /><img src="assets/panel-intro-build-light-29e4bfda98.svg" width="390" alt="Building in the open. I research, write, and build software with AI as part of my everyday practice. I like understanding how things work and making tools I want to use. My projects begin with practical needs: sharing files privately, understanding my network, or making a small task easier. I share the work so others can inspect, adapt, and improve it." /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/panel-intro-notes-dark-eb206c49f9.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/panel-intro-notes-light-ca3f0c0e66.svg" /><img src="assets/panel-intro-notes-light-ca3f0c0e66.svg" width="390" alt="A notebook, kept in public. Field Notes is my ongoing notebook: observations from building, questions I am still working through, and things I have learned along the way. Lately, I am thinking about agent memory, permissions, and verification. I come back to these questions as I build, and revise my notes as my understanding changes." /></picture>
-</p>
+I research, write, and build software with AI as part of my everyday practice. I like understanding how things work and making tools I want to use.
+
+My projects begin with practical needs: sharing files privately, understanding my network, or making a small task easier. I share the work so others can inspect, adapt, and improve it.
+
+**Field Notes is my ongoing notebook:** observations from building, questions I am still working through, and things I have learned along the way.
+
+Lately, I am thinking about agent memory, permissions, and verification. I come back to these questions as I build, and revise my notes as my understanding changes.
 
 <p align="center">
 <a href="#field-notes"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-notes-dark-c4702630bd.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/nav-notes-light-315c5a6bd7.svg" /><img src="assets/nav-notes-light-315c5a6bd7.svg" width="200" alt="Field Notes" /></picture></a>
@@ -78,21 +81,30 @@ Arclane is independent third-party research with Surge-compatible artifacts; not
 
 ## Working with AI
 
-<p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/panel-ai-practice-dark-b1f3f99568.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/panel-ai-practice-light-212d3b3ec5.svg" /><img src="assets/panel-ai-practice-light-212d3b3ec5.svg" width="390" alt="How I work. I move between research, code, and writing with agents in the loop. I set the problem and bring the context; they help explore, implement, and iterate. Tests and real outputs tell me what holds up. I decide what ships." /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/panel-ai-learning-dark-f760182525.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/panel-ai-learning-light-b539418312.svg" /><img src="assets/panel-ai-learning-light-b539418312.svg" width="390" alt="What I care about. I&#x27;m interested in workflows that get better with use: reusable tools, useful memory, and enough visibility to understand a failure and keep going." /></picture>
-</p>
+I move between research, code, and writing with agents in the loop. I set the problem and bring the context; they help explore, implement, and iterate.
+
+Tests and real outputs tell me what holds up. I decide what ships.
+
+I'm interested in workflows that get better with use: reusable tools, useful memory, and enough visibility to understand a failure and keep going.
 
 ## Contact
 
-<p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/panel-contact-public-dark-9b1744a6a9.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/panel-contact-public-light-383c075358.svg" /><img src="assets/panel-contact-public-light-383c075358.svg" width="390" alt="A small decryption puzzle. For general questions, ideas, or feedback — GitHub issues are the right place. If you need to reach me privately, I only accept contact through GPG-encrypted channels. No plain email, no DMs. Think of it as a small decryption puzzle — if you can play this game, we already speak the same language." /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/panel-contact-steps-dark-59a0eecd86.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/panel-contact-steps-light-e5114b24fe.svg" /><img src="assets/panel-contact-steps-light-e5114b24fe.svg" width="390" alt="To request a private channel. 1. Click the GPG button below to open an issue. 2. Share your GPG public key block or 40-character fingerprint (must be on keys.openpgp.org). 3. I&#x27;ll reply with my GPG fingerprint encrypted to your key — import it from keys.openpgp.org to find my address, then send encrypted email only." /></picture>
-</p>
+For general questions, ideas, or feedback — GitHub issues are the right place.
+
+If you need to reach me privately, I only accept contact through GPG-encrypted channels. No plain email, no DMs.
+
+Think of it as a small decryption puzzle — if you can play this game, we already speak the same language.
 
 <p align="center">
 <a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/action-gpg-dark-b2903ade7c.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/action-gpg-light-c525ed4979.svg" /><img src="assets/action-gpg-light-c525ed4979.svg" width="268" alt="GPG — Request encrypted contact" /></picture></a>
 </p>
+
+**To request a private channel:**
+
+1. Click the GPG button above to open an issue.
+2. Share your GPG public key block or 40-character fingerprint (must be on `keys.openpgp.org`).
+3. I'll reply with my GPG fingerprint encrypted to your key — import it from `keys.openpgp.org` to find my address, then send encrypted email only.
+
 
 <div align="center">
 
@@ -107,6 +119,6 @@ Open to practical conversations around open-source AI, workflows, and useful sof
 
 [GitHub · @yagami1997](https://github.com/yagami1997)
 
-Del Mar, California · Last updated: 2026-09-04 20:50:31 PDT
+Del Mar, California · Last updated: 2026-09-04 20:56:32 PDT
 
 </div>

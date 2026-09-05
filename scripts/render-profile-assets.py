@@ -49,52 +49,6 @@ def project(c, name, line1, line2, number):
     return svg(390, 116, name, f'{line1} {line2}', body)
 
 
-PANELS = [
-    ('intro-build', 'Building in the open', [
-        'I research, write, and build software with AI as part of my everyday practice. I like understanding how things work and making tools I want to use.',
-        'My projects begin with practical needs: sharing files privately, understanding my network, or making a small task easier. I share the work so others can inspect, adapt, and improve it.',
-    ]),
-    ('intro-notes', 'A notebook, kept in public', [
-        'Field Notes is my ongoing notebook: observations from building, questions I am still working through, and things I have learned along the way.',
-        'Lately, I am thinking about agent memory, permissions, and verification. I come back to these questions as I build, and revise my notes as my understanding changes.',
-    ]),
-    ('ai-practice', 'How I work', [
-        'I move between research, code, and writing with agents in the loop. I set the problem and bring the context; they help explore, implement, and iterate.',
-        'Tests and real outputs tell me what holds up. I decide what ships.',
-    ]),
-    ('ai-learning', 'What I care about', [
-        "I'm interested in workflows that get better with use: reusable tools, useful memory, and enough visibility to understand a failure and keep going.",
-    ]),
-    ('contact-public', 'A small decryption puzzle', [
-        'For general questions, ideas, or feedback — GitHub issues are the right place.',
-        'If you need to reach me privately, I only accept contact through GPG-encrypted channels. No plain email, no DMs.',
-        'Think of it as a small decryption puzzle — if you can play this game, we already speak the same language.',
-    ]),
-    ('contact-steps', 'To request a private channel', [
-        '1. Click the GPG button below to open an issue.',
-        '2. Share your GPG public key block or 40-character fingerprint (must be on keys.openpgp.org).',
-        "3. I'll reply with my GPG fingerprint encrypted to your key — import it from keys.openpgp.org to find my address, then send encrypted email only.",
-    ]),
-]
-
-
-def panel_lines(paragraphs):
-    lines = []
-    for paragraph in paragraphs:
-        if lines:
-            lines.append('')
-        lines.extend(wrap(paragraph, 34, break_long_words=False, break_on_hyphens=False))
-    return lines
-
-
-def panel(c, slug, title, paragraphs, height):
-    body = f'''<path d="M14 20h18" stroke="{c['accent']}" stroke-width="3" stroke-linecap="round"/>
-    <text x="14" y="53" fill="{c['ink']}" font-size="22" font-weight="600">{escape(title)}</text>'''
-    for i, line in enumerate(panel_lines(paragraphs)):
-        body += f'<text x="14" y="{91+i*28}" fill="{c["ink"]}" font-size="21">{escape(line)}</text>'
-    return svg(390, height, title, ' '.join(paragraphs), body)
-
-
 ACTIONS = [
     ('gpg', 'GPG', 'Request encrypted contact', 320,
      '<rect x="4" y="10" width="16" height="13" rx="3"/><path d="M7 10V6a5 5 0 0 1 10 0v4m-5 6v3"/>'),
@@ -138,10 +92,6 @@ if __name__ == '__main__':
         items = [(f'action-{item[0]}', action(palette, *item)) for item in ACTIONS]
         items += [(f'nav-{item[0]}', navigation(palette, *item)) for item in NAVIGATION]
         items += [(f'project-{item[0].lower()}', project(palette, *item)) for item in PROJECTS]
-        for i in range(0, len(PANELS), 2):
-            pair = PANELS[i:i+2]
-            height = 108 + 28 * max(len(panel_lines(item[2])) for item in pair)
-            items += [(f'panel-{item[0]}', panel(palette, *item, height)) for item in pair]
         for slug, content in items:
             digest = hashlib.sha256(content.encode()).hexdigest()[:10]
             filename = f'{slug}-{theme}-{digest}.svg'
