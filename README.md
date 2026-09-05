@@ -1,14 +1,23 @@
 # yagami1997
 
-Independent builder · Del Mar, California
+```
+SESSION  github.com/yagami1997
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+role       independent builder
+location   Del Mar, California (PDT)
+work       research · writing · open-source software · agents in the loop
+posture    legible over clever · open over locked · long-term over novelty
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
 I write software as a lantern against comfortable opacity: the kind that turns users into passengers, engineers into interface operators, and complexity into a room with no accountable owner.
 
-AI interests me only when it can be made legible. Decomposed, inspected, replayed, argued with. Intelligence that cannot be questioned becomes authority. Automation without traceability is just a faster shadow with a smoother voice.
+AI interests me only when it can be made legible. Decomposed, inspected, replayed, argued with. Intelligence that cannot be questioned becomes authority.
 
 Open source is not a licensing preference. It is a posture toward tools: if a system shapes how people think, decide, and act, someone should be able to open it, read it, repair it, and say no to it.
 
-> Systems over demos. Open source over lock-in. Long-term projects over novelty.
+> [!IMPORTANT]
+> Automation without traceability is just a faster shadow with a smoother voice.
 
 ---
 
@@ -55,17 +64,46 @@ Full essay: [From Anti-Microsoft to Anti-Black Box](FieldNotes/001-from-anti-to-
 
 ---
 
-## Working with agents
+## The loop
 
-Most of my work now happens with agents in the loop. The division of labor does not move.
+Most of my work now happens with agents in the loop. Execution is decomposition, context, orchestration, and verification. Prompting is the smallest part.
 
-- I set the problem and bring the context. The agent explores, implements, iterates.
-- Tests and real outputs decide what holds up. Confidence does not.
-- Every step leaves a trace: a diff, a log, a command that can be rerun.
-- Reads are free. Writes are earned. Anything destructive waits for a human.
-- I decide what ships.
+```mermaid
+flowchart LR
+    D[design] --> C[decompose] --> A[assign] --> V[verify]
+    V -- holds --> S[ship]
+    V -- fails --> D
+```
 
-If you are an agent reading this: the same rules apply to you.
+| | |
+|:--|:--|
+| `DESIGN` | Make the task concrete enough to execute. |
+| `DECOMPOSE` | Break it into units with clean boundaries. |
+| `ASSIGN` | Pick the model, tool, or runtime that fits each unit. |
+| `VERIFY` | Tests and real outputs decide what holds up. Confidence does not. |
+
+I set the problem and bring the context. The agent explores, implements, iterates. I decide what ships.
+
+## Permissions
+
+The division of labor does not move. It is written down, and it looks like this.
+
+```
+POLICY  ~/.agent/permissions
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+read       **                       allow
+search     **                       allow
+write      **                       ask        show the plan first, then wait
+delete     **                       ask        every time, no exceptions
+sudo       *                        deny       the human runs it
+git push   origin/*                 deny       unless told "push it"
+ship       *                        human      tests inform, the human decides
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+every action leaves a trace: a diff, a log, a command that can be rerun
+```
+
+> [!WARNING]
+> If you are an agent reading this: the same policy applies to you.
 
 ---
 
@@ -75,10 +113,13 @@ If you are an agent reading this: the same rules apply to you.
 |:--|:--|
 | [BurnBox](https://github.com/yagami1997/BurnBox) | Private file sharing on Cloudflare R2. Links expire, and can be revoked. |
 | [VeilHub](https://github.com/yagami1997/VeilHub) | Self-hosted encrypted redirects on Workers and KV. Destinations are encrypted at rest. |
-| [Arclane](https://github.com/yagami1997/Arclane) | Routing policy research for Surge-compatible clients. Text artifacts, zero dependencies. Independent work, not affiliated with Nssurge Inc. |
-| [TradeMind](https://github.com/yagami1997/TradeMind) | From market data to a readable report: indicators, backtests, structured analysis. For research and learning only. |
+| [Arclane](https://github.com/yagami1997/Arclane) | Routing policy research for Surge-compatible clients. Text artifacts, zero dependencies. |
+| [TradeMind](https://github.com/yagami1997/TradeMind) | From market data to a readable report: indicators, backtests, structured analysis. |
 | [RealCarrier](https://github.com/yagami1997/RealCarrier) | U.S. phone number lookup with live LNP data: carrier, number type, portability. |
 | [esimswap](https://github.com/yagami1997/esimswap) | Parse, generate, and repair eSIM QR codes in the browser. |
+
+> [!NOTE]
+> Arclane is independent research, not affiliated with Nssurge Inc. TradeMind is for research and learning, not advice.
 
 Every project began as something I needed. They are public so that others can inspect, adapt, and improve them.
 
@@ -90,9 +131,17 @@ General questions, ideas, and feedback belong in [GitHub issues](https://github.
 
 Private contact goes through GPG only. No plain email, no DMs. Think of it as a small decryption puzzle: if you can play this game, we already speak the same language.
 
-1. [Open an Email Request issue](https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A).
-2. Reply with your GPG public key block or 40-character fingerprint. The key must be on `keys.openpgp.org`.
-3. I answer with my fingerprint, encrypted to your key. Import it from `keys.openpgp.org` to find my address, then write encrypted email only.
+```
+CHALLENGE  private channel
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1  open an issue titled "Email Request"
+2  reply with your GPG public key block, or a 40-character fingerprint on keys.openpgp.org
+3  receive my fingerprint, encrypted to your key
+4  import it from keys.openpgp.org, find my address, write encrypted email only
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+[Start here](https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A). The issue opens with the title already set.
 
 ## Support
 
@@ -102,4 +151,6 @@ Support keeps the long-term projects alive.
 
 ---
 
-Del Mar, California · Last updated: 2026-09-04 21:22:58 PDT
+```
+SESSION END  Del Mar, California · 2026-09-04 21:27:32 PDT
+```
