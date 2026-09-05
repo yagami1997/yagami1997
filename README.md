@@ -1,4 +1,6 @@
 <picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile-header-mobile-dark.svg" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/profile-header-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg" />
   <img src="assets/profile-header-light.svg" width="100%" alt="yagami1997 — a person building with agents. Independent builder in Del Mar, California. Systems over hype. Curiosity intact." />
@@ -17,48 +19,12 @@ I work with AI to research, write, and build software. My projects grow out of t
 A few things I've built and put out into the world.
 
 <p align="center">
-  <a href="https://github.com/yagami1997/BurnBox">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/project-burnbox-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/project-burnbox-light.svg" />
-      <img src="assets/project-burnbox-light.svg" width="390" alt="BurnBox — File sharing, with an off switch. Private storage. Expiring, revocable links." />
-    </picture>
-  </a>
-  <a href="https://github.com/yagami1997/VeilHub">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/project-veilhub-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/project-veilhub-light.svg" />
-      <img src="assets/project-veilhub-light.svg" width="390" alt="VeilHub — A little privacy between links. Self-hosted redirects. Encrypted destinations." />
-    </picture>
-  </a>
-  <a href="https://github.com/yagami1997/Arclane">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/project-arclane-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/project-arclane-light.svg" />
-      <img src="assets/project-arclane-light.svg" width="390" alt="Arclane — Routes you can reason about. Routing policies and compatibility research." />
-    </picture>
-  </a>
-  <a href="https://github.com/yagami1997/TradeMind">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/project-trademind-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/project-trademind-light.svg" />
-      <img src="assets/project-trademind-light.svg" width="390" alt="TradeMind — From market data to a readable report. Equities, indicators, and backtest calculations." />
-    </picture>
-  </a>
-  <a href="https://github.com/yagami1997/RealCarrier">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/project-realcarrier-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/project-realcarrier-light.svg" />
-      <img src="assets/project-realcarrier-light.svg" width="390" alt="RealCarrier — Find the carrier behind the number. U.S. carrier, type, and portability lookup." />
-    </picture>
-  </a>
-  <a href="https://github.com/yagami1997/esimswap">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/project-esimswap-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="assets/project-esimswap-light.svg" />
-      <img src="assets/project-esimswap-light.svg" width="390" alt="esimswap — Make that eSIM QR code work. Parse, generate, and repair in your browser." />
-    </picture>
-  </a>
+  <a href="https://github.com/yagami1997/BurnBox"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-burnbox-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-burnbox-light.svg" /><img src="assets/project-burnbox-light.svg" width="390" alt="BurnBox — File sharing, with an off switch. Private storage. Expiring, revocable links." /></picture></a>
+  <a href="https://github.com/yagami1997/VeilHub"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-veilhub-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-veilhub-light.svg" /><img src="assets/project-veilhub-light.svg" width="390" alt="VeilHub — A little privacy between links. Self-hosted redirects. Encrypted destinations." /></picture></a>
+  <a href="https://github.com/yagami1997/Arclane"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-arclane-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-arclane-light.svg" /><img src="assets/project-arclane-light.svg" width="390" alt="Arclane — Routes you can reason about. Routing policies and compatibility research." /></picture></a>
+  <a href="https://github.com/yagami1997/TradeMind"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-trademind-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-trademind-light.svg" /><img src="assets/project-trademind-light.svg" width="390" alt="TradeMind — From market data to a readable report. Equities, indicators, and backtest calculations." /></picture></a>
+  <a href="https://github.com/yagami1997/RealCarrier"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-realcarrier-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-realcarrier-light.svg" /><img src="assets/project-realcarrier-light.svg" width="390" alt="RealCarrier — Find the carrier behind the number. U.S. carrier, type, and portability lookup." /></picture></a>
+  <a href="https://github.com/yagami1997/esimswap"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-esimswap-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-esimswap-light.svg" /><img src="assets/project-esimswap-light.svg" width="390" alt="esimswap — Make that eSIM QR code work. Parse, generate, and repair in your browser." /></picture></a>
 </p>
 
 <sub>Arclane is independent third-party research with Surge-compatible artifacts; not affiliated with Nssurge Inc. TradeMind is for research and learning.</sub>
@@ -153,4 +119,4 @@ Support helps me keep building open-source tools, long-term projects, and practi
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-<sub>Del Mar, California · Last updated: 2026-09-04 20:17:06 PDT</sub>
+<sub>Del Mar, California · Last updated: 2026-09-04 20:22:34 PDT</sub>

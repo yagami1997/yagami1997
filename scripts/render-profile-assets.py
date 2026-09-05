@@ -49,6 +49,21 @@ def header(c):
                'Independent builder in Del Mar, California. Systems over hype. Curiosity intact.', body)
 
 
+def mobile_header(c):
+    body = f'''<text x="16" y="23" fill="{c['muted']}" font-size="12">Independent builder · Del Mar, CA</text>
+    <text x="14" y="82" fill="{c['ink']}" font-size="44" font-weight="600" letter-spacing="-2">yagami1997<tspan fill="{c['accent']}">.</tspan></text>
+    <text x="16" y="119" fill="{c['ink']}" font-size="18">A person building with agents.</text>
+    <text x="16" y="159" fill="{c['muted']}" font-size="13">Systems over hype. Curiosity intact.</text>
+    <g transform="translate(343 70)" fill="none" stroke="{c['accent']}" stroke-width="1.8" stroke-linecap="round">
+      <path d="M-22 9C-12-24 16-21 23-4C33 15 6 30-8 16C-21 5-1-15 13-5C25 5 4 23-4 8C-9-1 7-15 10-22"/>
+      <circle cx="10" cy="-22" r="2" fill="{c['accent']}"/>
+    </g>
+    <path d="M16 184H374" stroke="{c['faint']}"/>
+    <path d="M16 184H46" stroke="{c['accent']}" stroke-width="2"/>'''
+    return svg(390, 198, 'yagami1997 — a person building with agents',
+               'Independent builder in Del Mar, California. Systems over hype. Curiosity intact.', body)
+
+
 def project(c, name, line1, line2, number):
     body = f'''
     <text x="16" y="31" fill="{c['accent']}" font-size="12" letter-spacing="1.5">{number}</text>
@@ -65,6 +80,7 @@ if __name__ == '__main__':
     ASSETS.mkdir(exist_ok=True)
     for theme, palette in PALETTES.items():
         (ASSETS / f'profile-header-{theme}.svg').write_text(header(palette))
+        (ASSETS / f'profile-header-mobile-{theme}.svg').write_text(mobile_header(palette))
         for item in PROJECTS:
             (ASSETS / f'project-{item[0].lower()}-{theme}.svg').write_text(project(palette, *item))
-    print('Generated 14 SVG assets: 2 headers and 6 projects in both themes.')
+    print('Generated 16 SVG assets: desktop/mobile headers and 6 projects in both themes.')
