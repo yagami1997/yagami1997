@@ -1,10 +1,12 @@
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg" />
-  <img src="assets/profile-header-light.svg" width="100%" alt="yagami1997 — independent builder. Code, notes and experiments. Writing Field Notes. Making open-source tools." />
+  <img src="assets/profile-header-light.svg" width="440" alt="yagami1997 — independent builder. Code, notes and experiments." />
 </picture>
+</p>
 
-### Independent builder · Del Mar, California
+## Independent builder · Del Mar, California
 
 I research, write, and build software with AI as part of my everyday practice. I’m interested in how things work, where they break, and what becomes possible when one person can take an idea further.
 
@@ -15,10 +17,10 @@ Working with agents has changed how I explore ideas and turn them into working t
 **Field Notes is my ongoing notebook:** observations from building, questions I’m still working through, and things I’ve learned along the way. It’s a place to think in public and return to an idea as my understanding changes.
 
 <p align="center">
-  <a href="#field-notes"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-notes-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/nav-notes-light.svg" /><img src="assets/nav-notes-light.svg" width="160" alt="Field Notes" /></picture></a>
-  <a href="#selected-projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-projects-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/nav-projects-light.svg" /><img src="assets/nav-projects-light.svg" width="160" alt="Projects" /></picture></a>
-  <a href="#working-with-ai"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-ai-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/nav-ai-light.svg" /><img src="assets/nav-ai-light.svg" width="160" alt="Working with AI" /></picture></a>
-  <a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-contact-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/nav-contact-light.svg" /><img src="assets/nav-contact-light.svg" width="160" alt="Contact" /></picture></a>
+  <a href="#field-notes"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-notes-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/nav-notes-light.svg" /><img src="assets/nav-notes-light.svg" width="200" alt="Field Notes" /></picture></a>
+  <a href="#selected-projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-projects-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/nav-projects-light.svg" /><img src="assets/nav-projects-light.svg" width="200" alt="Projects" /></picture></a>
+  <a href="#working-with-ai"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-ai-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/nav-ai-light.svg" /><img src="assets/nav-ai-light.svg" width="200" alt="Working with AI" /></picture></a>
+  <a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/nav-contact-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/nav-contact-light.svg" /><img src="assets/nav-contact-light.svg" width="200" alt="Contact" /></picture></a>
 </p>
 
 <br/>
@@ -72,24 +74,24 @@ yagami1997 | Del Mar, CA | building in the open
 
 ---
 
-### Selected Projects
+## Selected Projects
 
 A few things I've built and put out into the world.
 
 <p align="center">
-  <a href="https://github.com/yagami1997/BurnBox"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-burnbox-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-burnbox-light.svg" /><img src="assets/project-burnbox-light.svg" width="390" alt="BurnBox — File sharing, with an off switch. Private storage. Expiring, revocable links." /></picture></a>
-  <a href="https://github.com/yagami1997/VeilHub"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-veilhub-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-veilhub-light.svg" /><img src="assets/project-veilhub-light.svg" width="390" alt="VeilHub — A little privacy between links. Self-hosted redirects. Encrypted destinations." /></picture></a>
-  <a href="https://github.com/yagami1997/Arclane"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-arclane-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-arclane-light.svg" /><img src="assets/project-arclane-light.svg" width="390" alt="Arclane — Routes you can reason about. Routing policies and compatibility research." /></picture></a>
-  <a href="https://github.com/yagami1997/TradeMind"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-trademind-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-trademind-light.svg" /><img src="assets/project-trademind-light.svg" width="390" alt="TradeMind — From market data to a readable report. Equities, indicators, and backtest calculations." /></picture></a>
-  <a href="https://github.com/yagami1997/RealCarrier"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-realcarrier-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-realcarrier-light.svg" /><img src="assets/project-realcarrier-light.svg" width="390" alt="RealCarrier — Find the carrier behind the number. U.S. carrier, type, and portability lookup." /></picture></a>
-  <a href="https://github.com/yagami1997/esimswap"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-esimswap-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-esimswap-light.svg" /><img src="assets/project-esimswap-light.svg" width="390" alt="esimswap — Make that eSIM QR code work. Parse, generate, and repair in your browser." /></picture></a>
+  <a href="https://github.com/yagami1997/BurnBox"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-burnbox-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-burnbox-light.svg" /><img src="assets/project-burnbox-light.svg" width="360" alt="BurnBox — File sharing, with an off switch. Private storage. Expiring, revocable links." /></picture></a>
+  <a href="https://github.com/yagami1997/VeilHub"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-veilhub-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-veilhub-light.svg" /><img src="assets/project-veilhub-light.svg" width="360" alt="VeilHub — A little privacy between links. Self-hosted redirects. Encrypted destinations." /></picture></a>
+  <a href="https://github.com/yagami1997/Arclane"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-arclane-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-arclane-light.svg" /><img src="assets/project-arclane-light.svg" width="360" alt="Arclane — Routes you can reason about. Routing policies and compatibility research." /></picture></a>
+  <a href="https://github.com/yagami1997/TradeMind"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-trademind-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-trademind-light.svg" /><img src="assets/project-trademind-light.svg" width="360" alt="TradeMind — From market data to a readable report. Equities, indicators, and backtest calculations." /></picture></a>
+  <a href="https://github.com/yagami1997/RealCarrier"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-realcarrier-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-realcarrier-light.svg" /><img src="assets/project-realcarrier-light.svg" width="360" alt="RealCarrier — Find the carrier behind the number. U.S. carrier, type, and portability lookup." /></picture></a>
+  <a href="https://github.com/yagami1997/esimswap"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-esimswap-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-esimswap-light.svg" /><img src="assets/project-esimswap-light.svg" width="360" alt="esimswap — Make that eSIM QR code work. Parse, generate, and repair in your browser." /></picture></a>
 </p>
 
-<sub>Arclane is independent third-party research with Surge-compatible artifacts; not affiliated with Nssurge Inc. TradeMind is for research and learning.</sub>
+Arclane is independent third-party research with Surge-compatible artifacts; not affiliated with Nssurge Inc. TradeMind is for research and learning.
 
 <br/>
 
-### Working with AI
+## Working with AI
 
 I move between research, code, and writing with agents in the loop. I set the problem and bring the context; they help explore, implement, and iterate. Tests and real outputs tell me what holds up. I decide what ships.
 
@@ -99,7 +101,7 @@ I'm interested in workflows that get better with use: reusable tools, useful mem
 
 ---
 
-### Contact
+## Contact
 
 For general questions, ideas, or feedback — GitHub issues are the right place.
 
@@ -108,7 +110,7 @@ If you need to reach me privately, I only accept contact through GPG-encrypted c
 Think of it as a small decryption puzzle — if you can play this game, we already speak the same language.
 
 <p align="center">
-<a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/action-gpg-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/action-gpg-light.svg" /><img src="assets/action-gpg-light.svg" width="288" height="56" alt="GPG — Request encrypted contact" /></picture></a>
+<a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/action-gpg-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/action-gpg-light.svg" /><img src="assets/action-gpg-light.svg" width="320" height="76" alt="GPG — Request encrypted contact" /></picture></a>
 </p>
 
 **To request a private channel:**
@@ -121,9 +123,9 @@ Think of it as a small decryption puzzle — if you can play this game, we alrea
 
 <div align="center">
 
-### Support
+## Support
 
-<a href="https://ko-fi.com/yagami1997"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/action-kofi-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/action-kofi-light.svg" /><img src="assets/action-kofi-light.svg" width="160" height="56" alt="Ko-fi — Support my work" /></picture></a> &nbsp; <a href="https://patreon.com/yagami1997"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/action-patreon-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/action-patreon-light.svg" /><img src="assets/action-patreon-light.svg" width="160" height="56" alt="Patreon — Become a patron" /></picture></a>
+<a href="https://ko-fi.com/yagami1997"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/action-kofi-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/action-kofi-light.svg" /><img src="assets/action-kofi-light.svg" width="240" height="76" alt="Ko-fi — Support my work" /></picture></a> &nbsp; <a href="https://patreon.com/yagami1997"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/action-patreon-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/action-patreon-light.svg" /><img src="assets/action-patreon-light.svg" width="240" height="76" alt="Patreon — Become a patron" /></picture></a>
 
 Support helps me keep building open-source tools, long-term projects, and practical software.
 
@@ -131,6 +133,6 @@ Support helps me keep building open-source tools, long-term projects, and practi
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-<sub>Del Mar, California · Last updated: 2026-09-04 20:40:59 PDT</sub>
+Del Mar, California · Last updated: 2026-09-04 20:43:44 PDT
 
 </div>

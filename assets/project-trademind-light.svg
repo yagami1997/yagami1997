@@ -1,12 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="390" height="156" viewBox="0 0 390 156" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220" viewBox="0 0 360 220" role="img" aria-labelledby="title desc">
   <title id="title">TradeMind</title>
   <desc id="desc">From market data to a readable report. Equities, indicators, and backtest calculations.</desc>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-    <text x="16" y="31" fill="#bb482f" font-size="12" letter-spacing="1.5">04</text>
-    <text x="16" y="65" fill="#20242b" font-size="25" font-weight="600" letter-spacing="-.6">TradeMind</text>
-    <path d="M350 49h10v10m0-10-12 12" fill="none" stroke="#59636e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="16" y="95" fill="#20242b" font-size="14">From market data to a readable report.</text>
-    <text x="16" y="117" fill="#59636e" font-size="14">Equities, indicators, and backtest calculations.</text>
-    <path d="M16 143H370" stroke="#d1d9e0"/>
+    <text x="16" y="30" fill="#bb482f" font-size="18">04</text>
+    <text x="16" y="65" fill="#20242b" font-size="27" font-weight="600">TradeMind</text>
+    <path d="M320 49h10v10m0-10-12 12" fill="none" stroke="#59636e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="16" y="100" fill="#20242b" font-size="20">From market data to a readable</text><text x="16" y="127" fill="#20242b" font-size="20">report.</text><text x="16" y="154" fill="#59636e" font-size="20">Equities, indicators, and</text><text x="16" y="181" fill="#59636e" font-size="20">backtest calculations.</text>
+    <path d="M16 206H344" stroke="#d1d9e0"/>
     </g>
 </svg>
