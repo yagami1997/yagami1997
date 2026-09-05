@@ -6,13 +6,17 @@
 [![Field Notes](https://img.shields.io/badge/Field%20Notes-1%20message-4b5563?style=flat-square)](#field-notes)
 [![Contact](https://img.shields.io/badge/Contact-GPG%20only-1f2937?style=flat-square&logo=gnuprivacyguard&logoColor=white)](#contact)
 
+```diff
+- Capability is not the question.
++ Legitimacy is.
+```
+
 ```
 SESSION  github.com/yagami1997
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 who        independent researcher and builder
 where      Del Mar, California (PDT)
-what       self-hosted tools · writing · AI in daily use
-question   capability is not the question. legitimacy is.
+what       self-hosted tools · writing · AI in daily use, from the command line
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
@@ -57,12 +61,12 @@ Six tools. All self-hosted, all GPL or MIT, none of them a hosted service. Each 
 
 | Project | Area | What it does | Runs on |
 |:--|:--|:--|:--|
-| **[BurnBox](https://github.com/yagami1997/BurnBox)** | `files` | A private file workspace. Share by revocable link, not permanent URL. Expiry and download limits built in. | Cloudflare Workers · R2 · D1 |
-| **[VeilHub](https://github.com/yagami1997/VeilHub)** | `links` | Encrypted redirect links that expire. The destination is encrypted at rest; links can be one-time or need an access code. | Cloudflare Workers · KV |
-| **[Arclane](https://github.com/yagami1997/Arclane)** | `network` | Routing configuration research with Surge-compatible artifacts. Text-based policies, modules, migration docs. | Surge · iOS · macOS |
-| **[TradeMind](https://github.com/yagami1997/TradeMind)** | `markets` | Technical analysis for U.S. stocks and ETFs. Indicators, patterns, backtests, HTML reports. CLI and Web. | Python |
-| **[RealCarrier](https://github.com/yagami1997/RealCarrier)** | `telecom` | U.S. phone number lookup with live LNP data. Real carrier, number type, virtual or physical, porting history. | Python · Telnyx · Twilio |
-| **[esimswap](https://github.com/yagami1997/esimswap)** | `esim` | Parse, generate, and repair eSIM QR codes in the browser. Camera scan, 120+ carriers, zero backend. | Cloudflare Pages |
+| **[BurnBox](https://github.com/yagami1997/BurnBox)** | `files` | A private file workspace. Share by revocable link, not permanent URL. Expiry and download limits built in. | ![Cloudflare Workers · R2 · D1](https://img.shields.io/badge/Workers%20%C2%B7%20R2%20%C2%B7%20D1-f38020?style=flat-square&logo=cloudflare&logoColor=white) |
+| **[VeilHub](https://github.com/yagami1997/VeilHub)** | `links` | Encrypted redirect links that expire. The destination is encrypted at rest; links can be one-time or need an access code. | ![Cloudflare Workers · KV](https://img.shields.io/badge/Workers%20%C2%B7%20KV-f38020?style=flat-square&logo=cloudflare&logoColor=white) |
+| **[Arclane](https://github.com/yagami1997/Arclane)** | `network` | Routing configuration research with Surge-compatible artifacts. Text-based policies, modules, migration docs. | ![Surge · iOS · macOS](https://img.shields.io/badge/Surge%20%C2%B7%20iOS%20%C2%B7%20macOS-4D9DE0?style=flat-square&logo=apple&logoColor=white) |
+| **[TradeMind](https://github.com/yagami1997/TradeMind)** | `markets` | Technical analysis for U.S. stocks and ETFs. Indicators, patterns, backtests, HTML reports. CLI and Web. | ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white) |
+| **[RealCarrier](https://github.com/yagami1997/RealCarrier)** | `telecom` | U.S. phone number lookup with live LNP data. Real carrier, number type, virtual or physical, porting history. | ![Python · Telnyx · Twilio](https://img.shields.io/badge/Python%20%C2%B7%20Telnyx%20%C2%B7%20Twilio-3776ab?style=flat-square&logo=python&logoColor=white) |
+| **[esimswap](https://github.com/yagami1997/esimswap)** | `esim` | Parse, generate, and repair eSIM QR codes in the browser. Camera scan, 120+ carriers, zero backend. | ![Cloudflare Pages](https://img.shields.io/badge/Pages-f38020?style=flat-square&logo=cloudflare&logoColor=white) |
 
 > [!NOTE]
 > Arclane is independent research, not affiliated with Nssurge Inc. TradeMind is a learning tool, not investment advice.
@@ -142,5 +146,5 @@ Support keeps the long-term projects alive.
 ---
 
 ```
-SESSION END  Del Mar, California · 2026-09-04 21:34:24 PDT
+SESSION END  Del Mar, California · 2026-09-04 21:41:16 PDT
 ```
