@@ -115,13 +115,13 @@ Private contact goes through GPG only. No plain email, no DMs. Think of it as a 
 > 3. You receive my fingerprint, encrypted to your key.
 > 4. Import it from `keys.openpgp.org`, find my address, write encrypted email only.
 
-[![GPG · Request encrypted contact](https://img.shields.io/badge/GPG-Request%20encrypted%20contact-0f766e?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)](https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A)
+[![GPG · Encrypted contact](https://img.shields.io/badge/GPG-Encrypted%20contact-537f79?style=flat-square&logo=gnuprivacyguard&logoColor=white&labelColor=4b4f56)](https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A)
 
 ## Support
 
 Support keeps the long-term projects alive.
 
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20my%20work-8b6f8e?style=flat-square&logo=ko-fi&logoColor=white&labelColor=4b4f56)](https://ko-fi.com/yagami1997)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20my%20work-8b6f8e?style=flat-square&logo=ko-fi&logoColor=white&labelColor=4b4f56)](https://ko-fi.com/yagami1997) &nbsp;&nbsp;
 [![Patreon](https://img.shields.io/badge/Patreon-Become%20a%20patron-835061?style=flat-square&logo=patreon&logoColor=white&labelColor=4b4f56)](https://patreon.com/yagami1997)
 
 ---
