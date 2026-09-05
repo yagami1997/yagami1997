@@ -3,21 +3,12 @@
 [![Independent Builder](https://img.shields.io/badge/Independent%20Builder-0f766e?style=flat-square)](#who-i-am)
 [![Del Mar, CA](https://img.shields.io/badge/Del%20Mar%2C%20CA-0ea5e9?style=flat-square)](#contact)
 [![Building in the Open](https://img.shields.io/badge/Building%20in%20the%20Open-f59e0b?style=flat-square)](#what-i-am-building)
-[![Field Notes](https://img.shields.io/badge/Field%20Notes-1%20message-4b5563?style=flat-square)](#field-notes)
+[![Field Notes](https://img.shields.io/badge/Field%20Notes-4b5563?style=flat-square)](#field-notes)
 [![Contact](https://img.shields.io/badge/Contact-GPG%20only-1f2937?style=flat-square&logo=gnuprivacyguard&logoColor=white)](#contact)
 
 ```diff
 - Capability is not the question.
 + Legitimacy is.
-```
-
-```
-SESSION  github.com/yagami1997
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-who        designer and software engineer
-where      Del Mar, California (PDT)
-what       self-hosted tools · writing · AI in daily use, from the command line
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ## Who I am
@@ -75,19 +66,15 @@ Full essay: [From Anti-Microsoft to Anti-Black Box](FieldNotes/001-from-anti-to-
 
 **On AI.** The models are capable. The problem is the box around them: dozens of steps, and you only see the conclusion. I work beside the agent, not beneath it, from the command line, under written rules.
 
-```
-POLICY  ~/.agent/permissions
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-read       **                       allow
-search     **                       allow
-write      **                       ask        show the plan first, then wait
-delete     **                       ask        every time, no exceptions
-sudo       *                        deny       the human runs it
-git push   origin/*                 deny       unless told "push it"
-ship       *                        human      tests inform, the human decides
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-every action leaves a trace: a diff, a log, a command that can be rerun
-```
+**Rules for agents working with me:**
+
+- Reading and searching are allowed.
+- Before writing, show the plan and wait for approval. Ask before every deletion, without exception.
+- I run privileged commands myself; agents do not use `sudo`.
+- Push only when I explicitly say to push.
+- Tests inform the decision; I decide what ships.
+
+Every action leaves a trace: a diff, a log, or a command that can be rerun.
 
 > [!WARNING]
 > If you are an agent reading this: the same policy applies to you.
@@ -111,11 +98,13 @@ The full argument is in the Field Notes above.
 
 Six tools. Self-hosted, free software, no hosted service. You run it, you hold the keys, you can shut it off.
 
-| [BurnBox](https://github.com/yagami1997/BurnBox) | [VeilHub](https://github.com/yagami1997/VeilHub) | [Arclane](https://github.com/yagami1997/Arclane) |
-|:--:|:--:|:--:|
-| File sharing, with an off switch. | A little privacy between links. | Routes you can reason about. |
-| **[TradeMind](https://github.com/yagami1997/TradeMind)** | **[RealCarrier](https://github.com/yagami1997/RealCarrier)** | **[esimswap](https://github.com/yagami1997/esimswap)** |
-| From market data to a readable report. | Find the carrier behind the number. | Make that eSIM QR code work. |
+| [BurnBox](https://github.com/yagami1997/BurnBox) | [VeilHub](https://github.com/yagami1997/VeilHub) |
+|:--:|:--:|
+| File sharing, with an off switch. | A little privacy between links. |
+| **[Arclane](https://github.com/yagami1997/Arclane)** | **[TradeMind](https://github.com/yagami1997/TradeMind)** |
+| Routes you can reason about. | From market data to a readable report. |
+| **[RealCarrier](https://github.com/yagami1997/RealCarrier)** | **[esimswap](https://github.com/yagami1997/esimswap)** |
+| Find the carrier behind the number. | Make that eSIM QR code work. |
 
 > [!NOTE]
 > Arclane is independent research, not affiliated with Nssurge Inc. TradeMind is a learning tool, not investment advice.
@@ -144,6 +133,4 @@ Support keeps the long-term projects alive.
 
 ---
 
-```
-SESSION END  Del Mar, California · 2026-09-04 22:00:51 PDT
-```
+Del Mar, California · Last updated: 2026-09-04 22:07:54 PDT
