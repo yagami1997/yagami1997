@@ -19,7 +19,7 @@ AI is part of my everyday work. I use agents to research, write, and code, from 
 
 ## Field Notes
 
-Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The inbox shows the latest note: on access, dependence, and the rules that stand between us and our work.
+Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The inbox shows the latest note: on openness, dependence, and the freedom to choose.
 
 ```
 INBOX  [2 messages]  ~/FieldNotes
@@ -29,27 +29,15 @@ Date : Fri, 04 Sep 2026 23:09:20 -0700 (PDT)
 Subj : When Open Was the Default
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Something that worked on Monday stops on Thursday. I go looking for what changed. It may be a
-mistake, a security check, or a service changing who it lets in. The repair begins with a question
-the screen has not answered: is this a failure, or a refusal?
+Openness gives people room to understand, change, and share the tools they use. When software
+becomes a service, those freedoms can become permission that someone else may withdraw.
 
-Free software gives you code and the right to continue working with it. A service gives you access
-while its operator continues to provide it. Both can be useful. But when the terms change, the
-difference becomes hard to ignore.
+Boundaries can protect people and their work. What matters is who decides, whether the reason is
+clear, and whether a mistaken decision can be challenged.
 
-Openness also needs boundaries. A publisher refusing an AI crawler is not the same as a platform
-preventing a user from choosing their own software. The question is whose freedom is at stake, who
-decides, and what the affected person can do.
-
-I write rules too. Publishing a routing configuration makes it available to inspect; it does not
-automatically make it understandable or justified. I still owe its users an explanation of what each
-rule does and why it belongs there.
-
-Three questions for a boundary: Can I tell that a rule stopped me? Can I understand the reason? Can
-the decision be reviewed?
-
-These questions apply to my work as well. A system can have good reasons to say no. It should not
-make the person hearing it powerless.
+Technology should leave us able to act: to question a restriction, choose another tool, or continue
+on our own. A system can have good reasons to say no. It should not make the person hearing it
+powerless.
 
 --
 yagami1997 | Del Mar, CA | building in the open
