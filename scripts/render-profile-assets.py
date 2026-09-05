@@ -28,6 +28,27 @@ def svg(width, height, title, desc, body):
 '''
 
 
+def header(c, theme):
+    start, end = ('#f8f5f0', '#f0f3f5') if theme == 'light' else ('#292b30', '#222b32')
+    body = f'''<defs>
+      <linearGradient id="paper" x1="0" y1="0" x2="1" y2=".3">
+        <stop stop-color="{start}"/><stop offset="1" stop-color="{end}"/>
+      </linearGradient>
+    </defs>
+    <rect x=".5" y=".5" width="799" height="171" rx="12" fill="url(#paper)" stroke="{c['faint']}" stroke-opacity=".5"/>
+    <rect x="32" y="31" width="22" height="3" rx="1.5" fill="{c['accent']}"/>
+    <text x="65" y="37" fill="{c['muted']}" font-size="12" letter-spacing="1.4">INDEPENDENT BUILDER</text>
+    <text x="30" y="93" fill="{c['ink']}" font-size="40" font-weight="500" letter-spacing="-1.3">yagami1997</text>
+    <text x="32" y="129" fill="{c['muted']}" font-size="18">Code, notes &amp; experiments.</text>
+    <path d="M535 40V132" stroke="{c['faint']}" stroke-opacity=".65"/>
+    <text x="563" y="57" fill="{c['muted']}" font-size="11" letter-spacing="1.3">WRITING</text>
+    <text x="563" y="80" fill="{c['ink']}" font-size="17">Field Notes</text>
+    <text x="563" y="111" fill="{c['muted']}" font-size="11" letter-spacing="1.3">MAKING</text>
+    <text x="563" y="134" fill="{c['ink']}" font-size="17">Open-source tools</text>'''
+    return svg(800, 172, 'yagami1997 — independent builder',
+               'Code, notes and experiments. Writing Field Notes. Making open-source tools.', body)
+
+
 def project(c, name, line1, line2, number):
     body = f'''
     <text x="16" y="31" fill="{c['accent']}" font-size="12" letter-spacing="1.5">{number}</text>
@@ -61,8 +82,9 @@ def action(c, slug, name, label, width, icon):
 if __name__ == '__main__':
     ASSETS.mkdir(exist_ok=True)
     for theme, palette in PALETTES.items():
+        (ASSETS / f'profile-header-{theme}.svg').write_text(header(palette, theme))
         for item in ACTIONS:
             (ASSETS / f'action-{item[0]}-{theme}.svg').write_text(action(palette, *item))
         for item in PROJECTS:
             (ASSETS / f'project-{item[0].lower()}-{theme}.svg').write_text(project(palette, *item))
-    print('Generated 18 SVG assets: projects and contact/support actions in both themes.')
+    print('Generated 20 SVG assets: header, projects, and contact/support actions in both themes.')

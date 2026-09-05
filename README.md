@@ -1,4 +1,8 @@
-### yagami1997
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg" />
+  <img src="assets/profile-header-light.svg" width="100%" alt="yagami1997 — independent builder. Code, notes and experiments. Writing Field Notes. Making open-source tools." />
+</picture>
 
 <sub>Independent builder · Del Mar, California · Systems over hype.</sub>
 
@@ -118,6 +122,6 @@ Support helps me keep building open-source tools, long-term projects, and practi
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-<sub>Del Mar, California · Last updated: 2026-09-04 20:31:43 PDT</sub>
+<sub>Del Mar, California · Last updated: 2026-09-04 20:35:23 PDT</sub>
 
 </div>
