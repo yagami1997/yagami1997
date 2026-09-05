@@ -1,5 +1,3 @@
-# yagami1997
-
 [![Independent Builder](https://img.shields.io/badge/Independent%20Builder-0f766e?style=flat-square)](#who-i-am)
 [![Del Mar, CA](https://img.shields.io/badge/Del%20Mar%2C%20CA-0ea5e9?style=flat-square)](#contact)
 [![Building in the Open](https://img.shields.io/badge/Building%20in%20the%20Open-f59e0b?style=flat-square)](#what-i-am-building)
@@ -55,21 +53,14 @@ every action leaves a trace: a diff, a log, a command that can be rerun
 
 **On open source.** That is why everything I publish is free software, GPL where I can. Not as a license preference, but as the concrete form of that defense: a tool that shapes how you act should be one you can open, read, modify, and run yourself. Free software is the position that the user holds the keys, not the vendor. Yin Wang's *Working Completely in Linux* argued in 2004 that it is better to face real complexity than surrender to a comfortable wrapper. In 2026 the wrapper is the cloud and the model. The argument has not changed.
 
-## What I am building
+## Interests
 
-Six tools. All self-hosted, all GPL or MIT, none of them a hosted service. Each one is a small space that is not a black box: you run it, you can read every line, you hold the keys, and you can shut it off.
-
-| Project | Area | What it does | Runs on |
-|:--|:--|:--|:--|
-| **[BurnBox](https://github.com/yagami1997/BurnBox)** | `files` | A private file workspace. Share by revocable link, not permanent URL. Expiry and download limits built in. | ![Cloudflare Workers · R2 · D1](https://img.shields.io/badge/Workers%20%C2%B7%20R2%20%C2%B7%20D1-f38020?style=flat-square&logo=cloudflare&logoColor=white) |
-| **[VeilHub](https://github.com/yagami1997/VeilHub)** | `links` | Encrypted redirect links that expire. The destination is encrypted at rest; links can be one-time or need an access code. | ![Cloudflare Workers · KV](https://img.shields.io/badge/Workers%20%C2%B7%20KV-f38020?style=flat-square&logo=cloudflare&logoColor=white) |
-| **[Arclane](https://github.com/yagami1997/Arclane)** | `network` | Routing configuration research with Surge-compatible artifacts. Text-based policies, modules, migration docs. | ![Surge · iOS · macOS](https://img.shields.io/badge/Surge%20%C2%B7%20iOS%20%C2%B7%20macOS-4D9DE0?style=flat-square&logo=apple&logoColor=white) |
-| **[TradeMind](https://github.com/yagami1997/TradeMind)** | `markets` | Technical analysis for U.S. stocks and ETFs. Indicators, patterns, backtests, HTML reports. CLI and Web. | ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white) |
-| **[RealCarrier](https://github.com/yagami1997/RealCarrier)** | `telecom` | U.S. phone number lookup with live LNP data. Real carrier, number type, virtual or physical, porting history. | ![Python · Telnyx · Twilio](https://img.shields.io/badge/Python%20%C2%B7%20Telnyx%20%C2%B7%20Twilio-3776ab?style=flat-square&logo=python&logoColor=white) |
-| **[esimswap](https://github.com/yagami1997/esimswap)** | `esim` | Parse, generate, and repair eSIM QR codes in the browser. Camera scan, 120+ carriers, zero backend. | ![Cloudflare Pages](https://img.shields.io/badge/Pages-f38020?style=flat-square&logo=cloudflare&logoColor=white) |
-
-> [!NOTE]
-> Arclane is independent research, not affiliated with Nssurge Inc. TradeMind is a learning tool, not investment advice.
+- **Networks.** How traffic is routed, and how to write routing policy that a person can still read a year later.
+- **Applied cryptography.** GPG, AES-GCM, PBKDF2. Not the math, the practice: keys, expiry, revocation, who holds what.
+- **Telecom plumbing.** Phone numbers, number portability, eSIM profiles. The parts of the network nobody looks at until they break.
+- **Markets as a system.** U.S. equities as something to model and backtest, not something to bet on.
+- **Writing.** Long-form essays, mostly in Chinese, on technology, companies, and the decisions behind them.
+- **History, philosophy, theology.** The traditions that ask what no KPI dashboard will: even if you can do this, should you, and who has the right to decide where you stop.
 
 ## Field Notes
 
@@ -112,14 +103,21 @@ yagami1997 | Del Mar, CA | building in the open
 
 Full essay: [From Anti-Microsoft to Anti-Black Box](FieldNotes/001-from-anti-to-box.md)
 
-## Interests
+## What I am building
 
-- **Networks.** How traffic is routed, and how to write routing policy that a person can still read a year later.
-- **Applied cryptography.** GPG, AES-GCM, PBKDF2. Not the math, the practice: keys, expiry, revocation, who holds what.
-- **Telecom plumbing.** Phone numbers, number portability, eSIM profiles. The parts of the network nobody looks at until they break.
-- **Markets as a system.** U.S. equities as something to model and backtest, not something to bet on.
-- **Writing.** Long-form essays, mostly in Chinese, on technology, companies, and the decisions behind them.
-- **History, philosophy, theology.** The traditions that ask what no KPI dashboard will: even if you can do this, should you, and who has the right to decide where you stop.
+Six tools. All self-hosted, all GPL or MIT, none of them a hosted service. Each one is a small space that is not a black box: you run it, you can read every line, you hold the keys, and you can shut it off.
+
+| Project | Area | What it does | Runs on |
+|:--|:--|:--|:--|
+| **[BurnBox](https://github.com/yagami1997/BurnBox)** | `files` | A private file workspace. Share by revocable link, not permanent URL. Expiry and download limits built in. | ![Cloudflare Workers · R2 · D1](https://img.shields.io/badge/Workers%20%C2%B7%20R2%20%C2%B7%20D1-f38020?style=flat-square&logo=cloudflare&logoColor=white) |
+| **[VeilHub](https://github.com/yagami1997/VeilHub)** | `links` | Encrypted redirect links that expire. The destination is encrypted at rest; links can be one-time or need an access code. | ![Cloudflare Workers · KV](https://img.shields.io/badge/Workers%20%C2%B7%20KV-f38020?style=flat-square&logo=cloudflare&logoColor=white) |
+| **[Arclane](https://github.com/yagami1997/Arclane)** | `network` | Routing configuration research with Surge-compatible artifacts. Text-based policies, modules, migration docs. | ![Surge · iOS · macOS](https://img.shields.io/badge/Surge%20%C2%B7%20iOS%20%C2%B7%20macOS-4D9DE0?style=flat-square&logo=apple&logoColor=white) |
+| **[TradeMind](https://github.com/yagami1997/TradeMind)** | `markets` | Technical analysis for U.S. stocks and ETFs. Indicators, patterns, backtests, HTML reports. CLI and Web. | ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white) |
+| **[RealCarrier](https://github.com/yagami1997/RealCarrier)** | `telecom` | U.S. phone number lookup with live LNP data. Real carrier, number type, virtual or physical, porting history. | ![Python · Telnyx · Twilio](https://img.shields.io/badge/Python%20%C2%B7%20Telnyx%20%C2%B7%20Twilio-3776ab?style=flat-square&logo=python&logoColor=white) |
+| **[esimswap](https://github.com/yagami1997/esimswap)** | `esim` | Parse, generate, and repair eSIM QR codes in the browser. Camera scan, 120+ carriers, zero backend. | ![Cloudflare Pages](https://img.shields.io/badge/Pages-f38020?style=flat-square&logo=cloudflare&logoColor=white) |
+
+> [!NOTE]
+> Arclane is independent research, not affiliated with Nssurge Inc. TradeMind is a learning tool, not investment advice.
 
 ## Contact
 
@@ -146,5 +144,5 @@ Support keeps the long-term projects alive.
 ---
 
 ```
-SESSION END  Del Mar, California · 2026-09-04 21:43:12 PDT
+SESSION END  Del Mar, California · 2026-09-04 21:44:52 PDT
 ```
