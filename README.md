@@ -19,7 +19,7 @@ AI is part of my everyday work. I use agents to research, write, and code, from 
 
 ## Field Notes
 
-Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The inbox shows the latest note: what happens when a tool you rely on changes its terms, and what choices you still have.
+Short takes on AI and software. The long versions live in [FieldNotes/](FieldNotes/README.md). The inbox introduces the latest essay. Read on for the full argument.
 
 ```
 INBOX  [2 messages]  ~/FieldNotes
@@ -29,26 +29,25 @@ Date : Fri, 04 Sep 2026 23:09:20 -0700 (PDT)
 Subj : When Open Was the Default
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Imagine using an app for years. Your files are there, and you know how everything works. Then the
-company raises the price, removes a feature, or closes the service. Can you keep your files and move
-elsewhere? Or do you have to accept whatever the company decides?
+A page will not load. A familiar app stops working. The screen says "try again later," but waiting
+changes nothing. Before we can fix the problem, we need to know what happened: did something break,
+or did someone decide we could no longer use it?
 
-This is one reason free software matters. You can read its code, change it, and share copies. If its
-author stops working on it, you or another developer can continue. An online service is different:
-having an account does not give you your own copy of the system that runs it.
+My first Field Note asked whether we could understand what happens inside the tools we use. This
+second essay asks what choices we have when those tools will no longer let us in. It follows a
+change that is easy to miss while everything still works.
 
-You do not have to be a programmer to care about this. Before relying on a tool, ask a few simple
-questions. Can I export my work? Can another app open those files? If I stop paying, what can I
-keep? The answers tell you how easy it will be to leave.
+The story runs from Stallman's promise of software people could share and change to Apollo, an app
+whose future depended on Reddit's prices. Along the way, I look at the difference between having a
+program you can keep and having permission to use a service someone else controls.
 
-Services also need limits. A website should be able to protect private information or stop someone
-from abusing it. But if you are blocked by mistake, you need to know what happened and how to ask
-for a review. A message saying "try again later" does not help you fix the problem.
+But the argument becomes harder when the person saying no is a writer protecting their work from AI
+crawlers. People need the freedom to use tools, and they also need a say in how others use what they
+create. The essay considers both sides of that problem.
 
-I want tools that leave people with choices. Use a service because it works well for you, with a way
-to take your work elsewhere if that changes. When a service refuses access, it should explain what
-it can and offer a way to correct mistakes. These are practical things to ask for, even if you never
-read a line of code.
+It ends with three questions about any restriction: can we see that it exists, understand its
+reason, and ask for a review? These are questions for the people building software as much as for
+those using it. They are where I begin asking what an open Internet should mean today.
 
 --
 yagami1997 | Del Mar, CA | building in the open
