@@ -58,10 +58,30 @@ def project(c, name, line1, line2, number):
     return svg(390, 156, name, f'{line1} {line2}', body)
 
 
+ACTIONS = [
+    ('gpg', 'GPG', 'Request encrypted contact', 288,
+     '<rect x="4" y="10" width="16" height="13" rx="3"/><path d="M7 10V6a5 5 0 0 1 10 0v4m-5 6v3"/>'),
+    ('kofi', 'Ko-fi', 'Support my work', 160,
+     '<path d="M3 7h15v10a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6V7Zm15 1h2a4 4 0 0 1 0 8h-2M2 26h20"/>'),
+    ('patreon', 'Patreon', 'Become a patron', 160,
+     '<path d="M12 24 3 15C-5 5 7-1 12 7c5-8 17-2 9 8Z"/>'),
+]
+
+
+def action(c, slug, name, label, width, icon):
+    body = f'''<rect x=".5" y=".5" width="{width-1}" height="55" rx="8" fill="none" stroke="{c['faint']}"/>
+    <g transform="translate(14 14) scale(.8)" stroke="{c['accent']}" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">{icon}</g>
+    <text x="44" y="24" fill="{c['ink']}" font-size="14" font-weight="600">{name}</text>
+    <text x="44" y="42" fill="{c['muted']}" font-size="11.5">{label}</text>'''
+    return svg(width, 56, name, label, body)
+
+
 if __name__ == '__main__':
     ASSETS.mkdir(exist_ok=True)
     for theme, palette in PALETTES.items():
         (ASSETS / f'profile-header-{theme}.svg').write_text(header(palette))
+        for item in ACTIONS:
+            (ASSETS / f'action-{item[0]}-{theme}.svg').write_text(action(palette, *item))
         for item in PROJECTS:
             (ASSETS / f'project-{item[0].lower()}-{theme}.svg').write_text(project(palette, *item))
-    print('Generated 14 SVG assets: 2 headers and 6 projects in both themes.')
+    print('Generated 20 SVG assets: header, projects, and contact/support actions in both themes.')

@@ -90,15 +90,15 @@ yagami1997 | Del Mar, CA | building in the open
 
 ### Contact
 
-### Secure Contact
-
-[![GPG](https://img.shields.io/badge/GPG-Request%20Encrypted%20Contact-0f766e?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)](https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A)
-
 For general questions, ideas, or feedback — GitHub issues are the right place.
 
 If you need to reach me privately, I only accept contact through GPG-encrypted channels. No plain email, no DMs.
 
 Think of it as a small decryption puzzle — if you can play this game, we already speak the same language.
+
+<p align="center">
+<a href="https://github.com/yagami1997/yagami1997/issues/new?title=Email%20Request&body=%23%23%20Request%20for%20Secure%20Communication%0A%0AI%20would%20like%20to%20establish%20an%20encrypted%20channel.%0A%0A-%20Reason%20for%20contact%3A%0A-%20Your%20GitHub%20background%3A%0A"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/action-gpg-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/action-gpg-light.svg" /><img src="assets/action-gpg-light.svg" width="288" height="56" alt="GPG — Request encrypted contact" /></picture></a>
+</p>
 
 **To request a private channel:**
 
@@ -108,15 +108,18 @@ Think of it as a small decryption puzzle — if you can play this game, we alrea
 
 ---
 
+<div align="center">
+
 ### Support
 
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20My%20Work-AF7DAC?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/yagami1997)
-[![Patreon](https://img.shields.io/badge/Patreon-Become%20a%20Patron-835061?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/yagami1997)
+<a href="https://ko-fi.com/yagami1997"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/action-kofi-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/action-kofi-light.svg" /><img src="assets/action-kofi-light.svg" width="160" height="56" alt="Ko-fi — Support my work" /></picture></a> &nbsp; <a href="https://patreon.com/yagami1997"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/action-patreon-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/action-patreon-light.svg" /><img src="assets/action-patreon-light.svg" width="160" height="56" alt="Patreon — Become a patron" /></picture></a>
 
 Support helps me keep building open-source tools, long-term projects, and practical software.
 
-[![GitHub](https://img.shields.io/badge/GitHub-@yagami1997-181717?style=flat-square&logo=github)](https://github.com/yagami1997)
+[GitHub · @yagami1997](https://github.com/yagami1997)
 
 Open to practical conversations around open-source AI, workflows, and useful software.
 
-<sub>Del Mar, California · Last updated: 2026-09-04 20:22:34 PDT</sub>
+<sub>Del Mar, California · Last updated: 2026-09-04 20:28:17 PDT</sub>
+
+</div>
