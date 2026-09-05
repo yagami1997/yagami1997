@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="200" viewBox="0 0 960 200" role="img" aria-labelledby="title desc">
+  <title id="title">Systems Over Hype</title>
+  <desc id="desc">Independent builder. Building in the open.</desc>
+  <rect width="960" height="200" rx="8" fill="#15191e"/>
+  <path d="M40 40H920" stroke="#343e46"/>
+  <path d="M40 40H108" stroke="#5ee0bf" stroke-width="3"/>
+  <text x="40" y="75" fill="#5ee0bf" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="2">YAGAMI1997 / INDEPENDENT BUILDER</text>
+  <text x="37" y="130" fill="#f0f3f6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="650" letter-spacing="-1.5">Systems Over Hype.</text>
+  <text x="40" y="168" fill="#b4bfc8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19">Open-source tools. Practical AI workflows. Building in the open.</text>
+</svg>
